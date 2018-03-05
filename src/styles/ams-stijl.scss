@@ -33,6 +33,22 @@ body {
   }
 }
 
+.invoer select {
+  background-image: url(../images/svg/caret-down-black.svg);
+
+  &:focus:hover {
+    background-image: url(../images/svg/caret-up-black.svg);
+  }
+}
+
+.footer-wrapper .bgcolor_darkgrey .links li a {
+  background-image: url(../images/svg/caret-right-white.svg);
+
+  &:hover {
+    background-image: url(../images/svg/caret-right-white.svg);
+  }
+}
+
 .sticky-top {
   position: sticky;
   top: 0;
