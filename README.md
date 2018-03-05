@@ -1,0 +1,1 @@
+In deze repo zal de huisstijl van data.amsterdam.nl worden bewaard en bewaakt.
