@@ -3,13 +3,23 @@
 //  Generic
 //
 
-//@import '../../node_modules/bootstrap/scss/bootstrap';
-@import '/generic/ams-colorpalette';
-@import '/generic/ams-helperclasses';
 @import '/generic/amsterdam-grid';
 @import '/generic/amsterdam';
+@import '/generic/ams-colorpalette';
+@import '/generic/ams-helperclasses';
 
-// header components
+body {
+  font-family: Avenir, sans-serif;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .ams-header {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -31,22 +41,6 @@
   z-index: 9999;
 }
 
-.invoer select {
-  background-image: url(/static/icons/caret-down-black.svg);
-
-  &:focus:hover {
-    background-image: url(/static/icons/caret-up-black.svg);
-  }
-}
-
-.footer-wrapper .bgcolor_darkgrey .links li a {
-  background-image: url(/static/icons/caret-right-white.svg);
-
-  &:hover {
-    background-image: url(/static/icons/caret-right-white.svg);
-  }
-}
-
 .ams-row {
   @extend .rij;
 
@@ -59,37 +53,7 @@
     h2 {
       margin-top: .5rem;
     }
-
   }
-
-}
-
-//
-//.form-inline label {
-//  justify-content: left;
-//}
-//
-//.form-control {
-//  background-color: $ams-lichtgrijs;
-//  border: none;
-//  width: 100% !important;
-//  &:focus {
-//    background-color: $ams-lichtgrijs;
-//  }
-//}
-
-
-
-body {
-  font-family: Avenir, sans-serif;
-  line-height: 1.25;
-  margin: 0;
-  padding: 0;
-}
-
-.grid-wrapper {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .chart-container {
