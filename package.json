@@ -1,0 +1,18 @@
+{
+  "name": "stijl",
+  "version": "0.0.1",
+  "description": "Generieke styling voor data.amsterdam.nl",
+  "author": "Datapunt Amsterdam",
+  "scripts": {
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amsterdam/stijl.git"
+  }
+}
