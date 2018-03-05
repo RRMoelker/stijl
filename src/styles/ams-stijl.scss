@@ -33,37 +33,7 @@ body {
   }
 }
 
-.sticky-top {
-  position: sticky;
-  top: 0;
-  background-color: $ams-wit;
-  box-shadow: 0 1px 1px 0 $ams-lichtgrijs;
-  z-index: 9999;
-}
-
-.ams-row {
-  @extend .rij;
-
-  &--title {
-    background-color: $ams-wit;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    padding: .5rem;
-
-    h2 {
-      margin-top: .5rem;
-    }
-  }
-}
-
-.chart-container {
-  &:hover {
-    background-color: $ams-top-menu;
-  }
-}
-
 table {
-  margin: auto;
   text-align: left;
   border-collapse: collapse;
 
