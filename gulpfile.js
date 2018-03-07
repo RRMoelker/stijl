@@ -21,7 +21,7 @@ gulp.task('build-css', function() {
       includePaths: ['node_modules/']
     }))
     .pipe(concatcss('ams-stijl.css'))
-    .pipe(replace('"/images/', '"../images/'))
+    .pipe(replace(/(background-image: url\(")(.*)(\/images\/)/g, 'background-image: url("../images/'))
     .pipe(gulp.dest('css'))
 });
 
