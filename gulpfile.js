@@ -31,15 +31,14 @@ gulp.task('build-sass', function() {
     .pipe(foreach(function (stream, file) {
         var filename = path.parse(file.path).base;
         return stream
-            .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', path.resolve('raw-source')))
-            .pipe(concatcss(filename))
+            .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
             .pipe(gulp.dest('scss'))
     }))
 });
 
 gulp.task('build-images', function() {
   return gulp
-    .src('node_modules/gemeente-amsterdam-patterns/source/images/**/*.*')
+    .src('raw-source/images/**/*.*')
     .pipe(gulp.dest('images'))
 });
 
