@@ -3,30 +3,11 @@
 //  Generic
 //
 
-@import '/generic/amsterdam-grid';
-@import '/generic/amsterdam';
-@import '/generic/ams-colorpalette';
-@import '/generic/ams-helperclasses';
+@import "../node_modules/gemeente-amsterdam-patterns/source/css/init.css";
+@import "../node_modules/gemeente-amsterdam-patterns/source/css/baseline-grid.css";
+@import "../node_modules/gemeente-amsterdam-patterns/source/css/gemeente-amsterdam-components.css";
 
-body {
-  font-family: Avenir, sans-serif;
-  line-height: 1.25;
-  margin: 0;
-  padding: 0;
-}
-
-.ams-header {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: -2rem;
-
-  &__logo {
-    &--short {
-      width: 150px;
-      height: 100px;
-    }
-  }
-}
+@import '../variables/ams-colorpalette';
 
 table {
   text-align: left;
