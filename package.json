@@ -13,15 +13,16 @@
     "gemeente-amsterdam-patterns": "git+https://git@gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam.git"
   },
   "devDependencies": {
-    "gemeente-amsterdam-patterns": "git+https://git@gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam.git",
     "autoprefixer": "^7.2.4",
+    "gemeente-amsterdam-patterns": "git+https://git@gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam.git",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^7.0.1",
     "gulp-concat-css": "^3.1.0",
+    "gulp-foreach": "^0.1.0",
     "gulp-if": "^2.0.2",
     "gulp-postcss": "^7.0.1",
+    "gulp-replace-path": "^0.4.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sass-glob": "^1.0.8",
     "gulp-sass-lint": "^1.3.4"
   },
   "repository": {

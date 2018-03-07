@@ -3629,7 +3629,7 @@ input[type="radio"]:disabled {
 .toggle-filter .caret,
 .toggle-mainmenu.expanded .caret,
 .toggle-search.expanded .caret {
-  background-image: url("/images/svg/close-icon-black.svg");
+  background-image: url("../images/svg/close-icon-black.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -4990,7 +4990,7 @@ a:hover {
 }
 
 .ui-datepicker .ui-datepicker-next span {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .ui-datepicker .ui-datepicker-next-hover {
@@ -5001,11 +5001,11 @@ a:hover {
 .ui-datepicker .ui-datepicker-next:hover span,
 .ui-datepicker .ui-datepicker-next:focus span,
 .ui-datepicker .ui-datepicker-next:active span {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .ui-datepicker .ui-datepicker-prev span {
-  background-image: url("/images/svg/caret-left-black.svg");
+  background-image: url("../images/svg/caret-left-black.svg");
 }
 
 .ui-datepicker .ui-datepicker-prev-hover {
@@ -5016,7 +5016,7 @@ a:hover {
 .ui-datepicker .ui-datepicker-prev:hover span,
 .ui-datepicker .ui-datepicker-prev:focus span,
 .ui-datepicker .ui-datepicker-prev:active span {
-  background-image: url("/images/svg/caret-left-red.svg");
+  background-image: url("../images/svg/caret-left-red.svg");
 }
 
 .ui-datepicker .ui-datepicker-calendar thead th span {
@@ -5062,7 +5062,7 @@ a:hover {
 }
 
 .bigdown a::before {
-  background: url("/images/svg/caret-down-black.svg") no-repeat 2px 5px;
+  background: url("../images/svg/caret-down-black.svg") no-repeat 2px 5px;
   background-size: 1em;
   content: "";
   display: inline-block;
@@ -5079,7 +5079,7 @@ a:hover {
 
 .bigdown a:active::before,
 .bigdown a:hover::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
 }
 
 .grid-zone.bgcolor_black .bigdown a::before,
@@ -5090,7 +5090,7 @@ a:hover {
 .footer-wrapper .bgcolor_black .bigdown a:active::before,
 .footer-wrapper .bgcolor_black .bigdown a:hover::before,
 .footer-wrapper .bgcolor_black .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5098,7 +5098,7 @@ a:hover {
 .grid-blok.bgcolor_black .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_black .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_black .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5110,7 +5110,7 @@ a:hover {
 .footer-wrapper .bgcolor_darkblue .bigdown a:active::before,
 .footer-wrapper .bgcolor_darkblue .bigdown a:hover::before,
 .footer-wrapper .bgcolor_darkblue .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5118,7 +5118,7 @@ a:hover {
 .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5130,7 +5130,7 @@ a:hover {
 .footer-wrapper .bgcolor_darkgreen .bigdown a:active::before,
 .footer-wrapper .bgcolor_darkgreen .bigdown a:hover::before,
 .footer-wrapper .bgcolor_darkgreen .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5138,7 +5138,7 @@ a:hover {
 .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5150,7 +5150,7 @@ a:hover {
 .footer-wrapper .bgcolor_darkgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_darkgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_darkgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5158,7 +5158,7 @@ a:hover {
 .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5170,7 +5170,7 @@ a:hover {
 .footer-wrapper .bgcolor_text-darkgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_text-darkgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_text-darkgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5178,7 +5178,7 @@ a:hover {
 .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5186,7 +5186,7 @@ a:hover {
 .grid-zone.bgcolor_text-mediumgrey .bigdown a:visited::before,
 .footer-wrapper .bgcolor_text-mediumgrey .bigdown a::before,
 .footer-wrapper .bgcolor_text-mediumgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5194,19 +5194,19 @@ a:hover {
 .grid-zone.bgcolor_text-mediumgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_text-mediumgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_text-mediumgrey .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5214,7 +5214,7 @@ a:hover {
 .grid-zone.bgcolor_green .bigdown a:visited::before,
 .footer-wrapper .bgcolor_green .bigdown a::before,
 .footer-wrapper .bgcolor_green .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5222,19 +5222,19 @@ a:hover {
 .grid-zone.bgcolor_green .bigdown a:active::before,
 .footer-wrapper .bgcolor_green .bigdown a:hover::before,
 .footer-wrapper .bgcolor_green .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_green .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_green .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_green .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_green .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5242,7 +5242,7 @@ a:hover {
 .grid-zone.bgcolor_mediumgrey .bigdown a:visited::before,
 .footer-wrapper .bgcolor_mediumgrey .bigdown a::before,
 .footer-wrapper .bgcolor_mediumgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5250,19 +5250,19 @@ a:hover {
 .grid-zone.bgcolor_mediumgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_mediumgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_mediumgrey .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_mediumgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_mediumgrey .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5270,7 +5270,7 @@ a:hover {
 .grid-zone.bgcolor_grey .bigdown a:visited::before,
 .footer-wrapper .bgcolor_grey .bigdown a::before,
 .footer-wrapper .bgcolor_grey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5278,19 +5278,19 @@ a:hover {
 .grid-zone.bgcolor_grey .bigdown a:active::before,
 .footer-wrapper .bgcolor_grey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_grey .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_grey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_grey .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5302,7 +5302,7 @@ a:hover {
 .footer-wrapper .bgcolor_lightblue .bigdown a:active::before,
 .footer-wrapper .bgcolor_lightblue .bigdown a:hover::before,
 .footer-wrapper .bgcolor_lightblue .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5310,7 +5310,7 @@ a:hover {
 .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5318,7 +5318,7 @@ a:hover {
 .grid-zone.bgcolor_lightgrey .bigdown a:visited::before,
 .footer-wrapper .bgcolor_lightgrey .bigdown a::before,
 .footer-wrapper .bgcolor_lightgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5326,19 +5326,19 @@ a:hover {
 .grid-zone.bgcolor_lightgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_lightgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_lightgrey .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_lightgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_lightgrey .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5350,7 +5350,7 @@ a:hover {
 .footer-wrapper .bgcolor_magenta .bigdown a:active::before,
 .footer-wrapper .bgcolor_magenta .bigdown a:hover::before,
 .footer-wrapper .bgcolor_magenta .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5358,7 +5358,7 @@ a:hover {
 .grid-blok.bgcolor_magenta .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_magenta .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_magenta .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5366,7 +5366,7 @@ a:hover {
 .grid-zone.bgcolor_orange .bigdown a:visited::before,
 .footer-wrapper .bgcolor_orange .bigdown a::before,
 .footer-wrapper .bgcolor_orange .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5374,19 +5374,19 @@ a:hover {
 .grid-zone.bgcolor_orange .bigdown a:active::before,
 .footer-wrapper .bgcolor_orange .bigdown a:hover::before,
 .footer-wrapper .bgcolor_orange .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_orange .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_orange .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5398,7 +5398,7 @@ a:hover {
 .footer-wrapper .bgcolor_purple .bigdown a:active::before,
 .footer-wrapper .bgcolor_purple .bigdown a:hover::before,
 .footer-wrapper .bgcolor_purple .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5406,7 +5406,7 @@ a:hover {
 .grid-blok.bgcolor_purple .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_purple .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_purple .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5418,7 +5418,7 @@ a:hover {
 .footer-wrapper .bgcolor_red .bigdown a:active::before,
 .footer-wrapper .bgcolor_red .bigdown a:hover::before,
 .footer-wrapper .bgcolor_red .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5426,7 +5426,7 @@ a:hover {
 .grid-blok.bgcolor_red .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_red .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_red .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5438,7 +5438,7 @@ a:hover {
 .footer-wrapper .bgcolor_mediumdarkgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_mediumdarkgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_mediumdarkgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5446,7 +5446,7 @@ a:hover {
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5458,7 +5458,7 @@ a:hover {
 .footer-wrapper .bgcolor_superdarkgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_superdarkgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_superdarkgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5466,7 +5466,7 @@ a:hover {
 .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:active::before,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg");
+  background-image: url("../images/svg/caret-down-white.svg");
   color: #fff;
 }
 
@@ -5474,7 +5474,7 @@ a:hover {
 .grid-zone.bgcolor_superlightgrey .bigdown a:visited::before,
 .footer-wrapper .bgcolor_superlightgrey .bigdown a::before,
 .footer-wrapper .bgcolor_superlightgrey .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5482,19 +5482,19 @@ a:hover {
 .grid-zone.bgcolor_superlightgrey .bigdown a:active::before,
 .footer-wrapper .bgcolor_superlightgrey .bigdown a:hover::before,
 .footer-wrapper .bgcolor_superlightgrey .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_superlightgrey .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_superlightgrey .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5502,7 +5502,7 @@ a:hover {
 .grid-zone.bgcolor_white .bigdown a:visited::before,
 .footer-wrapper .bgcolor_white .bigdown a::before,
 .footer-wrapper .bgcolor_white .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5510,19 +5510,19 @@ a:hover {
 .grid-zone.bgcolor_white .bigdown a:active::before,
 .footer-wrapper .bgcolor_white .bigdown a:hover::before,
 .footer-wrapper .bgcolor_white .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_white .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_white .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_white .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_white .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5530,7 +5530,7 @@ a:hover {
 .grid-zone.bgcolor_lightyellow .bigdown a:visited::before,
 .footer-wrapper .bgcolor_lightyellow .bigdown a::before,
 .footer-wrapper .bgcolor_lightyellow .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5538,19 +5538,19 @@ a:hover {
 .grid-zone.bgcolor_lightyellow .bigdown a:active::before,
 .footer-wrapper .bgcolor_lightyellow .bigdown a:hover::before,
 .footer-wrapper .bgcolor_lightyellow .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_lightyellow .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_lightyellow .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5558,7 +5558,7 @@ a:hover {
 .grid-zone.bgcolor_yellow .bigdown a:visited::before,
 .footer-wrapper .bgcolor_yellow .bigdown a::before,
 .footer-wrapper .bgcolor_yellow .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
@@ -5566,19 +5566,19 @@ a:hover {
 .grid-zone.bgcolor_yellow .bigdown a:active::before,
 .footer-wrapper .bgcolor_yellow .bigdown a:hover::before,
 .footer-wrapper .bgcolor_yellow .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .bigdown a::before,
 .grid-blok.bgcolor_yellow .grid-edge .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .bigdown a:hover::before,
 .grid-blok.bgcolor_yellow .grid-edge .bigdown a:active::before {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   color: #ec0000;
 }
 
@@ -5684,19 +5684,19 @@ input[type="checkbox"]:disabled + label::before {
 }
 
 .input-explanation.open a::after {
-  background-image: url("/images/svg/caret-up-darkgrey.svg");
+  background-image: url("../images/svg/caret-up-darkgrey.svg");
 }
 
 .input-explanation.open a:hover::after {
-  background-image: url("/images/svg/caret-up-red.svg");
+  background-image: url("../images/svg/caret-up-red.svg");
 }
 
 .input-explanation.closed a::after {
-  background-image: url("/images/svg/caret-down-darkgrey.svg");
+  background-image: url("../images/svg/caret-down-darkgrey.svg");
 }
 
 .input-explanation.closed a:hover::after {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
 }
 
 .input-explanation .toelichting {
@@ -5790,14 +5790,14 @@ input[type="radio"]:disabled + label::before {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   background-position: calc(100% - 12px) 50%;
   background-repeat: no-repeat;
   background-size: 12px;
 }
 
 .invoer select:focus:hover {
-  background-image: url("/images/svg/caret-up-black.svg");
+  background-image: url("../images/svg/caret-up-black.svg");
 }
 
 .invoer select[multiple] {
@@ -5830,7 +5830,7 @@ input[type="radio"]:disabled + label::before {
 }
 
 .startagain::before {
-  background-image: url("/images/svg/caret-left-blue.svg");
+  background-image: url("../images/svg/caret-left-blue.svg");
   background-position: 0 2px;
   background-repeat: no-repeat;
   background-size: 7px;
@@ -5846,7 +5846,7 @@ input[type="radio"]:disabled + label::before {
 }
 
 .startagain:hover::before {
-  background-image: url("/images/svg/caret-left-red.svg");
+  background-image: url("../images/svg/caret-left-red.svg");
 }
 
 button.startagain {
@@ -5935,24 +5935,24 @@ h1 + .subtitle + .source * {
 
 .links li a,
 .links li a:visited {
-  background: url("/images/svg/caret-right-black.svg") no-repeat 0 5px;
+  background: url("../images/svg/caret-right-black.svg") no-repeat 0 5px;
   color: #000;
 }
 
 .links li a:active,
 .links li a:hover {
-  background: url("/images/svg/caret-right-red.svg") no-repeat 0 5px;
+  background: url("../images/svg/caret-right-red.svg") no-repeat 0 5px;
   color: #ec0000;
   text-decoration: underline;
 }
 
 .links li a.outsite {
-  background: url("/images/svg/external-link-black.svg") no-repeat 0 7px;
+  background: url("../images/svg/external-link-black.svg") no-repeat 0 7px;
   color: #000;
 }
 
 .links li a.outsite:hover {
-  background-image: url("/images/svg/external-link-red.svg");
+  background-image: url("../images/svg/external-link-red.svg");
   color: #ec0000;
 }
 
@@ -5964,7 +5964,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_black .links li a:active,
 .footer-wrapper .bgcolor_black .links li a:hover,
 .footer-wrapper .bgcolor_black .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -5989,7 +5989,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_black .grid-edge .links li a:active,
 .grid-blok.bgcolor_black .grid-edge .links li a:hover,
 .grid-blok.bgcolor_black .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6013,7 +6013,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_darkblue .links li a:active,
 .footer-wrapper .bgcolor_darkblue .links li a:hover,
 .footer-wrapper .bgcolor_darkblue .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6038,7 +6038,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_darkblue .grid-edge .links li a:active,
 .grid-blok.bgcolor_darkblue .grid-edge .links li a:hover,
 .grid-blok.bgcolor_darkblue .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6062,7 +6062,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_darkgreen .links li a:active,
 .footer-wrapper .bgcolor_darkgreen .links li a:hover,
 .footer-wrapper .bgcolor_darkgreen .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6087,7 +6087,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_darkgreen .grid-edge .links li a:active,
 .grid-blok.bgcolor_darkgreen .grid-edge .links li a:hover,
 .grid-blok.bgcolor_darkgreen .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6111,7 +6111,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_darkgrey .links li a:active,
 .footer-wrapper .bgcolor_darkgrey .links li a:hover,
 .footer-wrapper .bgcolor_darkgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6136,7 +6136,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_darkgrey .grid-edge .links li a:active,
 .grid-blok.bgcolor_darkgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_darkgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6160,7 +6160,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_text-darkgrey .links li a:active,
 .footer-wrapper .bgcolor_text-darkgrey .links li a:hover,
 .footer-wrapper .bgcolor_text-darkgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6185,7 +6185,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_text-darkgrey .grid-edge .links li a:active,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6205,7 +6205,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_text-mediumgrey .links li a:active,
 .footer-wrapper .bgcolor_text-mediumgrey .links li a:hover,
 .footer-wrapper .bgcolor_text-mediumgrey .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_text-mediumgrey .links li a:hover,
@@ -6223,7 +6223,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_text-mediumgrey .links li a:visited,
 .footer-wrapper .bgcolor_text-mediumgrey .links li a,
 .footer-wrapper .bgcolor_text-mediumgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_text-mediumgrey .links li a,
@@ -6239,7 +6239,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:hover,
@@ -6251,7 +6251,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a,
@@ -6265,7 +6265,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_green .links li a:active,
 .footer-wrapper .bgcolor_green .links li a:hover,
 .footer-wrapper .bgcolor_green .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_green .links li a:hover,
@@ -6283,7 +6283,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_green .links li a:visited,
 .footer-wrapper .bgcolor_green .links li a,
 .footer-wrapper .bgcolor_green .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_green .links li a,
@@ -6299,7 +6299,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_green .grid-edge .links li a:hover,
 .grid-blok.bgcolor_green .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_green .grid-edge .links li a:hover,
@@ -6311,7 +6311,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_green .grid-edge .links li a,
 .grid-blok.bgcolor_green .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_green .grid-edge .links li a,
@@ -6325,7 +6325,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_mediumgrey .links li a:active,
 .footer-wrapper .bgcolor_mediumgrey .links li a:hover,
 .footer-wrapper .bgcolor_mediumgrey .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_mediumgrey .links li a:hover,
@@ -6343,7 +6343,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_mediumgrey .links li a:visited,
 .footer-wrapper .bgcolor_mediumgrey .links li a,
 .footer-wrapper .bgcolor_mediumgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_mediumgrey .links li a,
@@ -6359,7 +6359,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:hover,
@@ -6371,7 +6371,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a,
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .links li a,
@@ -6385,7 +6385,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_grey .links li a:active,
 .footer-wrapper .bgcolor_grey .links li a:hover,
 .footer-wrapper .bgcolor_grey .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_grey .links li a:hover,
@@ -6403,7 +6403,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_grey .links li a:visited,
 .footer-wrapper .bgcolor_grey .links li a,
 .footer-wrapper .bgcolor_grey .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_grey .links li a,
@@ -6419,7 +6419,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_grey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_grey .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_grey .grid-edge .links li a:hover,
@@ -6431,7 +6431,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_grey .grid-edge .links li a,
 .grid-blok.bgcolor_grey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_grey .grid-edge .links li a,
@@ -6449,7 +6449,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_lightblue .links li a:active,
 .footer-wrapper .bgcolor_lightblue .links li a:hover,
 .footer-wrapper .bgcolor_lightblue .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6474,7 +6474,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_lightblue .grid-edge .links li a:active,
 .grid-blok.bgcolor_lightblue .grid-edge .links li a:hover,
 .grid-blok.bgcolor_lightblue .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6494,7 +6494,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_lightgrey .links li a:active,
 .footer-wrapper .bgcolor_lightgrey .links li a:hover,
 .footer-wrapper .bgcolor_lightgrey .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_lightgrey .links li a:hover,
@@ -6512,7 +6512,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_lightgrey .links li a:visited,
 .footer-wrapper .bgcolor_lightgrey .links li a,
 .footer-wrapper .bgcolor_lightgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_lightgrey .links li a,
@@ -6528,7 +6528,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a:hover,
@@ -6540,7 +6540,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a,
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .links li a,
@@ -6558,7 +6558,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_magenta .links li a:active,
 .footer-wrapper .bgcolor_magenta .links li a:hover,
 .footer-wrapper .bgcolor_magenta .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6583,7 +6583,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_magenta .grid-edge .links li a:active,
 .grid-blok.bgcolor_magenta .grid-edge .links li a:hover,
 .grid-blok.bgcolor_magenta .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6603,7 +6603,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_orange .links li a:active,
 .footer-wrapper .bgcolor_orange .links li a:hover,
 .footer-wrapper .bgcolor_orange .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_orange .links li a:hover,
@@ -6621,7 +6621,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_orange .links li a:visited,
 .footer-wrapper .bgcolor_orange .links li a,
 .footer-wrapper .bgcolor_orange .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_orange .links li a,
@@ -6637,7 +6637,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_orange .grid-edge .links li a:hover,
 .grid-blok.bgcolor_orange .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_orange .grid-edge .links li a:hover,
@@ -6649,7 +6649,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_orange .grid-edge .links li a,
 .grid-blok.bgcolor_orange .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_orange .grid-edge .links li a,
@@ -6667,7 +6667,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_purple .links li a:active,
 .footer-wrapper .bgcolor_purple .links li a:hover,
 .footer-wrapper .bgcolor_purple .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6692,7 +6692,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_purple .grid-edge .links li a:active,
 .grid-blok.bgcolor_purple .grid-edge .links li a:hover,
 .grid-blok.bgcolor_purple .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6716,7 +6716,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_red .links li a:active,
 .footer-wrapper .bgcolor_red .links li a:hover,
 .footer-wrapper .bgcolor_red .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6741,7 +6741,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_red .grid-edge .links li a:active,
 .grid-blok.bgcolor_red .grid-edge .links li a:hover,
 .grid-blok.bgcolor_red .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6765,7 +6765,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_mediumdarkgrey .links li a:active,
 .footer-wrapper .bgcolor_mediumdarkgrey .links li a:hover,
 .footer-wrapper .bgcolor_mediumdarkgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6790,7 +6790,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .links li a:active,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6814,7 +6814,7 @@ h1 + .subtitle + .source * {
 .footer-wrapper .bgcolor_superdarkgrey .links li a:active,
 .footer-wrapper .bgcolor_superdarkgrey .links li a:hover,
 .footer-wrapper .bgcolor_superdarkgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6839,7 +6839,7 @@ h1 + .subtitle + .source * {
 .grid-blok.bgcolor_superdarkgrey .grid-edge .links li a:active,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -6859,7 +6859,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_superlightgrey .links li a:active,
 .footer-wrapper .bgcolor_superlightgrey .links li a:hover,
 .footer-wrapper .bgcolor_superlightgrey .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_superlightgrey .links li a:hover,
@@ -6877,7 +6877,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_superlightgrey .links li a:visited,
 .footer-wrapper .bgcolor_superlightgrey .links li a,
 .footer-wrapper .bgcolor_superlightgrey .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_superlightgrey .links li a,
@@ -6893,7 +6893,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:hover,
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:hover,
@@ -6905,7 +6905,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a,
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .links li a,
@@ -6919,7 +6919,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_white .links li a:active,
 .footer-wrapper .bgcolor_white .links li a:hover,
 .footer-wrapper .bgcolor_white .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_white .links li a:hover,
@@ -6937,7 +6937,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_white .links li a:visited,
 .footer-wrapper .bgcolor_white .links li a,
 .footer-wrapper .bgcolor_white .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_white .links li a,
@@ -6953,7 +6953,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_white .grid-edge .links li a:hover,
 .grid-blok.bgcolor_white .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_white .grid-edge .links li a:hover,
@@ -6965,7 +6965,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_white .grid-edge .links li a,
 .grid-blok.bgcolor_white .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_white .grid-edge .links li a,
@@ -6979,7 +6979,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_lightyellow .links li a:active,
 .footer-wrapper .bgcolor_lightyellow .links li a:hover,
 .footer-wrapper .bgcolor_lightyellow .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_lightyellow .links li a:hover,
@@ -6997,7 +6997,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_lightyellow .links li a:visited,
 .footer-wrapper .bgcolor_lightyellow .links li a,
 .footer-wrapper .bgcolor_lightyellow .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_lightyellow .links li a,
@@ -7013,7 +7013,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a:hover,
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a:hover,
@@ -7025,7 +7025,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a,
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .links li a,
@@ -7039,7 +7039,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_yellow .links li a:active,
 .footer-wrapper .bgcolor_yellow .links li a:hover,
 .footer-wrapper .bgcolor_yellow .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-zone.bgcolor_yellow .links li a:hover,
@@ -7057,7 +7057,7 @@ h1 + .subtitle + .source * {
 .grid-zone.bgcolor_yellow .links li a:visited,
 .footer-wrapper .bgcolor_yellow .links li a,
 .footer-wrapper .bgcolor_yellow .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-zone.bgcolor_yellow .links li a,
@@ -7073,7 +7073,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_yellow .grid-edge .links li a:hover,
 .grid-blok.bgcolor_yellow .grid-edge .links li a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .links li a:hover,
@@ -7085,7 +7085,7 @@ h1 + .subtitle + .source * {
 
 .grid-blok.bgcolor_yellow .grid-edge .links li a,
 .grid-blok.bgcolor_yellow .grid-edge .links li a:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .links li a,
@@ -7220,13 +7220,13 @@ h1 + .subtitle + .source * {
 
 .more-link,
 .more-link:visited {
-  background: url("/images/svg/caret-right-black.svg") no-repeat 0 5px;
+  background: url("../images/svg/caret-right-black.svg") no-repeat 0 5px;
   color: #000;
 }
 
 .more-link:active,
 .more-link:hover {
-  background: url("/images/svg/caret-right-red.svg") no-repeat 0 5px;
+  background: url("../images/svg/caret-right-red.svg") no-repeat 0 5px;
   color: #ec0000;
   text-decoration: underline;
 }
@@ -7247,7 +7247,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_black .more-link:active,
 .footer-wrapper .bgcolor_black .more-link:hover,
 .footer-wrapper .bgcolor_black .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7255,7 +7255,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_black .grid-edge .more-link:active,
 .grid-blok.bgcolor_black .grid-edge .more-link:hover,
 .grid-blok.bgcolor_black .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7267,7 +7267,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_darkblue .more-link:active,
 .footer-wrapper .bgcolor_darkblue .more-link:hover,
 .footer-wrapper .bgcolor_darkblue .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7275,7 +7275,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_darkblue .grid-edge .more-link:active,
 .grid-blok.bgcolor_darkblue .grid-edge .more-link:hover,
 .grid-blok.bgcolor_darkblue .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7287,7 +7287,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_darkgreen .more-link:active,
 .footer-wrapper .bgcolor_darkgreen .more-link:hover,
 .footer-wrapper .bgcolor_darkgreen .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7295,7 +7295,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_darkgreen .grid-edge .more-link:active,
 .grid-blok.bgcolor_darkgreen .grid-edge .more-link:hover,
 .grid-blok.bgcolor_darkgreen .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7307,7 +7307,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_darkgrey .more-link:active,
 .footer-wrapper .bgcolor_darkgrey .more-link:hover,
 .footer-wrapper .bgcolor_darkgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7315,7 +7315,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_darkgrey .grid-edge .more-link:active,
 .grid-blok.bgcolor_darkgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_darkgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7327,7 +7327,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_text-darkgrey .more-link:active,
 .footer-wrapper .bgcolor_text-darkgrey .more-link:hover,
 .footer-wrapper .bgcolor_text-darkgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7335,7 +7335,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_text-darkgrey .grid-edge .more-link:active,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7343,7 +7343,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_text-mediumgrey .more-link:active,
 .footer-wrapper .bgcolor_text-mediumgrey .more-link:hover,
 .footer-wrapper .bgcolor_text-mediumgrey .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7351,19 +7351,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_text-mediumgrey .more-link:visited,
 .footer-wrapper .bgcolor_text-mediumgrey .more-link,
 .footer-wrapper .bgcolor_text-mediumgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7371,7 +7371,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_green .more-link:active,
 .footer-wrapper .bgcolor_green .more-link:hover,
 .footer-wrapper .bgcolor_green .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7379,19 +7379,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_green .more-link:visited,
 .footer-wrapper .bgcolor_green .more-link,
 .footer-wrapper .bgcolor_green .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_green .grid-edge .more-link:hover,
 .grid-blok.bgcolor_green .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_green .grid-edge .more-link,
 .grid-blok.bgcolor_green .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7399,7 +7399,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_mediumgrey .more-link:active,
 .footer-wrapper .bgcolor_mediumgrey .more-link:hover,
 .footer-wrapper .bgcolor_mediumgrey .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7407,19 +7407,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_mediumgrey .more-link:visited,
 .footer-wrapper .bgcolor_mediumgrey .more-link,
 .footer-wrapper .bgcolor_mediumgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .more-link,
 .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7427,7 +7427,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_grey .more-link:active,
 .footer-wrapper .bgcolor_grey .more-link:hover,
 .footer-wrapper .bgcolor_grey .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7435,19 +7435,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_grey .more-link:visited,
 .footer-wrapper .bgcolor_grey .more-link,
 .footer-wrapper .bgcolor_grey .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_grey .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .more-link,
 .grid-blok.bgcolor_grey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7459,7 +7459,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_lightblue .more-link:active,
 .footer-wrapper .bgcolor_lightblue .more-link:hover,
 .footer-wrapper .bgcolor_lightblue .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7467,7 +7467,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_lightblue .grid-edge .more-link:active,
 .grid-blok.bgcolor_lightblue .grid-edge .more-link:hover,
 .grid-blok.bgcolor_lightblue .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7475,7 +7475,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_lightgrey .more-link:active,
 .footer-wrapper .bgcolor_lightgrey .more-link:hover,
 .footer-wrapper .bgcolor_lightgrey .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7483,19 +7483,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_lightgrey .more-link:visited,
 .footer-wrapper .bgcolor_lightgrey .more-link,
 .footer-wrapper .bgcolor_lightgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_lightgrey .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .more-link,
 .grid-blok.bgcolor_lightgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7507,7 +7507,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_magenta .more-link:active,
 .footer-wrapper .bgcolor_magenta .more-link:hover,
 .footer-wrapper .bgcolor_magenta .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7515,7 +7515,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_magenta .grid-edge .more-link:active,
 .grid-blok.bgcolor_magenta .grid-edge .more-link:hover,
 .grid-blok.bgcolor_magenta .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7523,7 +7523,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_orange .more-link:active,
 .footer-wrapper .bgcolor_orange .more-link:hover,
 .footer-wrapper .bgcolor_orange .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7531,19 +7531,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_orange .more-link:visited,
 .footer-wrapper .bgcolor_orange .more-link,
 .footer-wrapper .bgcolor_orange .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .more-link:hover,
 .grid-blok.bgcolor_orange .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .more-link,
 .grid-blok.bgcolor_orange .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7555,7 +7555,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_purple .more-link:active,
 .footer-wrapper .bgcolor_purple .more-link:hover,
 .footer-wrapper .bgcolor_purple .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7563,7 +7563,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_purple .grid-edge .more-link:active,
 .grid-blok.bgcolor_purple .grid-edge .more-link:hover,
 .grid-blok.bgcolor_purple .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7575,7 +7575,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_red .more-link:active,
 .footer-wrapper .bgcolor_red .more-link:hover,
 .footer-wrapper .bgcolor_red .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7583,7 +7583,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_red .grid-edge .more-link:active,
 .grid-blok.bgcolor_red .grid-edge .more-link:hover,
 .grid-blok.bgcolor_red .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7595,7 +7595,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_mediumdarkgrey .more-link:active,
 .footer-wrapper .bgcolor_mediumdarkgrey .more-link:hover,
 .footer-wrapper .bgcolor_mediumdarkgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7603,7 +7603,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .more-link:active,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7615,7 +7615,7 @@ ul.links + .more-link {
 .footer-wrapper .bgcolor_superdarkgrey .more-link:active,
 .footer-wrapper .bgcolor_superdarkgrey .more-link:hover,
 .footer-wrapper .bgcolor_superdarkgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7623,7 +7623,7 @@ ul.links + .more-link {
 .grid-blok.bgcolor_superdarkgrey .grid-edge .more-link:active,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   color: #fff;
 }
 
@@ -7631,7 +7631,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_superlightgrey .more-link:active,
 .footer-wrapper .bgcolor_superlightgrey .more-link:hover,
 .footer-wrapper .bgcolor_superlightgrey .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7639,19 +7639,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_superlightgrey .more-link:visited,
 .footer-wrapper .bgcolor_superlightgrey .more-link,
 .footer-wrapper .bgcolor_superlightgrey .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:hover,
 .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .more-link,
 .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7659,7 +7659,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_white .more-link:active,
 .footer-wrapper .bgcolor_white .more-link:hover,
 .footer-wrapper .bgcolor_white .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7667,19 +7667,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_white .more-link:visited,
 .footer-wrapper .bgcolor_white .more-link,
 .footer-wrapper .bgcolor_white .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_white .grid-edge .more-link:hover,
 .grid-blok.bgcolor_white .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_white .grid-edge .more-link,
 .grid-blok.bgcolor_white .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7687,7 +7687,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_lightyellow .more-link:active,
 .footer-wrapper .bgcolor_lightyellow .more-link:hover,
 .footer-wrapper .bgcolor_lightyellow .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7695,19 +7695,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_lightyellow .more-link:visited,
 .footer-wrapper .bgcolor_lightyellow .more-link,
 .footer-wrapper .bgcolor_lightyellow .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .more-link:hover,
 .grid-blok.bgcolor_lightyellow .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .more-link,
 .grid-blok.bgcolor_lightyellow .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7715,7 +7715,7 @@ ul.links + .more-link {
 .grid-zone.bgcolor_yellow .more-link:active,
 .footer-wrapper .bgcolor_yellow .more-link:hover,
 .footer-wrapper .bgcolor_yellow .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
@@ -7723,19 +7723,19 @@ ul.links + .more-link {
 .grid-zone.bgcolor_yellow .more-link:visited,
 .footer-wrapper .bgcolor_yellow .more-link,
 .footer-wrapper .bgcolor_yellow .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .more-link:hover,
 .grid-blok.bgcolor_yellow .grid-edge .more-link:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   color: #ec0000;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .more-link,
 .grid-blok.bgcolor_yellow .grid-edge .more-link:visited {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   color: #000;
 }
 
@@ -7993,7 +7993,7 @@ a.Calltoaction-rood span {
 
 .Calltoaction-rood a .sizespec::after,
 a.Calltoaction-rood .sizespec::after {
-  background-image: url("/images/svg/icon-document-white.svg");
+  background-image: url("../images/svg/icon-document-white.svg");
 }
 
 .Calltoaction-rood a,
@@ -8045,7 +8045,7 @@ a.Calltoaction-blauw span {
 
 .Calltoaction-blauw a .sizespec::after,
 a.Calltoaction-blauw .sizespec::after {
-  background-image: url("/images/svg/icon-document-white.svg");
+  background-image: url("../images/svg/icon-document-white.svg");
 }
 
 .Calltoaction-blauw a,
@@ -8099,7 +8099,7 @@ a.Calltoaction-wit span {
 
 .Calltoaction-wit a .sizespec::after,
 a.Calltoaction-wit .sizespec::after {
-  background-image: url("/images/svg/icon-document-blue.svg");
+  background-image: url("../images/svg/icon-document-blue.svg");
 }
 
 .Calltoaction-wit a,
@@ -8198,7 +8198,7 @@ a.Calltoaction-grijs + *,
 
 .importLink .sizespec::after,
 .download a .sizespec::after {
-  background-image: url("/images/svg/icon-document.svg");
+  background-image: url("../images/svg/icon-document.svg");
   background-repeat: no-repeat;
   content: "";
   display: inline-block;
@@ -8210,7 +8210,7 @@ a.Calltoaction-grijs + *,
 
 .inline-toggle {
   background-color: #e8e8e8;
-  background-image: url("/images/svg/toggle-inline-caret-down-black.svg");
+  background-image: url("../images/svg/toggle-inline-caret-down-black.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 10px 6px;
@@ -8221,7 +8221,7 @@ a.Calltoaction-grijs + *,
 
 .inline-toggle:hover {
   background-color: #ec0000;
-  background-image: url("/images/svg/toggle-inline-caret-down-white.svg");
+  background-image: url("../images/svg/toggle-inline-caret-down-white.svg");
 }
 
 .inline-toggle.ingeklapt {
@@ -8229,11 +8229,11 @@ a.Calltoaction-grijs + *,
 }
 
 .inline-toggle.uitgeklapt {
-  background-image: url("/images/svg/toggle-inline-caret-up-black.svg");
+  background-image: url("../images/svg/toggle-inline-caret-up-black.svg");
 }
 
 .inline-toggle.uitgeklapt:hover {
-  background-image: url("/images/svg/toggle-inline-caret-up-white.svg");
+  background-image: url("../images/svg/toggle-inline-caret-up-white.svg");
 }
 
 .inline-toggle-body {
@@ -8303,28 +8303,28 @@ div.ingeklapt + * {
 .ingeklapt > h2.uitgeklapt a,
 .ingeklapt > h3.uitgeklapt a,
 .ingeklapt > h4.uitgeklapt a {
-  background-image: url("/images/svg/dropdown-open.svg");
+  background-image: url("../images/svg/dropdown-open.svg");
   background-size: 12px 7px;
 }
 
 .ingeklapt > h2.uitgeklapt a:hover,
 .ingeklapt > h3.uitgeklapt a:hover,
 .ingeklapt > h4.uitgeklapt a:hover {
-  background-image: url("/images/svg/dropdown-open-hover.svg");
+  background-image: url("../images/svg/dropdown-open-hover.svg");
   text-decoration: underline;
 }
 
 .ingeklapt > h2.ingeklapt a,
 .ingeklapt > h3.ingeklapt a,
 .ingeklapt > h4.ingeklapt a {
-  background-image: url("/images/svg/dropdown-closed.svg");
+  background-image: url("../images/svg/dropdown-closed.svg");
   background-size: 12px 7px;
 }
 
 .ingeklapt > h2.ingeklapt a:hover,
 .ingeklapt > h3.ingeklapt a:hover,
 .ingeklapt > h4.ingeklapt a:hover {
-  background-image: url("/images/svg/dropdown-closed-hover.svg");
+  background-image: url("../images/svg/dropdown-closed-hover.svg");
   text-decoration: underline;
 }
 
@@ -8408,7 +8408,7 @@ div.ingeklapt + * {
 
 blockquote,
 p.Quote {
-  background: url("/images/svg/quote.svg") no-repeat;
+  background: url("../images/svg/quote.svg") no-repeat;
   background-position: 0 0;
   margin-top: 20px;
   padding-bottom: 20px;
@@ -8417,7 +8417,7 @@ p.Quote {
 
 @media screen and (max-width: 539px) {
   blockquote {
-    background: url("/images/svg/quote-small.svg") no-repeat;
+    background: url("../images/svg/quote-small.svg") no-repeat;
     padding-left: 35px;
   }
 }
@@ -8497,7 +8497,7 @@ p.Quote {
 }
 
 .link_share.facebook {
-  background-image: url("/images/svg/delen/share-facebook.svg");
+  background-image: url("../images/svg/delen/share-facebook.svg");
 }
 
 .link_share.facebook:hover {
@@ -8505,7 +8505,7 @@ p.Quote {
 }
 
 .link_share.twitter {
-  background-image: url("/images/svg/delen/share-twitter.svg");
+  background-image: url("../images/svg/delen/share-twitter.svg");
 }
 
 .link_share.twitter:hover {
@@ -8513,7 +8513,7 @@ p.Quote {
 }
 
 .link_share.linkedin {
-  background-image: url("/images/svg/delen/share-linkedin.svg");
+  background-image: url("../images/svg/delen/share-linkedin.svg");
 }
 
 .link_share.linkedin:hover {
@@ -8521,7 +8521,7 @@ p.Quote {
 }
 
 .link_share.google_plus {
-  background-image: url("/images/svg/delen/share-googleplus.svg");
+  background-image: url("../images/svg/delen/share-googleplus.svg");
 }
 
 .link_share.google_plus:hover {
@@ -8529,27 +8529,27 @@ p.Quote {
 }
 
 .link_share.mail {
-  background-image: url("/images/svg/delen/share-mail.svg");
+  background-image: url("../images/svg/delen/share-mail.svg");
 }
 
 .link_share.print {
-  background-image: url("/images/svg/delen/share-print.svg");
+  background-image: url("../images/svg/delen/share-print.svg");
 }
 
 .link_share.tamtam {
-  background-image: url("/images/svg/delen/share-tamtam.svg");
+  background-image: url("../images/svg/delen/share-tamtam.svg");
 }
 
 .link_share.mijn_applicaties_btn {
-  background-image: url("/images/svg/delen/share-mijn-applicaties.svg");
+  background-image: url("../images/svg/delen/share-mijn-applicaties.svg");
 }
 
 .link_share.isFav {
-  background-image: url("/images/svg/delen/share-mijn-fav.svg");
+  background-image: url("../images/svg/delen/share-mijn-fav.svg");
 }
 
 .link_share.fluency {
-  background-image: url("/images/svg/delen/share-spreek.svg");
+  background-image: url("../images/svg/delen/share-spreek.svg");
 }
 
 .link_share a {
@@ -8572,7 +8572,7 @@ p.Quote {
 }
 
 .toggle-mainmenu .caret {
-  background-image: url("/images/sprites/sprite-assets.png");
+  background-image: url("../images/sprites/sprite-assets.png");
   background-position: -100px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -8593,7 +8593,7 @@ p.Quote {
 }
 
 .toggle-search .caret {
-  background-image: url("/images/svg/search-icon-black.svg");
+  background-image: url("../images/svg/search-icon-black.svg");
   background-position: 12px;
   background-repeat: no-repeat;
   direction: ltr;
@@ -8606,7 +8606,7 @@ p.Quote {
   .toggle-search:hover .caret,
   .toggle-search:active .caret {
     background-color: #ec0000;
-    background-image: url("/images/svg/search-icon-white.svg");
+    background-image: url("../images/svg/search-icon-white.svg");
   }
 }
 
@@ -8618,7 +8618,7 @@ p.Quote {
   .toggle-search.expanded:hover .caret,
   .toggle-search.expanded:active .caret {
     background-color: #ec0000;
-    background-image: url("/images/svg/close-icon-white.svg");
+    background-image: url("../images/svg/close-icon-white.svg");
   }
 }
 
@@ -8639,7 +8639,7 @@ p.Quote {
 }
 
 .sluitkruis {
-  background-image: url("/images/sprites/sprite_buttons.png");
+  background-image: url("../images/sprites/sprite_buttons.png");
   background-position: -1000px 0px;
   background-repeat: no-repeat;
   direction: ltr;
@@ -8651,7 +8651,7 @@ p.Quote {
 }
 
 .read-more {
-  background: url("/images/sprites/sprite_bullets_small.png") no-repeat 100% -29492px;
+  background: url("../images/sprites/sprite_bullets_small.png") no-repeat 100% -29492px;
   display: inline-block;
   padding-right: 20px;
   text-decoration: none;
@@ -8676,7 +8676,7 @@ p.Quote {
 }
 
 .calendar .navigatie .vorige a {
-  background: url("/images/svg/caret-left-white.svg") no-repeat 0 5px;
+  background: url("../images/svg/caret-left-white.svg") no-repeat 0 5px;
   color: #fff;
   margin-left: 10px;
   padding-left: 15px;
@@ -8687,7 +8687,7 @@ p.Quote {
 }
 
 .calendar .navigatie .volgende a {
-  background: url("/images/svg/caret-right-white.svg") no-repeat 100% 5px;
+  background: url("../images/svg/caret-right-white.svg") no-repeat 100% 5px;
   color: #fff;
   margin-right: 10px;
   padding-right: 15px;
@@ -8845,7 +8845,7 @@ p.Quote {
 }
 
 .filter-button .filter-icon {
-  background-image: url("/images/svg/filter-icon.svg");
+  background-image: url("../images/svg/filter-icon.svg");
   background-position: 0 50%;
   background-repeat: no-repeat;
   content: "";
@@ -8928,7 +8928,7 @@ p.Quote {
 }
 
 .antwoorden ul li::before {
-  background-image: url("/images/svg/checkbox-blue.svg");
+  background-image: url("../images/svg/checkbox-blue.svg");
   background-repeat: no-repeat;
   content: "";
   display: inline-block;
@@ -8968,7 +8968,7 @@ p.Quote {
 }
 
 .file .invoer button::after {
-  background: url("/images/svg/close-icon-black.svg") no-repeat;
+  background: url("../images/svg/close-icon-black.svg") no-repeat;
   border: 0;
   content: "";
   display: inline-block;
@@ -9254,7 +9254,7 @@ fieldset.search-large input[type="text"]:focus {
 fieldset.search-large button,
 fieldset.search-large input[type="submit"],
 fieldset.search-large input[type="image"] {
-  background-image: url("/images/sprites/sprite-assets.png");
+  background-image: url("../images/sprites/sprite-assets.png");
   background-position: -40px -40px;
   background-repeat: no-repeat;
   -webkit-appearance: none;
@@ -9395,7 +9395,7 @@ fieldset.search-large.gsc-search-box td {
 
 .grid-superlink .grid-edge:hover,
 .grid-grote-knop .grid-edge:hover {
-  background-image: url("/images/svg/superlink-caret-red.svg");
+  background-image: url("../images/svg/superlink-caret-red.svg");
   border-color: #ec0000;
   cursor: pointer;
 }
@@ -9413,7 +9413,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-superlink.selected .grid-edge,
 .grid-grote-knop.selected .grid-edge {
   background-color: #ec0000;
-  background-image: url("/images/svg/superlink-caret-down-black.svg");
+  background-image: url("../images/svg/superlink-caret-down-black.svg");
   border-color: #000;
 }
 
@@ -9486,7 +9486,7 @@ fieldset.search-large.gsc-search-box td {
 
 .hasbgcolor .grid-superlink.selected .grid-edge,
 .hasbgcolor .grid-grote-knop.selected .grid-edge {
-  background: url("/images/svg/superlink-caret-grey.svg") 95% 93% no-repeat;
+  background: url("../images/svg/superlink-caret-grey.svg") 95% 93% no-repeat;
   background-color: #fff;
 }
 
@@ -9507,7 +9507,7 @@ fieldset.search-large.gsc-search-box td {
 .hasbgcolor .grid-grote-knop.selected .grid-edge:hover,
 .hasbgcolor .grid-grote-knop.selected .grid-edge:active,
 .hasbgcolor .grid-grote-knop.selected .grid-edge:focus {
-  background: url("/images/svg/superlink-caret-red.svg") 95% 93% no-repeat;
+  background: url("../images/svg/superlink-caret-red.svg") 95% 93% no-repeat;
   background-color: #fff;
 }
 
@@ -9529,35 +9529,35 @@ fieldset.search-large.gsc-search-box td {
 }
 
 .grid-superlink .grid-edge {
-  background-image: url("/images/svg/superlink-caret-grey.svg");
+  background-image: url("../images/svg/superlink-caret-grey.svg");
   border-bottom: 2px solid #e8e8e8;
   border-right: 2px solid #e8e8e8;
 }
 
 .grid-grote-knop .grid-edge {
-  background-image: url("/images/svg/superlink-caret-black.svg");
+  background-image: url("../images/svg/superlink-caret-black.svg");
   border-bottom: 4px solid #000;
   border-right: 4px solid #000;
 }
 
 .zone_subnav .grid-superlink .grid-edge {
-  background-image: url("/images/svg/caret-down-grey.svg");
+  background-image: url("../images/svg/caret-down-grey.svg");
 }
 
 .zone_subnav .grid-superlink .grid-edge:hover,
 .zone_subnav .grid-superlink .grid-edge:active,
 .zone_subnav .grid-superlink .grid-edge:focus {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
 }
 
 .zone_subnav .grid-superlink.selected .grid-edge {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
 }
 
 .zone_subnav .grid-superlink.selected .grid-edge:hover,
 .zone_subnav .grid-superlink.selected .grid-edge:active,
 .zone_subnav .grid-superlink.selected .grid-edge:focus {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
 }
 
 .tabs {
@@ -9973,7 +9973,7 @@ fieldset.search-large.gsc-search-box td {
 .resultaat h2 a:visited,
 .resultaat h3 a,
 .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
   color: #000;
 }
 
@@ -9981,19 +9981,19 @@ fieldset.search-large.gsc-search-box td {
 .resultaat h2 a:hover,
 .resultaat h3 a:active,
 .resultaat h3 a:hover {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
   color: #ec0000;
   text-decoration: underline;
 }
 
 .resultaat h2 a.outsite,
 .resultaat h3 a.outsite {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .resultaat h2 a.outsite:hover,
 .resultaat h3 a.outsite:hover {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .resultaat h2.person a,
@@ -10015,32 +10015,32 @@ fieldset.search-large.gsc-search-box td {
 
 .resultaat h2.person.person-male a::before,
 .resultaat h3.person.person-male a::before {
-  background-image: url("/images/svg/man.svg");
+  background-image: url("../images/svg/man.svg");
 }
 
 .resultaat h2.person.person-male.person-not-at-work a::before,
 .resultaat h3.person.person-male.person-not-at-work a::before {
-  background-image: url("/images/svg/man_afwezig.svg");
+  background-image: url("../images/svg/man_afwezig.svg");
 }
 
 .resultaat h2.person.person-male.person-at-work a::before,
 .resultaat h3.person.person-male.person-at-work a::before {
-  background-image: url("/images/svg/man_aanwezig.svg");
+  background-image: url("../images/svg/man_aanwezig.svg");
 }
 
 .resultaat h2.person.person-female a::before,
 .resultaat h3.person.person-female a::before {
-  background-image: url("/images/svg/vrouw.svg");
+  background-image: url("../images/svg/vrouw.svg");
 }
 
 .resultaat h2.person.person-female.person-not-at-work a::before,
 .resultaat h3.person.person-female.person-not-at-work a::before {
-  background-image: url("/images/svg/vrouw_afwezig.svg");
+  background-image: url("../images/svg/vrouw_afwezig.svg");
 }
 
 .resultaat h2.person.person-female.person-at-work a::before,
 .resultaat h3.person.person-female.person-at-work a::before {
-  background-image: url("/images/svg/vrouw_aanwezig.svg");
+  background-image: url("../images/svg/vrouw_aanwezig.svg");
 }
 
 .resultaat h2.person ~ .holder,
@@ -10126,7 +10126,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_black .resultaat h3 a:active,
 .footer-wrapper .bgcolor_black .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_black .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_black .resultaat h2 a.outsite,
@@ -10145,7 +10145,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_black .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_black .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_black .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_black .resultaat .holder .meta,
@@ -10161,7 +10161,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_black .grid-edge .resultaat h2 a.outsite,
@@ -10172,7 +10172,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_black .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_black .grid-edge .resultaat .holder .meta {
@@ -10195,7 +10195,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a:active,
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkblue .resultaat h2 a.outsite,
@@ -10214,7 +10214,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_darkblue .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkblue .resultaat .holder .meta,
@@ -10230,7 +10230,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h2 a.outsite,
@@ -10241,7 +10241,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkblue .grid-edge .resultaat .holder .meta {
@@ -10264,7 +10264,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a:active,
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkgreen .resultaat h2 a.outsite,
@@ -10283,7 +10283,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_darkgreen .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkgreen .resultaat .holder .meta,
@@ -10299,7 +10299,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h2 a.outsite,
@@ -10310,7 +10310,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkgreen .grid-edge .resultaat .holder .meta {
@@ -10333,7 +10333,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a:active,
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkgrey .resultaat h2 a.outsite,
@@ -10352,7 +10352,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_darkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_darkgrey .resultaat .holder .meta,
@@ -10368,7 +10368,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h2 a.outsite,
@@ -10379,7 +10379,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_darkgrey .grid-edge .resultaat .holder .meta {
@@ -10402,7 +10402,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a:active,
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-darkgrey .resultaat h2 a.outsite,
@@ -10421,7 +10421,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_text-darkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-darkgrey .resultaat .holder .meta,
@@ -10437,7 +10437,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h2 a.outsite,
@@ -10448,7 +10448,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-darkgrey .grid-edge .resultaat .holder .meta {
@@ -10463,7 +10463,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h2 a:active,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-mediumgrey .resultaat h2 a,
@@ -10474,7 +10474,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-mediumgrey .resultaat h2 a.outside:hover,
@@ -10485,7 +10485,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-mediumgrey .resultaat h2 a.outsite,
@@ -10496,7 +10496,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_text-mediumgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_text-mediumgrey .resultaat .holder .meta,
@@ -10508,28 +10508,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_text-mediumgrey .grid-edge .resultaat .holder .meta {
@@ -10544,7 +10544,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_green .resultaat h2 a:active,
 .footer-wrapper .bgcolor_green .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_green .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_green .resultaat h2 a,
@@ -10555,7 +10555,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_green .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_green .resultaat h3 a,
 .footer-wrapper .bgcolor_green .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_green .resultaat h2 a.outside:hover,
@@ -10566,7 +10566,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_green .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_green .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_green .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_green .resultaat h2 a.outsite,
@@ -10577,7 +10577,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_green .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_green .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_green .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_green .resultaat .holder .meta,
@@ -10589,28 +10589,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_green .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_green .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_green .grid-edge .resultaat .holder .meta {
@@ -10625,7 +10625,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumgrey .resultaat h2 a:active,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumgrey .resultaat h2 a,
@@ -10636,7 +10636,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumgrey .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumgrey .resultaat h2 a.outside:hover,
@@ -10647,7 +10647,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumgrey .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumgrey .resultaat h2 a.outsite,
@@ -10658,7 +10658,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumgrey .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_mediumgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumgrey .resultaat .holder .meta,
@@ -10670,28 +10670,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumgrey .grid-edge .resultaat .holder .meta {
@@ -10706,7 +10706,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_grey .resultaat h2 a:active,
 .footer-wrapper .bgcolor_grey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_grey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_grey .resultaat h2 a,
@@ -10717,7 +10717,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_grey .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_grey .resultaat h3 a,
 .footer-wrapper .bgcolor_grey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_grey .resultaat h2 a.outside:hover,
@@ -10728,7 +10728,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_grey .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_grey .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_grey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_grey .resultaat h2 a.outsite,
@@ -10739,7 +10739,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_grey .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_grey .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_grey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_grey .resultaat .holder .meta,
@@ -10751,28 +10751,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_grey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_grey .grid-edge .resultaat .holder .meta {
@@ -10795,7 +10795,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a:active,
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightblue .resultaat h2 a.outsite,
@@ -10814,7 +10814,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_lightblue .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightblue .resultaat .holder .meta,
@@ -10830,7 +10830,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h2 a.outsite,
@@ -10841,7 +10841,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightblue .grid-edge .resultaat .holder .meta {
@@ -10856,7 +10856,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightgrey .resultaat h2 a:active,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightgrey .resultaat h2 a,
@@ -10867,7 +10867,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightgrey .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightgrey .resultaat h2 a.outside:hover,
@@ -10878,7 +10878,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightgrey .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightgrey .resultaat h2 a.outsite,
@@ -10889,7 +10889,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightgrey .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_lightgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightgrey .resultaat .holder .meta,
@@ -10901,28 +10901,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightgrey .grid-edge .resultaat .holder .meta {
@@ -10945,7 +10945,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_magenta .resultaat h3 a:active,
 .footer-wrapper .bgcolor_magenta .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_magenta .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_magenta .resultaat h2 a.outsite,
@@ -10964,7 +10964,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_magenta .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_magenta .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_magenta .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_magenta .resultaat .holder .meta,
@@ -10980,7 +10980,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h2 a.outsite,
@@ -10991,7 +10991,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_magenta .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_magenta .grid-edge .resultaat .holder .meta {
@@ -11006,7 +11006,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_orange .resultaat h2 a:active,
 .footer-wrapper .bgcolor_orange .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_orange .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_orange .resultaat h2 a,
@@ -11017,7 +11017,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_orange .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_orange .resultaat h3 a,
 .footer-wrapper .bgcolor_orange .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_orange .resultaat h2 a.outside:hover,
@@ -11028,7 +11028,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_orange .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_orange .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_orange .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_orange .resultaat h2 a.outsite,
@@ -11039,7 +11039,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_orange .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_orange .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_orange .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_orange .resultaat .holder .meta,
@@ -11051,28 +11051,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_orange .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_orange .grid-edge .resultaat .holder .meta {
@@ -11095,7 +11095,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_purple .resultaat h3 a:active,
 .footer-wrapper .bgcolor_purple .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_purple .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_purple .resultaat h2 a.outsite,
@@ -11114,7 +11114,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_purple .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_purple .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_purple .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_purple .resultaat .holder .meta,
@@ -11130,7 +11130,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_purple .grid-edge .resultaat h2 a.outsite,
@@ -11141,7 +11141,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_purple .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_purple .grid-edge .resultaat .holder .meta {
@@ -11164,7 +11164,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_red .resultaat h3 a:active,
 .footer-wrapper .bgcolor_red .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_red .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_red .resultaat h2 a.outsite,
@@ -11183,7 +11183,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_red .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_red .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_red .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_red .resultaat .holder .meta,
@@ -11199,7 +11199,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_red .grid-edge .resultaat h2 a.outsite,
@@ -11210,7 +11210,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_red .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_red .grid-edge .resultaat .holder .meta {
@@ -11233,7 +11233,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a:active,
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumdarkgrey .resultaat h2 a.outsite,
@@ -11252,7 +11252,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_mediumdarkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_mediumdarkgrey .resultaat .holder .meta,
@@ -11268,7 +11268,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h2 a.outsite,
@@ -11279,7 +11279,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_mediumdarkgrey .grid-edge .resultaat .holder .meta {
@@ -11302,7 +11302,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a:active,
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superdarkgrey .resultaat h2 a.outsite,
@@ -11321,7 +11321,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a.outside:active,
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a.outsite:hover,
 .footer-wrapper .bgcolor_superdarkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superdarkgrey .resultaat .holder .meta,
@@ -11337,7 +11337,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a:active,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h2 a.outsite,
@@ -11348,7 +11348,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a.outside:active,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a.outsite:hover,
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superdarkgrey .grid-edge .resultaat .holder .meta {
@@ -11363,7 +11363,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superlightgrey .resultaat h2 a:active,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superlightgrey .resultaat h2 a,
@@ -11374,7 +11374,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superlightgrey .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superlightgrey .resultaat h2 a.outside:hover,
@@ -11385,7 +11385,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superlightgrey .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superlightgrey .resultaat h2 a.outsite,
@@ -11396,7 +11396,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_superlightgrey .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_superlightgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_superlightgrey .resultaat .holder .meta,
@@ -11408,28 +11408,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_superlightgrey .grid-edge .resultaat .holder .meta {
@@ -11444,7 +11444,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_white .resultaat h2 a:active,
 .footer-wrapper .bgcolor_white .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_white .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_white .resultaat h2 a,
@@ -11455,7 +11455,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_white .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_white .resultaat h3 a,
 .footer-wrapper .bgcolor_white .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_white .resultaat h2 a.outside:hover,
@@ -11466,7 +11466,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_white .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_white .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_white .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_white .resultaat h2 a.outsite,
@@ -11477,7 +11477,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_white .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_white .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_white .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_white .resultaat .holder .meta,
@@ -11489,28 +11489,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_white .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_white .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_white .grid-edge .resultaat .holder .meta {
@@ -11525,7 +11525,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightyellow .resultaat h2 a:active,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightyellow .resultaat h2 a,
@@ -11536,7 +11536,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightyellow .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightyellow .resultaat h2 a.outside:hover,
@@ -11547,7 +11547,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightyellow .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightyellow .resultaat h2 a.outsite,
@@ -11558,7 +11558,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_lightyellow .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_lightyellow .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_lightyellow .resultaat .holder .meta,
@@ -11570,28 +11570,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_lightyellow .grid-edge .resultaat .holder .meta {
@@ -11606,7 +11606,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_yellow .resultaat h2 a:active,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a:hover,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_yellow .resultaat h2 a,
@@ -11617,7 +11617,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_yellow .resultaat h2 a:visited,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_yellow .resultaat h2 a.outside:hover,
@@ -11628,7 +11628,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_yellow .resultaat h2 a.outside:active,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a.outside:hover,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_yellow .resultaat h2 a.outsite,
@@ -11639,7 +11639,7 @@ fieldset.search-large.gsc-search-box td {
 .footer-wrapper .bgcolor_yellow .resultaat h2 a.outside:visited,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a.outsite,
 .footer-wrapper .bgcolor_yellow .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-zone.bgcolor_yellow .resultaat .holder .meta,
@@ -11651,28 +11651,28 @@ fieldset.search-large.gsc-search-box td {
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a:active,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a:hover,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a:visited,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a.outside:hover,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a.outside:active,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a.outside:hover,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a.outsite,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h2 a.outside:visited,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a.outsite,
 .grid-blok.bgcolor_yellow .grid-edge .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat;
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat;
 }
 
 .grid-blok.bgcolor_yellow .grid-edge .resultaat .holder .meta {
@@ -11848,7 +11848,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-rol-uitgelicht .blok-titel {
   font-size: 1rem;
   line-height: 1.125rem;
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
   margin-bottom: 4px;
 }
 
@@ -11862,87 +11862,87 @@ fieldset.search-large.gsc-search-box td {
 }
 
 .hasbgcolor.bgcolor_black .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_darkblue .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_darkgreen .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_darkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_text-darkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_text-mediumgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_green .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_mediumgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_grey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_lightblue .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_lightgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_magenta .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_orange .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_purple .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_red .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_mediumdarkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_superdarkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_superlightgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_white .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_lightyellow .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .hasbgcolor.bgcolor_yellow .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
 }
 
 .formulier-section .filter-header {
@@ -12029,7 +12029,7 @@ fieldset.search-large.gsc-search-box td {
 
 .grid-blok.galerij .resultaat {
   background-color: #f3f3f3;
-  background-image: url("/images/svg/gallery-caret-right-lightgray.svg");
+  background-image: url("../images/svg/gallery-caret-right-lightgray.svg");
   background-position: calc(100% - 12px) calc(100% - 12px);
   background-repeat: no-repeat;
   -webkit-box-shadow: inset -3px 0 0 0 #bebebe;
@@ -12051,7 +12051,7 @@ fieldset.search-large.gsc-search-box td {
 
 .grid-blok.galerij .resultaat:hover {
   background-color: #fff;
-  background-image: url("/images/svg/gallery-caret-right-black.svg");
+  background-image: url("../images/svg/gallery-caret-right-black.svg");
   background-position: calc(100% - 13px) calc(100% - 12px);
   -webkit-box-shadow: inset -3px 0 0 0 #000;
   box-shadow: inset -3px 0 0 0 #000;
@@ -12252,7 +12252,7 @@ fieldset.search-large.gsc-search-box td {
 
 .grid-foto:not(.galerij) .grid-inside:hover h2 {
   background-color: #fff;
-  background-image: url("/images/svg/gallery-caret-right-black.svg");
+  background-image: url("../images/svg/gallery-caret-right-black.svg");
   -webkit-box-shadow: inset -3px 0 0 0 #000;
   box-shadow: inset -3px 0 0 0 #000;
 }
@@ -12269,7 +12269,7 @@ fieldset.search-large.gsc-search-box td {
   font-size: 1rem;
   line-height: 1.3125rem;
   background-color: #f3f3f3;
-  background-image: url("/images/svg/gallery-caret-right-lightgray.svg");
+  background-image: url("../images/svg/gallery-caret-right-lightgray.svg");
   background-position: calc(100% - 10px) calc(100% - 10px);
   background-repeat: no-repeat;
   bottom: 0;
@@ -12379,7 +12379,7 @@ fieldset.search-large.gsc-search-box td {
   }
 
   .type-nav-primair .links > li .caret {
-    background-image: url("/images/sprites/sprite_bullets_small.png");
+    background-image: url("../images/sprites/sprite_bullets_small.png");
     background-position: 0 -29800px;
     background-repeat: no-repeat;
     float: right;
@@ -12420,7 +12420,7 @@ fieldset.search-large.gsc-search-box td {
   }
 
   .type-nav-primair .links > li li a {
-    background-image: url("/images/sprites/sprite_bullets_small.png");
+    background-image: url("../images/sprites/sprite_bullets_small.png");
     background-position: 7px -1984px;
     padding: 14px 0 12px 20px;
   }
@@ -12536,7 +12536,7 @@ fieldset.search-large.gsc-search-box td {
 
 .type-nav-megamenu ul.links li a {
   font-family: "AvenirNextLTW01-Medium", verdana, sans-serif;
-  background: url("/images/svg/caret-right-black.svg") no-repeat 0 4px;
+  background: url("../images/svg/caret-right-black.svg") no-repeat 0 4px;
   color: #000;
   display: inline-block;
   padding: 0 0 0 13px;
@@ -12632,7 +12632,7 @@ fieldset.search-large.gsc-search-box td {
 
 .type-sitepad .horizontal li {
   font-size: 0.875rem;
-  background-image: url("/images/sprites/sprite-assets.png");
+  background-image: url("../images/sprites/sprite-assets.png");
   background-position: 0px -92px;
   background-repeat: no-repeat;
   line-height: 1.375rem;
@@ -12691,7 +12691,7 @@ fieldset.search-large.gsc-search-box td {
 
 .grid-tegel > .grid-element > .grid-edge {
   background-color: #f3f3f3;
-  background-image: url("/images/svg/gallery-caret-right-lightgray.svg");
+  background-image: url("../images/svg/gallery-caret-right-lightgray.svg");
   background-position: calc(100% - 10px) calc(100% - 10px);
   background-repeat: no-repeat;
   -webkit-box-shadow: inset -3px 0 0 0 #bebebe;
@@ -13153,7 +13153,7 @@ hr.zone-separator {
 .footer-wrapper .grid-below-footer .links a {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   font-size: 0.875rem;
-  background: url("/images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
+  background: url("../images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
   color: #000;
   padding-left: 12px;
 }
@@ -13161,7 +13161,7 @@ hr.zone-separator {
 .footer-wrapper .grid-below-footer .links a:hover,
 .footer-wrapper .grid-below-footer .links a:focus,
 .footer-wrapper .grid-below-footer .links a:visited {
-  background: url("/images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
+  background: url("../images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
 }
 
 .footer-wrapper .grid-below-footer .links a:hover,
