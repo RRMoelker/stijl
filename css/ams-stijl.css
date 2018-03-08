@@ -12982,6 +12982,10 @@ hr.zone-separator {
   src: url("../raw-source/fonts/AvenirNextMedium/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("../raw-source/fonts/AvenirNextMedium/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("../raw-source/fonts/AvenirNextMedium/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("../raw-source/fonts/AvenirNextMedium/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("../raw-source/fonts/AvenirNextMedium/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -13193,4 +13197,112 @@ body {
 
 th {
   font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
+}
+
+b {
+  font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
+}
+
+h2.condensed,
+h3.condensed {
+  margin: .5rem 0 .2rem;
+  font-size: 1.2rem;
+}
+
+.page-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 8888;
+}
+
+.page-overlay .progress-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 1rem;
+  background-color: #fff;
+  z-index: 99999;
+  text-align: center;
+}
+
+.grid-blok.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border: 1px solid #e8e8e8;
+}
+
+.grid-blok.card .grid-title {
+  display: block;
+  width: 100%;
+}
+
+.grid-blok.card .grid-title h2 {
+  display: block;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: .8rem .5rem;
+}
+
+.grid-blok.card .grid-blok {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .75rem;
+}
+
+.grid-blok.card .grid-blok:hover {
+  background-color: #f3f3f3;
+}
+
+.grid-blok.card table {
+  margin: .5rem;
+}
+
+.grid-blok.card.break-out-card {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.grid-blok.card.break-out-card > *:not(.grid-title) {
+  margin-left: -1rem;
+}
+
+.grid-blok.card.break-out-card > *:not(.grid-title):hover {
+  background-color: #f3f3f3;
+}
+
+.breakout-zone {
+  padding-top: 10px !important;
+}
+
+.breakout-zone.fullwidth {
+  padding-bottom: 20px !important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.breakout-zone.fullwidth h4 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.pad-top-bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-title + .fullwidth {
+  margin-top: -20px;
+}
+
+.fullwidth {
+  box-shadow: 50vw 0 0 0 #f3f3f3, -50vw 0 0 0 #f3f3f3;
 }
