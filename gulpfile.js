@@ -36,7 +36,7 @@ gulp.task('build-sass', function() {
 
 gulp.task('build-images', function() {
   return gulp
-    .src('raw-source/images/**/*.*')
+    .src(['raw-source/images/**/*.*', 'src/images/**/*.*'])
     .pipe(gulp.dest('images'))
 });
 
