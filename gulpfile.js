@@ -21,6 +21,7 @@ gulp.task('build-css', function() {
     .pipe(concatcss('ams-stijl.css'))
     .pipe(replace(/(background-image: url\(")(.*)(\/images\/)/g, 'background-image: url("../images/'))
     .pipe(replace(/(background: url\(")(.*)(\/images\/)/g, 'background: url("../images/'))
+    .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
     .pipe(gulp.dest('css'))
 });
 
