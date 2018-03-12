@@ -3,6 +3,11 @@
 //  Generic
 //
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 @import 'font';
 @import '../../node_modules/gemeente-amsterdam-patterns/source/css/baseline-grid.css';
 @import '../../node_modules/gemeente-amsterdam-patterns/source/css/gemeente-amsterdam-components.css';
