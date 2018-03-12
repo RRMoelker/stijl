@@ -12952,6 +12952,12 @@ hr.zone-separator {
   }
 }
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 @font-face {
   font-family: "Avenir LT W01 65 Medium";
   src: url("../raw-source/fonts/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
@@ -13305,4 +13311,9 @@ h3.condensed {
 
 .fullwidth {
   box-shadow: 50vw 0 0 0 #f3f3f3, -50vw 0 0 0 #f3f3f3;
+}
+
+.grid-zone.bgcolor_darkgrey .grid-element .links li a.outsite {
+  background: url("../images/svg/external-link-white.svg") no-repeat 0 7px;
+  color: #fff;
 }

@@ -23,3 +23,12 @@
 .fullwidth {
   box-shadow: 50vw 0 0 0 $ams-top-menu, -50vw 0 0 0 $ams-top-menu;
 }
+
+.grid-zone.bgcolor_darkgrey {
+  .grid-element {
+    .links li a.outsite {
+      background: url("/images/svg/external-link-white.svg") no-repeat 0 7px;
+      color: $ams-wit;
+    }
+  }
+}
