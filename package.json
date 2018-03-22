@@ -1,6 +1,6 @@
 {
   "name": "stijl",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Generieke styling voor data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "scripts": {
@@ -10,7 +10,6 @@
     "build-stijl": "gulp"
   },
   "dependencies": {
-    "gemeente-amsterdam-patterns": "git+https://git@gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam.git"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.4",
