@@ -43,16 +43,17 @@
 .embed-zoom {
   > button {
     @include avenirnext;
-    background-color: white;
-    border: 1px solid #ccc;
-    color: $ams-donkerantraciet;
+    background-color: $ams-wit;
+    border: 1px solid $ams-pinkish-grey;
     box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     clear: both;
+    color: $ams-donkerantraciet;
     display: block;
+    font-size: 1.5rem;
     height: 32px;
+    margin: 1px;
     padding: 0;
     width: 32px;
-    font-size: 1.5rem;
 
     &.embed-zoom__out {
       span {
@@ -64,11 +65,15 @@
 
     &:hover,
     &:focus {
-      border: 1px solid black;
-      color: black;
-      background-color: #ccc;
+      background-color: $ams-pinkish-grey;
+      border: 1px solid $ams-zwart;
+      color: $ams-zwart;
     }
   }
+}
 
-
+.embed-marker {
+  &:before {
+    content: url("../images/svg/marker.svg");
+  }
 }
