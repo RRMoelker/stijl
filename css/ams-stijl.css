@@ -577,7 +577,7 @@
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1023px) {
+@media screen and (min-width: 539px + 1) and (max-width: 1023px) {
   .wrapper_12 {
     max-width: 480px;
   }
@@ -2670,10 +2670,10 @@ input[type="radio"] + label::before {
   width: calc(100% - 20px);
 }
 
-input[type="checkbox"]:hover + label::before,
-input[type="radio"]:hover + label::before,
-input[type="checkbox"]:focus + label::before,
-input[type="radio"]:focus + label::before,
+input:hover[type="checkbox"] + label::before,
+input:hover[type="radio"] + label::before,
+input:focus[type="checkbox"] + label::before,
+input:focus[type="radio"] + label::before,
 .invoer input:focus,
 .invoer select:focus,
 .invoer select option,
@@ -2833,7 +2833,7 @@ input.primary[type="submit"],
 .file .invoer button.primary,
 button.primary.action:visited,
 a.primary.action:visited,
-input.primary[type="submit"]:visited,
+input.primary:visited[type="submit"],
 .file .invoer label.primary:visited,
 .file .invoer button.primary:visited {
   background-color: #ec0000;
@@ -2851,12 +2851,12 @@ input.primary[type="submit"] .value,
 .file .invoer button.primary .value,
 button.primary.action:visited,
 a.primary.action:visited,
-input.primary[type="submit"]:visited,
+input.primary:visited[type="submit"],
 .file .invoer label.primary:visited,
 .file .invoer button.primary:visited,
 button.primary.action:visited .value,
 a.primary.action:visited .value,
-input.primary[type="submit"]:visited .value,
+input.primary:visited[type="submit"] .value,
 .file .invoer label.primary:visited .value,
 .file .invoer button.primary:visited .value {
   color: #fff;
@@ -2864,12 +2864,12 @@ input.primary[type="submit"]:visited .value,
 
 button.primary.action:enabled:active,
 a.primary.action:enabled:active,
-input.primary[type="submit"]:enabled:active,
+input.primary:enabled:active[type="submit"],
 .file .invoer label.primary:enabled:active,
 .file .invoer button.primary:enabled:active,
 button.primary.action:enabled:hover,
 a.primary.action:enabled:hover,
-input.primary[type="submit"]:enabled:hover,
+input.primary:enabled:hover[type="submit"],
 .file .invoer label.primary:enabled:hover,
 .file .invoer button.primary:enabled:hover {
   background-color: #b90000;
@@ -2903,12 +2903,12 @@ input.primary[type="submit"]:enabled:hover.arrow-right::after,
 
 button.primary.action:enabled:active .working::before,
 a.primary.action:enabled:active .working::before,
-input.primary[type="submit"]:enabled:active .working::before,
+input.primary:enabled:active[type="submit"] .working::before,
 .file .invoer label.primary:enabled:active .working::before,
 .file .invoer button.primary:enabled:active .working::before,
 button.primary.action:enabled:hover .working::before,
 a.primary.action:enabled:hover .working::before,
-input.primary[type="submit"]:enabled:hover .working::before,
+input.primary:enabled:hover[type="submit"] .working::before,
 .file .invoer label.primary:enabled:hover .working::before,
 .file .invoer button.primary:enabled:hover .working::before {
   border-top-color: #b90000;
@@ -2982,7 +2982,7 @@ input.secundary-blue[type="submit"],
 .file .invoer button.secundary-blue,
 button.secundary-blue.action:visited,
 a.secundary-blue.action:visited,
-input.secundary-blue[type="submit"]:visited,
+input.secundary-blue:visited[type="submit"],
 .file .invoer label.secundary-blue:visited,
 .file .invoer button.secundary-blue:visited {
   background-color: #004699;
@@ -3000,12 +3000,12 @@ input.secundary-blue[type="submit"] .value,
 .file .invoer button.secundary-blue .value,
 button.secundary-blue.action:visited,
 a.secundary-blue.action:visited,
-input.secundary-blue[type="submit"]:visited,
+input.secundary-blue:visited[type="submit"],
 .file .invoer label.secundary-blue:visited,
 .file .invoer button.secundary-blue:visited,
 button.secundary-blue.action:visited .value,
 a.secundary-blue.action:visited .value,
-input.secundary-blue[type="submit"]:visited .value,
+input.secundary-blue:visited[type="submit"] .value,
 .file .invoer label.secundary-blue:visited .value,
 .file .invoer button.secundary-blue:visited .value {
   color: #fff;
@@ -3013,12 +3013,12 @@ input.secundary-blue[type="submit"]:visited .value,
 
 button.secundary-blue.action:enabled:active,
 a.secundary-blue.action:enabled:active,
-input.secundary-blue[type="submit"]:enabled:active,
+input.secundary-blue:enabled:active[type="submit"],
 .file .invoer label.secundary-blue:enabled:active,
 .file .invoer button.secundary-blue:enabled:active,
 button.secundary-blue.action:enabled:hover,
 a.secundary-blue.action:enabled:hover,
-input.secundary-blue[type="submit"]:enabled:hover,
+input.secundary-blue:enabled:hover[type="submit"],
 .file .invoer label.secundary-blue:enabled:hover,
 .file .invoer button.secundary-blue:enabled:hover {
   background-color: #002f66;
@@ -3052,12 +3052,12 @@ input.secundary-blue[type="submit"]:enabled:hover.arrow-right::after,
 
 button.secundary-blue.action:enabled:active .working::before,
 a.secundary-blue.action:enabled:active .working::before,
-input.secundary-blue[type="submit"]:enabled:active .working::before,
+input.secundary-blue:enabled:active[type="submit"] .working::before,
 .file .invoer label.secundary-blue:enabled:active .working::before,
 .file .invoer button.secundary-blue:enabled:active .working::before,
 button.secundary-blue.action:enabled:hover .working::before,
 a.secundary-blue.action:enabled:hover .working::before,
-input.secundary-blue[type="submit"]:enabled:hover .working::before,
+input.secundary-blue:enabled:hover[type="submit"] .working::before,
 .file .invoer label.secundary-blue:enabled:hover .working::before,
 .file .invoer button.secundary-blue:enabled:hover .working::before {
   border-top-color: #002f66;
@@ -3131,7 +3131,7 @@ input.secundary-grey[type="submit"],
 .file .invoer button.secundary-grey,
 button.secundary-grey.action:visited,
 a.secundary-grey.action:visited,
-input.secundary-grey[type="submit"]:visited,
+input.secundary-grey:visited[type="submit"],
 .file .invoer label.secundary-grey:visited,
 .file .invoer button.secundary-grey:visited {
   background-color: #e8e8e8;
@@ -3149,12 +3149,12 @@ input.secundary-grey[type="submit"] .value,
 .file .invoer button.secundary-grey .value,
 button.secundary-grey.action:visited,
 a.secundary-grey.action:visited,
-input.secundary-grey[type="submit"]:visited,
+input.secundary-grey:visited[type="submit"],
 .file .invoer label.secundary-grey:visited,
 .file .invoer button.secundary-grey:visited,
 button.secundary-grey.action:visited .value,
 a.secundary-grey.action:visited .value,
-input.secundary-grey[type="submit"]:visited .value,
+input.secundary-grey:visited[type="submit"] .value,
 .file .invoer label.secundary-grey:visited .value,
 .file .invoer button.secundary-grey:visited .value {
   color: #000;
@@ -3162,12 +3162,12 @@ input.secundary-grey[type="submit"]:visited .value,
 
 button.secundary-grey.action:enabled:active,
 a.secundary-grey.action:enabled:active,
-input.secundary-grey[type="submit"]:enabled:active,
+input.secundary-grey:enabled:active[type="submit"],
 .file .invoer label.secundary-grey:enabled:active,
 .file .invoer button.secundary-grey:enabled:active,
 button.secundary-grey.action:enabled:hover,
 a.secundary-grey.action:enabled:hover,
-input.secundary-grey[type="submit"]:enabled:hover,
+input.secundary-grey:enabled:hover[type="submit"],
 .file .invoer label.secundary-grey:enabled:hover,
 .file .invoer button.secundary-grey:enabled:hover {
   background-color: #cfcfcf;
@@ -3201,12 +3201,12 @@ input.secundary-grey[type="submit"]:enabled:hover.arrow-right::after,
 
 button.secundary-grey.action:enabled:active .working::before,
 a.secundary-grey.action:enabled:active .working::before,
-input.secundary-grey[type="submit"]:enabled:active .working::before,
+input.secundary-grey:enabled:active[type="submit"] .working::before,
 .file .invoer label.secundary-grey:enabled:active .working::before,
 .file .invoer button.secundary-grey:enabled:active .working::before,
 button.secundary-grey.action:enabled:hover .working::before,
 a.secundary-grey.action:enabled:hover .working::before,
-input.secundary-grey[type="submit"]:enabled:hover .working::before,
+input.secundary-grey:enabled:hover[type="submit"] .working::before,
 .file .invoer label.secundary-grey:enabled:hover .working::before,
 .file .invoer button.secundary-grey:enabled:hover .working::before {
   border-top-color: #cfcfcf;
@@ -3239,8 +3239,8 @@ button.action.tertiair:hover {
   text-decoration: none !important;
 }
 
-button[type="reset"].action,
-a[type="reset"].action,
+button.action[type="reset"],
+a.action[type="reset"],
 input[type="reset"],
 button.reset {
   background-color: transparent;
@@ -3250,17 +3250,17 @@ button.reset {
   text-decoration: underline;
 }
 
-button[type="reset"].action:hover,
-a[type="reset"].action:hover,
-input[type="reset"]:hover,
+button.action:hover[type="reset"],
+a.action:hover[type="reset"],
+input:hover[type="reset"],
 button.reset:hover,
-button[type="reset"].action:active,
-a[type="reset"].action:active,
-input[type="reset"]:active,
+button.action:active[type="reset"],
+a.action:active[type="reset"],
+input:active[type="reset"],
 button.reset:active,
-button[type="reset"].action:focus,
-a[type="reset"].action:focus,
-input[type="reset"]:focus,
+button.action:focus[type="reset"],
+a.action:focus[type="reset"],
+input:focus[type="reset"],
 button.reset:focus {
   color: #ec0000;
 }
@@ -3283,13 +3283,13 @@ a.action .working .progress-indicator::after {
   animation: load2 2s infinite ease;
 }
 
-button[disabled].action,
-a[disabled].action {
+button.action[disabled],
+a.action[disabled] {
   cursor: not-allowed;
 }
 
-button[disabled].action .value,
-a[disabled].action .value {
+button.action[disabled] .value,
+a.action[disabled] .value {
   opacity: .5;
 }
 
@@ -3371,8 +3371,8 @@ input[type="radio"] {
   zoom: 1;
 }
 
-input[type="checkbox"]:disabled,
-input[type="radio"]:disabled {
+input:disabled[type="checkbox"],
+input:disabled[type="radio"] {
   cursor: default;
 }
 
@@ -6935,7 +6935,7 @@ h1 + .subtitle + .source * {
   }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .subsitetitle {
     display: block;
     margin-left: 140px;
@@ -6954,7 +6954,7 @@ h1 + .subtitle + .source * {
   }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .subsitetitle a {
     font-size: 1.75rem;
   }
@@ -8352,7 +8352,7 @@ p.Quote {
   width: 44px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .toggle-search:hover .caret,
   .toggle-search:active .caret {
     background-color: #ec0000;
@@ -8364,7 +8364,7 @@ p.Quote {
   background-position: 14px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .toggle-search.expanded:hover .caret,
   .toggle-search.expanded:active .caret {
     background-color: #ec0000;
@@ -8376,7 +8376,7 @@ p.Quote {
   float: right;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-search .toggle-search {
     margin-right: -10px;
   }
@@ -8860,7 +8860,7 @@ p.Quote {
   }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .sitelogo a.mainlogo {
     float: left;
   }
@@ -8876,7 +8876,7 @@ p.Quote {
   margin-left: 15px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-header-logo .sitelogo {
     margin-left: -30px;
   }
@@ -8886,7 +8886,7 @@ p.Quote {
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 540px) {
+@media screen and (max-width: 1023px) and (min-width: 539px + 1) {
   .grid-header-logo .sitelogo {
     margin-left: -15px;
     min-height: 68px;
@@ -9419,7 +9419,7 @@ fieldset.search-large.gsc-search-box td {
   min-height: 44px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .alert-wrapper .grid-container {
     width: 940px;
   }
@@ -11439,7 +11439,7 @@ fieldset.search-large.gsc-search-box td {
   width: 100%;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .grid-blok.grid_6 .resultaat.has_img,
   .grid-blok.grid_8 .resultaat.has_img,
   .grid-blok.grid_9 .resultaat.has_img,
@@ -11731,7 +11731,7 @@ fieldset.search-large.gsc-search-box td {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .formulier-horizontaal {
     margin-bottom: 20px;
   }
@@ -12084,7 +12084,7 @@ fieldset.search-large.gsc-search-box td {
   cursor: default;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .type-nav-primair .links > li a {
     background-image: none;
     font-size: 1.125rem;
@@ -12599,13 +12599,13 @@ fieldset.search-large.gsc-search-box td {
   position: relative;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-header-logo {
     background-color: #fff;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px + 1) {
   .grid-header-nav .z-nav {
     margin: 0 !important;
     width: 100% !important;
@@ -12624,7 +12624,7 @@ fieldset.search-large.gsc-search-box td {
   min-height: 44px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-header-nav,
   .grid-search {
     background-color: #f3f3f3;
@@ -12641,7 +12641,7 @@ fieldset.search-large.gsc-search-box td {
   padding: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-header-search {
     padding: 10px 0;
   }
@@ -12702,7 +12702,7 @@ fieldset.search-large.gsc-search-box td {
   width: 100%;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .grid-container > h1,
   .grid-container > .source {
     padding-left: calc((100% - (480px - 20px)) / 2);
@@ -12710,7 +12710,7 @@ fieldset.search-large.gsc-search-box td {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-container > h1,
   .grid-container > .source {
     padding-left: calc((100% - (960px - 20px)) / 2);
@@ -12773,7 +12773,7 @@ section > h1 {
   columns: 1;
 }
 
-@media screen and (min-width: 540px) and (max-width: 1023px) {
+@media screen and (min-width: 539px + 1) and (max-width: 1023px) {
   .grid_12 .has-multicol-4,
   .grid_12 .has-multicol-3,
   .grid_9 .has-multicol-4,
@@ -13316,4 +13316,68 @@ h3.condensed {
 .grid-zone.bgcolor_darkgrey .grid-element .links li a.outsite {
   background: url("../images/svg/external-link-white.svg") no-repeat 0 7px;
   color: #fff;
+}
+
+.embed-search__button-icon {
+  display: block;
+  height: 24px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+}
+
+.embed-search {
+  box-shadow: 2px 2px 0 0 #999;
+}
+
+.embed-search .invoer {
+  display: flex;
+}
+
+.embed-search input[type="text"] {
+  height: 32px;
+}
+
+.embed-search__button {
+  height: 32px;
+  margin: 0 !important;
+  position: relative;
+  width: 32px;
+}
+
+.embed-search__button-icon {
+  fill: #fff;
+}
+
+.embed-search__button:hover,
+.embed-search__button:focus {
+  background-color: #BC0000 !important;
+}
+
+.embed-zoom > button {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #666;
+  box-shadow: 2px 2px 0 0 #999;
+  clear: both;
+  display: block;
+  height: 32px;
+  padding: 0;
+  width: 32px;
+  font-size: 1.5rem;
+}
+
+.embed-zoom > button.embed-zoom__out span {
+  display: inline-block;
+  transform: scale(2, 1);
+}
+
+.embed-zoom > button:hover,
+.embed-zoom > button:focus {
+  border: 1px solid black;
+  color: black;
+  background-color: #ccc;
 }

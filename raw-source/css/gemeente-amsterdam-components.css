@@ -28,7 +28,7 @@ input[type="checkbox"] + label::before, input[type="radio"] + label::before {
   border: 0;
   width: calc(100% - 20px); }
 
-input[type="checkbox"]:hover + label::before, input[type="radio"]:hover + label::before, input[type="checkbox"]:focus + label::before, input[type="radio"]:focus + label::before, .invoer input:focus, .invoer select:focus,
+input:hover[type="checkbox"] + label::before, input:hover[type="radio"] + label::before, input:focus[type="checkbox"] + label::before, input:focus[type="radio"] + label::before, .invoer input:focus, .invoer select:focus,
 .invoer select option, .invoer textarea:focus, .search-large form input[type="text"]:focus,
 fieldset.search-large input[type="text"]:focus {
   -webkit-appearance: none;
@@ -79,8 +79,7 @@ button.action, a.action, input[type="submit"], .file .invoer label,
 button.action, a.action, input[type="submit"], .file .invoer label,
 .file .invoer button {
   border: 0; }
-  button.primary.action .working::before, a.primary.action .working::before, input.primary[type="submit"] .working::before, .file .invoer label.primary .working::before,
-  .file .invoer button.primary .working::before {
+  button.primary.action .working::before, a.primary.action .working::before, input.primary[type="submit"] .working::before, .file .invoer label.primary .working::before, .file .invoer button.primary .working::before {
     border-top: 15px solid #ec0000; }
   button.primary.arrow-left.action::after, a.primary.arrow-left.action::after, input.primary.arrow-left[type="submit"]::after, .file .invoer label.primary.arrow-left::after,
   .file .invoer button.primary.arrow-left::after, button.primary.arrow-right.action::after, a.primary.arrow-right.action::after, input.primary.arrow-right[type="submit"]::after, .file .invoer label.primary.arrow-right::after,
@@ -107,17 +106,25 @@ button.action, a.action, input[type="submit"], .file .invoer label,
       border-left: 15px solid #ec0000;
       left: 100%; }
   button.primary.action, a.primary.action, input.primary[type="submit"], .file .invoer label.primary,
-  .file .invoer button.primary, button.primary.action:visited, a.primary.action:visited, input.primary[type="submit"]:visited, .file .invoer label.primary:visited,
+  .file .invoer button.primary, button.primary.action:visited, a.primary.action:visited, input.primary:visited[type="submit"], .file .invoer label.primary:visited,
   .file .invoer button.primary:visited {
     background-color: #ec0000; }
     button.primary.action, a.primary.action, input.primary[type="submit"], .file .invoer label.primary,
-    .file .invoer button.primary, button.primary.action .value, a.primary.action .value, input.primary[type="submit"] .value, .file .invoer label.primary .value,
-    .file .invoer button.primary .value, button.primary.action:visited, a.primary.action:visited, input.primary[type="submit"]:visited, .file .invoer label.primary:visited,
-    .file .invoer button.primary:visited, button.primary.action:visited .value, a.primary.action:visited .value, input.primary[type="submit"]:visited .value, .file .invoer label.primary:visited .value,
+    .file .invoer button.primary,
+    button.primary.action .value,
+    a.primary.action .value,
+    input.primary[type="submit"] .value,
+    .file .invoer label.primary .value,
+    .file .invoer button.primary .value, button.primary.action:visited, a.primary.action:visited, input.primary:visited[type="submit"], .file .invoer label.primary:visited,
+    .file .invoer button.primary:visited,
+    button.primary.action:visited .value,
+    a.primary.action:visited .value,
+    input.primary:visited[type="submit"] .value,
+    .file .invoer label.primary:visited .value,
     .file .invoer button.primary:visited .value {
       color: #fff; }
-  button.primary.action:enabled:active, a.primary.action:enabled:active, input.primary[type="submit"]:enabled:active, .file .invoer label.primary:enabled:active,
-  .file .invoer button.primary:enabled:active, button.primary.action:enabled:hover, a.primary.action:enabled:hover, input.primary[type="submit"]:enabled:hover, .file .invoer label.primary:enabled:hover,
+  button.primary.action:enabled:active, a.primary.action:enabled:active, input.primary:enabled:active[type="submit"], .file .invoer label.primary:enabled:active,
+  .file .invoer button.primary:enabled:active, button.primary.action:enabled:hover, a.primary.action:enabled:hover, input.primary:enabled:hover[type="submit"], .file .invoer label.primary:enabled:hover,
   .file .invoer button.primary:enabled:hover {
     background-color: #b90000; }
     button.primary.action:enabled:active.arrow-left::after, a.primary.action:enabled:active.arrow-left::after, input.primary[type="submit"]:enabled:active.arrow-left::after, .file .invoer label.primary:enabled:active.arrow-left::after,
@@ -128,12 +135,9 @@ button.action, a.action, input[type="submit"], .file .invoer label,
     .file .invoer button.primary:enabled:active.arrow-right::after, button.primary.action:enabled:hover.arrow-right::after, a.primary.action:enabled:hover.arrow-right::after, input.primary[type="submit"]:enabled:hover.arrow-right::after, .file .invoer label.primary:enabled:hover.arrow-right::after,
     .file .invoer button.primary:enabled:hover.arrow-right::after {
       border-left-color: #b90000; }
-    button.primary.action:enabled:active .working::before, a.primary.action:enabled:active .working::before, input.primary[type="submit"]:enabled:active .working::before, .file .invoer label.primary:enabled:active .working::before,
-    .file .invoer button.primary:enabled:active .working::before, button.primary.action:enabled:hover .working::before, a.primary.action:enabled:hover .working::before, input.primary[type="submit"]:enabled:hover .working::before, .file .invoer label.primary:enabled:hover .working::before,
-    .file .invoer button.primary:enabled:hover .working::before {
+    button.primary.action:enabled:active .working::before, a.primary.action:enabled:active .working::before, input.primary:enabled:active[type="submit"] .working::before, .file .invoer label.primary:enabled:active .working::before, .file .invoer button.primary:enabled:active .working::before, button.primary.action:enabled:hover .working::before, a.primary.action:enabled:hover .working::before, input.primary:enabled:hover[type="submit"] .working::before, .file .invoer label.primary:enabled:hover .working::before, .file .invoer button.primary:enabled:hover .working::before {
       border-top-color: #b90000; }
-  button.secundary-blue.action .working::before, a.secundary-blue.action .working::before, input.secundary-blue[type="submit"] .working::before, .file .invoer label.secundary-blue .working::before,
-  .file .invoer button.secundary-blue .working::before {
+  button.secundary-blue.action .working::before, a.secundary-blue.action .working::before, input.secundary-blue[type="submit"] .working::before, .file .invoer label.secundary-blue .working::before, .file .invoer button.secundary-blue .working::before {
     border-top: 15px solid #004699; }
   button.secundary-blue.arrow-left.action::after, a.secundary-blue.arrow-left.action::after, input.secundary-blue.arrow-left[type="submit"]::after, .file .invoer label.secundary-blue.arrow-left::after,
   .file .invoer button.secundary-blue.arrow-left::after, button.secundary-blue.arrow-right.action::after, a.secundary-blue.arrow-right.action::after, input.secundary-blue.arrow-right[type="submit"]::after, .file .invoer label.secundary-blue.arrow-right::after,
@@ -160,17 +164,25 @@ button.action, a.action, input[type="submit"], .file .invoer label,
       border-left: 15px solid #004699;
       left: 100%; }
   button.secundary-blue.action, a.secundary-blue.action, input.secundary-blue[type="submit"], .file .invoer label.secundary-blue,
-  .file .invoer button.secundary-blue, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue[type="submit"]:visited, .file .invoer label.secundary-blue:visited,
+  .file .invoer button.secundary-blue, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue:visited[type="submit"], .file .invoer label.secundary-blue:visited,
   .file .invoer button.secundary-blue:visited {
     background-color: #004699; }
     button.secundary-blue.action, a.secundary-blue.action, input.secundary-blue[type="submit"], .file .invoer label.secundary-blue,
-    .file .invoer button.secundary-blue, button.secundary-blue.action .value, a.secundary-blue.action .value, input.secundary-blue[type="submit"] .value, .file .invoer label.secundary-blue .value,
-    .file .invoer button.secundary-blue .value, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue[type="submit"]:visited, .file .invoer label.secundary-blue:visited,
-    .file .invoer button.secundary-blue:visited, button.secundary-blue.action:visited .value, a.secundary-blue.action:visited .value, input.secundary-blue[type="submit"]:visited .value, .file .invoer label.secundary-blue:visited .value,
+    .file .invoer button.secundary-blue,
+    button.secundary-blue.action .value,
+    a.secundary-blue.action .value,
+    input.secundary-blue[type="submit"] .value,
+    .file .invoer label.secundary-blue .value,
+    .file .invoer button.secundary-blue .value, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue:visited[type="submit"], .file .invoer label.secundary-blue:visited,
+    .file .invoer button.secundary-blue:visited,
+    button.secundary-blue.action:visited .value,
+    a.secundary-blue.action:visited .value,
+    input.secundary-blue:visited[type="submit"] .value,
+    .file .invoer label.secundary-blue:visited .value,
     .file .invoer button.secundary-blue:visited .value {
       color: #fff; }
-  button.secundary-blue.action:enabled:active, a.secundary-blue.action:enabled:active, input.secundary-blue[type="submit"]:enabled:active, .file .invoer label.secundary-blue:enabled:active,
-  .file .invoer button.secundary-blue:enabled:active, button.secundary-blue.action:enabled:hover, a.secundary-blue.action:enabled:hover, input.secundary-blue[type="submit"]:enabled:hover, .file .invoer label.secundary-blue:enabled:hover,
+  button.secundary-blue.action:enabled:active, a.secundary-blue.action:enabled:active, input.secundary-blue:enabled:active[type="submit"], .file .invoer label.secundary-blue:enabled:active,
+  .file .invoer button.secundary-blue:enabled:active, button.secundary-blue.action:enabled:hover, a.secundary-blue.action:enabled:hover, input.secundary-blue:enabled:hover[type="submit"], .file .invoer label.secundary-blue:enabled:hover,
   .file .invoer button.secundary-blue:enabled:hover {
     background-color: #002f66; }
     button.secundary-blue.action:enabled:active.arrow-left::after, a.secundary-blue.action:enabled:active.arrow-left::after, input.secundary-blue[type="submit"]:enabled:active.arrow-left::after, .file .invoer label.secundary-blue:enabled:active.arrow-left::after,
@@ -181,12 +193,9 @@ button.action, a.action, input[type="submit"], .file .invoer label,
     .file .invoer button.secundary-blue:enabled:active.arrow-right::after, button.secundary-blue.action:enabled:hover.arrow-right::after, a.secundary-blue.action:enabled:hover.arrow-right::after, input.secundary-blue[type="submit"]:enabled:hover.arrow-right::after, .file .invoer label.secundary-blue:enabled:hover.arrow-right::after,
     .file .invoer button.secundary-blue:enabled:hover.arrow-right::after {
       border-left-color: #002f66; }
-    button.secundary-blue.action:enabled:active .working::before, a.secundary-blue.action:enabled:active .working::before, input.secundary-blue[type="submit"]:enabled:active .working::before, .file .invoer label.secundary-blue:enabled:active .working::before,
-    .file .invoer button.secundary-blue:enabled:active .working::before, button.secundary-blue.action:enabled:hover .working::before, a.secundary-blue.action:enabled:hover .working::before, input.secundary-blue[type="submit"]:enabled:hover .working::before, .file .invoer label.secundary-blue:enabled:hover .working::before,
-    .file .invoer button.secundary-blue:enabled:hover .working::before {
+    button.secundary-blue.action:enabled:active .working::before, a.secundary-blue.action:enabled:active .working::before, input.secundary-blue:enabled:active[type="submit"] .working::before, .file .invoer label.secundary-blue:enabled:active .working::before, .file .invoer button.secundary-blue:enabled:active .working::before, button.secundary-blue.action:enabled:hover .working::before, a.secundary-blue.action:enabled:hover .working::before, input.secundary-blue:enabled:hover[type="submit"] .working::before, .file .invoer label.secundary-blue:enabled:hover .working::before, .file .invoer button.secundary-blue:enabled:hover .working::before {
       border-top-color: #002f66; }
-  button.secundary-grey.action .working::before, a.secundary-grey.action .working::before, input.secundary-grey[type="submit"] .working::before, .file .invoer label.secundary-grey .working::before,
-  .file .invoer button.secundary-grey .working::before {
+  button.secundary-grey.action .working::before, a.secundary-grey.action .working::before, input.secundary-grey[type="submit"] .working::before, .file .invoer label.secundary-grey .working::before, .file .invoer button.secundary-grey .working::before {
     border-top: 15px solid #e8e8e8; }
   button.secundary-grey.arrow-left.action::after, a.secundary-grey.arrow-left.action::after, input.secundary-grey.arrow-left[type="submit"]::after, .file .invoer label.secundary-grey.arrow-left::after,
   .file .invoer button.secundary-grey.arrow-left::after, button.secundary-grey.arrow-right.action::after, a.secundary-grey.arrow-right.action::after, input.secundary-grey.arrow-right[type="submit"]::after, .file .invoer label.secundary-grey.arrow-right::after,
@@ -213,17 +222,25 @@ button.action, a.action, input[type="submit"], .file .invoer label,
       border-left: 15px solid #e8e8e8;
       left: 100%; }
   button.secundary-grey.action, a.secundary-grey.action, input.secundary-grey[type="submit"], .file .invoer label.secundary-grey,
-  .file .invoer button.secundary-grey, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey[type="submit"]:visited, .file .invoer label.secundary-grey:visited,
+  .file .invoer button.secundary-grey, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey:visited[type="submit"], .file .invoer label.secundary-grey:visited,
   .file .invoer button.secundary-grey:visited {
     background-color: #e8e8e8; }
     button.secundary-grey.action, a.secundary-grey.action, input.secundary-grey[type="submit"], .file .invoer label.secundary-grey,
-    .file .invoer button.secundary-grey, button.secundary-grey.action .value, a.secundary-grey.action .value, input.secundary-grey[type="submit"] .value, .file .invoer label.secundary-grey .value,
-    .file .invoer button.secundary-grey .value, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey[type="submit"]:visited, .file .invoer label.secundary-grey:visited,
-    .file .invoer button.secundary-grey:visited, button.secundary-grey.action:visited .value, a.secundary-grey.action:visited .value, input.secundary-grey[type="submit"]:visited .value, .file .invoer label.secundary-grey:visited .value,
+    .file .invoer button.secundary-grey,
+    button.secundary-grey.action .value,
+    a.secundary-grey.action .value,
+    input.secundary-grey[type="submit"] .value,
+    .file .invoer label.secundary-grey .value,
+    .file .invoer button.secundary-grey .value, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey:visited[type="submit"], .file .invoer label.secundary-grey:visited,
+    .file .invoer button.secundary-grey:visited,
+    button.secundary-grey.action:visited .value,
+    a.secundary-grey.action:visited .value,
+    input.secundary-grey:visited[type="submit"] .value,
+    .file .invoer label.secundary-grey:visited .value,
     .file .invoer button.secundary-grey:visited .value {
       color: #000; }
-  button.secundary-grey.action:enabled:active, a.secundary-grey.action:enabled:active, input.secundary-grey[type="submit"]:enabled:active, .file .invoer label.secundary-grey:enabled:active,
-  .file .invoer button.secundary-grey:enabled:active, button.secundary-grey.action:enabled:hover, a.secundary-grey.action:enabled:hover, input.secundary-grey[type="submit"]:enabled:hover, .file .invoer label.secundary-grey:enabled:hover,
+  button.secundary-grey.action:enabled:active, a.secundary-grey.action:enabled:active, input.secundary-grey:enabled:active[type="submit"], .file .invoer label.secundary-grey:enabled:active,
+  .file .invoer button.secundary-grey:enabled:active, button.secundary-grey.action:enabled:hover, a.secundary-grey.action:enabled:hover, input.secundary-grey:enabled:hover[type="submit"], .file .invoer label.secundary-grey:enabled:hover,
   .file .invoer button.secundary-grey:enabled:hover {
     background-color: #cfcfcf; }
     button.secundary-grey.action:enabled:active.arrow-left::after, a.secundary-grey.action:enabled:active.arrow-left::after, input.secundary-grey[type="submit"]:enabled:active.arrow-left::after, .file .invoer label.secundary-grey:enabled:active.arrow-left::after,
@@ -234,9 +251,7 @@ button.action, a.action, input[type="submit"], .file .invoer label,
     .file .invoer button.secundary-grey:enabled:active.arrow-right::after, button.secundary-grey.action:enabled:hover.arrow-right::after, a.secundary-grey.action:enabled:hover.arrow-right::after, input.secundary-grey[type="submit"]:enabled:hover.arrow-right::after, .file .invoer label.secundary-grey:enabled:hover.arrow-right::after,
     .file .invoer button.secundary-grey:enabled:hover.arrow-right::after {
       border-left-color: #cfcfcf; }
-    button.secundary-grey.action:enabled:active .working::before, a.secundary-grey.action:enabled:active .working::before, input.secundary-grey[type="submit"]:enabled:active .working::before, .file .invoer label.secundary-grey:enabled:active .working::before,
-    .file .invoer button.secundary-grey:enabled:active .working::before, button.secundary-grey.action:enabled:hover .working::before, a.secundary-grey.action:enabled:hover .working::before, input.secundary-grey[type="submit"]:enabled:hover .working::before, .file .invoer label.secundary-grey:enabled:hover .working::before,
-    .file .invoer button.secundary-grey:enabled:hover .working::before {
+    button.secundary-grey.action:enabled:active .working::before, a.secundary-grey.action:enabled:active .working::before, input.secundary-grey:enabled:active[type="submit"] .working::before, .file .invoer label.secundary-grey:enabled:active .working::before, .file .invoer button.secundary-grey:enabled:active .working::before, button.secundary-grey.action:enabled:hover .working::before, a.secundary-grey.action:enabled:hover .working::before, input.secundary-grey:enabled:hover[type="submit"] .working::before, .file .invoer label.secundary-grey:enabled:hover .working::before, .file .invoer button.secundary-grey:enabled:hover .working::before {
       border-top-color: #cfcfcf; }
 
 button.action.tertiair {
@@ -254,16 +269,16 @@ button.action.tertiair {
     padding: 9px 13px 10px;
     text-decoration: none !important; }
 
-button[type="reset"].action, a[type="reset"].action, input[type="reset"],
+button.action[type="reset"], a.action[type="reset"], input[type="reset"],
 button.reset {
   background-color: transparent;
   color: #004699;
   padding-left: 0;
   padding-right: 0;
   text-decoration: underline; }
-  button[type="reset"].action:hover, a[type="reset"].action:hover, input[type="reset"]:hover,
-  button.reset:hover, button[type="reset"].action:active, a[type="reset"].action:active, input[type="reset"]:active,
-  button.reset:active, button[type="reset"].action:focus, a[type="reset"].action:focus, input[type="reset"]:focus,
+  button.action:hover[type="reset"], a.action:hover[type="reset"], input:hover[type="reset"],
+  button.reset:hover, button.action:active[type="reset"], a.action:active[type="reset"], input:active[type="reset"],
+  button.reset:active, button.action:focus[type="reset"], a.action:focus[type="reset"], input:focus[type="reset"],
   button.reset:focus {
     color: #ec0000; }
 
@@ -277,9 +292,9 @@ button.action .working .progress-indicator, a.action .working .progress-indicato
     -webkit-animation: load2 2s infinite ease;
             animation: load2 2s infinite ease; }
 
-button[disabled].action, a[disabled].action {
+button.action[disabled], a.action[disabled] {
   cursor: not-allowed; }
-  button[disabled].action .value, a[disabled].action .value {
+  button.action[disabled] .value, a.action[disabled] .value {
     opacity: .5; }
 
 button.disabled.action, a.disabled.action {
@@ -292,22 +307,26 @@ button.disabled.action, a.disabled.action {
   button.disabled.arrow-right.action::after, a.disabled.arrow-right.action::after {
     border-left-color: #e5e5e5 !important; }
 
-.rij.mode_display .label, .rij.mode_display .invoer {
+.rij.mode_display .label,
+.rij.mode_display .invoer {
   display: inline-block; }
 
 .rij.mode_display .label {
   vertical-align: top;
   width: 50%; }
-  .rij.mode_display .label label, .rij.mode_display .label .setlabel {
+  .rij.mode_display .label label,
+  .rij.mode_display .label .setlabel {
     font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
     color: #767676; }
+
 
 .rij.mode_display .invoer {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   width: 49%; }
 
 @media screen and (max-width: 539px) {
-  .rij.mode_display .label, .rij.mode_display .invoer {
+  .rij.mode_display .label,
+  .rij.mode_display .invoer {
     width: 100%; } }
 
 fieldset.selectie_type_checkbox .antwoorden, fieldset.selectie_type_radio .antwoorden {
@@ -329,7 +348,7 @@ input[type="checkbox"], input[type="radio"] {
   width: 28px;
   z-index: 1;
   zoom: 1; }
-  input[type="checkbox"]:disabled, input[type="radio"]:disabled {
+  input:disabled[type="checkbox"], input:disabled[type="radio"] {
     cursor: default; }
 
 .toggle-filter .caret, .toggle-mainmenu.expanded .caret, .toggle-search.expanded .caret {
@@ -2708,7 +2727,7 @@ h1 {
     .grid-blok.sponsored .logotext {
       font-size: 0.875rem; } }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .subsitetitle {
     display: block;
     margin-left: 140px; } }
@@ -2720,7 +2739,7 @@ h1 {
   @media screen and (max-width: 539px) {
     .subsitetitle a {
       font-size: 1.125rem; } }
-  @media screen and (min-width: 540px) {
+  @media screen and (min-width: 539px + 1) {
     .subsitetitle a {
       font-size: 1.75rem; } }
 
@@ -3694,20 +3713,20 @@ p.Quote {
     display: inline-block;
     height: 44px;
     width: 44px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .toggle-search:hover .caret, .toggle-search:active .caret {
       background-color: #ec0000;
       background-image: url("/images/svg/search-icon-white.svg"); } }
   .toggle-search.expanded .caret {
     background-position: 14px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .toggle-search.expanded:hover .caret, .toggle-search.expanded:active .caret {
       background-color: #ec0000;
       background-image: url("/images/svg/close-icon-white.svg"); } }
 
 .grid-search .toggle-search {
   float: right; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .grid-search .toggle-search {
       margin-right: -10px; } }
   @media screen and (max-width: 1023px) {
@@ -4046,7 +4065,7 @@ p.Quote {
         margin-top: -6px; }
         .sitelogo .subsitetitle a {
           line-height: 1; } }
-  @media screen and (min-width: 540px) {
+  @media screen and (min-width: 539px + 1) {
     .sitelogo a.mainlogo {
       float: left; }
     .sitelogo .subsitetitle {
@@ -4056,12 +4075,12 @@ p.Quote {
 .grid-header-logo .sitelogo {
   display: inline-block;
   margin-left: 15px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .grid-header-logo .sitelogo {
       margin-left: -30px; }
       .grid-header-logo .sitelogo .logoset {
         top: 1px; } }
-  @media screen and (max-width: 1023px) and (min-width: 540px) {
+  @media screen and (max-width: 1023px) and (min-width: 539px + 1) {
     .grid-header-logo .sitelogo {
       margin-left: -15px;
       min-height: 68px; } }
@@ -4448,7 +4467,7 @@ fieldset.search-large.gsc-search-box td {
   padding-top: 30px; }
   .alert-wrapper .grid-container {
     min-height: 44px; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1023px + 1) {
       .alert-wrapper .grid-container {
         width: 940px; } }
     .alert-wrapper .grid-container a.sluitkruis {
@@ -5914,7 +5933,7 @@ fieldset.search-large.gsc-search-box td {
   float: left;
   width: 100%; }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .grid-blok.grid_6 .resultaat.has_img,
   .grid-blok.grid_8 .resultaat.has_img,
   .grid-blok.grid_9 .resultaat.has_img,
@@ -6131,7 +6150,7 @@ fieldset.search-large.gsc-search-box td {
     border-bottom: 4px solid #000;
     border-top: 0; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .formulier-horizontaal {
     margin-bottom: 20px; }
     .formulier-horizontaal.has-invalid-input {
@@ -6372,7 +6391,7 @@ fieldset.search-large.gsc-search-box td {
     .type-nav-primair .links > li > a.mainmenu-megamenu {
       cursor: default; }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .type-nav-primair .links > li a {
     background-image: none;
     font-size: 1.125rem; }
@@ -6703,11 +6722,11 @@ fieldset.search-large.gsc-search-box td {
   background-color: #fff;
   position: relative; }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-header-logo {
     background-color: #fff; } }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px + 1) {
   .grid-header-nav .z-nav {
     margin: 0 !important;
     width: 100% !important; }
@@ -6720,7 +6739,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-search {
   background-color: transparent;
   min-height: 44px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .grid-header-nav,
     .grid-search {
       background-color: #f3f3f3; } }
@@ -6732,7 +6751,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-header-search {
   min-height: 44px;
   padding: 10px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1023px + 1) {
     .grid-header-search {
       padding: 10px 0; } }
 
@@ -6777,13 +6796,13 @@ fieldset.search-large.gsc-search-box td {
   margin-right: 0;
   width: 100%; }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 539px + 1) {
   .grid-container > h1,
   .grid-container > .source {
     padding-left: calc((100% - (480px - 20px)) / 2);
     padding-right: calc((100% - (480px - 20px)) / 2); } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px + 1) {
   .grid-container > h1,
   .grid-container > .source {
     padding-left: calc((100% - (960px - 20px)) / 2);
@@ -6834,7 +6853,7 @@ section > h1 {
   -webkit-columns: 1;
           columns: 1; }
 
-@media screen and (min-width: 540px) and (max-width: 1023px) {
+@media screen and (min-width: 539px + 1) and (max-width: 1023px) {
   .grid_12 .has-multicol-4,
   .grid_12 .has-multicol-3,
   .grid_9 .has-multicol-4,

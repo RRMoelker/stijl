@@ -1,0 +1,74 @@
+%icon-positioning {
+  display: block;
+  height: 24px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+}
+
+.embed-search {
+  box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
+
+  .invoer {
+    display: flex;
+  }
+
+  input[type="text"] {
+    height: 32px;
+  }
+
+  &__button {
+    height: 32px;
+    margin: 0 !important; // override amsterdam.css
+    position: relative;
+    width: 32px;
+
+    &.primary.action {
+    }
+
+    &-icon {
+      @extend %icon-positioning;
+      fill: $ams-wit;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $ams-rood-hover !important; // override amsterdam.css
+    }
+  }
+}
+
+.embed-zoom {
+  > button {
+    @include avenirnext;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: $ams-donkerantraciet;
+    box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
+    clear: both;
+    display: block;
+    height: 32px;
+    padding: 0;
+    width: 32px;
+    font-size: 1.5rem;
+
+    &.embed-zoom__out {
+      span {
+        display: inline-block;
+        transform: scale(2, 1);
+        vertical-align: text-top;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      border: 1px solid black;
+      color: black;
+      background-color: #ccc;
+    }
+  }
+
+
+}
