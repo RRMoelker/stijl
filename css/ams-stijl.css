@@ -13318,16 +13318,6 @@ h3.condensed {
   color: #fff;
 }
 
-.embed-search__button-icon {
-  display: block;
-  height: 24px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-}
-
 .embed-search {
   box-shadow: 2px 2px 0 0 #999;
 }
@@ -13348,7 +13338,14 @@ h3.condensed {
 }
 
 .embed-search__button-icon {
+  display: block;
   fill: #fff;
+  height: 24px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
 }
 
 .embed-search__button:hover,
