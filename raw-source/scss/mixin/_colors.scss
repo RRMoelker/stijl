@@ -8,15 +8,33 @@
   }
 }
 
+%light-color-on-bg {
+  color: $color-white;
+}
+
+%dark-color-on-bg {
+  color: $color-black;
+}
+
+%red-color {
+  color: $color-red;
+}
+
 @mixin colors-on-bg($color) {
   * {
-    color: best-contrast-on($color);
+    @if best-contrast-on($color) == #000 {
+      @extend %dark-color-on-bg;
+    }
+
+    @else if best-contrast-on($color) == #fff {
+      @extend %light-color-on-bg;
+    }
   }
 
   @if best-contrast-on($color) == #fff {
     a:active,
     a:hover {
-      color: best-contrast-on($color);
+      @extend %light-color-on-bg;
     }
   }
 }

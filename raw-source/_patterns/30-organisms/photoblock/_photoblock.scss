@@ -11,8 +11,8 @@
       box-shadow: inset -3px 0 0 0 $color-black;
 
       h2 {
+        @extend %icon-gallery-caret-right-black;
         background-color: $color-white;
-        background-image: url("#{$core-svg-path}gallery-caret-right-black.svg");
         box-shadow: inset -3px 0 0 0 $color-black;
       }
     }
@@ -24,9 +24,9 @@
   }
 
   h2 {
+    @extend %icon-gallery-caret-right-lightgrey;
     @include font(16px, 21px);
     background-color: map-get($colors, superlightgrey);
-    background-image: url("#{$core-svg-path}gallery-caret-right-lightgray.svg");
     background-position: calc(100% - 10px) calc(100% - 10px);
     background-repeat: no-repeat;
     bottom: 0;

@@ -17,7 +17,7 @@
       "inputLabelId": "formUpload",
       "inputLabelText": "Upload veld",
       "inputUploadId": "formUpload",
-      "inputUploadState": "secundary-blue",
+      "inputUploadState": "tertiair",
       "inputUploadLabel": "bestanden selecteren",
       "inputUploadDeleteLabel": "(verslag.png)",
       "fileUploaded": true

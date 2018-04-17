@@ -3,8 +3,7 @@ var sass = require('gulp-sass');
 var concatcss = require('gulp-concat-css');
 var foreach = require('gulp-foreach');
 var replace = require('gulp-replace-path');
-
-
+var del = require('del');
 
 gulp.task('copy-amsterdam-source', function() {
    return gulp
@@ -36,13 +35,16 @@ gulp.task('build-sass', function() {
 });
 
 gulp.task('build-images', function() {
-  return gulp
+    return gulp
     .src(['raw-source/images/**/*.*', 'src/images/**/*.*'])
     .pipe(gulp.dest('images'))
 });
 
-gulp.task('clean', function(){
-  return del('tmp/**', {force:true});
+gulp.task('clean-raw-images', function(){
+    return del([
+        'raw-source/images/backgrounds',
+        'raw-source/images/assets'
+    ]);
 });
 
-gulp.task('default', gulp.series('copy-amsterdam-source', 'build-css', 'build-sass', 'build-images'));
+gulp.task('default', gulp.series('copy-amsterdam-source', 'build-css', 'build-sass', 'clean-raw-images', 'build-images'));

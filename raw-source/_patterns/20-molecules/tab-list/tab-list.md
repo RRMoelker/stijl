@@ -1,5 +1,5 @@
 ---
 title: Tab lijst
-state: inprogress
+state: complete
 ---
 ...

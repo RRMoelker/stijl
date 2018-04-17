@@ -1,5 +1,5 @@
 ---
 title: Social share
-state: inprogress
+state: complete
 ---
 ...

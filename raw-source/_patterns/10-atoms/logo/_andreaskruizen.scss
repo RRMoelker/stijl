@@ -16,7 +16,7 @@
     width: 24px;
   }
 
-  @media screen and (max-width: #{$grid-mq-small}) {
+  @media screen and (max-width: $grid-mq-small) {
     .screen-logo {
       height: 41px;
     }

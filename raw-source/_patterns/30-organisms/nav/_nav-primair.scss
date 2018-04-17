@@ -1,4 +1,4 @@
-@media screen and (max-width: #{$grid-mq-medium}) {
+@media screen and (max-width: $grid-mq-medium) {
   .grid-blok.type-nav-primair {
     float: none !important;
   }
@@ -13,7 +13,7 @@
     float: right;
   }
 
-  @media screen and (min-width: #{$grid-mq-medium + 1}) {
+  @media screen and (min-width: #{$grid-mq-medium + 1px}) {
 
     .toggle-mainmenu {
       display: none;
@@ -24,7 +24,7 @@
     }
   }
 
-  @media screen and (max-width: #{$grid-mq-medium}) {
+  @media screen and (max-width: $grid-mq-medium) {
     background-color: $color-superlightgrey;
     display: block;
     height: $rowheight;
@@ -46,7 +46,7 @@
       }
     }
 
-    @media screen and (min-width: #{$grid-mq-medium} + 1) {
+    @media screen and (min-width: #{$grid-mq-medium + 1px}) {
       > li a {
         background-image: none;
         font-size: rem(18px);
@@ -61,7 +61,7 @@
       }
     }
 
-    @media screen and (max-width: #{$grid-mq-medium}) {
+    @media screen and (max-width: $grid-mq-medium) {
       background-color: $color-superlightgrey;
       border-bottom: 4px solid $color-lightgrey;
       margin: 0;

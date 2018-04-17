@@ -1,7 +1,7 @@
 @import "mixin/amsterdam-vars";
 @import "grid";
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   @import "small";
 
   .container_12 { // sass-lint:disable-line class-name-format
@@ -9,10 +9,10 @@
   }
 }
 
-@media screen and (min-width: #{$grid-mq-small} + 1) and (max-width: #{$grid-mq-medium}) {
+@media screen and (min-width: #{$grid-mq-small + 1px}) and (max-width: $grid-mq-medium) {
   @import "medium";
 }
 
-@media screen and (min-width: #{$grid-mq-medium + 1}) {
+@media screen and (min-width: #{$grid-mq-medium + 1px}) {
   @import "large";
 }

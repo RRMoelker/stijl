@@ -2,10 +2,11 @@
   "gridContainers": [
     {
       "containerAlias": "footer",
-      "containerModifiers": "grid-container container_12 grid-footer bgcolor_darkgrey breakout-container",
+      "containerModifiers": "grid-container container_12 grid-footer breakout-container",
       "gridZones": [
         {
           "zoneAlias": "footer-lists",
+          "zoneModifiers": "breakout-zone hasbgcolor bgcolor_darkgrey",
           "gridBlocks": [
             {
               "footerGridBlock": {

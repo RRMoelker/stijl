@@ -1,0 +1,19 @@
+.rij.rij-inline {
+  > * {
+    display: inline-block;
+  }
+
+  .element-set {
+    margin-left: 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: $grid-mq-small) {
+    .rij.rij-inline > * {
+      display: block;
+    }
+  }
+}

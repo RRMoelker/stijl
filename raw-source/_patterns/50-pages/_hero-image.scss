@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: $grid-mq-medium + 1) {
+@media screen and (min-width: $grid-mq-medium + 1px) {
   .has_hero_image { // sass-lint:disable-line class-name-format
     .grid-paginatitel {
       > .grid-element {
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: $grid-mq-small + 1) and (max-width: $grid-mq-medium) {
+@media screen and (min-width: $grid-mq-small + 1px) and (max-width: $grid-mq-medium) {
   .has_hero_image { // sass-lint:disable-line class-name-format
     .grid-zone:not(.z-hero-image) {
       padding: 0 25px;

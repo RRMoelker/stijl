@@ -29,11 +29,11 @@ div.ingeklapt + * {
 
     &.uitgeklapt {
       a {
-        background-image: url("#{$core-svg-path}dropdown-open.svg");
+        @extend %icon-dropdown-open-black;
         background-size: 12px 7px;
 
         &:hover {
-          background-image: url("#{$core-svg-path}dropdown-open-hover.svg");
+          @extend %icon-dropdown-open-red;
           text-decoration: underline;
         }
       }
@@ -41,15 +41,20 @@ div.ingeklapt + * {
 
     &.ingeklapt {
       a {
-        background-image: url("#{$core-svg-path}dropdown-closed.svg");
+        @extend %icon-dropdown-closed-black;
         background-size: 12px 7px;
 
         &:hover {
-          background-image: url("#{$core-svg-path}dropdown-closed-hover.svg");
+          @extend %icon-dropdown-closed-red;
           text-decoration: underline;
         }
       }
     }
+  }
+
+  .subtitle {
+    background-color: $color-superlightgrey;
+    padding: 12px 0;
   }
 
   .ingeklapt-body {
@@ -84,10 +89,15 @@ div.ingeklapt + * {
 
     h2 a,
     h3 a,
-    h4 a,
-    .ingeklapt-body {
+    h4 a {
       padding-left: 17px;
       padding-right: 30px;
+    }
+
+    .ingeklapt-body,
+    .subtitle {
+      padding-left: 17px;
+      padding-right: 17px;
     }
   }
 

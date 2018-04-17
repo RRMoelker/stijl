@@ -1,8 +1,8 @@
-<p class="Calltoaction-{{ callToActionColor }}{{# isDocument }} importLink{{/ isDocument }}">
-  <a href="{{ callToActionLink }}">
+<p class="calltoaction-{{ callToActionColor }}">
+  <a href="{{ callToActionLink }}"{{# isDocument }} class="importLink"{{/ isDocument }}>
     {{ callToActionText }}
-    {{# isDocument }}
-      <span class="micrometa sizespec"> (TXT-)</span>
-    {{/ isDocument }}
+    {{# importlinkSpec }}
+      <span class="micrometa sizespec"> {{ importlinkSpec }}</span>
+    {{/ importlinkSpec }}
   </a>
 </p>

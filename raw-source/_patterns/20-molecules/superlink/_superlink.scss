@@ -59,7 +59,7 @@ $superlinkimg-size: 44px;
     }
 
     &:hover {
-      background-image: url("#{$core-svg-path}superlink-caret-red.svg");
+      @extend %icon-superlink-right-red;
       border-color: $color-red;
       cursor: pointer;
 
@@ -75,8 +75,12 @@ $superlinkimg-size: 44px;
   &.selected {
     .grid-edge {
       background-color: $color-red;
-      background-image: url("#{$core-svg-path}superlink-caret-down-black.svg");
       border-color: $color-black;
+
+      &,
+      &:hover {
+        @extend %icon-superlink-down-black;
+      }
 
       a {
         &,
@@ -184,7 +188,7 @@ $superlinkimg-size: 44px;
 
 .grid-superlink {
   .grid-edge {
-    background-image: url("#{$core-svg-path}superlink-caret-grey.svg");
+    @extend %icon-superlink-right-grey;
     border-bottom: 2px solid $color-lightgrey;
     border-right: 2px solid $color-lightgrey;
   }
@@ -192,7 +196,7 @@ $superlinkimg-size: 44px;
 
 .grid-grote-knop {
   .grid-edge {
-    background-image: url("#{$core-svg-path}superlink-caret-black.svg");
+    @extend %icon-superlink-right-black;
     border-bottom: 4px solid $color-black;
     border-right: 4px solid $color-black;
   }
@@ -201,23 +205,23 @@ $superlinkimg-size: 44px;
 .zone_subnav {
   .grid-superlink {
     .grid-edge {
-      background-image: url("#{$core-svg-path}caret-down-grey.svg");
+      @extend %icon-caret-down-grey;
 
       &:hover,
       &:active,
       &:focus {
-        background-image: url("#{$core-svg-path}caret-down-red.svg");
+        @extend %icon-caret-down-red;
       }
     }
 
     &.selected {
       .grid-edge {
-        background-image: url("#{$core-svg-path}caret-down-black.svg");
+        @extend %icon-caret-down-black;
 
         &:hover,
         &:active,
         &:focus {
-          background-image: url("#{$core-svg-path}caret-down-black.svg");
+          @extend %icon-caret-down-black;
         }
       }
     }

@@ -4,7 +4,7 @@
   margin: 12px 0;
   padding: 20px;
 
-  @media screen and (max-width: #{$grid-mq-small}) {
+  @media screen and (max-width: $grid-mq-small) {
     margin: 10px 0;
     padding: 10px;
   }

@@ -9,7 +9,7 @@
       text-indent: -26px;
 
       &::before {
-        background-image: url("#{$core-svg-path}checkbox-blue.svg");
+        @extend %icon-check-blue;
         background-repeat: no-repeat;
         content: "";
         display: inline-block;
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .antwoorden {
     ul {
       width: 100%;

@@ -16,7 +16,7 @@ Importeer een of meerdere files van de `/scss/` folder in jouw .scss files.
 
 
 ## contribute
-* run `npm install` 
+* run `npm install --ignore-scripts` **flag is belangrijk, anders zal de build falen**
 * run `npm run build-all`
     * Dit zal de onderliggende style (gemeente-amsterdam-patterns - https://gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam/) 
     bouwen en beschikbaar stellen in dit project  

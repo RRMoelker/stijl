@@ -38,29 +38,28 @@ ul.links + .more-link {
       &:active,
       &:hover,
       &:visited {
-        background-image: url("#{$core-svg-path}caret-right-white.svg");
-        color: best-contrast-on($color);
+        @extend %icon-caret-right-white;
+        @extend %light-color-on-bg;
       }
     }
     @else {
       &:hover,
       &:active {
-        background-image: url("#{$core-svg-path}caret-right-red.svg");
+        @extend %icon-caret-right-red;
         color: $color-red;
       }
 
       &,
       &:visited {
-        background-image: url("#{$core-svg-path}caret-right-black.svg");
-        color: best-contrast-on($color);
+        @extend %icon-caret-right-black;
+        @extend %dark-color-on-bg;
       }
     }
   }
 }
 
 @each $name, $color in $colors {
-  .grid-zone.bgcolor_#{$name},
-  .footer-wrapper .bgcolor_#{$name} {
+  .grid-zone.bgcolor_#{$name} {
     @include bigplus-on-bg($color);
   }
 

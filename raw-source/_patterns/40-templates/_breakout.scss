@@ -19,12 +19,12 @@
 
   > h1,
   > .source {
-    @media screen and (min-width: #{$grid-mq-small} + 1) {
+    @media screen and (min-width: #{$grid-mq-small + 1px}) {
       padding-left: calc((100% - (#{$grid-bp-medium} - 20px)) / 2);
       padding-right: calc((100% - (#{$grid-bp-medium} - 20px)) / 2);
     }
 
-    @media screen and (min-width: #{$grid-mq-medium} + 1) {
+    @media screen and (min-width: #{$grid-mq-medium + 1px}) {
       padding-left: calc((100% - (#{$grid-bp-large} - 20px)) / 2);
       padding-right: calc((100% - (#{$grid-bp-large} - 20px)) / 2);
     }

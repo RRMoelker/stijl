@@ -3,7 +3,7 @@
     {
       "pills": [
         {
-          "label": "23"
+          "pillLabel": "23"
         }
       ],
       "eraseFilter": true,
@@ -18,33 +18,65 @@
       "filter-modifier": "filters-open",
       "pills": [
         {
-          "label": "23"
+          "pillLabel": "23"
         }
       ],
-      "formInputs": [
+      "forms": [
         {
-          "inputMode": "mode_input",
-          "inputType": "text",
-          "inputStatus": "rij_verplicht",
-          "inputLabelId": "formInput",
-          "inputLabelText": "Zoekterm",
-          "inputBoxId": "formInput"
+          "formInputs": [
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Zoekterm",
+              "inputBoxId": "formInput"
+            },
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Type",
+              "inputBoxId": "formInput"
+            },
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Straal rondom postcode",
+              "inputBoxId": "formInput"
+            }
+          ]
         },
         {
-          "inputMode": "mode_input",
-          "inputType": "text",
-          "inputStatus": "rij_verplicht",
-          "inputLabelId": "formInput",
-          "inputLabelText": "Type",
-          "inputBoxId": "formInput"
-        },
-        {
-          "inputMode": "mode_input",
-          "inputType": "text",
-          "inputStatus": "rij_verplicht",
-          "inputLabelId": "formInput",
-          "inputLabelText": "Straal rondom postcode",
-          "inputBoxId": "formInput"
+          "formInputs": [
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Zoekterm",
+              "inputBoxId": "formInput"
+            },
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Type",
+              "inputBoxId": "formInput"
+            },
+            {
+              "inputMode": "mode_input",
+              "inputType": "text",
+              "inputStatus": "rij_verplicht",
+              "inputLabelId": "formInput",
+              "inputLabelText": "Straal rondom postcode",
+              "inputBoxId": "formInput"
+            }
+          ]
         }
       ]
     }

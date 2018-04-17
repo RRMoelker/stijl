@@ -1,5 +1,7 @@
 .formulier-section {
   .filter-header {
+    min-height: #{$filter-button-height + $filter-button-border-size * 2};
+    padding: 15px;
     position: relative;
 
     button.reset {
@@ -7,33 +9,28 @@
       margin: 0;
       padding: 9px 0;
     }
+
+    .toggle-filter {
+      position: absolute;
+      right: 15px;
+      top: calc(50% - 8px);
+    }
   }
 
   &.filters-open {
     .filter-header {
       border-bottom: 2px solid $color-lightgrey;
-      margin-left: -15px;
-      margin-right: -15px;
-      padding-left: 15px;
-      padding-right: 15px;
     }
 
     .filter-button {
       background-color: transparent;
       border: 0;
-      padding: 0 0 8px;
+      padding: 0;
     }
 
     form {
       margin-top: 4px;
       padding-top: 8px;
-    }
-  }
-
-  @media screen and (max-width: #{$grid-mq-medium}) {
-    .formshadow {
-      border-bottom: 4px solid $color-black;
-      border-top: 0;
     }
   }
 }

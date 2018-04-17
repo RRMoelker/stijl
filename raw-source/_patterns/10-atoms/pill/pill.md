@@ -1,5 +1,5 @@
 ---
 title: Pill
-state: inprogress
+state: complete
 ---
 ...

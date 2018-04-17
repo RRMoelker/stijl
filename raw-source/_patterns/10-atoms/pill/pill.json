@@ -1,16 +1,24 @@
 {
   "pills": [
     {
-      "label": "2"
+      "pillLabel": "2"
     },
     {
-      "label": "29"
+      "pillLabel": "29"
     },
     {
-      "label": "347"
+      "pillLabel": "347"
     },
     {
-      "label": "2598"
+      "pillLabel": "2598"
+    },
+    {
+      "pillLabel": "secundair",
+      "pillColor": "blue"
+    },
+    {
+      "pillLabel": "tertiair",
+      "pillColor": "grey"
     }
   ]
 }

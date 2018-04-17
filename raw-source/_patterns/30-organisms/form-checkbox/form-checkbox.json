@@ -9,7 +9,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "1",
+          "checkboxId": "checkbox_1",
           "checkboxLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -17,7 +17,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "2",
+          "checkboxId": "checkbox_2",
           "checkboxLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -25,7 +25,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "3",
+          "checkboxId": "checkbox_3",
           "checkboxLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -42,7 +42,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "1",
+          "checkboxId": "checkbox-toelichting_1",
           "checkboxLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -50,7 +50,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "2",
+          "checkboxId": "checkbox-toelichting_2",
           "checkboxLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -58,7 +58,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "3",
+          "checkboxId": "checkbox-toelichting_3",
           "checkboxLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -73,7 +73,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "1",
+          "checkboxId": "checkbox-helptext_1",
           "checkboxLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -81,7 +81,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "2",
+          "checkboxId": "checkbox-helptext_2",
           "checkboxLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -89,7 +89,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "3",
+          "checkboxId": "checkbox-helptext_3",
           "checkboxLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -105,7 +105,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "1",
+          "checkboxId": "checkbox-ongeldig_1",
           "checkboxLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -113,7 +113,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "2",
+          "checkboxId": "checkbox-ongeldig_2",
           "checkboxLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -121,7 +121,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "checkboxId": "3",
+          "checkboxId": "checkbox-ongeldig_3",
           "checkboxLabel": "Amsterdam Stadsdeel Noord"
         }
       ]

@@ -1,4 +1,4 @@
-@media screen and (min-width: #{$grid-mq-medium} + 1) {
+@media screen and (min-width: #{$grid-mq-medium + 1px}) {
   .formulier-horizontaal {
     margin-bottom: 20px;
 

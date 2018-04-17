@@ -10,13 +10,15 @@
           {{> atoms-button }}
         {{/ eraseFilter }}
       </div>
-      <form class="formulier">
-        {{> molecules-form-input }}
-        {{# filter-modifier }}
-          {{> molecules-form-single-checkbox }}
-          {{> atoms-button }}
-        {{/ filter-modifier }}
-      </form>
+      {{# forms }}
+        <form class="formulier">
+          {{> molecules-form-input }}
+          {{# filter-modifier }}
+            {{> molecules-form-single-checkbox }}
+            {{> atoms-button }}
+          {{/ filter-modifier }}
+        </form>
+      {{/ forms }}
     </div>
   </div>
 {{/ filters }}

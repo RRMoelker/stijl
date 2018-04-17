@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-medium}) {
+@media screen and (max-width: $grid-mq-medium) {
   .doorkijk {
     ul {
       list-style: none;

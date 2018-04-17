@@ -1,3 +1,29 @@
+.appear-example + .notification-appear.appear {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease-in;
+  -o-transition: max-height .5s ease-in;
+  transition: max-height .5s ease-in; }
+
+.appear-example:hover + .notification-appear.appear {
+  max-height: 4em;
+  -webkit-transition: max-height .5s ease-in;
+  -o-transition: max-height .5s ease-in;
+  transition: max-height .5s ease-in; }
+
+.appear-example + .notification-disappear.disappear {
+  max-height: 4em;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease-in;
+  -o-transition: max-height .5s ease-in;
+  transition: max-height .5s ease-in; }
+
+.appear-example:hover + .notification-disappear.disappear {
+  max-height: 0;
+  -webkit-transition: max-height .5s ease-in;
+  -o-transition: max-height .5s ease-in;
+  transition: max-height .5s ease-in; }
+
 @font-face {
   font-family: "Avenir LT W01 65 Medium";
   src: url("/fonts/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
@@ -194,6 +220,9 @@ body {
 #organisms-list-entry-with-image .resultaat {
   margin-bottom: 30px; }
 
+.hasbgcolor .links {
+  margin: 10px 0; }
+
 .grid-blok.grid-tegel {
   margin-bottom: 20px; }
 
@@ -209,3 +238,14 @@ body {
 
 .formulier-section + .formulier-section {
   margin-top: 30px; }
+
+.appear-example {
+  border-bottom: 1px solid #bebebe;
+  color: #666;
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: .875em;
+  font-weight: 700;
+  padding: 6px 0;
+  text-align: center; }
+  .appear-example:hover {
+    cursor: pointer; }

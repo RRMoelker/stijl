@@ -6,19 +6,42 @@
   .mainlogo {
     display: inline-block;
     min-height: 68px;
+
+    &:not(.freeform-logo) .logoset {
+      position: absolute;
+      top: 0;
+    }
+
+    &.freeform-logo {
+      margin-left: 30px;
+
+      .logoset,
+      .logotexts {
+        float: left;
+      }
+
+      .logoset {
+        .screen-logo {
+          max-height: 46px;
+        }
+      }
+
+      .logotext {
+        margin-left: 10px;
+      }
+    }
   }
 
-  .logoset {
-    position: absolute;
-    top: 0;
-  }
-
-  @media screen and (max-width: #{$grid-mq-small}) {
+  @media screen and (max-width: $grid-mq-small) {
     margin: 10px 0;
 
     .mainlogo {
       float: left;
       min-height: 41px;
+
+      &.freeform-logo {
+        margin-left: 0;
+      }
     }
 
     .subsitetitle {
@@ -32,7 +55,7 @@
     }
   }
 
-  @media screen and (min-width: #{$grid-mq-small} + 1) {
+  @media screen and (min-width: #{$grid-mq-small + 1px}) {
     a.mainlogo {
       float: left;
     }
@@ -48,7 +71,7 @@
   display: inline-block;
   margin-left: 15px;
 
-  @media screen and (min-width: #{$grid-mq-medium} + 1) {
+  @media screen and (min-width: #{$grid-mq-medium + 1px}) {
     margin-left: -30px;
 
     .logoset {
@@ -56,13 +79,13 @@
     }
   }
 
-  @media screen and (max-width: #{$grid-mq-medium}) and (min-width: #{$grid-mq-small} + 1) {
+  @media screen and (max-width: $grid-mq-medium) and (min-width: #{$grid-mq-small + 1px}) {
     margin-left: -15px;
     min-height: 68px;
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .grid-header-logo .sitelogo {
     margin-right: 15px;
   }

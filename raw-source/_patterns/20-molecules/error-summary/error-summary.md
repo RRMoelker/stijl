@@ -1,5 +1,5 @@
 ---
 title: Formulier foutmeldingen
-state: inprogress
+state: complete
 ---
 ...

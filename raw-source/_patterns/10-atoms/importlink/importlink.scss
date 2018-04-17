@@ -2,23 +2,49 @@
 .download a {
   text-decoration: none;
 
-  > span {
-    text-decoration: underline;
-  }
-
   .sizespec {
     color: $color-black;
+    font-size: .8em;
     text-decoration: none;
 
     &::after {
-      background-image: url("#{$core-svg-path}icon-document.svg");
+      @extend %icon-document-black;
       background-repeat: no-repeat;
       content: "";
       display: inline-block;
-      height: 20px;
+      height: 1.2em;
       margin-left: 5px;
-      vertical-align: middle;
-      width: 16px;
+      vertical-align: text-bottom;
+      width: 1em;
     }
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    .sizespec {
+      color: $color-red;
+
+      &::after {
+        @extend %icon-document-red;
+      }
+    }
+  }
+}
+
+#{$rich-content-class} {
+  .importLink, // sass-lint:disable-line class-name-format
+  .download a {
+    > span {
+      text-decoration: underline;
+    }
+  }
+}
+
+.index .grid-pagina .links {
+  .importLink, // sass-lint:disable-line class-name-format
+  .download a {
+    @include font-size(16);
+    background-position: 0 7px;
   }
 }

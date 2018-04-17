@@ -1,5 +1,5 @@
 ---
 title: Filter button
-state: inprogress
+state: complete
 ---
 ...

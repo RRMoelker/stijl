@@ -9,7 +9,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "1",
+          "radioId": "radio_1",
           "radioLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -17,7 +17,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "2",
+          "radioId": "radio_2",
           "radioLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -25,7 +25,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "3",
+          "radioId": "radio_3",
           "radioLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -42,7 +42,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "1",
+          "radioId": "radio-toelichting_1",
           "radioLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -50,7 +50,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "2",
+          "radioId": "radio-toelichting_2",
           "radioLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -58,7 +58,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "3",
+          "radioId": "radio-toelichting_3",
           "radioLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -73,7 +73,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "1",
+          "radioId": "radio-helptext_1",
           "radioLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -81,7 +81,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "2",
+          "radioId": "radio-helptext_2",
           "radioLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -89,7 +89,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "3",
+          "radioId": "radio-helptext_3",
           "radioLabel": "Amsterdam Stadsdeel Noord"
         }
       ]
@@ -105,7 +105,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "1",
+          "radioId": "radio-ongeldig_1",
           "radioLabel": "Amsterdam Stadsdeel Centrum"
         },
         {
@@ -113,7 +113,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "2",
+          "radioId": "radio-ongeldig_2",
           "radioLabel": "Amsterdam Stadsdeel Nieuw West"
         },
         {
@@ -121,7 +121,7 @@
           "inputStatus": "rij_verplicht",
           "inputLabelId": "formInput",
           "inputLabelText": "Plat veld",
-          "radioId": "3",
+          "radioId": "radio-ongeldig_3",
           "radioLabel": "Amsterdam Stadsdeel Noord"
         }
       ]

@@ -10,8 +10,9 @@
 @import "10-atoms/more-link";
 @import "10-atoms/progress";
 @import "10-atoms/rich-content";
+@import "10-atoms/row-inline";
 @import "10-atoms/select-bar";
-@import "10-atoms/share-link";
+@import "10-atoms/functional-link";
 @import "10-atoms/toggles";
 
 // molecules
@@ -20,6 +21,7 @@
 @import "20-molecules/form-elements";
 @import "20-molecules/list";
 @import "20-molecules/logo";
+@import "20-molecules/notification";
 @import "20-molecules/progress";
 @import "20-molecules/search";
 @import "20-molecules/superlink";

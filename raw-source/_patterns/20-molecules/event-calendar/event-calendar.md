@@ -1,5 +1,5 @@
 ---
 title: Evenementen kalender
-state: inprogress
+state: complete
 ---
 ...

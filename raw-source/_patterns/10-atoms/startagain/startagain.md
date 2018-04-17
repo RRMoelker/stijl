@@ -1,5 +1,5 @@
 ---
 title: Startagain
-state: inprogress
+state: complete
 ---
 ...

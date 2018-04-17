@@ -1,5 +1,5 @@
 ---
 title: Progress indicator
-state: inprogress
+state: complete
 ---
 ...
