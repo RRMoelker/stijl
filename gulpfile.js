@@ -21,7 +21,7 @@ gulp.task('build-css', function() {
     .pipe(replace(/(background-image: url\(")(.*)(\/images\/)/g, 'background-image: url("../images/'))
     .pipe(replace(/(background: url\(")(.*)(\/images\/)/g, 'background: url("../images/'))
     .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('dist/css'))
 });
 
 gulp.task('build-sass', function() {
@@ -30,14 +30,14 @@ gulp.task('build-sass', function() {
     .pipe(foreach(function (stream, file) {
         return stream
             .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
-            .pipe(gulp.dest('scss'))
+            .pipe(gulp.dest('dist/scss'))
     }))
 });
 
 gulp.task('build-images', function() {
     return gulp
     .src(['raw-source/images/**/*.*', 'src/images/**/*.*'])
-    .pipe(gulp.dest('images'))
+    .pipe(gulp.dest('dist/images'))
 });
 
 gulp.task('clean-raw-images', function(){
