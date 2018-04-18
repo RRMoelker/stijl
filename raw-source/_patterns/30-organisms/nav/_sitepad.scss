@@ -24,7 +24,7 @@
           text-decoration: underline;
         }
 
-        @media screen and (max-width: #{$grid-mq-medium}) {
+        @media screen and (max-width: $grid-mq-medium) {
           @include font-size(14);
         }
       }

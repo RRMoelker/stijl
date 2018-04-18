@@ -1,5 +1,5 @@
 ---
 title: Input button
-state: inprogress
+state: complete
 ---
 ...

@@ -1,5 +1,5 @@
 ---
 title: Formulier input
-state: inprogress
+state: complete
 ---
 ...

@@ -1,5 +1,6 @@
 @import "mixin/amsterdam-vars";
 @import "mixin/sg-vars";
+@import "mixin/extends";
 
 @import "../_patterns/10-atoms/sg-only";
 
@@ -316,6 +317,12 @@ body {
   }
 }
 
+.hasbgcolor {
+  .links {
+    margin: 10px 0;
+  }
+}
+
 // Tile
 ////
 .grid-blok.grid-tegel {
@@ -345,4 +352,40 @@ body {
 ////
 .formulier-section + .formulier-section {
   margin-top: 30px;
+}
+
+// Notification
+////
+.appear-example {
+  border-bottom: 1px solid $color-grey;
+  color: $color-darkgrey;
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: .875em;
+  font-weight: 700;
+  padding: 6px 0;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  + .notification-appear.appear {
+    @extend %appear-base;
+  }
+
+  &:hover {
+    + .notification-appear.appear {
+      @extend %appearing;
+    }
+  }
+
+  + .notification-disappear.disappear {
+    @extend %disappear-base;
+  }
+
+  &:hover {
+    + .notification-disappear.disappear {
+      @extend %disappearing;
+    }
+  }
 }

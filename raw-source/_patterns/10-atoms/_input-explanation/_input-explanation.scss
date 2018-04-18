@@ -27,12 +27,12 @@
   &.open {
     a {
       &::after {
-        background-image: url("#{$core-svg-path}caret-up-darkgrey.svg");
+        @extend %icon-caret-up-darkgrey;
       }
 
       &:hover {
         &::after {
-          background-image: url("#{$core-svg-path}caret-up-red.svg");
+          @extend %icon-caret-up-red;
         }
       }
     }
@@ -41,12 +41,12 @@
   &.closed {
     a {
       &::after {
-        background-image: url("#{$core-svg-path}caret-down-darkgrey.svg");
+        @extend %icon-caret-down-darkgrey;
       }
 
       &:hover {
         &::after {
-          background-image: url("#{$core-svg-path}caret-down-red.svg");
+          @extend %icon-caret-down-red;
         }
       }
     }

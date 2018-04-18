@@ -1,6 +1,4 @@
 .rij {
-  margin-bottom: 20px;
-
   &.rij_ongeldig { // sass-lint:disable-line class-name-format
     @extend %invalid-border;
   }
@@ -11,6 +9,5 @@
 
   &.mode_display { // sass-lint:disable-line class-name-format
     @extend %input-mode-display;
-    margin-top: 20px;
   }
 }

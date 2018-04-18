@@ -4,15 +4,7 @@ $color-linkedin: #007bb6;
 $color-googleplus: #dd4b39;
 
 .link_share { // sass-lint:disable-line class-name-format
-  background-color: $color-darkgrey;
-  float: left;
-  height: 30px;
-  margin: 0 4px 10px 0;
-  width: 30px;
-
-  &:hover {
-    background-color: $color-red;
-  }
+  @extend %functional-link;
 
   &.facebook {
     background-image: url("#{$core-svg-path}delen/share-facebook.svg");
@@ -68,13 +60,5 @@ $color-googleplus: #dd4b39;
 
   &.fluency {
     background-image: url("#{$core-svg-path}delen/share-spreek.svg");
-  }
-
-  a {
-    direction: ltr;
-    display: inline-block;
-    height: 30px;
-    text-indent: -9999px;
-    width: 30px;
   }
 }

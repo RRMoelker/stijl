@@ -1,5 +1,5 @@
 ---
 title: Form checkbox
-state: inprogress
+state: complete
 ---
 ...

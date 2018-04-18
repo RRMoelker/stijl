@@ -5,8 +5,8 @@
 
   > .grid-element {
     > .grid-edge {
+      @extend %icon-gallery-caret-right-lightgrey;
       background-color: map-get($colors, superlightgrey);
-      background-image: url("#{$core-svg-path}gallery-caret-right-lightgray.svg");
       background-position: calc(100% - 10px) calc(100% - 10px);
       background-repeat: no-repeat;
       box-shadow: inset -3px 0 0 0 $color-grey;
@@ -30,7 +30,7 @@
       top: 0;
       width: 220px;
 
-      @media screen and (max-width: #{$grid-mq-small}) {
+      @media screen and (max-width: $grid-mq-small) {
         @include image-auto-size;
       }
     }

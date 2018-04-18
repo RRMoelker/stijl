@@ -3,7 +3,11 @@
 
   .grid-footer {
     min-height: 40px;
-    padding: 30px 0;
+
+    .breakout-zone.hasbgcolor {
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
 
     .grid-blok {
       margin-bottom: 0;
@@ -85,7 +89,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-medium}) {
+@media screen and (max-width: $grid-mq-medium) {
   .footer-wrapper {
     .grid-footer {
       .grid-blok + .grid-blok {
@@ -95,7 +99,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .footer-wrapper {
     .grid-below-footer {
       .links {

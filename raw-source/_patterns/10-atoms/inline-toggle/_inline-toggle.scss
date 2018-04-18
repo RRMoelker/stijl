@@ -1,6 +1,6 @@
 .inline-toggle {
+  @extend %icon-caret-down-black-small;
   background-color: $color-lightgrey;
-  background-image: url("#{$core-svg-path}toggle-inline-caret-down-black.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 10px 6px;
@@ -9,8 +9,8 @@
   width: 14px;
 
   &:hover {
+    @extend %icon-caret-down-white-small;
     background-color: $color-red;
-    background-image: url("#{$core-svg-path}toggle-inline-caret-down-white.svg");
   }
 
   &.ingeklapt {
@@ -18,10 +18,10 @@
   }
 
   &.uitgeklapt {
-    background-image: url("#{$core-svg-path}toggle-inline-caret-up-black.svg");
+    @extend %icon-caret-up-black-small;
 
     &:hover {
-      background-image: url("#{$core-svg-path}toggle-inline-caret-up-white.svg");
+      @extend %icon-caret-up-white-small;
     }
   }
 }

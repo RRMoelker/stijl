@@ -1,5 +1,5 @@
 ---
 title: Form horizontal
-state: inprogress
+state: complete
 ---
 ...

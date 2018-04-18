@@ -1,3 +1,4 @@
+// Form
 %disabled-input {
   @include input-color(1px, $color-grey);
   background-color: $color-white;
@@ -52,6 +53,100 @@
   @include validation-border($color-darkgreen);
 }
 
+%input-mode-display {
+  .label,
+  .invoer {
+    display: inline-block;
+  }
+
+  .label {
+    vertical-align: top;
+    width: 50%;
+
+    label,
+    .setlabel,
+    .label-text {
+      @include avenirnext;
+      color: $color-text-darkgrey;
+    }
+  }
+
+  .invoer {
+    @include avenirnextdemi;
+    width: 49%;
+  }
+
+  &.display_largecontent {
+    .label {
+      width: 33%;
+    }
+
+    .invoer {
+      width: 66%;
+    }
+  }
+
+  &.display_largelabels {
+    .label {
+      width: 66%;
+    }
+
+    .invoer {
+      width: 33%;
+    }
+  }
+
+  @media screen and (max-width: $grid-mq-small) {
+    .label,
+    .invoer,
+    &.display_largecontent .label,
+    &.display_largecontent .invoer,
+    &.display_largelabels .label,
+    &.display_largelabels .invoer {
+      width: 100%;
+    }
+  }
+}
+
+%selection-fieldset-base {
+  .antwoorden {
+    margin: 10px 0;
+  }
+
+  > legend {
+    float: left;
+
+    & + * {
+      clear: both;
+    }
+  }
+}
+
+%selection-element-base {
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+  z-index: 1;
+  zoom: 1;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &:hover,
+  &:focus {
+    & + label::before {
+      @extend %regular-input-focus;
+    }
+  }
+}
+
+// Button
 %button-base {
   @include avenirnextdemi;
   cursor: pointer;
@@ -166,74 +261,7 @@
   }
 }
 
-%input-mode-display {
-  .label,
-  .invoer {
-    display: inline-block;
-  }
-
-  .label {
-    vertical-align: top;
-    width: 50%;
-
-    label,
-    .setlabel {
-      @include avenirnext;
-      color: $color-text-darkgrey;
-    }
-  }
-
-  .invoer {
-    @include avenirnextdemi;
-    width: 49%;
-  }
-
-  @media screen and (max-width: #{$grid-mq-small}) {
-    .label,
-    .invoer {
-      width: 100%;
-    }
-  }
-}
-
-%selection-fieldset-base {
-  .antwoorden {
-    margin: 10px 0;
-  }
-
-  > legend {
-    float: left;
-
-    & + * {
-      clear: both;
-    }
-  }
-}
-
-%selection-element-base {
-  cursor: pointer;
-  height: 28px;
-  left: 0;
-  margin: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 28px;
-  z-index: 1;
-  zoom: 1;
-
-  &:disabled {
-    cursor: default;
-  }
-
-  &:hover,
-  &:focus {
-    & + label::before {
-      @extend %regular-input-focus;
-    }
-  }
-}
-
+// Toggle
 %toggle-base {
   .caret {
     background-image: url("#{$core-svg-path}close-icon-black.svg");
@@ -241,5 +269,59 @@
     background-repeat: no-repeat;
     background-size: 16px;
     display: inline-block;
+  }
+}
+
+%appear-base {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease-in;
+}
+
+%appearing {
+  max-height: 4em;
+  transition: max-height .5s ease-in;
+}
+
+%disappear-base {
+  max-height: 4em;
+  overflow: hidden;
+  transition: max-height .5s ease-in;
+}
+
+%disappearing {
+  max-height: 0;
+  transition: max-height .5s ease-in;
+}
+
+// List
+%list-unstyled {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    list-style-image: none;
+  }
+}
+
+// Functional link
+%functional-link {
+  background-color: $color-darkgrey;
+  float: left;
+  height: 30px;
+  margin: 0 4px 10px 0;
+  width: 30px;
+
+  &:hover {
+    background-color: $color-red;
+  }
+
+  a {
+    direction: ltr;
+    display: inline-block;
+    height: 30px;
+    text-indent: -9999px;
+    width: 30px;
   }
 }

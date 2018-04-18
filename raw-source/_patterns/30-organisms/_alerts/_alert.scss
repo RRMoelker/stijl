@@ -2,15 +2,16 @@
   padding-bottom: 10px;
   padding-top: 30px;
 
+  a.sluitkruis {
+    float: right;
+    margin: 11px 20px 0 0;
+  }
+
   .grid-container {
     min-height: $rowheight;
 
-    @media screen and (min-width: #{$grid-mq-medium} + 1) {
+    @media screen and (min-width: #{$grid-mq-medium + 1px}) {
       width: 940px;
-    }
-
-    a.sluitkruis {
-      float: right;
     }
 
     .melding {
@@ -33,7 +34,7 @@
       @include colors-on-bg($color);
       @if best-contrast-on($color) == #fff {
         .sluitkruis {
-          background-position: -1000px -150px;
+          @extend %icon-close-thick-white;
         }
       }
     }

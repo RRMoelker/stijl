@@ -1,7 +1,7 @@
 .outer-wrapper {
   background-color: $bodybg-grey;
 
-  @media screen and (max-width: #{$grid-mq-medium}) {
+  @media screen and (max-width: $grid-mq-medium) {
     background-color: $color-white;
   }
 }
@@ -10,7 +10,7 @@
 .grid-wrapper {
   background-color: $color-white;
 
-  @media screen and (max-width: #{$grid-mq-medium}) {
+  @media screen and (max-width: $grid-mq-medium) {
     max-width: 100%;
   }
 }

@@ -1,0 +1,12 @@
+{
+  "siteLink": "http://www.amsterdam.nl",
+  "alt": "VRAA",
+  "svg-src": "logos/vraa-logo_groot.svg",
+  "png-src": "logos/vraa-logo.png",
+  "print-src": "logos/vraa-print.png",
+  "logoTextLine-1": "Veiligheidsregio",
+  "logoTextLine-2": "Amsterdam",
+  "logoTextLine-3": "Amstelland",
+  "logoColorLine-3": "black",
+  "logoModifiers": "freeform-logo"
+}

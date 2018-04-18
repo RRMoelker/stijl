@@ -1,6 +1,6 @@
 {
   "callToActionLink": "#",
-  "callToActionColor": "grijs",
+  "callToActionColor": "grey",
   "callToActionText": "Ik wil een melding doen",
-  "isDocument": true
+  "importlinkSpec": "(DOC)"
 }

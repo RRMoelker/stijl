@@ -16,6 +16,7 @@ $color-lightblue: #009de6;
 $color-lightgrey: #e8e8e8;
 $color-magenta: #e50082;
 $color-orange: #ff9100;
+$color-deeppurple: #609;
 $color-purple: #a00078;
 $color-red: #ec0000;
 $color-mediumdarkgrey: #434343;
@@ -39,6 +40,7 @@ $colors: (
   "lightgrey": $color-lightgrey,
   "magenta": $color-magenta,
   "orange": $color-orange,
+  "deeppurple": $color-deeppurple,
   "purple": $color-purple,
   "red": $color-red,
   "mediumdarkgrey": $color-mediumdarkgrey,
@@ -80,6 +82,10 @@ $avenirnextmedium: "AvenirNextLTW01-Medium", verdana, sans-serif;
 
 $rowheight: 44px;
 $button-lineheight: 1em;
+
+// Filter
+$filter-button-height: 32px;
+$filter-button-border-size: 1px;
 
 // breakpoints waarmee het grid rekent
 $grid-bp-small: 320px;

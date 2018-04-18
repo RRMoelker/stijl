@@ -218,14 +218,19 @@
     }
 
     .holder .meta {
-      color: best-contrast-on($color);
+      @if best-contrast-on($color) == #000 {
+        @extend %dark-color-on-bg;
+      }
+
+      @else if best-contrast-on($color) == #fff {
+        @extend %light-color-on-bg;
+      }
     }
   }
 }
 
 @each $name, $color in $colors {
-  .grid-zone.bgcolor_#{$name},
-  .footer-wrapper .bgcolor_#{$name} {
+  .grid-zone.bgcolor_#{$name} {
     @include listentries-on-bg($color);
   }
 
@@ -244,7 +249,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: #{$grid-mq-small} + 1) {
+@media screen and (min-width: #{$grid-mq-small + 1px}) {
   .grid-blok.grid_6, // sass-lint:disable-line class-name-format
   .grid-blok.grid_8, // sass-lint:disable-line class-name-format
   .grid-blok.grid_9, // sass-lint:disable-line class-name-format
@@ -321,7 +326,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   @include list-entry-small;
 
   .resultaat {

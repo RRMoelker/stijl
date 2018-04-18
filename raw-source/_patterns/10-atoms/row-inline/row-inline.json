@@ -1,0 +1,13 @@
+{
+  "confirmMessage": "Weet u het zeker?",
+  "buttons": [
+    {
+      "buttonValue": "ja",
+      "buttonType": "secundary-blue"
+    },
+    {
+      "buttonValue": "nee",
+      "buttonType": "tertiair"
+    }
+  ]
+}

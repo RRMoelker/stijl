@@ -41,22 +41,22 @@
   }
 
   .vorige {
-    background-image: url("#{$core-svg-path}/caret-left-black.svg");
+    @extend %icon-caret-left-black;
     background-position: left 4px;
     padding-left: 20px;
 
     &:hover {
-      background-image: url("#{$core-svg-path}/caret-left-red.svg");
+      @extend %icon-caret-left-red;
     }
   }
 
   .volgende {
-    background-image: url("#{$core-svg-path}/caret-right-black.svg");
+    @extend %icon-caret-right-black;
     background-position: right 4px;
     padding-right: 20px;
 
     &:hover {
-      background-image: url("#{$core-svg-path}/caret-right-red.svg");
+      @extend %icon-caret-right-red;
     }
   }
 }

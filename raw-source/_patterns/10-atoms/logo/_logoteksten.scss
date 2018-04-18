@@ -11,13 +11,13 @@
     color: $color-red;
   }
 
-  @media screen and (max-width: #{$grid-mq-small}) {
+  @media screen and (max-width: $grid-mq-small) {
     @include font-size(21);
     margin: 0 0 0 22px;
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .logotext {
     line-height: .8em;
   }
@@ -41,7 +41,7 @@
 .grid-blok.subidentiteit .logotext {
   @include font-size(23);
 
-  @media screen and (max-width: #{$grid-mq-small}) {
+  @media screen and (max-width: $grid-mq-small) {
     @include font-size(14);
   }
 }
@@ -50,7 +50,7 @@
   .logotext {
     @include font-size(13);
 
-    @media screen and (max-width: #{$grid-mq-small}) {
+    @media screen and (max-width: $grid-mq-small) {
       @include font-size(14);
     }
   }

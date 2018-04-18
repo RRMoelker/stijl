@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (min-width: #{$grid-mq-small} + 1) and (max-width: #{$grid-mq-medium}) {
+@media screen and (min-width: #{$grid-mq-small + 1px}) and (max-width: $grid-mq-medium) {
   .grid_12, // sass-lint:disable-line class-name-format
   .grid_9 { // sass-lint:disable-line class-name-format
     .has-multicol-4,
@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .grid_12, // sass-lint:disable-line class-name-format
   .grid_9, // sass-lint:disable-line class-name-format
   .grid_6 { // sass-lint:disable-line class-name-format

@@ -2,8 +2,8 @@
   width: 100%;
 
   .resultaat {
+    @extend %icon-gallery-caret-right-lightgrey;
     background-color: $color-superlightgrey;
-    background-image: url("#{$core-svg-path}gallery-caret-right-lightgray.svg");
     background-position: calc(100% - 12px) calc(100% - 12px);
     background-repeat: no-repeat;
     box-shadow: inset -3px 0 0 0 $color-grey;
@@ -24,8 +24,8 @@
     }
 
     &:hover {
+      @extend %icon-gallery-caret-right-black;
       background-color: $color-white;
-      background-image: url("#{$core-svg-path}gallery-caret-right-black.svg");
       background-position: calc(100% - 13px) calc(100% - 12px);
       box-shadow: inset -3px 0 0 0 $color-black;
       cursor: pointer;
@@ -122,7 +122,7 @@
   }
 }
 
-@media screen and (max-width: #{$grid-mq-small}) {
+@media screen and (max-width: $grid-mq-small) {
   .grid-blok.galerij {
     .resultaat {
       height: auto;

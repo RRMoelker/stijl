@@ -41,7 +41,7 @@
 
   .ui-datepicker-next {
     span {
-      background-image: url("#{$core-svg-path}caret-right-black.svg");
+      @extend %icon-caret-right-black;
     }
 
     &-hover {
@@ -53,14 +53,14 @@
     &:focus,
     &:active {
       span {
-        background-image: url("#{$core-svg-path}caret-right-red.svg");
+        @extend %icon-caret-right-red;
       }
     }
   }
 
   .ui-datepicker-prev {
     span {
-      background-image: url("#{$core-svg-path}caret-left-black.svg");
+      @extend %icon-caret-left-black;
     }
 
     &-hover {
@@ -72,7 +72,7 @@
     &:focus,
     &:active {
       span {
-        background-image: url("#{$core-svg-path}caret-left-red.svg");
+        @extend %icon-caret-left-red;
       }
     }
   }

@@ -1,1 +1,7 @@
-{{> atoms-notification }}
+{{#animate}}
+  <div class="appear-example">Hover hier voor voorbeeld</div>
+  {{> molecules-notification }}
+{{/animate}}
+{{^animate}}
+  {{> molecules-notification }}
+{{/animate}}

@@ -1,3 +1,8 @@
 {{# pills }}
-  <span class="pill">{{ label }}</span>
+  {{# pillColor }}
+    <span class="pill pill-{{ pillColor }}">{{ pillLabel }}</span>
+  {{/ pillColor }}
+  {{^ pillColor }}
+    <span class="pill">{{ pillLabel }}</span>
+  {{/ pillColor }}
 {{/ pills }}

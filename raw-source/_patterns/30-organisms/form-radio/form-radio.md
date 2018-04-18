@@ -1,5 +1,5 @@
 ---
 title: Form radiobutton
-state: inprogress
+state: complete
 ---
 ...

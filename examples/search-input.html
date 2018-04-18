@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embed map components</title>
+    <link rel="stylesheet" href="../css/ams-stijl.css" />
+    <style>
+        .demo-search-container {
+            width: 330px;
+            margin: 20px;
+            border: 1px solid antiquewhite;
+            padding: 20px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-search-container">
+        <!-- copy snippet from here -->
+
+        <div class="embed-search">
+            <div class="invoer">
+                <input type="text" id="formInput" value="" class="input" placeholder="Zoek op adres">
+                <button class="primary action embed-search__button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="embed-search__button-icon">
+                        <path id="a" d="M6.327 14.41a5.677 5.677 0 0 1-1.674-4.041c0-1.527.594-2.963 1.674-4.042a5.678 5.678 0 0 1 4.042-1.674c1.526 0 2.962.594 4.041 1.674a5.678 5.678 0 0 1 1.675 4.042 5.68 5.68 0 0 1-1.675 4.042 5.676 5.676 0 0 1-4.041 1.673 5.677 5.677 0 0 1-4.042-1.674zm14.86 5.477l-4.869-4.87a7.494 7.494 0 0 0 1.607-4.648 7.507 7.507 0 0 0-2.214-5.343 7.505 7.505 0 0 0-5.342-2.213 7.507 7.507 0 0 0-5.343 2.213 7.507 7.507 0 0 0-2.213 5.343c0 2.018.786 3.916 2.213 5.342a7.507 7.507 0 0 0 5.343 2.214 7.495 7.495 0 0 0 4.648-1.606l4.87 4.869 1.3-1.301z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- to here -->
+    </div>
+
+
+    <div class="demo-search-container">
+        <!-- copy snippet from here -->
+
+        <div class="embed-zoom">
+            <button class="action embed-zoom__in">
+                <span>
+                    +
+                </span>
+            </button>
+
+            <button class="action embed-zoom__out">
+                <span>
+                    -
+                </span>
+            </button>
+
+        </div>
+
+        <!-- to here -->
+    </div>
+
+
+    <div class="demo-search-container" style="display: inline-block">
+        inline svg:
+        <br/>
+        <br/>
+
+        <!-- copy snippet from here -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+                <g fill="none" fill-rule="evenodd">
+                    <path fill="#666" d="M20.27 1C13.374 1 8 6.27 8 12.946 8 19.927 20.27 38.69 20.27 38.69s12.267-18.897 12.267-25.744C32.537 6.28 27.264 1 20.27 1m0 3.382c5.014 0 8.794 3.682 8.794 8.564 0 .803-.41 4.173-5.703 13.81a172.15 172.15 0 0 1-3.1 5.394 166.914 166.914 0 0 1-3.086-5.35c-5.147-9.34-5.702-12.8-5.702-13.854 0-2.33.9-4.493 2.533-6.087 1.637-1.597 3.862-2.477 6.264-2.477"/>
+                    <path fill="#FFF" d="M19.265 35.392C15.373 28.977 8.736 17.045 8.736 12.263c0-5.903 4.627-10.527 10.534-10.527 6.004 0 10.53 4.526 10.53 10.527 0 4.69-6.643 16.678-10.535 23.13"/>
+                    <path fill="#EC0000" d="M19.27 0C12.374 0 7 5.41 7 12.264c0 7.167 12.27 26.43 12.27 26.43s12.267-19.4 12.267-26.43C31.537 5.422 26.264 0 19.27 0m0 3.473c5.014 0 8.794 3.779 8.794 8.79 0 .825-.41 4.285-5.703 14.178a177.988 177.988 0 0 1-3.1 5.538 172.554 172.554 0 0 1-3.086-5.491c-5.147-9.59-5.702-13.142-5.702-14.224 0-2.393.9-4.612 2.533-6.249 1.637-1.64 3.862-2.542 6.264-2.542"/>
+                    <path fill="#F00" d="M22.462 11.948a3.266 3.266 0 1 1-6.533 0 3.266 3.266 0 0 1 6.533 0"/>
+                </g>
+            </svg>
+        <!-- to here -->
+    </div>
+
+    <div class="demo-search-container" style="display: inline-block">
+        span with :before
+        <br/>
+        <br/>
+        <!-- copy snippet from here -->
+
+        <span class="embed-marker">
+        </span>
+
+        <!-- to here -->
+    </div>
+
+</body>
+</html>

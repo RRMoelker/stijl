@@ -45,5 +45,8 @@
   "moreLink": {
     "moreLinkLink" : "#",
     "moreLinkLabel": "Meer"
-  }
+  },
+  "importlinkUrl": "#",
+  "importlinkLabel": "Document",
+  "importlinkSpec": "(PDF, 165 kB)"
 }

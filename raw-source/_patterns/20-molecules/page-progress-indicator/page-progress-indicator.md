@@ -1,5 +1,5 @@
 ---
 title: Page progress indicator
-state: inprogress
+state: complete
 ---
 ...

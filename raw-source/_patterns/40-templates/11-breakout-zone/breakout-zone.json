@@ -3,7 +3,6 @@
     {
       "containerAlias": "kolom1-4",
       "containerModifiers": "breakout-container",
-      "containerTitle": "Paginatitel",
       "gridZones": [
         {
           "columns": 12,

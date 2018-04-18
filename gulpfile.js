@@ -3,8 +3,7 @@ var sass = require('gulp-sass');
 var concatcss = require('gulp-concat-css');
 var foreach = require('gulp-foreach');
 var replace = require('gulp-replace-path');
-
-
+var del = require('del');
 
 gulp.task('copy-amsterdam-source', function() {
    return gulp
@@ -22,7 +21,7 @@ gulp.task('build-css', function() {
     .pipe(replace(/(background-image: url\(")(.*)(\/images\/)/g, 'background-image: url("../images/'))
     .pipe(replace(/(background: url\(")(.*)(\/images\/)/g, 'background: url("../images/'))
     .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('dist/css'))
 });
 
 gulp.task('build-sass', function() {
@@ -31,18 +30,21 @@ gulp.task('build-sass', function() {
     .pipe(foreach(function (stream, file) {
         return stream
             .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../raw-source'))
-            .pipe(gulp.dest('scss'))
+            .pipe(gulp.dest('dist/scss'))
     }))
 });
 
 gulp.task('build-images', function() {
-  return gulp
+    return gulp
     .src(['raw-source/images/**/*.*', 'src/images/**/*.*'])
-    .pipe(gulp.dest('images'))
+    .pipe(gulp.dest('dist/images'))
 });
 
-gulp.task('clean', function(){
-  return del('tmp/**', {force:true});
+gulp.task('clean-raw-images', function(){
+    return del([
+        'raw-source/images/backgrounds',
+        'raw-source/images/assets'
+    ]);
 });
 
-gulp.task('default', gulp.series('copy-amsterdam-source', 'build-css', 'build-sass', 'build-images'));
+gulp.task('default', gulp.series('copy-amsterdam-source', 'build-css', 'build-sass', 'clean-raw-images', 'build-images'));

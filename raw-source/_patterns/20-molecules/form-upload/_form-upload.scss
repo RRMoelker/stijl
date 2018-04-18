@@ -4,13 +4,15 @@
       @include visuallyhidden;
     }
 
-    label,
     button {
       @extend %button-regular;
     }
 
+    label {
+      @extend %button-tertiair;
+    }
+
     button {
-      line-height: 25px;
       margin-left: 4px;
 
       &::after {

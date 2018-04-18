@@ -6,7 +6,7 @@ Voeg de volgende regel toe in je package.json:
 `"stijl": "git+https://git@github.com/Amsterdam/stijl.git"`
 
 #### ams-stijl.css
-Je kan nu in jouw project `node_modules/stijl/css/ams-stijl.css` toevoegen om gebruik 
+Je kan nu in jouw project `node_modules/stijl/dist/css/ams-stijl.css` toevoegen om gebruik
 te maken van de amsterdam huisstijl.
 
 Zie https://patternlab-amsterdam.infoprojects.nl/?p=all voor beschikbare classes en patronen.
@@ -16,7 +16,7 @@ Importeer een of meerdere files van de `/scss/` folder in jouw .scss files.
 
 
 ## contribute
-* run `npm install` 
+* run `npm install`
 * run `npm run build-all`
     * Dit zal de onderliggende style (gemeente-amsterdam-patterns - https://gitlab.infoprojects.nl/pattern-lab/gemeente-amsterdam/) 
     bouwen en beschikbaar stellen in dit project  

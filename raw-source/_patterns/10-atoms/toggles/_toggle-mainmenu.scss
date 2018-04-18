@@ -7,7 +7,7 @@
     margin-top: 13px;
     width: 24px;
 
-    @media screen and (max-width: #{$grid-mq-medium}) {
+    @media screen and (max-width: $grid-mq-medium) {
       margin-left: 15px;
     }
   }

@@ -1,0 +1,56 @@
+@mixin linklist-on-bg($color) {
+  .links {
+    li {
+      a {
+        @if best-contrast-on($color) == #fff {
+          &,
+          &:active,
+          &:hover,
+          &:visited {
+            @extend %icon-caret-right-white;
+            @extend %light-color-on-bg;
+
+            span {
+              @extend %light-color-on-bg;
+            }
+          }
+
+          &:hover {
+            text-decoration-color: best-contrast-on($color);
+          }
+        }
+        @else {
+          &:hover,
+          &:active {
+            @extend %icon-caret-right-red;
+
+            &,
+            span {
+              @extend %red-color;
+            }
+          }
+
+          &,
+          &:visited {
+            @extend %icon-caret-right-black;
+
+            &,
+            span {
+              @extend %dark-color-on-bg;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $name, $color in $colors {
+  .grid-zone.bgcolor_#{$name} {
+    @include linklist-on-bg($color);
+  }
+
+  .grid-blok.bgcolor_#{$name} .grid-edge {
+    @include linklist-on-bg($color);
+  }
+}

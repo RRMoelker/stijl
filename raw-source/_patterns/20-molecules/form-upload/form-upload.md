@@ -1,5 +1,5 @@
 ---
 title: Formulier upload
-state: inprogress
+state: complete
 ---
 ...

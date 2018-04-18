@@ -1,5 +1,5 @@
 ---
 title: Formulier single checkbox
-state: inprogress
+state: complete
 ---
 ...

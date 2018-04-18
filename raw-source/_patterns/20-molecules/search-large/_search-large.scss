@@ -14,6 +14,10 @@ fieldset.search-large {
     }
   }
 
+  .checkbox + .checkbox {
+    padding-top: 0;
+  }
+
   input[type="text"] {
     @extend %regular-input-normal;
     @include avenirnextdemi;
@@ -36,7 +40,7 @@ fieldset.search-large {
       outline: 0;
     }
 
-    @media screen and (max-width: #{$grid-mq-medium}) {
+    @media screen and (max-width: $grid-mq-medium) {
       max-width: calc(620px - 2px - 22px - 16px - #{$rowheight});
     }
   }
@@ -99,7 +103,7 @@ fieldset.search-large {
     margin: 0 auto;
     max-width: 620px;
 
-    @media screen and (max-width: #{$grid-mq-medium}) {
+    @media screen and (max-width: $grid-mq-medium) {
       max-width: 560px;
     }
   }

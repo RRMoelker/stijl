@@ -35,6 +35,10 @@
   }
 }
 
+ul.list-unstyled {
+  @extend %list-unstyled;
+}
+
 #{$rich-content-class} {
   @include rich-content-styles;
 

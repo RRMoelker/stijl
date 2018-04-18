@@ -1,5 +1,5 @@
 ---
 title: Formulier select
-state: inprogress
+state: complete
 ---
 ...

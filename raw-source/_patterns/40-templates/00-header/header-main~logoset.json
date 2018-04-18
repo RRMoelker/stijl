@@ -1,0 +1,67 @@
+{
+  "gridWrappers": [
+    {
+      "wrapperAlias": "header",
+      "gridContainers": [
+        {
+          "containerAlias": "header-logo",
+          "gridZones": [
+            {
+              "zoneAlias": "logo",
+              "gridBlocks": [
+                {
+                  "defaultGridBlock": {
+                    "columns": 6,
+                    "blockType": "type-logo",
+                    "blockModifiers": "subidentiteit",
+                    "inside": {
+                      "logoMolecule": {
+                        "svg-src": "logos/vraa-logo.svg",
+                        "png-src": "logos/vraa-logo.png",
+                        "print-src": "logos/vraa-print.png",
+                        "siteLink": "https://www.amsterdam.nl",
+                        "alt": "",
+                        "logoTextLine-1": "Veiligheidsregio",
+                        "logoTextLine-2": "Amsterdam",
+                        "logoTextLine-3": "Amstelland",
+                        "logoColorLine-3": "red"
+                      }
+                    }
+                  }
+                },
+                {
+                  "defaultGridBlock": {
+                    "columns": 6,
+                    "blockType": "type-nav-secundair",
+                    "inside": {
+                      "horizontalListMolecule": {
+                        "listPosition": "right",
+                        "listItems": [
+                          {
+                            "listItemLabel": "Contact"
+                          },
+                          {
+                            "listItemLabel": "Zorgprofessionals"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "containerAlias": "header-nav",
+          "containerModifiers": "breakout-container",
+          "gridZones": [
+            {
+              "zoneAlias": "nav"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
