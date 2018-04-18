@@ -1,5 +1,6 @@
 .embed-search {
   box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
+  position: relative;
 
   .invoer {
     display: flex;
@@ -7,6 +8,29 @@
 
   input[type="text"] {
     height: 32px;
+
+    &::-ms-clear {
+      display: none;
+    }
+  }
+
+  &__clear {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    outline: none;
+    position: absolute;
+    right: 35px;
+    top: 4px;
+    padding: 0;
+    width: 25px;
+
+    &:hover {
+      svg {
+        fill: $ams-rood;
+      }
+    }
   }
 
   &__button {
@@ -14,9 +38,6 @@
     margin: 0 !important; // override amsterdam.css
     position: relative;
     width: 32px;
-
-    &.primary.action {
-    }
 
     &-icon {
       display: block;

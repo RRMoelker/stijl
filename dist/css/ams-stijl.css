@@ -11963,6 +11963,7 @@ h3.condensed {
 
 .embed-search {
   box-shadow: 2px 2px 0 0 #999;
+  position: relative;
 }
 
 .embed-search .invoer {
@@ -11971,6 +11972,27 @@ h3.condensed {
 
 .embed-search input[type="text"] {
   height: 32px;
+}
+
+.embed-search input[type="text"]::-ms-clear {
+  display: none;
+}
+
+.embed-search__clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 25px;
+  outline: none;
+  position: absolute;
+  right: 35px;
+  top: 4px;
+  padding: 0;
+  width: 25px;
+}
+
+.embed-search__clear:hover svg {
+  fill: #ec0000;
 }
 
 .embed-search__button {
