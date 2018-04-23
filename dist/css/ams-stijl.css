@@ -11962,12 +11962,13 @@ h3.condensed {
 }
 
 .embed-search {
-  box-shadow: 2px 2px 0 0 #999;
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
   position: relative;
 }
 
 .embed-search .invoer {
   display: flex;
+  box-shadow: 2px 2px 0 0 #999;
 }
 
 .embed-search input[type="text"] {
@@ -12016,6 +12017,47 @@ h3.condensed {
 .embed-search__button:hover,
 .embed-search__button:focus {
   background-color: #BC0000 !important;
+}
+
+.embed-search__auto-suggest {
+  background-color: #fff;
+  border: 2px solid #000;
+  width: calc(100% - 36px);
+  box-shadow: 2px 2px 0 0 #999;
+  margin-top: -2px;
+}
+
+.embed-search__auto-suggest ul {
+  margin: 0;
+  padding: 0;
+}
+
+.embed-search__auto-suggest ul li {
+  list-style: none;
+}
+
+.embed-search__auto-suggest__item {
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  padding: 0 6px 0 7px;
+  width: calc(100% - 13px);
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.embed-search__auto-suggest__item:hover,
+.embed-search__auto-suggest__item--active {
+  background-color: #e8e8e8;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.embed-search__auto-suggest__item--highlight {
+  font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
 }
 
 .embed-zoom > button {
