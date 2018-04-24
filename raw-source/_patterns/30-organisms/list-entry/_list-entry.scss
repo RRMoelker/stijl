@@ -170,6 +170,11 @@
     .empty-image {
       box-shadow: inset -10px 0 0 0 $color-lightgrey;
     }
+
+    h3.link + a {
+      display: inline;
+      padding-left: 0;
+    }
   }
 }
 

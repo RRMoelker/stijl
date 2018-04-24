@@ -96,6 +96,22 @@ fieldset.search-large {
       }
     }
   }
+
+  .show-searchtags {
+    clear: both;
+    display: block;
+    font-size: .875em;
+    padding-top: 16px;
+
+    a {
+      color: $color-darkblue;
+
+      &:hover,
+      &:focus {
+        color: $color-red;
+      }
+    }
+  }
 }
 
 .header-wrapper {

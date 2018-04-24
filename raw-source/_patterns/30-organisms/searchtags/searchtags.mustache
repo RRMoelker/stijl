@@ -1,0 +1,13 @@
+<div class="search-large">
+  <form>
+    {{> atoms-label }}
+    {{> atoms-input-text }}
+    {{> atoms-submit }}
+    <fieldset class="searchtags">
+      <legend>{{ searchtagsLegend }}</legend>
+      {{# searchTags }}
+        {{> atoms-searchtag }}
+      {{/ searchTags }}
+    </fieldset>
+  </form>
+</div>

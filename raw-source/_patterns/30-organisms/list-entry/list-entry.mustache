@@ -5,7 +5,9 @@
         <a href="{{ listEntryLink }}">{{ listEntryTitle }}</a>
       </h2>
       {{# listEntryImage }}
-        <img src="{{ listEntryImage }}" alt="{{ listEntryImageAlt }}" />
+        <a href="#">
+          <img src="{{ listEntryImage }}" alt="{{ listEntryImageAlt }}" />
+        </a>
       {{/ listEntryImage }}
       {{^ listEntryImage }}
         <div class="empty-image"></div>

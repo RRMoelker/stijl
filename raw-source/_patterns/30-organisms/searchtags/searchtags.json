@@ -1,0 +1,47 @@
+{
+  "searchtagsLegend": "Trefwoorden:",
+  "searchTags": [
+    {
+      "label": "BLVC-kosten"
+    },
+    {
+      "label": "Evenementen"
+    },
+    {
+      "label": "Gebiedsbeheerder"
+    },
+    {
+      "label": "Groot eigen werk"
+    },
+    {
+      "label": "Bouwproject"
+    },
+    {
+      "label": "Bureau stadsregio"
+    },
+    {
+      "label": "Mijlpalen"
+    },
+    {
+      "label": "Instemmingsbesluit"
+    },
+    {
+      "label": "Railinfrastructuur"
+    },
+    {
+      "label": "Kabels en leidingen"
+    },
+    {
+      "label": "Kleine werkzaamheden"
+    },
+    {
+      "label": "Kunstwerken"
+    },
+    {
+      "label": "Langetermijnplanning"
+    },
+    {
+      "label": "Spitsperioden"
+    }
+  ]
+}
