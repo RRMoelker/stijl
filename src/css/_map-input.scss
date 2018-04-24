@@ -73,12 +73,14 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
 
       li {
         list-style: none;
+        font-size: 0;
       }
     }
 
     &__item {
       color: $ams-zwart;
       display: inline-block;
+      font-size: 1rem;
       text-decoration: none;
       text-overflow: ellipsis;
       padding: 0 6px 0 7px;

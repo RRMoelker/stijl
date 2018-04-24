@@ -12034,11 +12034,13 @@ h3.condensed {
 
 .embed-search__auto-suggest ul li {
   list-style: none;
+  font-size: 0;
 }
 
 .embed-search__auto-suggest__item {
   color: #000;
   display: inline-block;
+  font-size: 1rem;
   text-decoration: none;
   text-overflow: ellipsis;
   padding: 0 6px 0 7px;
