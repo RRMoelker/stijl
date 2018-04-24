@@ -11972,6 +11972,7 @@ h3.condensed {
 }
 
 .embed-search input[type="text"] {
+  font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
   height: 32px;
 }
 

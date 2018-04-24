@@ -11,6 +11,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   }
 
   input[type="text"] {
+    @include avenirheavy;
     height: $square-sizing;
 
     &::-ms-clear {
