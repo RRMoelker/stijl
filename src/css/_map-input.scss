@@ -118,17 +118,19 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   @extend %button-action;
   background-color: $ams-wit;
   border: 1px solid $ams-pinkish-grey;
+  border-radius: 0 !important;
   box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   clear: both;
   color: $ams-donkerantraciet;
   display: block;
   font-size: 1.4rem;
-  height: $square-sizing;
-  line-height: $square-sizing;
-  text-align: center;
+  height: $square-sizing !important;
+  line-height: $square-sizing !important;
   margin: 1px;
+  outline: none;
   padding: 0;
-  width: $square-sizing;
+  text-align: center;
+  width: $square-sizing !important;
 
   &.embed-zoom__out {
     display: inline-block;
