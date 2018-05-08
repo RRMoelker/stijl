@@ -12707,6 +12707,500 @@ h3.condensed {
   color: #fff;
 }
 
+.embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 6px 10px 6px 0;
+  padding: 11px 15px;
+  position: relative;
+  text-decoration: none;
+}
+
+.embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  border: 0;
+}
+
+.embed-zoom > button.primary .working::before,
+.embed-zoom > a.primary .working::before,
+.primary.leaflet-control-zoom-in .working::before,
+.primary.leaflet-control-zoom-out .working::before {
+  border-top: 15px solid #ec0000;
+}
+
+.embed-zoom > button.primary.arrow-left::after,
+.embed-zoom > a.primary.arrow-left::after,
+.primary.arrow-left.leaflet-control-zoom-in::after,
+.primary.arrow-left.leaflet-control-zoom-out::after,
+.embed-zoom > button.primary.arrow-right::after,
+.embed-zoom > a.primary.arrow-right::after,
+.primary.arrow-right.leaflet-control-zoom-in::after,
+.primary.arrow-right.leaflet-control-zoom-out::after {
+  border-bottom: calc(0.5em + 11px) solid transparent;
+  border-top: calc(0.5em + 11px) solid transparent;
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.embed-zoom > button.primary.arrow-left,
+.embed-zoom > a.primary.arrow-left,
+.primary.arrow-left.leaflet-control-zoom-in,
+.primary.arrow-left.leaflet-control-zoom-out {
+  margin-left: 15px;
+}
+
+.embed-zoom > button.primary.arrow-left::after,
+.embed-zoom > a.primary.arrow-left::after,
+.primary.arrow-left.leaflet-control-zoom-in::after,
+.primary.arrow-left.leaflet-control-zoom-out::after {
+  border-right: 15px solid #ec0000;
+  right: 100%;
+}
+
+.embed-zoom > button.primary.arrow-right,
+.embed-zoom > a.primary.arrow-right,
+.primary.arrow-right.leaflet-control-zoom-in,
+.primary.arrow-right.leaflet-control-zoom-out {
+  margin-right: 15px;
+}
+
+.embed-zoom > button.primary.arrow-right::after,
+.embed-zoom > a.primary.arrow-right::after,
+.primary.arrow-right.leaflet-control-zoom-in::after,
+.primary.arrow-right.leaflet-control-zoom-out::after {
+  border-left: 15px solid #ec0000;
+  left: 100%;
+}
+
+.embed-zoom > button.primary,
+.embed-zoom > a.primary,
+.primary.leaflet-control-zoom-in,
+.primary.leaflet-control-zoom-out,
+.embed-zoom > button.primary:visited,
+.embed-zoom > a.primary:visited,
+.primary.leaflet-control-zoom-in:visited,
+.primary.leaflet-control-zoom-out:visited {
+  background-color: #ec0000;
+}
+
+.embed-zoom > button.primary,
+.embed-zoom > a.primary,
+.primary.leaflet-control-zoom-in,
+.primary.leaflet-control-zoom-out,
+.embed-zoom > button.primary .value,
+.embed-zoom > a.primary .value,
+.primary.leaflet-control-zoom-in .value,
+.primary.leaflet-control-zoom-out .value,
+.embed-zoom > button.primary:visited,
+.embed-zoom > a.primary:visited,
+.primary.leaflet-control-zoom-in:visited,
+.primary.leaflet-control-zoom-out:visited,
+.embed-zoom > button.primary:visited .value,
+.embed-zoom > a.primary:visited .value,
+.primary.leaflet-control-zoom-in:visited .value,
+.primary.leaflet-control-zoom-out:visited .value {
+  color: #fff;
+}
+
+.embed-zoom > button.primary:enabled:active,
+.embed-zoom > a.primary:enabled:active,
+.primary.leaflet-control-zoom-in:enabled:active,
+.primary.leaflet-control-zoom-out:enabled:active,
+.embed-zoom > button.primary:enabled:hover,
+.embed-zoom > a.primary:enabled:hover,
+.primary.leaflet-control-zoom-in:enabled:hover,
+.primary.leaflet-control-zoom-out:enabled:hover {
+  background-color: #b90000;
+}
+
+.embed-zoom > button.primary:enabled:active.arrow-left::after,
+.embed-zoom > a.primary:enabled:active.arrow-left::after,
+.primary.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+.primary.leaflet-control-zoom-out:enabled:active.arrow-left::after,
+.embed-zoom > button.primary:enabled:hover.arrow-left::after,
+.embed-zoom > a.primary:enabled:hover.arrow-left::after,
+.primary.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+.primary.leaflet-control-zoom-out:enabled:hover.arrow-left::after {
+  border-right-color: #b90000;
+}
+
+.embed-zoom > button.primary:enabled:active.arrow-right::after,
+.embed-zoom > a.primary:enabled:active.arrow-right::after,
+.primary.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+.primary.leaflet-control-zoom-out:enabled:active.arrow-right::after,
+.embed-zoom > button.primary:enabled:hover.arrow-right::after,
+.embed-zoom > a.primary:enabled:hover.arrow-right::after,
+.primary.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+.primary.leaflet-control-zoom-out:enabled:hover.arrow-right::after {
+  border-left-color: #b90000;
+}
+
+.embed-zoom > button.primary:enabled:active .working::before,
+.embed-zoom > a.primary:enabled:active .working::before,
+.primary.leaflet-control-zoom-in:enabled:active .working::before,
+.primary.leaflet-control-zoom-out:enabled:active .working::before,
+.embed-zoom > button.primary:enabled:hover .working::before,
+.embed-zoom > a.primary:enabled:hover .working::before,
+.primary.leaflet-control-zoom-in:enabled:hover .working::before,
+.primary.leaflet-control-zoom-out:enabled:hover .working::before {
+  border-top-color: #b90000;
+}
+
+.embed-zoom > button.secundary-blue .working::before,
+.embed-zoom > a.secundary-blue .working::before,
+.secundary-blue.leaflet-control-zoom-in .working::before,
+.secundary-blue.leaflet-control-zoom-out .working::before {
+  border-top: 15px solid #004699;
+}
+
+.embed-zoom > button.secundary-blue.arrow-left::after,
+.embed-zoom > a.secundary-blue.arrow-left::after,
+.secundary-blue.arrow-left.leaflet-control-zoom-in::after,
+.secundary-blue.arrow-left.leaflet-control-zoom-out::after,
+.embed-zoom > button.secundary-blue.arrow-right::after,
+.embed-zoom > a.secundary-blue.arrow-right::after,
+.secundary-blue.arrow-right.leaflet-control-zoom-in::after,
+.secundary-blue.arrow-right.leaflet-control-zoom-out::after {
+  border-bottom: calc(0.5em + 11px) solid transparent;
+  border-top: calc(0.5em + 11px) solid transparent;
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.embed-zoom > button.secundary-blue.arrow-left,
+.embed-zoom > a.secundary-blue.arrow-left,
+.secundary-blue.arrow-left.leaflet-control-zoom-in,
+.secundary-blue.arrow-left.leaflet-control-zoom-out {
+  margin-left: 15px;
+}
+
+.embed-zoom > button.secundary-blue.arrow-left::after,
+.embed-zoom > a.secundary-blue.arrow-left::after,
+.secundary-blue.arrow-left.leaflet-control-zoom-in::after,
+.secundary-blue.arrow-left.leaflet-control-zoom-out::after {
+  border-right: 15px solid #004699;
+  right: 100%;
+}
+
+.embed-zoom > button.secundary-blue.arrow-right,
+.embed-zoom > a.secundary-blue.arrow-right,
+.secundary-blue.arrow-right.leaflet-control-zoom-in,
+.secundary-blue.arrow-right.leaflet-control-zoom-out {
+  margin-right: 15px;
+}
+
+.embed-zoom > button.secundary-blue.arrow-right::after,
+.embed-zoom > a.secundary-blue.arrow-right::after,
+.secundary-blue.arrow-right.leaflet-control-zoom-in::after,
+.secundary-blue.arrow-right.leaflet-control-zoom-out::after {
+  border-left: 15px solid #004699;
+  left: 100%;
+}
+
+.embed-zoom > button.secundary-blue,
+.embed-zoom > a.secundary-blue,
+.secundary-blue.leaflet-control-zoom-in,
+.secundary-blue.leaflet-control-zoom-out,
+.embed-zoom > button.secundary-blue:visited,
+.embed-zoom > a.secundary-blue:visited,
+.secundary-blue.leaflet-control-zoom-in:visited,
+.secundary-blue.leaflet-control-zoom-out:visited {
+  background-color: #004699;
+}
+
+.embed-zoom > button.secundary-blue,
+.embed-zoom > a.secundary-blue,
+.secundary-blue.leaflet-control-zoom-in,
+.secundary-blue.leaflet-control-zoom-out,
+.embed-zoom > button.secundary-blue .value,
+.embed-zoom > a.secundary-blue .value,
+.secundary-blue.leaflet-control-zoom-in .value,
+.secundary-blue.leaflet-control-zoom-out .value,
+.embed-zoom > button.secundary-blue:visited,
+.embed-zoom > a.secundary-blue:visited,
+.secundary-blue.leaflet-control-zoom-in:visited,
+.secundary-blue.leaflet-control-zoom-out:visited,
+.embed-zoom > button.secundary-blue:visited .value,
+.embed-zoom > a.secundary-blue:visited .value,
+.secundary-blue.leaflet-control-zoom-in:visited .value,
+.secundary-blue.leaflet-control-zoom-out:visited .value {
+  color: #fff;
+}
+
+.embed-zoom > button.secundary-blue:enabled:active,
+.embed-zoom > a.secundary-blue:enabled:active,
+.secundary-blue.leaflet-control-zoom-in:enabled:active,
+.secundary-blue.leaflet-control-zoom-out:enabled:active,
+.embed-zoom > button.secundary-blue:enabled:hover,
+.embed-zoom > a.secundary-blue:enabled:hover,
+.secundary-blue.leaflet-control-zoom-in:enabled:hover,
+.secundary-blue.leaflet-control-zoom-out:enabled:hover {
+  background-color: #002f66;
+}
+
+.embed-zoom > button.secundary-blue:enabled:active.arrow-left::after,
+.embed-zoom > a.secundary-blue:enabled:active.arrow-left::after,
+.secundary-blue.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+.secundary-blue.leaflet-control-zoom-out:enabled:active.arrow-left::after,
+.embed-zoom > button.secundary-blue:enabled:hover.arrow-left::after,
+.embed-zoom > a.secundary-blue:enabled:hover.arrow-left::after,
+.secundary-blue.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+.secundary-blue.leaflet-control-zoom-out:enabled:hover.arrow-left::after {
+  border-right-color: #002f66;
+}
+
+.embed-zoom > button.secundary-blue:enabled:active.arrow-right::after,
+.embed-zoom > a.secundary-blue:enabled:active.arrow-right::after,
+.secundary-blue.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+.secundary-blue.leaflet-control-zoom-out:enabled:active.arrow-right::after,
+.embed-zoom > button.secundary-blue:enabled:hover.arrow-right::after,
+.embed-zoom > a.secundary-blue:enabled:hover.arrow-right::after,
+.secundary-blue.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+.secundary-blue.leaflet-control-zoom-out:enabled:hover.arrow-right::after {
+  border-left-color: #002f66;
+}
+
+.embed-zoom > button.secundary-blue:enabled:active .working::before,
+.embed-zoom > a.secundary-blue:enabled:active .working::before,
+.secundary-blue.leaflet-control-zoom-in:enabled:active .working::before,
+.secundary-blue.leaflet-control-zoom-out:enabled:active .working::before,
+.embed-zoom > button.secundary-blue:enabled:hover .working::before,
+.embed-zoom > a.secundary-blue:enabled:hover .working::before,
+.secundary-blue.leaflet-control-zoom-in:enabled:hover .working::before,
+.secundary-blue.leaflet-control-zoom-out:enabled:hover .working::before {
+  border-top-color: #002f66;
+}
+
+.embed-zoom > button.secundary-grey .working::before,
+.embed-zoom > a.secundary-grey .working::before,
+.secundary-grey.leaflet-control-zoom-in .working::before,
+.secundary-grey.leaflet-control-zoom-out .working::before {
+  border-top: 15px solid #e8e8e8;
+}
+
+.embed-zoom > button.secundary-grey.arrow-left::after,
+.embed-zoom > a.secundary-grey.arrow-left::after,
+.secundary-grey.arrow-left.leaflet-control-zoom-in::after,
+.secundary-grey.arrow-left.leaflet-control-zoom-out::after,
+.embed-zoom > button.secundary-grey.arrow-right::after,
+.embed-zoom > a.secundary-grey.arrow-right::after,
+.secundary-grey.arrow-right.leaflet-control-zoom-in::after,
+.secundary-grey.arrow-right.leaflet-control-zoom-out::after {
+  border-bottom: calc(0.5em + 11px) solid transparent;
+  border-top: calc(0.5em + 11px) solid transparent;
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.embed-zoom > button.secundary-grey.arrow-left,
+.embed-zoom > a.secundary-grey.arrow-left,
+.secundary-grey.arrow-left.leaflet-control-zoom-in,
+.secundary-grey.arrow-left.leaflet-control-zoom-out {
+  margin-left: 15px;
+}
+
+.embed-zoom > button.secundary-grey.arrow-left::after,
+.embed-zoom > a.secundary-grey.arrow-left::after,
+.secundary-grey.arrow-left.leaflet-control-zoom-in::after,
+.secundary-grey.arrow-left.leaflet-control-zoom-out::after {
+  border-right: 15px solid #e8e8e8;
+  right: 100%;
+}
+
+.embed-zoom > button.secundary-grey.arrow-right,
+.embed-zoom > a.secundary-grey.arrow-right,
+.secundary-grey.arrow-right.leaflet-control-zoom-in,
+.secundary-grey.arrow-right.leaflet-control-zoom-out {
+  margin-right: 15px;
+}
+
+.embed-zoom > button.secundary-grey.arrow-right::after,
+.embed-zoom > a.secundary-grey.arrow-right::after,
+.secundary-grey.arrow-right.leaflet-control-zoom-in::after,
+.secundary-grey.arrow-right.leaflet-control-zoom-out::after {
+  border-left: 15px solid #e8e8e8;
+  left: 100%;
+}
+
+.embed-zoom > button.secundary-grey,
+.embed-zoom > a.secundary-grey,
+.secundary-grey.leaflet-control-zoom-in,
+.secundary-grey.leaflet-control-zoom-out,
+.embed-zoom > button.secundary-grey:visited,
+.embed-zoom > a.secundary-grey:visited,
+.secundary-grey.leaflet-control-zoom-in:visited,
+.secundary-grey.leaflet-control-zoom-out:visited {
+  background-color: #e8e8e8;
+}
+
+.embed-zoom > button.secundary-grey,
+.embed-zoom > a.secundary-grey,
+.secundary-grey.leaflet-control-zoom-in,
+.secundary-grey.leaflet-control-zoom-out,
+.embed-zoom > button.secundary-grey .value,
+.embed-zoom > a.secundary-grey .value,
+.secundary-grey.leaflet-control-zoom-in .value,
+.secundary-grey.leaflet-control-zoom-out .value,
+.embed-zoom > button.secundary-grey:visited,
+.embed-zoom > a.secundary-grey:visited,
+.secundary-grey.leaflet-control-zoom-in:visited,
+.secundary-grey.leaflet-control-zoom-out:visited,
+.embed-zoom > button.secundary-grey:visited .value,
+.embed-zoom > a.secundary-grey:visited .value,
+.secundary-grey.leaflet-control-zoom-in:visited .value,
+.secundary-grey.leaflet-control-zoom-out:visited .value {
+  color: #000;
+}
+
+.embed-zoom > button.secundary-grey:enabled:active,
+.embed-zoom > a.secundary-grey:enabled:active,
+.secundary-grey.leaflet-control-zoom-in:enabled:active,
+.secundary-grey.leaflet-control-zoom-out:enabled:active,
+.embed-zoom > button.secundary-grey:enabled:hover,
+.embed-zoom > a.secundary-grey:enabled:hover,
+.secundary-grey.leaflet-control-zoom-in:enabled:hover,
+.secundary-grey.leaflet-control-zoom-out:enabled:hover {
+  background-color: #cfcfcf;
+}
+
+.embed-zoom > button.secundary-grey:enabled:active.arrow-left::after,
+.embed-zoom > a.secundary-grey:enabled:active.arrow-left::after,
+.secundary-grey.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+.secundary-grey.leaflet-control-zoom-out:enabled:active.arrow-left::after,
+.embed-zoom > button.secundary-grey:enabled:hover.arrow-left::after,
+.embed-zoom > a.secundary-grey:enabled:hover.arrow-left::after,
+.secundary-grey.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+.secundary-grey.leaflet-control-zoom-out:enabled:hover.arrow-left::after {
+  border-right-color: #cfcfcf;
+}
+
+.embed-zoom > button.secundary-grey:enabled:active.arrow-right::after,
+.embed-zoom > a.secundary-grey:enabled:active.arrow-right::after,
+.secundary-grey.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+.secundary-grey.leaflet-control-zoom-out:enabled:active.arrow-right::after,
+.embed-zoom > button.secundary-grey:enabled:hover.arrow-right::after,
+.embed-zoom > a.secundary-grey:enabled:hover.arrow-right::after,
+.secundary-grey.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+.secundary-grey.leaflet-control-zoom-out:enabled:hover.arrow-right::after {
+  border-left-color: #cfcfcf;
+}
+
+.embed-zoom > button.secundary-grey:enabled:active .working::before,
+.embed-zoom > a.secundary-grey:enabled:active .working::before,
+.secundary-grey.leaflet-control-zoom-in:enabled:active .working::before,
+.secundary-grey.leaflet-control-zoom-out:enabled:active .working::before,
+.embed-zoom > button.secundary-grey:enabled:hover .working::before,
+.embed-zoom > a.secundary-grey:enabled:hover .working::before,
+.secundary-grey.leaflet-control-zoom-in:enabled:hover .working::before,
+.secundary-grey.leaflet-control-zoom-out:enabled:hover .working::before {
+  border-top-color: #cfcfcf;
+}
+
+.embed-zoom > button[type="reset"],
+.embed-zoom > a[type="reset"],
+[type="reset"].leaflet-control-zoom-in,
+[type="reset"].leaflet-control-zoom-out {
+  background-color: transparent;
+  color: #004699;
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: underline;
+}
+
+.embed-zoom > button[type="reset"]:hover,
+.embed-zoom > a[type="reset"]:hover,
+[type="reset"].leaflet-control-zoom-in:hover,
+[type="reset"].leaflet-control-zoom-out:hover,
+.embed-zoom > button[type="reset"]:active,
+.embed-zoom > a[type="reset"]:active,
+[type="reset"].leaflet-control-zoom-in:active,
+[type="reset"].leaflet-control-zoom-out:active,
+.embed-zoom > button[type="reset"]:focus,
+.embed-zoom > a[type="reset"]:focus,
+[type="reset"].leaflet-control-zoom-in:focus,
+[type="reset"].leaflet-control-zoom-out:focus {
+  color: #ec0000;
+}
+
+.embed-zoom > button .working .progress-indicator,
+.embed-zoom > a .working .progress-indicator,
+.leaflet-control-zoom-in .working .progress-indicator,
+.leaflet-control-zoom-out .working .progress-indicator {
+  font-size: 3px;
+  margin-left: 6px;
+}
+
+.embed-zoom > button .working .progress-indicator::before,
+.embed-zoom > a .working .progress-indicator::before,
+.leaflet-control-zoom-in .working .progress-indicator::before,
+.leaflet-control-zoom-out .working .progress-indicator::before {
+  animation: load2 2s infinite ease 1.5s;
+}
+
+.embed-zoom > button .working .progress-indicator::after,
+.embed-zoom > a .working .progress-indicator::after,
+.leaflet-control-zoom-in .working .progress-indicator::after,
+.leaflet-control-zoom-out .working .progress-indicator::after {
+  animation: load2 2s infinite ease;
+}
+
+.embed-zoom > button[disabled],
+.embed-zoom > a[disabled],
+[disabled].leaflet-control-zoom-in,
+[disabled].leaflet-control-zoom-out {
+  cursor: not-allowed;
+}
+
+.embed-zoom > button[disabled] .value,
+.embed-zoom > a[disabled] .value,
+[disabled].leaflet-control-zoom-in .value,
+[disabled].leaflet-control-zoom-out .value {
+  opacity: .5;
+}
+
+.embed-zoom > button.disabled,
+.embed-zoom > a.disabled,
+.disabled.leaflet-control-zoom-in,
+.disabled.leaflet-control-zoom-out {
+  background-color: #e5e5e5 !important;
+  cursor: not-allowed;
+}
+
+.embed-zoom > button.disabled .value,
+.embed-zoom > a.disabled .value,
+.disabled.leaflet-control-zoom-in .value,
+.disabled.leaflet-control-zoom-out .value {
+  color: #bebebe;
+}
+
+.embed-zoom > button.disabled.arrow-left::after,
+.embed-zoom > a.disabled.arrow-left::after,
+.disabled.arrow-left.leaflet-control-zoom-in::after,
+.disabled.arrow-left.leaflet-control-zoom-out::after {
+  border-right-color: #e5e5e5 !important;
+}
+
+.embed-zoom > button.disabled.arrow-right::after,
+.embed-zoom > a.disabled.arrow-right::after,
+.disabled.arrow-right.leaflet-control-zoom-in::after,
+.disabled.arrow-right.leaflet-control-zoom-out::after {
+  border-left-color: #e5e5e5 !important;
+}
+
 .embed-search {
   font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
   position: relative;
@@ -12750,13 +13244,14 @@ h3.condensed {
   width: 32px;
 }
 
-.embed-search__button-icon {
+.embed-search__button:before {
+  content: url("../images/svg/search-icon-white.svg");
   display: block;
   fill: #fff;
   height: 24px;
-  left: 50%;
+  left: 45%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   width: 24px;
 }
@@ -12809,7 +13304,10 @@ h3.condensed {
   font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
 }
 
-.embed-zoom > button {
+.embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
   font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
   background-color: #fff;
   border: 1px solid #cccccc;
@@ -12817,24 +13315,39 @@ h3.condensed {
   clear: both;
   color: #666;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   height: 32px;
+  line-height: 32px;
+  text-align: center;
   margin: 1px;
   padding: 0;
   width: 32px;
 }
 
-.embed-zoom > button.embed-zoom__out span {
+.embed-zoom > button.embed-zoom__out,
+.embed-zoom > a.embed-zoom__out,
+.leaflet-control-zoom-in.embed-zoom__out,
+.leaflet-control-zoom-out.embed-zoom__out {
   display: inline-block;
   transform: scale(2, 1);
   vertical-align: text-top;
 }
 
 .embed-zoom > button:hover,
-.embed-zoom > button:focus {
+.embed-zoom > button:focus,
+.embed-zoom > a:hover,
+.embed-zoom > a:focus,
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-in:focus,
+.leaflet-control-zoom-out:hover,
+.leaflet-control-zoom-out:focus {
   background-color: #cccccc;
   border: 1px solid #000;
   color: #000;
+}
+
+.leaflet-control-zoom-out {
+  font-size: 1.1rem !important;
 }
 
 .embed-marker:before {

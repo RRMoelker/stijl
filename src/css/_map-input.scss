@@ -1,3 +1,7 @@
+@import '../../node_modules/gemeente-amsterdam-patterns/source/scss/mixin/sg-vars';
+@import '../../node_modules/gemeente-amsterdam-patterns/source/scss/mixin/amsterdam-vars';
+@import '../../node_modules/gemeente-amsterdam-patterns/source/scss/mixin/extends';
+
 $square-sizing: 32px;
 $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
 
@@ -44,13 +48,14 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     position: relative;
     width: $square-sizing;
 
-    &-icon {
+    &:before {
+      content: url("../images/svg/search-icon-white.svg");
       display: block;
       fill: $ams-wit;
       height: 24px;
-      left: 50%;
+      left: 45%;
       position: absolute;
-      top: 50%;
+      top: 55%;
       transform: translate(-50%, -50%);
       width: 24px;
     }
@@ -103,39 +108,44 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
       }
     }
   }
-
 }
 
-.embed-zoom {
-  > button {
-    @include avenirnext;
-    background-color: $ams-wit;
-    border: 1px solid $ams-pinkish-grey;
-    box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
-    clear: both;
-    color: $ams-donkerantraciet;
-    display: block;
-    font-size: 1.5rem;
-    height: $square-sizing;
-    margin: 1px;
-    padding: 0;
-    width: $square-sizing;
+.embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  @include avenirnext;
+  @extend %button-action;
+  background-color: $ams-wit;
+  border: 1px solid $ams-pinkish-grey;
+  box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
+  clear: both;
+  color: $ams-donkerantraciet;
+  display: block;
+  font-size: 1.4rem;
+  height: $square-sizing;
+  line-height: $square-sizing;
+  text-align: center;
+  margin: 1px;
+  padding: 0;
+  width: $square-sizing;
 
-    &.embed-zoom__out {
-      span {
-        display: inline-block;
-        transform: scale(2, 1);
-        vertical-align: text-top;
-      }
-    }
-
-    &:hover,
-    &:focus {
-      background-color: $ams-pinkish-grey;
-      border: 1px solid $ams-zwart;
-      color: $ams-zwart;
-    }
+  &.embed-zoom__out {
+    display: inline-block;
+    transform: scale(2, 1);
+    vertical-align: text-top;
   }
+
+  &:hover,
+  &:focus {
+    background-color: $ams-pinkish-grey;
+    border: 1px solid $ams-zwart;
+    color: $ams-zwart;
+  }
+}
+
+.leaflet-control-zoom-out {
+  font-size: 1.1rem !important;
 }
 
 .embed-marker {
