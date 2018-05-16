@@ -1,5 +1,5 @@
 //
-//  AMSTERDAM specific bootstrap overrides
+//  AMSTERDAM style
 //  Generic
 //
 
@@ -8,11 +8,16 @@ html, body {
   margin: 0;
 }
 
-@import 'font';
-@import '../../node_modules/gemeente-amsterdam-patterns/source/css/baseline-grid.css';
-@import '../../node_modules/gemeente-amsterdam-patterns/source/css/gemeente-amsterdam-components.css';
+// base amsterdam.nl grid and components
+@import '_amsterdam-grid.css';
+@import '_amsterdam-components.css';
 
+// variables used in other sass files below
 @import '../scss/ams-colorpalette';
+@import '../scss/ams-extends';
+
+// sass
+@import 'font';
 @import 'modal';
 @import 'table';
 @import 'typography';
