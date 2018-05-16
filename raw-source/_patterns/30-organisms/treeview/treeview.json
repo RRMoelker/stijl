@@ -1,0 +1,89 @@
+{
+  "gridWrappers": [
+    {
+      "wrapperAlias": "header",
+      "gridContainers": [
+        {
+          "containerAlias": "header-nav",
+          "containerModifiers": "breakout-container",
+          "gridZones": [
+            {
+              "zoneAlias": "nav",
+              "gridBlocks": [
+                {
+                  "treeviewGridBlock": {
+                    "blockType": "type-treeview",
+                    "listItems": [
+                      {
+                        "listItemLabel": "Heldere taal schrijven, hoe doe je dat"
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede brief",
+                        "linkListItemModifier": "expanded",
+                        "subList": {
+                          "subListItems": [
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Schrijf een goede brief"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "De afzender"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Adres, referenties, onderwerp en bijlage(n)"
+                            },
+                            {
+                              "linkSubListItemModifier": "selected",
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Inleiding"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "De kern"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Het slot"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Ondertekening",
+                              "linkSubListItemModifier": "expanded",
+                              "subSubList": {
+                                "subSubListItems": [
+                                  {
+                                    "subSubListItemLink": "#",
+                                    "subSubListItemLabel": "Ondertekening"
+                                  },
+                                  {
+                                    "subSubListItemLink": "#",
+                                    "subSubListItemLabel": "Ondertekening voor bestuurscommissies"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede e-mail"
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede beleidstekst"
+                      },
+                      {
+                        "listItemLabel": "Hoofdletter of kleine letter?"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

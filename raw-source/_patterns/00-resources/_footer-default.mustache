@@ -1,0 +1,11 @@
+<div class="grid-inside">
+  <h2 class="blok-titel">{{ title }}</h2>
+  {{# content }}
+    <div class="{{ richContentClass }} {{ contentModifier }} tekst">
+      {{{ . }}}
+    </div>
+  {{/ content }}
+  {{# linkListMolecule }}
+    {{> molecules-list-links }}
+  {{/ linkListMolecule }}
+</div>

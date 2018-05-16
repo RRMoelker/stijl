@@ -698,6 +698,85 @@ ul.list-unstyled, .links, .tabs {
     text-indent: -9999px;
     width: 30px; }
 
+@media screen and (min-width: 1024px) {
+  .type-nav-primair .links li, .type-treeview .links li {
+    line-height: 44px; }
+    .type-nav-primair .links li a, .type-treeview .links li a {
+      background-image: none;
+      font-size: 1.125rem; }
+      .type-nav-primair .links li a:hover, .type-treeview .links li a:hover, .type-nav-primair .links li a:focus, .type-treeview .links li a:focus, .type-nav-primair .links li a:active, .type-treeview .links li a:active {
+        background-image: none; }
+  .type-nav-primair .links.secundair, .type-treeview .links.secundair {
+    display: none; }
+  .type-nav-primair .links ul, .type-treeview .links ul {
+    display: none; } }
+
+@media screen and (max-width: 1023px) {
+  .type-nav-primair .links, .type-treeview .links {
+    background-color: #f3f3f3;
+    border-bottom: 4px solid #e8e8e8;
+    margin: 0;
+    width: calc(100% - 44px); }
+    .type-nav-primair .links.secundair, .type-treeview .links.secundair {
+      border-bottom-color: #000; }
+    .type-nav-primair .links > li, .type-treeview .links > li {
+      border-top: 1px solid #e8e8e8;
+      float: none;
+      line-height: 1rem;
+      margin-left: 0;
+      margin-right: 0; }
+      .type-nav-primair .links > li > a, .type-treeview .links > li > a {
+        font-size: 1rem;
+        background-image: none;
+        border-left: 8px solid transparent;
+        color: #333;
+        display: block;
+        padding: 14px 0 12px 7px; }
+        .type-nav-primair .links > li > a:hover, .type-treeview .links > li > a:hover, .type-nav-primair .links > li > a:focus, .type-treeview .links > li > a:focus, .type-nav-primair .links > li > a:active, .type-treeview .links > li > a:active {
+          background-image: none; }
+      .type-nav-primair .links > li .caret, .type-treeview .links > li .caret {
+        background-image: url("/images/sprites/sprite_bullets_small.png");
+        background-position: 0 -29800px;
+        background-repeat: no-repeat;
+        float: right;
+        height: 11px;
+        margin-right: 12px;
+        margin-top: 5px;
+        width: 11px; }
+      .type-nav-primair .links > li.expanded > a, .type-treeview .links > li.expanded > a {
+        border-left: 8px solid #ec0000;
+        color: #000; }
+      .type-nav-primair .links > li.expanded .caret, .type-treeview .links > li.expanded .caret {
+        background-position: 0 -29200px; }
+      .type-nav-primair .links > li ul, .type-treeview .links > li ul {
+        border-bottom: 0;
+        width: 100%; }
+      .type-nav-primair .links > li li, .type-treeview .links > li li {
+        background-color: #fff; }
+        .type-nav-primair .links > li li span.sublisttitle, .type-treeview .links > li li span.sublisttitle,
+        .type-nav-primair .links > li li a,
+        .type-treeview .links > li li a {
+          font-size: 1rem;
+          border-left: 8px solid #e8e8e8;
+          display: inline-block; }
+        .type-nav-primair .links > li li span.sublisttitle, .type-treeview .links > li li span.sublisttitle {
+          font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
+          padding: 26px 0 12px 7px; }
+        
+        .type-nav-primair .links > li li a,
+        .type-treeview .links > li li a {
+          background-image: url("/images/sprites/sprite_bullets_small.png");
+          background-position: 7px -1984px;
+          padding: 14px 0 12px 20px; }
+        .type-nav-primair .links > li li.expanded > a, .type-treeview .links > li li.expanded > a {
+          background-position: 7px -3984px;
+          color: #ec0000; }
+    .type-nav-primair .links.secundair li a, .type-treeview .links.secundair li a {
+      font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
+      color: #000; }
+      .type-nav-primair .links.secundair li a:hover, .type-treeview .links.secundair li a:hover {
+        color: #ec0000; } }
+
 .invoer select:focus:hover {
   background-image: url("/images/svg/caret-up-black.svg");
   background-repeat: no-repeat; }
@@ -710,11 +789,11 @@ ul.list-unstyled, .links, .tabs {
   background-image: url("/images/svg/caret-up-red.svg");
   background-repeat: no-repeat; }
 
-.ui-datepicker .ui-datepicker-next span, .links li a, .links li a:visited, .grid-zone.bgcolor_text-mediumgrey .links li a, .grid-zone.bgcolor_text-mediumgrey .links li a:visited, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_green .links li a, .grid-zone.bgcolor_green .links li a:visited, .grid-blok.bgcolor_green .grid-edge .links li a, .grid-blok.bgcolor_green .grid-edge .links li a:visited, .grid-zone.bgcolor_mediumgrey .links li a, .grid-zone.bgcolor_mediumgrey .links li a:visited, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_grey .links li a, .grid-zone.bgcolor_grey .links li a:visited, .grid-blok.bgcolor_grey .grid-edge .links li a, .grid-blok.bgcolor_grey .grid-edge .links li a:visited, .grid-zone.bgcolor_lightgrey .links li a, .grid-zone.bgcolor_lightgrey .links li a:visited, .grid-blok.bgcolor_lightgrey .grid-edge .links li a, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_orange .links li a, .grid-zone.bgcolor_orange .links li a:visited, .grid-blok.bgcolor_orange .grid-edge .links li a, .grid-blok.bgcolor_orange .grid-edge .links li a:visited, .grid-zone.bgcolor_superlightgrey .links li a, .grid-zone.bgcolor_superlightgrey .links li a:visited, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_white .links li a, .grid-zone.bgcolor_white .links li a:visited, .grid-blok.bgcolor_white .grid-edge .links li a, .grid-blok.bgcolor_white .grid-edge .links li a:visited, .grid-zone.bgcolor_lightyellow .links li a, .grid-zone.bgcolor_lightyellow .links li a:visited, .grid-blok.bgcolor_lightyellow .grid-edge .links li a, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:visited, .grid-zone.bgcolor_yellow .links li a, .grid-zone.bgcolor_yellow .links li a:visited, .grid-blok.bgcolor_yellow .grid-edge .links li a, .grid-blok.bgcolor_yellow .grid-edge .links li a:visited, .grid-zone.bgcolor_text-mediumgrey .more-link, .grid-zone.bgcolor_text-mediumgrey .more-link:visited, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_green .more-link, .grid-zone.bgcolor_green .more-link:visited, .grid-blok.bgcolor_green .grid-edge .more-link, .grid-blok.bgcolor_green .grid-edge .more-link:visited, .grid-zone.bgcolor_mediumgrey .more-link, .grid-zone.bgcolor_mediumgrey .more-link:visited, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_grey .more-link, .grid-zone.bgcolor_grey .more-link:visited, .grid-blok.bgcolor_grey .grid-edge .more-link, .grid-blok.bgcolor_grey .grid-edge .more-link:visited, .grid-zone.bgcolor_lightgrey .more-link, .grid-zone.bgcolor_lightgrey .more-link:visited, .grid-blok.bgcolor_lightgrey .grid-edge .more-link, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_orange .more-link, .grid-zone.bgcolor_orange .more-link:visited, .grid-blok.bgcolor_orange .grid-edge .more-link, .grid-blok.bgcolor_orange .grid-edge .more-link:visited, .grid-zone.bgcolor_superlightgrey .more-link, .grid-zone.bgcolor_superlightgrey .more-link:visited, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_white .more-link, .grid-zone.bgcolor_white .more-link:visited, .grid-blok.bgcolor_white .grid-edge .more-link, .grid-blok.bgcolor_white .grid-edge .more-link:visited, .grid-zone.bgcolor_lightyellow .more-link, .grid-zone.bgcolor_lightyellow .more-link:visited, .grid-blok.bgcolor_lightyellow .grid-edge .more-link, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:visited, .grid-zone.bgcolor_yellow .more-link, .grid-zone.bgcolor_yellow .more-link:visited, .grid-blok.bgcolor_yellow .grid-edge .more-link, .grid-blok.bgcolor_yellow .grid-edge .more-link:visited, .pager .volgende {
+.ui-datepicker .ui-datepicker-next span, .links li a, .links li a:visited, .grid-zone.bgcolor_text-mediumgrey .links li a, .grid-zone.bgcolor_text-mediumgrey .links li a:visited, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_green .links li a, .grid-zone.bgcolor_green .links li a:visited, .grid-blok.bgcolor_green .grid-edge .links li a, .grid-blok.bgcolor_green .grid-edge .links li a:visited, .grid-zone.bgcolor_mediumgrey .links li a, .grid-zone.bgcolor_mediumgrey .links li a:visited, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_grey .links li a, .grid-zone.bgcolor_grey .links li a:visited, .grid-blok.bgcolor_grey .grid-edge .links li a, .grid-blok.bgcolor_grey .grid-edge .links li a:visited, .grid-zone.bgcolor_lightgrey .links li a, .grid-zone.bgcolor_lightgrey .links li a:visited, .grid-blok.bgcolor_lightgrey .grid-edge .links li a, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_orange .links li a, .grid-zone.bgcolor_orange .links li a:visited, .grid-blok.bgcolor_orange .grid-edge .links li a, .grid-blok.bgcolor_orange .grid-edge .links li a:visited, .grid-zone.bgcolor_superlightgrey .links li a, .grid-zone.bgcolor_superlightgrey .links li a:visited, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:visited, .grid-zone.bgcolor_white .links li a, .grid-zone.bgcolor_white .links li a:visited, .grid-blok.bgcolor_white .grid-edge .links li a, .grid-blok.bgcolor_white .grid-edge .links li a:visited, .grid-zone.bgcolor_lightyellow .links li a, .grid-zone.bgcolor_lightyellow .links li a:visited, .grid-blok.bgcolor_lightyellow .grid-edge .links li a, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:visited, .grid-zone.bgcolor_yellow .links li a, .grid-zone.bgcolor_yellow .links li a:visited, .grid-blok.bgcolor_yellow .grid-edge .links li a, .grid-blok.bgcolor_yellow .grid-edge .links li a:visited, .grid-zone.bgcolor_text-mediumgrey .more-link, .grid-zone.bgcolor_text-mediumgrey .more-link:visited, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_green .more-link, .grid-zone.bgcolor_green .more-link:visited, .grid-blok.bgcolor_green .grid-edge .more-link, .grid-blok.bgcolor_green .grid-edge .more-link:visited, .grid-zone.bgcolor_mediumgrey .more-link, .grid-zone.bgcolor_mediumgrey .more-link:visited, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_grey .more-link, .grid-zone.bgcolor_grey .more-link:visited, .grid-blok.bgcolor_grey .grid-edge .more-link, .grid-blok.bgcolor_grey .grid-edge .more-link:visited, .grid-zone.bgcolor_lightgrey .more-link, .grid-zone.bgcolor_lightgrey .more-link:visited, .grid-blok.bgcolor_lightgrey .grid-edge .more-link, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_orange .more-link, .grid-zone.bgcolor_orange .more-link:visited, .grid-blok.bgcolor_orange .grid-edge .more-link, .grid-blok.bgcolor_orange .grid-edge .more-link:visited, .grid-zone.bgcolor_superlightgrey .more-link, .grid-zone.bgcolor_superlightgrey .more-link:visited, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:visited, .grid-zone.bgcolor_white .more-link, .grid-zone.bgcolor_white .more-link:visited, .grid-blok.bgcolor_white .grid-edge .more-link, .grid-blok.bgcolor_white .grid-edge .more-link:visited, .grid-zone.bgcolor_lightyellow .more-link, .grid-zone.bgcolor_lightyellow .more-link:visited, .grid-blok.bgcolor_lightyellow .grid-edge .more-link, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:visited, .grid-zone.bgcolor_yellow .more-link, .grid-zone.bgcolor_yellow .more-link:visited, .grid-blok.bgcolor_yellow .grid-edge .more-link, .grid-blok.bgcolor_yellow .grid-edge .more-link:visited, .pager .volgende, .navigate_page .rightnavigate .navigate_content a {
   background-image: url("/images/svg/caret-right-black.svg");
   background-repeat: no-repeat; }
 
-.ui-datepicker .ui-datepicker-next:hover span, .ui-datepicker .ui-datepicker-next:focus span, .ui-datepicker .ui-datepicker-next:active span, .links li a:active, .links li a:hover, .grid-zone.bgcolor_text-mediumgrey .links li a:hover, .grid-zone.bgcolor_text-mediumgrey .links li a:active, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:active, .grid-zone.bgcolor_green .links li a:hover, .grid-zone.bgcolor_green .links li a:active, .grid-blok.bgcolor_green .grid-edge .links li a:hover, .grid-blok.bgcolor_green .grid-edge .links li a:active, .grid-zone.bgcolor_mediumgrey .links li a:hover, .grid-zone.bgcolor_mediumgrey .links li a:active, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:active, .grid-zone.bgcolor_grey .links li a:hover, .grid-zone.bgcolor_grey .links li a:active, .grid-blok.bgcolor_grey .grid-edge .links li a:hover, .grid-blok.bgcolor_grey .grid-edge .links li a:active, .grid-zone.bgcolor_lightgrey .links li a:hover, .grid-zone.bgcolor_lightgrey .links li a:active, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:active, .grid-zone.bgcolor_orange .links li a:hover, .grid-zone.bgcolor_orange .links li a:active, .grid-blok.bgcolor_orange .grid-edge .links li a:hover, .grid-blok.bgcolor_orange .grid-edge .links li a:active, .grid-zone.bgcolor_superlightgrey .links li a:hover, .grid-zone.bgcolor_superlightgrey .links li a:active, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:active, .grid-zone.bgcolor_white .links li a:hover, .grid-zone.bgcolor_white .links li a:active, .grid-blok.bgcolor_white .grid-edge .links li a:hover, .grid-blok.bgcolor_white .grid-edge .links li a:active, .grid-zone.bgcolor_lightyellow .links li a:hover, .grid-zone.bgcolor_lightyellow .links li a:active, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:hover, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:active, .grid-zone.bgcolor_yellow .links li a:hover, .grid-zone.bgcolor_yellow .links li a:active, .grid-blok.bgcolor_yellow .grid-edge .links li a:hover, .grid-blok.bgcolor_yellow .grid-edge .links li a:active, .grid-zone.bgcolor_text-mediumgrey .more-link:hover, .grid-zone.bgcolor_text-mediumgrey .more-link:active, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:active, .grid-zone.bgcolor_green .more-link:hover, .grid-zone.bgcolor_green .more-link:active, .grid-blok.bgcolor_green .grid-edge .more-link:hover, .grid-blok.bgcolor_green .grid-edge .more-link:active, .grid-zone.bgcolor_mediumgrey .more-link:hover, .grid-zone.bgcolor_mediumgrey .more-link:active, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:active, .grid-zone.bgcolor_grey .more-link:hover, .grid-zone.bgcolor_grey .more-link:active, .grid-blok.bgcolor_grey .grid-edge .more-link:hover, .grid-blok.bgcolor_grey .grid-edge .more-link:active, .grid-zone.bgcolor_lightgrey .more-link:hover, .grid-zone.bgcolor_lightgrey .more-link:active, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:active, .grid-zone.bgcolor_orange .more-link:hover, .grid-zone.bgcolor_orange .more-link:active, .grid-blok.bgcolor_orange .grid-edge .more-link:hover, .grid-blok.bgcolor_orange .grid-edge .more-link:active, .grid-zone.bgcolor_superlightgrey .more-link:hover, .grid-zone.bgcolor_superlightgrey .more-link:active, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:active, .grid-zone.bgcolor_white .more-link:hover, .grid-zone.bgcolor_white .more-link:active, .grid-blok.bgcolor_white .grid-edge .more-link:hover, .grid-blok.bgcolor_white .grid-edge .more-link:active, .grid-zone.bgcolor_lightyellow .more-link:hover, .grid-zone.bgcolor_lightyellow .more-link:active, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:hover, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:active, .grid-zone.bgcolor_yellow .more-link:hover, .grid-zone.bgcolor_yellow .more-link:active, .grid-blok.bgcolor_yellow .grid-edge .more-link:hover, .grid-blok.bgcolor_yellow .grid-edge .more-link:active, .pager .volgende:hover {
+.ui-datepicker .ui-datepicker-next:hover span, .ui-datepicker .ui-datepicker-next:focus span, .ui-datepicker .ui-datepicker-next:active span, .links li a:active, .links li a:hover, .grid-zone.bgcolor_text-mediumgrey .links li a:hover, .grid-zone.bgcolor_text-mediumgrey .links li a:active, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_text-mediumgrey .grid-edge .links li a:active, .grid-zone.bgcolor_green .links li a:hover, .grid-zone.bgcolor_green .links li a:active, .grid-blok.bgcolor_green .grid-edge .links li a:hover, .grid-blok.bgcolor_green .grid-edge .links li a:active, .grid-zone.bgcolor_mediumgrey .links li a:hover, .grid-zone.bgcolor_mediumgrey .links li a:active, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_mediumgrey .grid-edge .links li a:active, .grid-zone.bgcolor_grey .links li a:hover, .grid-zone.bgcolor_grey .links li a:active, .grid-blok.bgcolor_grey .grid-edge .links li a:hover, .grid-blok.bgcolor_grey .grid-edge .links li a:active, .grid-zone.bgcolor_lightgrey .links li a:hover, .grid-zone.bgcolor_lightgrey .links li a:active, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_lightgrey .grid-edge .links li a:active, .grid-zone.bgcolor_orange .links li a:hover, .grid-zone.bgcolor_orange .links li a:active, .grid-blok.bgcolor_orange .grid-edge .links li a:hover, .grid-blok.bgcolor_orange .grid-edge .links li a:active, .grid-zone.bgcolor_superlightgrey .links li a:hover, .grid-zone.bgcolor_superlightgrey .links li a:active, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:hover, .grid-blok.bgcolor_superlightgrey .grid-edge .links li a:active, .grid-zone.bgcolor_white .links li a:hover, .grid-zone.bgcolor_white .links li a:active, .grid-blok.bgcolor_white .grid-edge .links li a:hover, .grid-blok.bgcolor_white .grid-edge .links li a:active, .grid-zone.bgcolor_lightyellow .links li a:hover, .grid-zone.bgcolor_lightyellow .links li a:active, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:hover, .grid-blok.bgcolor_lightyellow .grid-edge .links li a:active, .grid-zone.bgcolor_yellow .links li a:hover, .grid-zone.bgcolor_yellow .links li a:active, .grid-blok.bgcolor_yellow .grid-edge .links li a:hover, .grid-blok.bgcolor_yellow .grid-edge .links li a:active, .grid-zone.bgcolor_text-mediumgrey .more-link:hover, .grid-zone.bgcolor_text-mediumgrey .more-link:active, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_text-mediumgrey .grid-edge .more-link:active, .grid-zone.bgcolor_green .more-link:hover, .grid-zone.bgcolor_green .more-link:active, .grid-blok.bgcolor_green .grid-edge .more-link:hover, .grid-blok.bgcolor_green .grid-edge .more-link:active, .grid-zone.bgcolor_mediumgrey .more-link:hover, .grid-zone.bgcolor_mediumgrey .more-link:active, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_mediumgrey .grid-edge .more-link:active, .grid-zone.bgcolor_grey .more-link:hover, .grid-zone.bgcolor_grey .more-link:active, .grid-blok.bgcolor_grey .grid-edge .more-link:hover, .grid-blok.bgcolor_grey .grid-edge .more-link:active, .grid-zone.bgcolor_lightgrey .more-link:hover, .grid-zone.bgcolor_lightgrey .more-link:active, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_lightgrey .grid-edge .more-link:active, .grid-zone.bgcolor_orange .more-link:hover, .grid-zone.bgcolor_orange .more-link:active, .grid-blok.bgcolor_orange .grid-edge .more-link:hover, .grid-blok.bgcolor_orange .grid-edge .more-link:active, .grid-zone.bgcolor_superlightgrey .more-link:hover, .grid-zone.bgcolor_superlightgrey .more-link:active, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:hover, .grid-blok.bgcolor_superlightgrey .grid-edge .more-link:active, .grid-zone.bgcolor_white .more-link:hover, .grid-zone.bgcolor_white .more-link:active, .grid-blok.bgcolor_white .grid-edge .more-link:hover, .grid-blok.bgcolor_white .grid-edge .more-link:active, .grid-zone.bgcolor_lightyellow .more-link:hover, .grid-zone.bgcolor_lightyellow .more-link:active, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:hover, .grid-blok.bgcolor_lightyellow .grid-edge .more-link:active, .grid-zone.bgcolor_yellow .more-link:hover, .grid-zone.bgcolor_yellow .more-link:active, .grid-blok.bgcolor_yellow .grid-edge .more-link:hover, .grid-blok.bgcolor_yellow .grid-edge .more-link:active, .pager .volgende:hover, .navigate_page .rightnavigate .navigate_content a:hover, .navigate_page .rightnavigate .navigate_content a:focus, .navigate_page .rightnavigate .navigate_content a:active {
   background-image: url("/images/svg/caret-right-red.svg");
   background-repeat: no-repeat; }
 
@@ -740,13 +819,13 @@ ul.list-unstyled, .links, .tabs {
 .grid-zone.bgcolor_black .bigdown a::before, .grid-zone.bgcolor_black .bigdown a:active::before, .grid-zone.bgcolor_black .bigdown a:hover::before, .grid-zone.bgcolor_black .bigdown a:visited::before, .grid-blok.bgcolor_black .grid-edge .bigdown a::before, .grid-blok.bgcolor_black .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_black .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_black .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_darkblue .bigdown a::before, .grid-zone.bgcolor_darkblue .bigdown a:active::before, .grid-zone.bgcolor_darkblue .bigdown a:hover::before, .grid-zone.bgcolor_darkblue .bigdown a:visited::before, .grid-blok.bgcolor_darkblue .grid-edge .bigdown a::before, .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_darkblue .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_darkgreen .bigdown a::before, .grid-zone.bgcolor_darkgreen .bigdown a:active::before, .grid-zone.bgcolor_darkgreen .bigdown a:hover::before, .grid-zone.bgcolor_darkgreen .bigdown a:visited::before, .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a::before, .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_darkgreen .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_darkgrey .bigdown a::before, .grid-zone.bgcolor_darkgrey .bigdown a:active::before, .grid-zone.bgcolor_darkgrey .bigdown a:hover::before, .grid-zone.bgcolor_darkgrey .bigdown a:visited::before, .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a::before, .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_darkgrey .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_text-darkgrey .bigdown a::before, .grid-zone.bgcolor_text-darkgrey .bigdown a:active::before, .grid-zone.bgcolor_text-darkgrey .bigdown a:hover::before, .grid-zone.bgcolor_text-darkgrey .bigdown a:visited::before, .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a::before, .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_text-darkgrey .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_lightblue .bigdown a::before, .grid-zone.bgcolor_lightblue .bigdown a:active::before, .grid-zone.bgcolor_lightblue .bigdown a:hover::before, .grid-zone.bgcolor_lightblue .bigdown a:visited::before, .grid-blok.bgcolor_lightblue .grid-edge .bigdown a::before, .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_lightblue .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_magenta .bigdown a::before, .grid-zone.bgcolor_magenta .bigdown a:active::before, .grid-zone.bgcolor_magenta .bigdown a:hover::before, .grid-zone.bgcolor_magenta .bigdown a:visited::before, .grid-blok.bgcolor_magenta .grid-edge .bigdown a::before, .grid-blok.bgcolor_magenta .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_magenta .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_magenta .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_deeppurple .bigdown a::before, .grid-zone.bgcolor_deeppurple .bigdown a:active::before, .grid-zone.bgcolor_deeppurple .bigdown a:hover::before, .grid-zone.bgcolor_deeppurple .bigdown a:visited::before, .grid-blok.bgcolor_deeppurple .grid-edge .bigdown a::before, .grid-blok.bgcolor_deeppurple .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_deeppurple .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_deeppurple .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_purple .bigdown a::before, .grid-zone.bgcolor_purple .bigdown a:active::before, .grid-zone.bgcolor_purple .bigdown a:hover::before, .grid-zone.bgcolor_purple .bigdown a:visited::before, .grid-blok.bgcolor_purple .grid-edge .bigdown a::before, .grid-blok.bgcolor_purple .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_purple .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_purple .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_red .bigdown a::before, .grid-zone.bgcolor_red .bigdown a:active::before, .grid-zone.bgcolor_red .bigdown a:hover::before, .grid-zone.bgcolor_red .bigdown a:visited::before, .grid-blok.bgcolor_red .grid-edge .bigdown a::before, .grid-blok.bgcolor_red .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_red .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_red .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_mediumdarkgrey .bigdown a::before, .grid-zone.bgcolor_mediumdarkgrey .bigdown a:active::before, .grid-zone.bgcolor_mediumdarkgrey .bigdown a:hover::before, .grid-zone.bgcolor_mediumdarkgrey .bigdown a:visited::before, .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a::before, .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_mediumdarkgrey .grid-edge .bigdown a:visited::before, .grid-zone.bgcolor_superdarkgrey .bigdown a::before, .grid-zone.bgcolor_superdarkgrey .bigdown a:active::before, .grid-zone.bgcolor_superdarkgrey .bigdown a:hover::before, .grid-zone.bgcolor_superdarkgrey .bigdown a:visited::before, .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a::before, .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:active::before, .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:hover::before, .grid-blok.bgcolor_superdarkgrey .grid-edge .bigdown a:visited::before {
   background-image: url("/images/svg/caret-down-white.svg"); }
 
-.ui-datepicker .ui-datepicker-prev span, .pager .vorige {
+.ui-datepicker .ui-datepicker-prev span, .pager .vorige, .navigate_page .leftnavigate .navigate_content a {
   background-image: url("/images/svg/caret-left-black.svg"); }
 
 .startagain::before {
   background-image: url("/images/svg/caret-left-blue.svg"); }
 
-.ui-datepicker .ui-datepicker-prev:hover span, .ui-datepicker .ui-datepicker-prev:focus span, .ui-datepicker .ui-datepicker-prev:active span, .startagain:hover::before, .pager .vorige:hover {
+.ui-datepicker .ui-datepicker-prev:hover span, .ui-datepicker .ui-datepicker-prev:focus span, .ui-datepicker .ui-datepicker-prev:active span, .startagain:hover::before, .pager .vorige:hover, .navigate_page .leftnavigate .navigate_content a:hover, .navigate_page .leftnavigate .navigate_content a:focus, .navigate_page .leftnavigate .navigate_content a:active {
   background-image: url("/images/svg/caret-left-red.svg"); }
 
 .startagain.primary::before, .startagain.primary:hover::before {
@@ -3704,14 +3783,17 @@ fieldset.search-large.gsc-search-box td {
       content: "|";
       padding: 0 6px 0 2px; }
   .resultaat.has_img img,
-  .resultaat.has_img .empty-image {
+  .resultaat.has_img .empty-image,
+  .resultaat.has_img .entry-image {
     height: 124px;
     width: 220px; }
   .resultaat.has_img .empty-image {
     -webkit-box-shadow: inset -10px 0 0 0 #e8e8e8;
             box-shadow: inset -10px 0 0 0 #e8e8e8; }
+  .resultaat.has_img h2.link + a,
   .resultaat.has_img h3.link + a {
-    display: inline;
+    background: none;
+    display: inline-block;
     padding-left: 0; }
 
 .grid-zone.bgcolor_black .resultaat h2 a, .grid-zone.bgcolor_black .resultaat h2 a:active, .grid-zone.bgcolor_black .resultaat h2 a:hover, .grid-zone.bgcolor_black .resultaat h2 a:visited,
@@ -4478,13 +4560,13 @@ fieldset.search-large.gsc-search-box td {
     .grid-blok.grid_12 .resultaat.has_img h3,
     .grid-blok.grid_12 .resultaat.has_img .holder {
       margin-left: 230px; }
-    .grid-blok.grid_6 .resultaat.has_img img,
+    .grid-blok.grid_6 .resultaat.has_img .entry-image,
     .grid-blok.grid_6 .resultaat.has_img .empty-image,
-    .grid-blok.grid_8 .resultaat.has_img img,
+    .grid-blok.grid_8 .resultaat.has_img .entry-image,
     .grid-blok.grid_8 .resultaat.has_img .empty-image,
-    .grid-blok.grid_9 .resultaat.has_img img,
+    .grid-blok.grid_9 .resultaat.has_img .entry-image,
     .grid-blok.grid_9 .resultaat.has_img .empty-image,
-    .grid-blok.grid_12 .resultaat.has_img img,
+    .grid-blok.grid_12 .resultaat.has_img .entry-image,
     .grid-blok.grid_12 .resultaat.has_img .empty-image {
       float: left;
       position: absolute;
@@ -4515,9 +4597,10 @@ fieldset.search-large.gsc-search-box td {
     padding: 0 0 5px; }
 
 .grid-blok .grid_3:not(.galerij) .resultaat img {
-  padding-left: 22px; }
+  padding-left: 16px; }
 
-.grid-blok .grid_3:not(.galerij) .resultaat.has_img img {
+.grid-blok .grid_3:not(.galerij) .resultaat.has_img img,
+.grid-blok .grid_3:not(.galerij) .resultaat.has_img .entry-image {
   height: 102px;
   width: 180px; }
 
@@ -4548,8 +4631,9 @@ fieldset.search-large.gsc-search-box td {
     .resultaat .holder .tekst {
       padding: 0 0 5px; }
   .resultaat img {
-    padding-left: 22px; }
-  .resultaat.has_img img {
+    padding-left: 16px; }
+  .resultaat.has_img img,
+  .resultaat.has_img .entry-image {
     height: 102px;
     width: 180px; }
   .resultaat.has_img .empty-image {
@@ -4888,6 +4972,13 @@ fieldset.search-large.gsc-search-box td {
   .grid-blok.type-nav-primair {
     float: none !important; } }
 
+.type-nav-primair .links > li > a {
+  font-family: "AvenirNextLTW01-Medium", verdana, sans-serif;
+  color: #333;
+  padding-left: 0; }
+  .type-nav-primair .links > li > a.mainmenu-megamenu {
+    cursor: default; }
+
 .type-nav-primair .grid-title {
   max-height: 44px; }
 
@@ -4899,92 +4990,6 @@ fieldset.search-large.gsc-search-box td {
     display: none; }
   .type-nav-primair .toggle-search {
     margin-right: -10px; } }
-
-@media screen and (max-width: 1023px) {
-  .type-nav-primair {
-    background-color: #f3f3f3;
-    display: block;
-    height: 44px;
-    line-height: 44px; } }
-
-.type-nav-primair .links > li {
-  line-height: 44px; }
-  .type-nav-primair .links > li > a {
-    font-family: "AvenirNextLTW01-Medium", verdana, sans-serif;
-    color: #333;
-    padding-left: 0; }
-    .type-nav-primair .links > li > a.mainmenu-megamenu {
-      cursor: default; }
-
-@media screen and (min-width: 1024px) {
-  .type-nav-primair .links > li a {
-    background-image: none;
-    font-size: 1.125rem; }
-  .type-nav-primair .links.secundair {
-    display: none; }
-  .type-nav-primair .links ul {
-    display: none; } }
-
-@media screen and (max-width: 1023px) {
-  .type-nav-primair .links {
-    background-color: #f3f3f3;
-    border-bottom: 4px solid #e8e8e8;
-    margin: 0;
-    width: calc(100% - 44px); }
-    .type-nav-primair .links.secundair {
-      border-bottom-color: #000; }
-    .type-nav-primair .links > li {
-      border-top: 1px solid #e8e8e8;
-      float: none;
-      line-height: 1;
-      margin-left: 0;
-      margin-right: 0; }
-      .type-nav-primair .links > li > a {
-        font-size: 1rem;
-        background-image: none;
-        border-left: 8px solid transparent;
-        color: #333;
-        display: block;
-        padding: 14px 0 12px 7px; }
-      .type-nav-primair .links > li .caret {
-        background-image: url("/images/sprites/sprite_bullets_small.png");
-        background-position: 0 -29800px;
-        background-repeat: no-repeat;
-        float: right;
-        height: 11px;
-        margin-right: 12px;
-        margin-top: 5px;
-        width: 11px; }
-      .type-nav-primair .links > li.expanded > a {
-        border-left: 8px solid #ec0000;
-        color: #000; }
-      .type-nav-primair .links > li.expanded .caret {
-        background-position: 0 -29200px; }
-      .type-nav-primair .links > li ul {
-        border-bottom: 0;
-        width: 100%; }
-      .type-nav-primair .links > li li {
-        background-color: #fff; }
-        .type-nav-primair .links > li li span.sublisttitle,
-        .type-nav-primair .links > li li a {
-          font-size: 1rem;
-          border-left: 8px solid #e8e8e8;
-          display: inline-block; }
-        .type-nav-primair .links > li li span.sublisttitle {
-          font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
-          padding: 26px 0 12px 7px; }
-        .type-nav-primair .links > li li a {
-          background-image: url("/images/sprites/sprite_bullets_small.png");
-          background-position: 7px -1984px;
-          padding: 14px 0 12px 20px; }
-        .type-nav-primair .links > li li.expanded > a {
-          background-position: 7px -3984px;
-          color: #ec0000; }
-    .type-nav-primair .links.secundair li a {
-      font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
-      color: #000; }
-      .type-nav-primair .links.secundair li a:hover {
-        color: #ec0000; } }
 
 .type-nav-primair .links li > a, .type-nav-primair .links li > a:hover {
   text-decoration: none; }
@@ -5136,6 +5141,37 @@ fieldset.search-large.gsc-search-box td {
     .type-sitepad {
       margin-bottom: 10px; } }
 
+.navigate_page {
+  margin-bottom: 55px;
+  margin-top: 25px; }
+  .navigate_page .leftnavigate .navigate_content a,
+  .navigate_page .rightnavigate .navigate_content a {
+    font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    color: #000;
+    display: inline-block;
+    font-size: 1rem;
+    height: 20px;
+    line-height: 18px;
+    text-decoration: none;
+    white-space: nowrap; }
+    .navigate_page .leftnavigate .navigate_content a:hover, .navigate_page .leftnavigate .navigate_content a:focus, .navigate_page .leftnavigate .navigate_content a:active,
+    .navigate_page .rightnavigate .navigate_content a:hover,
+    .navigate_page .rightnavigate .navigate_content a:focus,
+    .navigate_page .rightnavigate .navigate_content a:active {
+      color: #ec0000; }
+  .navigate_page .leftnavigate .navigate_content {
+    float: left; }
+    .navigate_page .leftnavigate .navigate_content a {
+      background-position: 0 2px;
+      padding-left: 20px; }
+  .navigate_page .rightnavigate .navigate_content {
+    float: right; }
+    .navigate_page .rightnavigate .navigate_content a {
+      background-position: 100% 2px;
+      padding-right: 20px; }
+
 .searchtags {
   clear: both; }
   .searchtags legend {
@@ -5204,6 +5240,59 @@ fieldset.search-large.gsc-search-box td {
     .grid-tegel.datatile .tegel_text p {
       margin-bottom: 1em; }
 
+@media screen and (max-width: 1023px) {
+  .type-treeview .links > li {
+    margin-bottom: 0; }
+    .type-treeview .links > li > a, .type-treeview .links > li.expanded > a {
+      color: #767676; }
+      .type-treeview .links > li > a:hover, .type-treeview .links > li > a:focus, .type-treeview .links > li > a:active, .type-treeview .links > li.expanded > a:hover, .type-treeview .links > li.expanded > a:focus, .type-treeview .links > li.expanded > a:active {
+        color: #ec0000; }
+    .type-treeview .links > li.expanded > a,
+    .type-treeview .links > li.expanded li.expanded > a {
+      border-left: 8px solid #ec0000; }
+    .type-treeview .links > li li {
+      border-left: 8px solid #e8e8e8;
+      margin-bottom: 0; }
+      .type-treeview .links > li li a {
+        background: none;
+        color: #767676;
+        padding-left: 10px; }
+        .type-treeview .links > li li a:hover, .type-treeview .links > li li a:focus, .type-treeview .links > li li a:active {
+          color: #ec0000; } }
+
+@media screen and (min-width: 1024px) {
+  .type-treeview .links li {
+    line-height: 1.5em; }
+    .type-treeview .links li.selected a {
+      font-weight: 700; }
+    .type-treeview .links li a {
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
+      padding-left: 1.2em; }
+      .type-treeview .links li a:hover, .type-treeview .links li a:active {
+        background: none; }
+    .type-treeview .links li ul {
+      display: block;
+      margin: .5em 0 .5em 1em; }
+  .type-treeview .links > li a > span {
+    display: inline-block; }
+    .type-treeview .links > li a > span::before {
+      background-image: url("/images/svg/treeview-plus-black.svg");
+      background-repeat: no-repeat;
+      content: "";
+      display: inline-block;
+      height: 12px;
+      margin-left: -20px;
+      margin-right: 3px;
+      width: 12px; }
+  .type-treeview .links > li a:hover > span::before {
+    background-image: url("/images/svg/treeview-plus-red.svg"); }
+  .type-treeview .links > li.expanded a > span::before {
+    background-image: url("/images/svg/treeview-minus-black.svg"); }
+  .type-treeview .links > li.expanded a:hover > span::before {
+    background-image: url("/images/svg/treeview-minus-red.svg"); }
+  .type-treeview .links > li > a {
+    padding-left: .5em; } }
+
 .has_hero_image {
   position: relative; }
   .has_hero_image .grid-paginatitel .grid-element,
@@ -5248,6 +5337,129 @@ fieldset.search-large.gsc-search-box td {
   @media screen and (max-width: 1023px) {
     .grid-wrapper {
       max-width: 100%; } }
+
+.outer-wrapper.toc-view .z-search {
+  background-color: #f3f3f3; }
+
+.outer-wrapper.toc-view .footer-wrapper {
+  background-color: #666; }
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+  .outer-wrapper.toc-view .contents-wrapper .container_12.breakout-container .grid-zone.z-search {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; }
+    .outer-wrapper.toc-view .contents-wrapper .container_12.breakout-container .grid-zone.z-search .grid_12 {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 540px; }
+  .outer-wrapper.toc-view .contents-wrapper .container_12.breakout-container .grid-zone.z-nav, .outer-wrapper.toc-view .contents-wrapper .container_12.breakout-container .grid-zone.z-content {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px; }
+  .outer-wrapper.toc-view .footer-wrapper .container_12.breakout-container .grid-zone.z-footerleft, .outer-wrapper.toc-view .footer-wrapper .container_12.breakout-container .grid-zone.z-footerright {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px; } }
+
+@media screen and (max-width: 1023px) {
+  .outer-wrapper.toc-view .footer-wrapper .z-footerright > .grid_3 {
+    margin-top: 30px;
+    width: 100%; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+  .outer-wrapper.toc-view .contents-wrapper {
+    background: -webkit-gradient(linear, left top, right top, color-stop(27.08333%, #f3f3f3), color-stop(27.08333%, #f3f3f3), color-stop(27.08333%, #fff));
+    background: -o-linear-gradient(left, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%);
+    background: linear-gradient(left, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%); }
+    .outer-wrapper.toc-view .contents-wrapper .container_12 {
+      max-width: 100%; }
+    .outer-wrapper.toc-view .contents-wrapper .z-nav,
+    .outer-wrapper.toc-view .contents-wrapper .z-footerleft {
+      width: 27.08333%; }
+      .outer-wrapper.toc-view .contents-wrapper .z-nav .grid_3,
+      .outer-wrapper.toc-view .contents-wrapper .z-footerleft .grid_3 {
+        float: right; }
+    .outer-wrapper.toc-view .contents-wrapper .z-content,
+    .outer-wrapper.toc-view .contents-wrapper .z-footerright {
+      width: 72.91667%; }
+    .outer-wrapper.toc-view .contents-wrapper .z-content > .grid_9.type-sitepad {
+      margin-left: 10px; }
+    .outer-wrapper.toc-view .contents-wrapper .z-footerright > .grid_3.type-footer {
+      max-width: 240px; }
+      .outer-wrapper.toc-view .contents-wrapper .z-footerright > .grid_3.type-footer:first-of-type {
+        margin-left: 10px; }
+  .outer-wrapper.toc-view .footer-wrapper .container_12 {
+    max-width: 100%; }
+  .outer-wrapper.toc-view .footer-wrapper .z-footerleft {
+    width: 27.08333%; }
+    .outer-wrapper.toc-view .footer-wrapper .z-footerleft .grid_3 {
+      float: none;
+      margin: 0 auto; }
+  .outer-wrapper.toc-view .footer-wrapper .z-footerright {
+    width: 72.91667%; } }
+
+@media screen and (min-width: 1024px) {
+  .outer-wrapper.toc-view .grid-header-logo .sitelogo {
+    margin-left: 10px; }
+  .outer-wrapper.toc-view .grid-zone.grid_12 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; }
+  .outer-wrapper.toc-view .contents-wrapper .z-search > .grid_12 {
+    float: none;
+    margin: 0 auto;
+    max-width: 940px; }
+  .outer-wrapper.toc-view .contents-wrapper .z-nav {
+    padding-top: 44px; }
+    .outer-wrapper.toc-view .contents-wrapper .z-nav .grid_3 {
+      width: 240px; }
+  .outer-wrapper.toc-view .contents-wrapper .z-content > .grid_9 {
+    margin-left: 80px;
+    max-width: 620px; }
+  .outer-wrapper.toc-view .contents-wrapper .container_12 {
+    max-width: 100%; }
+  .outer-wrapper.toc-view .footer-wrapper {
+    padding-top: 30px; }
+    .outer-wrapper.toc-view .footer-wrapper .z-footerleft .grid_3 {
+      width: 240px; }
+    .outer-wrapper.toc-view .footer-wrapper .z-footerright > .grid_3 {
+      max-width: 240px; }
+      .outer-wrapper.toc-view .footer-wrapper .z-footerright > .grid_3:first-of-type {
+        margin-left: 10px; }
+    .outer-wrapper.toc-view .footer-wrapper .container_12 {
+      max-width: 100%; } }
+
+@media screen and (min-width: 1400px) {
+  .outer-wrapper.toc-view .contents-wrapper {
+    background: -webkit-gradient(linear, left top, right top, color-stop(26.42857%, #f3f3f3), color-stop(26.42857%, #f3f3f3), color-stop(26.42857%, #fff));
+    background: -o-linear-gradient(left, #f3f3f3 26.42857%, #f3f3f3 26.42857%, #fff 26.42857%);
+    background: linear-gradient(left, #f3f3f3 26.42857%, #f3f3f3 26.42857%, #fff 26.42857%); }
+    .outer-wrapper.toc-view .contents-wrapper .grid-container.breakout-container {
+      max-width: 1400px; }
+    .outer-wrapper.toc-view .contents-wrapper .z-nav {
+      padding-top: 64px;
+      width: 26.42857%; }
+      .outer-wrapper.toc-view .contents-wrapper .z-nav .grid_3 {
+        float: none;
+        margin: 0 auto; }
+    .outer-wrapper.toc-view .contents-wrapper .z-content {
+      width: 73.57143%; }
+  .outer-wrapper.toc-view .footer-wrapper {
+    padding-bottom: 30px;
+    padding-top: 30px; }
+    .outer-wrapper.toc-view .footer-wrapper .z-footerleft {
+      width: 26.42857%; }
+      .outer-wrapper.toc-view .footer-wrapper .z-footerleft .grid_3 {
+        float: none;
+        margin: 0 auto; }
+    .outer-wrapper.toc-view .footer-wrapper .z-footerright {
+      width: 73.57143%; }
+      .outer-wrapper.toc-view .footer-wrapper .z-footerright > .grid_3.type-footer:first-of-type {
+        margin-left: 80px; } }
 
 .header-wrapper {
   background-color: #fff;

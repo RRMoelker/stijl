@@ -40,12 +40,15 @@
 @import "30-organisms/pager";
 @import "30-organisms/photoblock";
 @import "30-organisms/nav";
+@import "30-organisms/navigate-page";
 @import "30-organisms/searchtags";
 @import "30-organisms/tile";
+@import "30-organisms/treeview";
 
 //pages
 @import "50-pages/hero-image";
 @import "50-pages/pages";
+@import "50-pages/tocview";
 
 // templates
 @import "40-templates/header";

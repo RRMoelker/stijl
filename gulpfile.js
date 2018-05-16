@@ -20,6 +20,7 @@ gulp.task('build-css', function() {
     .pipe(concatcss('ams-stijl.css'))
     .pipe(replace(/(background-image: url\(")(.*)(\/images\/)/g, 'background-image: url("../images/'))
     .pipe(replace(/(background: url\(")(.*)(\/images\/)/g, 'background: url("../images/'))
+    .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source/fonts', '../fonts'))
     .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../../raw-source'))
     .pipe(gulp.dest('dist/css'))
 });
@@ -29,6 +30,7 @@ gulp.task('build-sass', function() {
     .src('src/scss/**/*.scss')
     .pipe(foreach(function (stream, file) {
         return stream
+            .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source/fonts', '../fonts'))
             .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../../raw-source'))
             .pipe(gulp.dest('dist/scss'))
     }))
@@ -40,6 +42,12 @@ gulp.task('build-images', function() {
     .pipe(gulp.dest('dist/images'))
 });
 
+gulp.task('copy-fonts', function() {
+    return gulp
+    .src('raw-source/fonts/**/*.*')
+    .pipe(gulp.dest('dist/fonts'))
+});
+
 gulp.task('clean-raw-images', function(){
     return del([
         'raw-source/images/backgrounds',
@@ -47,4 +55,13 @@ gulp.task('clean-raw-images', function(){
     ]);
 });
 
-gulp.task('default', gulp.series('copy-amsterdam-source', 'build-css', 'build-sass', 'clean-raw-images', 'build-images'));
+gulp.task('clean', function(){
+    return del([
+        'raw-source',
+        'dist'
+    ]);
+});
+
+
+
+gulp.task('default', gulp.series('clean', 'copy-amsterdam-source', 'copy-fonts', 'build-css', 'build-sass', 'clean-raw-images', 'build-images'));

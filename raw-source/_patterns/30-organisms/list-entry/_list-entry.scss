@@ -1,3 +1,5 @@
+$list-entry-caret-padding: 16px;
+
 .iprox-rich-content {
   + .results,
   + .resultaten {
@@ -19,7 +21,7 @@
   h2 a,
   h3 a,
   .holder {
-    padding-left: 16px;
+    padding-left: $list-entry-caret-padding;
   }
 
   h2,
@@ -162,7 +164,8 @@
 
   &.has_img { // sass-lint:disable-line class-name-format
     img,
-    .empty-image {
+    .empty-image,
+    .entry-image {
       height: 124px;
       width: 220px;
     }
@@ -171,9 +174,13 @@
       box-shadow: inset -10px 0 0 0 $color-lightgrey;
     }
 
-    h3.link + a {
-      display: inline;
-      padding-left: 0;
+    h2,
+    h3 {
+      &.link + a {
+        background: none;
+        display: inline-block;
+        padding-left: 0;
+      }
     }
   }
 }
@@ -270,7 +277,7 @@
           margin-left: 230px;
         }
 
-        img,
+        .entry-image,
         .empty-image {
           float: left;
           position: absolute;
@@ -307,11 +314,12 @@
     }
 
     img {
-      padding-left: 22px;
+      padding-left: $list-entry-caret-padding;
     }
 
     &.has_img { // sass-lint:disable-line class-name-format
-      img {
+      img,
+      .entry-image {
         height: 102px;
         width: 180px;
       }
