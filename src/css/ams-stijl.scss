@@ -3,13 +3,16 @@
 //  Generic
 //
 
+// import font sass on top
+@import 'font';
+
 html, body {
   padding: 0;
   margin: 0;
 }
 
 // base amsterdam.nl grid and components
-@import '_amsterdam-grid.css';
+@import 'grid';
 @import '_amsterdam-components.css';
 
 // variables used in other sass files below
@@ -17,7 +20,6 @@ html, body {
 @import '../scss/ams-extends';
 
 // sass
-@import 'font';
 @import 'modal';
 @import 'table';
 @import 'typography';
