@@ -122,7 +122,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   border-radius: 0 !important;
   box-shadow: 2px 2px 0 0 $ams-middendonkergrijs !important;
   clear: both !important;
-  color: $ams-wit !important;
+  color: $ams-donkerantraciet !important;
   display: block !important;
   height: $square-sizing !important;
   line-height: $square-sizing !important;
@@ -138,7 +138,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   &:focus {
     background-color: $ams-pinkish-grey !important;
     border: 1px solid $ams-zwart !important;
-    color: $ams-pinkish-grey !important;
+    color: $ams-zwart !important;
     &:before {
       color: $ams-zwart !important;
     }
