@@ -1,30 +1,31 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var concatcss = require('gulp-concat-css');
 var del = require('del');
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer');
 
 
 gulp.task('build-css', function() {
   return gulp
-    .src('src/css/**/*.scss')
+    .src('src/css/ams-stijl.scss')
     .pipe(sass())
-    .pipe(concatcss('ams-stijl.css'))
+    .pipe(postcss([autoprefixer()]))
     .pipe(gulp.dest('dist/css'))
 });
 
-gulp.task('build-sass', function() {
+gulp.task('copy-sass', function() {
   return gulp
     .src('src/scss/**/*.scss')
     .pipe(gulp.dest('dist/scss'))
 });
 
-gulp.task('build-images', function() {
+gulp.task('copy-images', function() {
     return gulp
     .src('src/images/**/*.*')
     .pipe(gulp.dest('dist/images'))
 });
 
-gulp.task('build-fonts', function() {
+gulp.task('copy-fonts', function() {
     return gulp
     .src('src/fonts/**/*.*')
     .pipe(gulp.dest('dist/fonts'))
@@ -34,4 +35,4 @@ gulp.task('clean', function(){
     return del('dist');
 });
 
-gulp.task('default', gulp.series('clean', 'build-fonts', 'build-css', 'build-sass', 'build-images'));
+gulp.task('default', gulp.series('clean', 'copy-fonts', 'build-css', 'copy-sass', 'copy-images'));

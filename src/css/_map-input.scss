@@ -65,7 +65,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   &__auto-suggest {
     background-color: $ams-wit;
     border: 2px solid $ams-zwart;
-    width: calc(100% - #{$square-sizing + (2px * 2)}); // full width, (minus submit button, plus border on both sides)
+    width: calc(100% - #{$square-sizing}); // full width, (minus submit button)
     box-shadow: $ams-box-shadow;
     margin-top: -2px;
 
@@ -86,7 +86,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
       text-decoration: none;
       text-overflow: ellipsis;
       padding: 0 6px 0 7px;
-      width: calc(100% - 13px);
+      width: 100%;
       height: $square-sizing;
       line-height: $square-sizing;
       overflow: hidden;

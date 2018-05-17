@@ -1,6 +1,6 @@
 {
   "name": "stijl",
-  "version": "2.0.3",
+  "version": "2.9.0",
   "description": "Generieke styling voor data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "scripts": {
@@ -13,16 +13,17 @@
     "bootstrap": "^4.1.1",
     "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-concat-css": "^3.1.0",
-    "gulp-if": "^2.0.2",
+    "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.2.1",
-    "gulp-sass-lint": "^1.3.4",
-    "patternlab-node": "2.12.0",
     "pre-commit": "^1.2.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amsterdam/stijl.git"
+  },
+  "browserslist": {
+    "browsers": [
+      "last 3 versions"
+    ]
   }
 }

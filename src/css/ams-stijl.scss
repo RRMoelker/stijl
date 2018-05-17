@@ -13,7 +13,7 @@ html, body {
 
 // base amsterdam.nl grid and components
 @import 'grid';
-@import '_amsterdam-components.css';
+@import 'amsterdam-components/amsterdam-components';
 
 // variables used in other sass files below
 @import '../scss/ams-colorpalette';
