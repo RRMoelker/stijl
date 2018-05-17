@@ -21,6 +21,23 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     &::-ms-clear {
       display: none;
     }
+
+    &::placeholder {
+      @include avenirnext;
+    }
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      @include avenirnext;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      @include avenirnext;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      @include avenirnext;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      @include avenirnext;
+    }
+
   }
 
   &__clear {

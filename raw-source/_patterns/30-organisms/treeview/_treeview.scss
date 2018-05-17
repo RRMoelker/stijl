@@ -6,6 +6,10 @@
       > li {
         margin-bottom: 0;
 
+        > a {
+          padding: 14px 0 12px 7px;
+        }
+
         &,
         &.expanded {
           > a {

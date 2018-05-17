@@ -5,6 +5,16 @@
 }
 
 .type-nav-primair {
+  @extend %megamenu-treeview;
+
+  .grid-title {
+    max-height: $rowheight;
+  }
+
+  .toggle-search {
+    float: right;
+  }
+
   .links {
     > li {
       > a {
@@ -17,16 +27,14 @@
         }
       }
     }
-  }
 
-  @extend %megamenu-treeview;
-
-  .grid-title {
-    max-height: $rowheight;
-  }
-
-  .toggle-search {
-    float: right;
+    @media screen and (max-width: $grid-mq-medium) {
+      > li {
+        > a {
+          padding: 14px 0 12px 7px;
+        }
+      }
+    }
   }
 
   @media screen and (min-width: #{$grid-mq-medium + 1px}) {
