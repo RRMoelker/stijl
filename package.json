@@ -1,6 +1,6 @@
 {
   "name": "stijl",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "Generieke styling voor data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "scripts": {
@@ -19,6 +19,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-concat-css": "^3.1.0",
     "gulp-foreach": "^0.1.0",
+    "gulp-header": "^2.0.5",
     "gulp-if": "^2.0.2",
     "gulp-replace-path": "^0.4.0",
     "gulp-sass": "^3.1.0",

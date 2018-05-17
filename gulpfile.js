@@ -4,6 +4,14 @@ var concatcss = require('gulp-concat-css');
 var foreach = require('gulp-foreach');
 var replace = require('gulp-replace-path');
 var del = require('del');
+var header = require('gulp-header');
+
+var pkg = require('./package.json');
+var banner = ['/**',
+    ' * <%= pkg.name %> - <%= pkg.description %>',
+    ' * @version v<%= pkg.version %>',
+    ' */',
+    ''].join('\n');
 
 gulp.task('copy-amsterdam-source', function() {
    return gulp
@@ -22,6 +30,7 @@ gulp.task('build-css', function() {
     .pipe(replace(/(background: url\(")(.*)(\/images\/)/g, 'background: url("../images/'))
     .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source/fonts', '../fonts'))
     .pipe(replace('../../node_modules/gemeente-amsterdam-patterns/source', '../../raw-source'))
+    .pipe(header(banner, { pkg : pkg } ))
     .pipe(gulp.dest('dist/css'))
 });
 
