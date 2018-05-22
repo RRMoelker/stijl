@@ -1,10 +1,15 @@
 // breakpoints waarmee het grid rekent
+$grid-bp-xsmall: 0;
 $grid-bp-small: 320px;
 $grid-bp-medium: 480px;
 $grid-bp-large: 960px;
+$grid-bp-xlarge: 1200px;
+
 
 // breakpoints waarmee de css werkt
-$grid-mq-small: 539px;
-$grid-mq-medium: 1023px;
+$grid-mq-small: 320px;
+$grid-mq-medium: 460px;
+$grid-mq-large: 539px;
+$grid-mq-xlarge: 1023px;
 
 $hero-img-height: 415px;
