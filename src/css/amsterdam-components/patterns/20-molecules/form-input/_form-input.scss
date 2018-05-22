@@ -1,9 +1,9 @@
-.rij {
-  &.rij_ongeldig { // sass-lint:disable-line class-name-format
+.row {
+  &.row_ongeldig { // sass-lint:disable-line class-name-format
     @extend %invalid-border;
   }
 
-  &.rij_geldig { // sass-lint:disable-line class-name-format
+  &.row_geldig { // sass-lint:disable-line class-name-format
     @extend %valid-border;
   }
 

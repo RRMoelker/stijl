@@ -6,18 +6,18 @@
       @include validation-border($color-red);
     }
 
-    .rij {
+    .row {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: baseline;
 
-      &.rij_ongeldig, // sass-lint:disable-line class-name-format
-      &.rij_geldig { // sass-lint:disable-line class-name-format
+      &.row_ongeldig, // sass-lint:disable-line class-name-format
+      &.row_geldig { // sass-lint:disable-line class-name-format
         border: 0;
         padding-left: 0;
       }
 
-      & + .rij {
+      & + .row {
         padding-left: 6px;
       }
     }

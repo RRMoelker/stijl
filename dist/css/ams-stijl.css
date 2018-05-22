@@ -51,15 +51,15 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 320px) {
+  @media (min-width: 576px) {
     .container {
-      max-width: 320px; } }
-  @media (min-width: 480px) {
+      max-width: 576px; } }
+  @media (min-width: 760px) {
     .container {
-      max-width: 460px; } }
-  @media (min-width: 960px) {
+      max-width: 760px; } }
+  @media (min-width: 992px) {
     .container {
-      max-width: 539px; } }
+      max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
       max-width: 1023px; } }
@@ -233,7 +233,7 @@ html {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 320px) {
+@media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -333,7 +333,7 @@ html {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 480px) {
+@media (min-width: 760px) {
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -433,7 +433,7 @@ html {
   .offset-md-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -660,7 +660,7 @@ html {
 .d-inline-flex {
   display: inline-flex !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 576px) {
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
@@ -680,7 +680,7 @@ html {
   .d-sm-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 480px) {
+@media (min-width: 760px) {
   .d-md-none {
     display: none !important; }
   .d-md-inline {
@@ -700,7 +700,7 @@ html {
   .d-md-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .d-lg-none {
     display: none !important; }
   .d-lg-inline {
@@ -862,7 +862,7 @@ html {
 .align-self-stretch {
   align-self: stretch !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important; }
   .flex-sm-column {
@@ -932,7 +932,7 @@ html {
   .align-self-sm-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 480px) {
+@media (min-width: 760px) {
   .flex-md-row {
     flex-direction: row !important; }
   .flex-md-column {
@@ -1002,7 +1002,7 @@ html {
   .align-self-md-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important; }
   .flex-lg-column {
@@ -1510,63 +1510,63 @@ fieldset.search-large input[type="text"]:focus {
   box-shadow: inset 0 0 0 2px #000;
   outline: 0; }
 
-.rij_ongeldig .invoer input, .rij_ongeldig input[type="checkbox"] + label::before, .rij_ongeldig input[type="radio"] + label::before, .rij_ongeldig .invoer select, .rij_ongeldig .invoer textarea {
+.row_ongeldig .invoer input, .row_ongeldig input[type="checkbox"] + label::before, .row_ongeldig input[type="radio"] + label::before, .row_ongeldig .invoer select, .row_ongeldig .invoer textarea {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 1px #ec0000; }
 
-.rij_ongeldig .invoer input:focus, .rij_ongeldig input[type="checkbox"]:hover + label::before, .rij_ongeldig input[type="checkbox"]:focus + label::before, .rij_ongeldig input[type="radio"]:hover + label::before, .rij_ongeldig input[type="radio"]:focus + label::before, .rij_ongeldig .invoer select:focus, .rij_ongeldig .invoer textarea:focus {
+.row_ongeldig .invoer input:focus, .row_ongeldig input[type="checkbox"]:hover + label::before, .row_ongeldig input[type="checkbox"]:focus + label::before, .row_ongeldig input[type="radio"]:hover + label::before, .row_ongeldig input[type="radio"]:focus + label::before, .row_ongeldig .invoer select:focus, .row_ongeldig .invoer textarea:focus {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 2px #ec0000; }
 
-.rij.rij_ongeldig {
+.row.row_ongeldig {
   border-left: 2px solid #ec0000;
   padding-left: 13px; }
 
-.rij_geldig .invoer input, .rij_geldig input[type="checkbox"] + label::before, .rij_geldig input[type="radio"] + label::before, .rij_geldig .invoer select, .rij_geldig .invoer textarea {
+.row_geldig .invoer input, .row_geldig input[type="checkbox"] + label::before, .row_geldig input[type="radio"] + label::before, .row_geldig .invoer select, .row_geldig .invoer textarea {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 1px #00a03c; }
 
-.rij_geldig .invoer input:focus, .rij_geldig input[type="checkbox"]:hover + label::before, .rij_geldig input[type="checkbox"]:focus + label::before, .rij_geldig input[type="radio"]:hover + label::before, .rij_geldig input[type="radio"]:focus + label::before, .rij_geldig .invoer select:focus, .rij_geldig .invoer textarea:focus {
+.row_geldig .invoer input:focus, .row_geldig input[type="checkbox"]:hover + label::before, .row_geldig input[type="checkbox"]:focus + label::before, .row_geldig input[type="radio"]:hover + label::before, .row_geldig input[type="radio"]:focus + label::before, .row_geldig .invoer select:focus, .row_geldig .invoer textarea:focus {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 2px #00a03c; }
 
-.rij.rij_geldig {
+.row.row_geldig {
   border-left: 2px solid #00a03c;
   padding-left: 13px; }
 
-.rij.mode_display .label,
-.rij.mode_display .invoer {
+.row.mode_display .label,
+.row.mode_display .invoer {
   display: inline-block; }
 
-.rij.mode_display .label {
+.row.mode_display .label {
   vertical-align: top;
   width: 50%; }
-  .rij.mode_display .label label,
-  .rij.mode_display .label .setlabel,
-  .rij.mode_display .label .label-text {
+  .row.mode_display .label label,
+  .row.mode_display .label .setlabel,
+  .row.mode_display .label .label-text {
     font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
     color: #767676; }
 
 
-.rij.mode_display .invoer {
+.row.mode_display .invoer {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   width: 49%; }
 
-.display_largecontent.rij.mode_display .label {
+.display_largecontent.row.mode_display .label {
   width: 33%; }
 
-.display_largecontent.rij.mode_display .invoer {
+.display_largecontent.row.mode_display .invoer {
   width: 66%; }
 
-.display_largelabels.rij.mode_display .label {
+.display_largelabels.row.mode_display .label {
   width: 66%; }
 
-.display_largelabels.rij.mode_display .invoer {
+.display_largelabels.row.mode_display .invoer {
   width: 33%; }
 
 @media screen and (max-width: 539px) {
-  .rij.mode_display .label,
-  .rij.mode_display .invoer, .display_largecontent.rij.mode_display .label, .display_largecontent.rij.mode_display .invoer, .display_largelabels.rij.mode_display .label, .display_largelabels.rij.mode_display .invoer {
+  .row.mode_display .label,
+  .row.mode_display .invoer, .display_largecontent.row.mode_display .label, .display_largecontent.row.mode_display .invoer, .display_largelabels.row.mode_display .label, .display_largelabels.row.mode_display .invoer {
     width: 100%; } }
 
 fieldset.selectie_type_checkbox .antwoorden, fieldset.selectie_type_radio .antwoorden {
@@ -1974,7 +1974,7 @@ button.disabled.action, a.disabled.action, .embed-zoom > button.disabled,
     border-left-color: #e5e5e5 !important; }
 
 .toggle-filter .caret, .toggle-mainmenu.expanded .caret, .toggle-search.expanded .caret {
-  background-image: url("/images/svg/close-icon-black.svg");
+  background-image: url("../images/svg/close-icon-black.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -2021,43 +2021,43 @@ ul.list-unstyled, .links, .tabs {
     width: 30px; }
 
 @media screen and (min-width: 1024px) {
-  .type-nav-primair .links li, .type-treeview .links li {
+  .type-nav-primair .links li {
     line-height: 44px; }
-    .type-nav-primair .links li a, .type-treeview .links li a {
+    .type-nav-primair .links li a {
       background-image: none;
       font-size: 1.125rem; }
-      .type-nav-primair .links li a:hover, .type-treeview .links li a:hover, .type-nav-primair .links li a:focus, .type-treeview .links li a:focus, .type-nav-primair .links li a:active, .type-treeview .links li a:active {
+      .type-nav-primair .links li a:hover, .type-nav-primair .links li a:focus, .type-nav-primair .links li a:active {
         background-image: none; }
-  .type-nav-primair .links.secundair, .type-treeview .links.secundair {
+  .type-nav-primair .links.secundair {
     display: none; }
-  .type-nav-primair .links ul, .type-treeview .links ul {
+  .type-nav-primair .links ul {
     display: none; } }
 
 @media screen and (max-width: 1023px) {
-  .type-nav-primair .links, .type-treeview .links {
+  .type-nav-primair .links {
     background-color: #f3f3f3;
     border-bottom: 4px solid #e8e8e8;
     margin: 0;
     width: calc(100% - 44px); }
-    .type-nav-primair .links.secundair, .type-treeview .links.secundair {
+    .type-nav-primair .links.secundair {
       border-bottom-color: #000; }
-    .type-nav-primair .links > li, .type-treeview .links > li {
+    .type-nav-primair .links > li {
       border-top: 1px solid #e8e8e8;
       float: none;
       line-height: 1rem;
       margin-left: 0;
       margin-right: 0; }
-      .type-nav-primair .links > li > a, .type-treeview .links > li > a {
+      .type-nav-primair .links > li > a {
         font-size: 1rem;
         background-image: none;
         border-left: 8px solid transparent;
         color: #333;
         display: block;
         padding: 14px 0 12px 7px; }
-        .type-nav-primair .links > li > a:hover, .type-treeview .links > li > a:hover, .type-nav-primair .links > li > a:focus, .type-treeview .links > li > a:focus, .type-nav-primair .links > li > a:active, .type-treeview .links > li > a:active {
+        .type-nav-primair .links > li > a:hover, .type-nav-primair .links > li > a:focus, .type-nav-primair .links > li > a:active {
           background-image: none; }
-      .type-nav-primair .links > li .caret, .type-treeview .links > li .caret {
-        background-image: url("/images/sprites/sprite_bullets_small.png");
+      .type-nav-primair .links > li .caret {
+        background-image: url("../images/sprites/sprite_bullets_small.png");
         background-position: 0 -29800px;
         background-repeat: no-repeat;
         float: right;
@@ -2065,118 +2065,116 @@ ul.list-unstyled, .links, .tabs {
         margin-right: 12px;
         margin-top: 5px;
         width: 11px; }
-      .type-nav-primair .links > li.expanded > a, .type-treeview .links > li.expanded > a {
+      .type-nav-primair .links > li.expanded > a {
         border-left: 8px solid #ec0000;
         color: #000; }
-      .type-nav-primair .links > li.expanded .caret, .type-treeview .links > li.expanded .caret {
+      .type-nav-primair .links > li.expanded .caret {
         background-position: 0 -29200px; }
-      .type-nav-primair .links > li ul, .type-treeview .links > li ul {
+      .type-nav-primair .links > li ul {
         border-bottom: 0;
         width: 100%; }
-      .type-nav-primair .links > li li, .type-treeview .links > li li {
+      .type-nav-primair .links > li li {
         background-color: #fff; }
-        .type-nav-primair .links > li li span.sublisttitle, .type-treeview .links > li li span.sublisttitle,
-        .type-nav-primair .links > li li a,
-        .type-treeview .links > li li a {
+        .type-nav-primair .links > li li span.sublisttitle,
+        .type-nav-primair .links > li li a {
           font-size: 1rem;
           border-left: 8px solid #e8e8e8;
           display: inline-block; }
-        .type-nav-primair .links > li li span.sublisttitle, .type-treeview .links > li li span.sublisttitle {
+        .type-nav-primair .links > li li span.sublisttitle {
           font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
           padding: 26px 0 12px 7px; }
         
-        .type-nav-primair .links > li li a,
-        .type-treeview .links > li li a {
-          background-image: url("/images/sprites/sprite_bullets_small.png");
+        .type-nav-primair .links > li li a {
+          background-image: url("../images/sprites/sprite_bullets_small.png");
           background-position: 7px -1984px;
           padding: 14px 0 12px 20px; }
-        .type-nav-primair .links > li li.expanded > a, .type-treeview .links > li li.expanded > a {
+        .type-nav-primair .links > li li.expanded > a {
           background-position: 7px -3984px;
           color: #ec0000; }
-    .type-nav-primair .links.secundair li a, .type-treeview .links.secundair li a {
+    .type-nav-primair .links.secundair li a {
       font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
       color: #000; }
-      .type-nav-primair .links.secundair li a:hover, .type-treeview .links.secundair li a:hover {
+      .type-nav-primair .links.secundair li a:hover {
         color: #ec0000; } }
 
 .invoer select:focus:hover {
-  background-image: url("/images/svg/caret-up-black.svg");
+  background-image: url("../images/svg/caret-up-black.svg");
   background-repeat: no-repeat; }
 
 .input-explanation.open a::after {
-  background-image: url("/images/svg/caret-up-darkgrey.svg");
+  background-image: url("../images/svg/caret-up-darkgrey.svg");
   background-repeat: no-repeat; }
 
 .input-explanation.open a:hover::after {
-  background-image: url("/images/svg/caret-up-red.svg");
+  background-image: url("../images/svg/caret-up-red.svg");
   background-repeat: no-repeat; }
 
 .ui-datepicker .ui-datepicker-next span, .links li a, .links li a:visited, .row.bg-text-mediumgrey .links li a, .row.bg-text-mediumgrey .links li a:visited, *[class*="col"].bg-text-mediumgrey *[class*="col"] .links li a, *[class*="col"].bg-text-mediumgrey *[class*="col"] .links li a:visited, .row.bg-green .links li a, .row.bg-green .links li a:visited, *[class*="col"].bg-green *[class*="col"] .links li a, *[class*="col"].bg-green *[class*="col"] .links li a:visited, .row.bg-mediumgrey .links li a, .row.bg-mediumgrey .links li a:visited, *[class*="col"].bg-mediumgrey *[class*="col"] .links li a, *[class*="col"].bg-mediumgrey *[class*="col"] .links li a:visited, .row.bg-grey .links li a, .row.bg-grey .links li a:visited, *[class*="col"].bg-grey *[class*="col"] .links li a, *[class*="col"].bg-grey *[class*="col"] .links li a:visited, .row.bg-lightgrey .links li a, .row.bg-lightgrey .links li a:visited, *[class*="col"].bg-lightgrey *[class*="col"] .links li a, *[class*="col"].bg-lightgrey *[class*="col"] .links li a:visited, .row.bg-orange .links li a, .row.bg-orange .links li a:visited, *[class*="col"].bg-orange *[class*="col"] .links li a, *[class*="col"].bg-orange *[class*="col"] .links li a:visited, .row.bg-superlightgrey .links li a, .row.bg-superlightgrey .links li a:visited, *[class*="col"].bg-superlightgrey *[class*="col"] .links li a, *[class*="col"].bg-superlightgrey *[class*="col"] .links li a:visited, .row.bg-white .links li a, .row.bg-white .links li a:visited, *[class*="col"].bg-white *[class*="col"] .links li a, *[class*="col"].bg-white *[class*="col"] .links li a:visited, .row.bg-lightyellow .links li a, .row.bg-lightyellow .links li a:visited, *[class*="col"].bg-lightyellow *[class*="col"] .links li a, *[class*="col"].bg-lightyellow *[class*="col"] .links li a:visited, .row.bg-yellow .links li a, .row.bg-yellow .links li a:visited, *[class*="col"].bg-yellow *[class*="col"] .links li a, *[class*="col"].bg-yellow *[class*="col"] .links li a:visited, .row.bg-text-mediumgrey .more-link, .row.bg-text-mediumgrey .more-link:visited, *[class*="col"].bg-text-mediumgrey *[class*="col"] .more-link, *[class*="col"].bg-text-mediumgrey *[class*="col"] .more-link:visited, .row.bg-green .more-link, .row.bg-green .more-link:visited, *[class*="col"].bg-green *[class*="col"] .more-link, *[class*="col"].bg-green *[class*="col"] .more-link:visited, .row.bg-mediumgrey .more-link, .row.bg-mediumgrey .more-link:visited, *[class*="col"].bg-mediumgrey *[class*="col"] .more-link, *[class*="col"].bg-mediumgrey *[class*="col"] .more-link:visited, .row.bg-grey .more-link, .row.bg-grey .more-link:visited, *[class*="col"].bg-grey *[class*="col"] .more-link, *[class*="col"].bg-grey *[class*="col"] .more-link:visited, .row.bg-lightgrey .more-link, .row.bg-lightgrey .more-link:visited, *[class*="col"].bg-lightgrey *[class*="col"] .more-link, *[class*="col"].bg-lightgrey *[class*="col"] .more-link:visited, .row.bg-orange .more-link, .row.bg-orange .more-link:visited, *[class*="col"].bg-orange *[class*="col"] .more-link, *[class*="col"].bg-orange *[class*="col"] .more-link:visited, .row.bg-superlightgrey .more-link, .row.bg-superlightgrey .more-link:visited, *[class*="col"].bg-superlightgrey *[class*="col"] .more-link, *[class*="col"].bg-superlightgrey *[class*="col"] .more-link:visited, .row.bg-white .more-link, .row.bg-white .more-link:visited, *[class*="col"].bg-white *[class*="col"] .more-link, *[class*="col"].bg-white *[class*="col"] .more-link:visited, .row.bg-lightyellow .more-link, .row.bg-lightyellow .more-link:visited, *[class*="col"].bg-lightyellow *[class*="col"] .more-link, *[class*="col"].bg-lightyellow *[class*="col"] .more-link:visited, .row.bg-yellow .more-link, .row.bg-yellow .more-link:visited, *[class*="col"].bg-yellow *[class*="col"] .more-link, *[class*="col"].bg-yellow *[class*="col"] .more-link:visited, .pager .volgende, .navigate_page .rightnavigate .navigate_content a {
-  background-image: url("/images/svg/caret-right-black.svg");
+  background-image: url("../images/svg/caret-right-black.svg");
   background-repeat: no-repeat; }
 
 .ui-datepicker .ui-datepicker-next:hover span, .ui-datepicker .ui-datepicker-next:focus span, .ui-datepicker .ui-datepicker-next:active span, .links li a:active, .links li a:hover, .row.bg-text-mediumgrey .links li a:hover, .row.bg-text-mediumgrey .links li a:active, *[class*="col"].bg-text-mediumgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-text-mediumgrey *[class*="col"] .links li a:active, .row.bg-green .links li a:hover, .row.bg-green .links li a:active, *[class*="col"].bg-green *[class*="col"] .links li a:hover, *[class*="col"].bg-green *[class*="col"] .links li a:active, .row.bg-mediumgrey .links li a:hover, .row.bg-mediumgrey .links li a:active, *[class*="col"].bg-mediumgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-mediumgrey *[class*="col"] .links li a:active, .row.bg-grey .links li a:hover, .row.bg-grey .links li a:active, *[class*="col"].bg-grey *[class*="col"] .links li a:hover, *[class*="col"].bg-grey *[class*="col"] .links li a:active, .row.bg-lightgrey .links li a:hover, .row.bg-lightgrey .links li a:active, *[class*="col"].bg-lightgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-lightgrey *[class*="col"] .links li a:active, .row.bg-orange .links li a:hover, .row.bg-orange .links li a:active, *[class*="col"].bg-orange *[class*="col"] .links li a:hover, *[class*="col"].bg-orange *[class*="col"] .links li a:active, .row.bg-superlightgrey .links li a:hover, .row.bg-superlightgrey .links li a:active, *[class*="col"].bg-superlightgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-superlightgrey *[class*="col"] .links li a:active, .row.bg-white .links li a:hover, .row.bg-white .links li a:active, *[class*="col"].bg-white *[class*="col"] .links li a:hover, *[class*="col"].bg-white *[class*="col"] .links li a:active, .row.bg-lightyellow .links li a:hover, .row.bg-lightyellow .links li a:active, *[class*="col"].bg-lightyellow *[class*="col"] .links li a:hover, *[class*="col"].bg-lightyellow *[class*="col"] .links li a:active, .row.bg-yellow .links li a:hover, .row.bg-yellow .links li a:active, *[class*="col"].bg-yellow *[class*="col"] .links li a:hover, *[class*="col"].bg-yellow *[class*="col"] .links li a:active, .row.bg-text-mediumgrey .more-link:hover, .row.bg-text-mediumgrey .more-link:active, *[class*="col"].bg-text-mediumgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-text-mediumgrey *[class*="col"] .more-link:active, .row.bg-green .more-link:hover, .row.bg-green .more-link:active, *[class*="col"].bg-green *[class*="col"] .more-link:hover, *[class*="col"].bg-green *[class*="col"] .more-link:active, .row.bg-mediumgrey .more-link:hover, .row.bg-mediumgrey .more-link:active, *[class*="col"].bg-mediumgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-mediumgrey *[class*="col"] .more-link:active, .row.bg-grey .more-link:hover, .row.bg-grey .more-link:active, *[class*="col"].bg-grey *[class*="col"] .more-link:hover, *[class*="col"].bg-grey *[class*="col"] .more-link:active, .row.bg-lightgrey .more-link:hover, .row.bg-lightgrey .more-link:active, *[class*="col"].bg-lightgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-lightgrey *[class*="col"] .more-link:active, .row.bg-orange .more-link:hover, .row.bg-orange .more-link:active, *[class*="col"].bg-orange *[class*="col"] .more-link:hover, *[class*="col"].bg-orange *[class*="col"] .more-link:active, .row.bg-superlightgrey .more-link:hover, .row.bg-superlightgrey .more-link:active, *[class*="col"].bg-superlightgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-superlightgrey *[class*="col"] .more-link:active, .row.bg-white .more-link:hover, .row.bg-white .more-link:active, *[class*="col"].bg-white *[class*="col"] .more-link:hover, *[class*="col"].bg-white *[class*="col"] .more-link:active, .row.bg-lightyellow .more-link:hover, .row.bg-lightyellow .more-link:active, *[class*="col"].bg-lightyellow *[class*="col"] .more-link:hover, *[class*="col"].bg-lightyellow *[class*="col"] .more-link:active, .row.bg-yellow .more-link:hover, .row.bg-yellow .more-link:active, *[class*="col"].bg-yellow *[class*="col"] .more-link:hover, *[class*="col"].bg-yellow *[class*="col"] .more-link:active, .pager .volgende:hover, .navigate_page .rightnavigate .navigate_content a:hover, .navigate_page .rightnavigate .navigate_content a:focus, .navigate_page .rightnavigate .navigate_content a:active {
-  background-image: url("/images/svg/caret-right-red.svg");
+  background-image: url("../images/svg/caret-right-red.svg");
   background-repeat: no-repeat; }
 
 .row.bg-black .links li a, .row.bg-black .links li a:active, .row.bg-black .links li a:hover, .row.bg-black .links li a:visited, *[class*="col"].bg-black *[class*="col"] .links li a, *[class*="col"].bg-black *[class*="col"] .links li a:active, *[class*="col"].bg-black *[class*="col"] .links li a:hover, *[class*="col"].bg-black *[class*="col"] .links li a:visited, .row.bg-darkblue .links li a, .row.bg-darkblue .links li a:active, .row.bg-darkblue .links li a:hover, .row.bg-darkblue .links li a:visited, *[class*="col"].bg-darkblue *[class*="col"] .links li a, *[class*="col"].bg-darkblue *[class*="col"] .links li a:active, *[class*="col"].bg-darkblue *[class*="col"] .links li a:hover, *[class*="col"].bg-darkblue *[class*="col"] .links li a:visited, .row.bg-darkgreen .links li a, .row.bg-darkgreen .links li a:active, .row.bg-darkgreen .links li a:hover, .row.bg-darkgreen .links li a:visited, *[class*="col"].bg-darkgreen *[class*="col"] .links li a, *[class*="col"].bg-darkgreen *[class*="col"] .links li a:active, *[class*="col"].bg-darkgreen *[class*="col"] .links li a:hover, *[class*="col"].bg-darkgreen *[class*="col"] .links li a:visited, .row.bg-darkgrey .links li a, .row.bg-darkgrey .links li a:active, .row.bg-darkgrey .links li a:hover, .row.bg-darkgrey .links li a:visited, *[class*="col"].bg-darkgrey *[class*="col"] .links li a, *[class*="col"].bg-darkgrey *[class*="col"] .links li a:active, *[class*="col"].bg-darkgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-darkgrey *[class*="col"] .links li a:visited, .row.bg-text-darkgrey .links li a, .row.bg-text-darkgrey .links li a:active, .row.bg-text-darkgrey .links li a:hover, .row.bg-text-darkgrey .links li a:visited, *[class*="col"].bg-text-darkgrey *[class*="col"] .links li a, *[class*="col"].bg-text-darkgrey *[class*="col"] .links li a:active, *[class*="col"].bg-text-darkgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-text-darkgrey *[class*="col"] .links li a:visited, .row.bg-lightblue .links li a, .row.bg-lightblue .links li a:active, .row.bg-lightblue .links li a:hover, .row.bg-lightblue .links li a:visited, *[class*="col"].bg-lightblue *[class*="col"] .links li a, *[class*="col"].bg-lightblue *[class*="col"] .links li a:active, *[class*="col"].bg-lightblue *[class*="col"] .links li a:hover, *[class*="col"].bg-lightblue *[class*="col"] .links li a:visited, .row.bg-magenta .links li a, .row.bg-magenta .links li a:active, .row.bg-magenta .links li a:hover, .row.bg-magenta .links li a:visited, *[class*="col"].bg-magenta *[class*="col"] .links li a, *[class*="col"].bg-magenta *[class*="col"] .links li a:active, *[class*="col"].bg-magenta *[class*="col"] .links li a:hover, *[class*="col"].bg-magenta *[class*="col"] .links li a:visited, .row.bg-deeppurple .links li a, .row.bg-deeppurple .links li a:active, .row.bg-deeppurple .links li a:hover, .row.bg-deeppurple .links li a:visited, *[class*="col"].bg-deeppurple *[class*="col"] .links li a, *[class*="col"].bg-deeppurple *[class*="col"] .links li a:active, *[class*="col"].bg-deeppurple *[class*="col"] .links li a:hover, *[class*="col"].bg-deeppurple *[class*="col"] .links li a:visited, .row.bg-purple .links li a, .row.bg-purple .links li a:active, .row.bg-purple .links li a:hover, .row.bg-purple .links li a:visited, *[class*="col"].bg-purple *[class*="col"] .links li a, *[class*="col"].bg-purple *[class*="col"] .links li a:active, *[class*="col"].bg-purple *[class*="col"] .links li a:hover, *[class*="col"].bg-purple *[class*="col"] .links li a:visited, .row.bg-red .links li a, .row.bg-red .links li a:active, .row.bg-red .links li a:hover, .row.bg-red .links li a:visited, *[class*="col"].bg-red *[class*="col"] .links li a, *[class*="col"].bg-red *[class*="col"] .links li a:active, *[class*="col"].bg-red *[class*="col"] .links li a:hover, *[class*="col"].bg-red *[class*="col"] .links li a:visited, .row.bg-mediumdarkgrey .links li a, .row.bg-mediumdarkgrey .links li a:active, .row.bg-mediumdarkgrey .links li a:hover, .row.bg-mediumdarkgrey .links li a:visited, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .links li a, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .links li a:active, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .links li a:visited, .row.bg-superdarkgrey .links li a, .row.bg-superdarkgrey .links li a:active, .row.bg-superdarkgrey .links li a:hover, .row.bg-superdarkgrey .links li a:visited, *[class*="col"].bg-superdarkgrey *[class*="col"] .links li a, *[class*="col"].bg-superdarkgrey *[class*="col"] .links li a:active, *[class*="col"].bg-superdarkgrey *[class*="col"] .links li a:hover, *[class*="col"].bg-superdarkgrey *[class*="col"] .links li a:visited, .row.bg-black .more-link, .row.bg-black .more-link:active, .row.bg-black .more-link:hover, .row.bg-black .more-link:visited, *[class*="col"].bg-black *[class*="col"] .more-link, *[class*="col"].bg-black *[class*="col"] .more-link:active, *[class*="col"].bg-black *[class*="col"] .more-link:hover, *[class*="col"].bg-black *[class*="col"] .more-link:visited, .row.bg-darkblue .more-link, .row.bg-darkblue .more-link:active, .row.bg-darkblue .more-link:hover, .row.bg-darkblue .more-link:visited, *[class*="col"].bg-darkblue *[class*="col"] .more-link, *[class*="col"].bg-darkblue *[class*="col"] .more-link:active, *[class*="col"].bg-darkblue *[class*="col"] .more-link:hover, *[class*="col"].bg-darkblue *[class*="col"] .more-link:visited, .row.bg-darkgreen .more-link, .row.bg-darkgreen .more-link:active, .row.bg-darkgreen .more-link:hover, .row.bg-darkgreen .more-link:visited, *[class*="col"].bg-darkgreen *[class*="col"] .more-link, *[class*="col"].bg-darkgreen *[class*="col"] .more-link:active, *[class*="col"].bg-darkgreen *[class*="col"] .more-link:hover, *[class*="col"].bg-darkgreen *[class*="col"] .more-link:visited, .row.bg-darkgrey .more-link, .row.bg-darkgrey .more-link:active, .row.bg-darkgrey .more-link:hover, .row.bg-darkgrey .more-link:visited, *[class*="col"].bg-darkgrey *[class*="col"] .more-link, *[class*="col"].bg-darkgrey *[class*="col"] .more-link:active, *[class*="col"].bg-darkgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-darkgrey *[class*="col"] .more-link:visited, .row.bg-text-darkgrey .more-link, .row.bg-text-darkgrey .more-link:active, .row.bg-text-darkgrey .more-link:hover, .row.bg-text-darkgrey .more-link:visited, *[class*="col"].bg-text-darkgrey *[class*="col"] .more-link, *[class*="col"].bg-text-darkgrey *[class*="col"] .more-link:active, *[class*="col"].bg-text-darkgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-text-darkgrey *[class*="col"] .more-link:visited, .row.bg-lightblue .more-link, .row.bg-lightblue .more-link:active, .row.bg-lightblue .more-link:hover, .row.bg-lightblue .more-link:visited, *[class*="col"].bg-lightblue *[class*="col"] .more-link, *[class*="col"].bg-lightblue *[class*="col"] .more-link:active, *[class*="col"].bg-lightblue *[class*="col"] .more-link:hover, *[class*="col"].bg-lightblue *[class*="col"] .more-link:visited, .row.bg-magenta .more-link, .row.bg-magenta .more-link:active, .row.bg-magenta .more-link:hover, .row.bg-magenta .more-link:visited, *[class*="col"].bg-magenta *[class*="col"] .more-link, *[class*="col"].bg-magenta *[class*="col"] .more-link:active, *[class*="col"].bg-magenta *[class*="col"] .more-link:hover, *[class*="col"].bg-magenta *[class*="col"] .more-link:visited, .row.bg-deeppurple .more-link, .row.bg-deeppurple .more-link:active, .row.bg-deeppurple .more-link:hover, .row.bg-deeppurple .more-link:visited, *[class*="col"].bg-deeppurple *[class*="col"] .more-link, *[class*="col"].bg-deeppurple *[class*="col"] .more-link:active, *[class*="col"].bg-deeppurple *[class*="col"] .more-link:hover, *[class*="col"].bg-deeppurple *[class*="col"] .more-link:visited, .row.bg-purple .more-link, .row.bg-purple .more-link:active, .row.bg-purple .more-link:hover, .row.bg-purple .more-link:visited, *[class*="col"].bg-purple *[class*="col"] .more-link, *[class*="col"].bg-purple *[class*="col"] .more-link:active, *[class*="col"].bg-purple *[class*="col"] .more-link:hover, *[class*="col"].bg-purple *[class*="col"] .more-link:visited, .row.bg-red .more-link, .row.bg-red .more-link:active, .row.bg-red .more-link:hover, .row.bg-red .more-link:visited, *[class*="col"].bg-red *[class*="col"] .more-link, *[class*="col"].bg-red *[class*="col"] .more-link:active, *[class*="col"].bg-red *[class*="col"] .more-link:hover, *[class*="col"].bg-red *[class*="col"] .more-link:visited, .row.bg-mediumdarkgrey .more-link, .row.bg-mediumdarkgrey .more-link:active, .row.bg-mediumdarkgrey .more-link:hover, .row.bg-mediumdarkgrey .more-link:visited, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .more-link, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .more-link:active, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .more-link:visited, .row.bg-superdarkgrey .more-link, .row.bg-superdarkgrey .more-link:active, .row.bg-superdarkgrey .more-link:hover, .row.bg-superdarkgrey .more-link:visited, *[class*="col"].bg-superdarkgrey *[class*="col"] .more-link, *[class*="col"].bg-superdarkgrey *[class*="col"] .more-link:active, *[class*="col"].bg-superdarkgrey *[class*="col"] .more-link:hover, *[class*="col"].bg-superdarkgrey *[class*="col"] .more-link:visited {
-  background-image: url("/images/svg/caret-right-white.svg");
+  background-image: url("../images/svg/caret-right-white.svg");
   background-repeat: no-repeat; }
 
 .row.bg-text-mediumgrey .bigdown a::before, .row.bg-text-mediumgrey .bigdown a:visited::before, *[class*="col"].bg-text-mediumgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-text-mediumgrey *[class*="col"] .bigdown a:visited::before, .row.bg-green .bigdown a::before, .row.bg-green .bigdown a:visited::before, *[class*="col"].bg-green *[class*="col"] .bigdown a::before, *[class*="col"].bg-green *[class*="col"] .bigdown a:visited::before, .row.bg-mediumgrey .bigdown a::before, .row.bg-mediumgrey .bigdown a:visited::before, *[class*="col"].bg-mediumgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-mediumgrey *[class*="col"] .bigdown a:visited::before, .row.bg-grey .bigdown a::before, .row.bg-grey .bigdown a:visited::before, *[class*="col"].bg-grey *[class*="col"] .bigdown a::before, *[class*="col"].bg-grey *[class*="col"] .bigdown a:visited::before, .row.bg-lightgrey .bigdown a::before, .row.bg-lightgrey .bigdown a:visited::before, *[class*="col"].bg-lightgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-lightgrey *[class*="col"] .bigdown a:visited::before, .row.bg-orange .bigdown a::before, .row.bg-orange .bigdown a:visited::before, *[class*="col"].bg-orange *[class*="col"] .bigdown a::before, *[class*="col"].bg-orange *[class*="col"] .bigdown a:visited::before, .row.bg-superlightgrey .bigdown a::before, .row.bg-superlightgrey .bigdown a:visited::before, *[class*="col"].bg-superlightgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-superlightgrey *[class*="col"] .bigdown a:visited::before, .row.bg-white .bigdown a::before, .row.bg-white .bigdown a:visited::before, *[class*="col"].bg-white *[class*="col"] .bigdown a::before, *[class*="col"].bg-white *[class*="col"] .bigdown a:visited::before, .row.bg-lightyellow .bigdown a::before, .row.bg-lightyellow .bigdown a:visited::before, *[class*="col"].bg-lightyellow *[class*="col"] .bigdown a::before, *[class*="col"].bg-lightyellow *[class*="col"] .bigdown a:visited::before, .row.bg-yellow .bigdown a::before, .row.bg-yellow .bigdown a:visited::before, *[class*="col"].bg-yellow *[class*="col"] .bigdown a::before, *[class*="col"].bg-yellow *[class*="col"] .bigdown a:visited::before, .invoer select, .zone_subnav .grid-superlink.selected *[class*="col"], .zone_subnav .grid-superlink.selected *[class*="col"]:hover, .zone_subnav .grid-superlink.selected *[class*="col"]:active, .zone_subnav .grid-superlink.selected *[class*="col"]:focus {
-  background-image: url("/images/svg/caret-down-black.svg");
+  background-image: url("../images/svg/caret-down-black.svg");
   background-repeat: no-repeat; }
 
 .input-explanation.closed a::after {
-  background-image: url("/images/svg/caret-down-darkgrey.svg");
+  background-image: url("../images/svg/caret-down-darkgrey.svg");
   background-repeat: no-repeat; }
 
 .zone_subnav .grid-superlink *[class*="col"] {
-  background-image: url("/images/svg/caret-down-grey.svg"); }
+  background-image: url("../images/svg/caret-down-grey.svg"); }
 
 .bigdown a:active::before, .bigdown a:hover::before, .row.bg-text-mediumgrey .bigdown a:hover::before, .row.bg-text-mediumgrey .bigdown a:active::before, *[class*="col"].bg-text-mediumgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-text-mediumgrey *[class*="col"] .bigdown a:active::before, .row.bg-green .bigdown a:hover::before, .row.bg-green .bigdown a:active::before, *[class*="col"].bg-green *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-green *[class*="col"] .bigdown a:active::before, .row.bg-mediumgrey .bigdown a:hover::before, .row.bg-mediumgrey .bigdown a:active::before, *[class*="col"].bg-mediumgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-mediumgrey *[class*="col"] .bigdown a:active::before, .row.bg-grey .bigdown a:hover::before, .row.bg-grey .bigdown a:active::before, *[class*="col"].bg-grey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-grey *[class*="col"] .bigdown a:active::before, .row.bg-lightgrey .bigdown a:hover::before, .row.bg-lightgrey .bigdown a:active::before, *[class*="col"].bg-lightgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-lightgrey *[class*="col"] .bigdown a:active::before, .row.bg-orange .bigdown a:hover::before, .row.bg-orange .bigdown a:active::before, *[class*="col"].bg-orange *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-orange *[class*="col"] .bigdown a:active::before, .row.bg-superlightgrey .bigdown a:hover::before, .row.bg-superlightgrey .bigdown a:active::before, *[class*="col"].bg-superlightgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-superlightgrey *[class*="col"] .bigdown a:active::before, .row.bg-white .bigdown a:hover::before, .row.bg-white .bigdown a:active::before, *[class*="col"].bg-white *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-white *[class*="col"] .bigdown a:active::before, .row.bg-lightyellow .bigdown a:hover::before, .row.bg-lightyellow .bigdown a:active::before, *[class*="col"].bg-lightyellow *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-lightyellow *[class*="col"] .bigdown a:active::before, .row.bg-yellow .bigdown a:hover::before, .row.bg-yellow .bigdown a:active::before, *[class*="col"].bg-yellow *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-yellow *[class*="col"] .bigdown a:active::before, .input-explanation.closed a:hover::after, .zone_subnav .grid-superlink *[class*="col"]:hover, .zone_subnav .grid-superlink *[class*="col"]:active, .zone_subnav .grid-superlink *[class*="col"]:focus {
-  background-image: url("/images/svg/caret-down-red.svg");
+  background-image: url("../images/svg/caret-down-red.svg");
   background-repeat: no-repeat; }
 
 .row.bg-black .bigdown a::before, .row.bg-black .bigdown a:active::before, .row.bg-black .bigdown a:hover::before, .row.bg-black .bigdown a:visited::before, *[class*="col"].bg-black *[class*="col"] .bigdown a::before, *[class*="col"].bg-black *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-black *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-black *[class*="col"] .bigdown a:visited::before, .row.bg-darkblue .bigdown a::before, .row.bg-darkblue .bigdown a:active::before, .row.bg-darkblue .bigdown a:hover::before, .row.bg-darkblue .bigdown a:visited::before, *[class*="col"].bg-darkblue *[class*="col"] .bigdown a::before, *[class*="col"].bg-darkblue *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-darkblue *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-darkblue *[class*="col"] .bigdown a:visited::before, .row.bg-darkgreen .bigdown a::before, .row.bg-darkgreen .bigdown a:active::before, .row.bg-darkgreen .bigdown a:hover::before, .row.bg-darkgreen .bigdown a:visited::before, *[class*="col"].bg-darkgreen *[class*="col"] .bigdown a::before, *[class*="col"].bg-darkgreen *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-darkgreen *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-darkgreen *[class*="col"] .bigdown a:visited::before, .row.bg-darkgrey .bigdown a::before, .row.bg-darkgrey .bigdown a:active::before, .row.bg-darkgrey .bigdown a:hover::before, .row.bg-darkgrey .bigdown a:visited::before, *[class*="col"].bg-darkgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-darkgrey *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-darkgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-darkgrey *[class*="col"] .bigdown a:visited::before, .row.bg-text-darkgrey .bigdown a::before, .row.bg-text-darkgrey .bigdown a:active::before, .row.bg-text-darkgrey .bigdown a:hover::before, .row.bg-text-darkgrey .bigdown a:visited::before, *[class*="col"].bg-text-darkgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-text-darkgrey *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-text-darkgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-text-darkgrey *[class*="col"] .bigdown a:visited::before, .row.bg-lightblue .bigdown a::before, .row.bg-lightblue .bigdown a:active::before, .row.bg-lightblue .bigdown a:hover::before, .row.bg-lightblue .bigdown a:visited::before, *[class*="col"].bg-lightblue *[class*="col"] .bigdown a::before, *[class*="col"].bg-lightblue *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-lightblue *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-lightblue *[class*="col"] .bigdown a:visited::before, .row.bg-magenta .bigdown a::before, .row.bg-magenta .bigdown a:active::before, .row.bg-magenta .bigdown a:hover::before, .row.bg-magenta .bigdown a:visited::before, *[class*="col"].bg-magenta *[class*="col"] .bigdown a::before, *[class*="col"].bg-magenta *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-magenta *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-magenta *[class*="col"] .bigdown a:visited::before, .row.bg-deeppurple .bigdown a::before, .row.bg-deeppurple .bigdown a:active::before, .row.bg-deeppurple .bigdown a:hover::before, .row.bg-deeppurple .bigdown a:visited::before, *[class*="col"].bg-deeppurple *[class*="col"] .bigdown a::before, *[class*="col"].bg-deeppurple *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-deeppurple *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-deeppurple *[class*="col"] .bigdown a:visited::before, .row.bg-purple .bigdown a::before, .row.bg-purple .bigdown a:active::before, .row.bg-purple .bigdown a:hover::before, .row.bg-purple .bigdown a:visited::before, *[class*="col"].bg-purple *[class*="col"] .bigdown a::before, *[class*="col"].bg-purple *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-purple *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-purple *[class*="col"] .bigdown a:visited::before, .row.bg-red .bigdown a::before, .row.bg-red .bigdown a:active::before, .row.bg-red .bigdown a:hover::before, .row.bg-red .bigdown a:visited::before, *[class*="col"].bg-red *[class*="col"] .bigdown a::before, *[class*="col"].bg-red *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-red *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-red *[class*="col"] .bigdown a:visited::before, .row.bg-mediumdarkgrey .bigdown a::before, .row.bg-mediumdarkgrey .bigdown a:active::before, .row.bg-mediumdarkgrey .bigdown a:hover::before, .row.bg-mediumdarkgrey .bigdown a:visited::before, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .bigdown a:visited::before, .row.bg-superdarkgrey .bigdown a::before, .row.bg-superdarkgrey .bigdown a:active::before, .row.bg-superdarkgrey .bigdown a:hover::before, .row.bg-superdarkgrey .bigdown a:visited::before, *[class*="col"].bg-superdarkgrey *[class*="col"] .bigdown a::before, *[class*="col"].bg-superdarkgrey *[class*="col"] .bigdown a:active::before, *[class*="col"].bg-superdarkgrey *[class*="col"] .bigdown a:hover::before, *[class*="col"].bg-superdarkgrey *[class*="col"] .bigdown a:visited::before {
-  background-image: url("/images/svg/caret-down-white.svg"); }
+  background-image: url("../images/svg/caret-down-white.svg"); }
 
 .ui-datepicker .ui-datepicker-prev span, .pager .vorige, .navigate_page .leftnavigate .navigate_content a {
-  background-image: url("/images/svg/caret-left-black.svg"); }
+  background-image: url("../images/svg/caret-left-black.svg"); }
 
 .startagain::before {
-  background-image: url("/images/svg/caret-left-blue.svg"); }
+  background-image: url("../images/svg/caret-left-blue.svg"); }
 
 .ui-datepicker .ui-datepicker-prev:hover span, .ui-datepicker .ui-datepicker-prev:focus span, .ui-datepicker .ui-datepicker-prev:active span, .startagain:hover::before, .pager .vorige:hover, .navigate_page .leftnavigate .navigate_content a:hover, .navigate_page .leftnavigate .navigate_content a:focus, .navigate_page .leftnavigate .navigate_content a:active {
-  background-image: url("/images/svg/caret-left-red.svg"); }
+  background-image: url("../images/svg/caret-left-red.svg"); }
 
 .startagain.primary::before, .startagain.primary:hover::before {
-  background-image: url("/images/svg/caret-left-white.svg"); }
+  background-image: url("../images/svg/caret-left-white.svg"); }
 
 .inline-toggle.uitgeklapt {
-  background-image: url("/images/svg/toggle-inline-caret-up-black.svg"); }
+  background-image: url("../images/svg/toggle-inline-caret-up-black.svg"); }
 
 .inline-toggle.uitgeklapt:hover {
-  background-image: url("/images/svg/toggle-inline-caret-up-white.svg"); }
+  background-image: url("../images/svg/toggle-inline-caret-up-white.svg"); }
 
 .inline-toggle {
-  background-image: url("/images/svg/toggle-inline-caret-down-black.svg"); }
+  background-image: url("../images/svg/toggle-inline-caret-down-black.svg"); }
 
 .inline-toggle:hover {
-  background-image: url("/images/svg/toggle-inline-caret-down-white.svg"); }
+  background-image: url("../images/svg/toggle-inline-caret-down-white.svg"); }
 
 *[class*="col"].galerij .resultaat:hover, .grid-foto:not(.galerij) .grid-inside:hover h2 {
-  background-image: url("/images/svg/gallery-caret-right-black.svg"); }
+  background-image: url("../images/svg/gallery-caret-right-black.svg"); }
 
 *[class*="col"].galerij .resultaat, .grid-foto:not(.galerij) h2, .grid-tegel > .row > *[class*="col"] {
-  background-image: url("/images/svg/gallery-caret-right-lightgrey.svg"); }
+  background-image: url("../images/svg/gallery-caret-right-lightgrey.svg"); }
 
 .links li a.outsite {
-  background-image: url("/images/svg/external-link-black.svg");
+  background-image: url("../images/svg/external-link-black.svg");
   background-repeat: no-repeat; }
 
 .links li a.outsite:hover {
-  background-image: url("/images/svg/external-link-red.svg");
+  background-image: url("../images/svg/external-link-red.svg");
   background-repeat: no-repeat; }
 
 .Calltoaction-grijs a:active .sizespec::after, .Calltoaction-grijs a:hover .sizespec::after,
@@ -2267,7 +2265,7 @@ a.calltoaction-grey:hover .sizespec::after, .importLink .sizespec::after,
 *[class*="col"].bg-yellow *[class*="col"] .download a:hover .sizespec::after,
 *[class*="col"].bg-yellow *[class*="col"] .download a:active .sizespec::after,
 *[class*="col"].bg-yellow *[class*="col"] .download a:visited .sizespec::after {
-  background-image: url("/images/svg/icon-document-black.svg"); }
+  background-image: url("../images/svg/icon-document-black.svg"); }
 
 .Calltoaction-wit a .sizespec::after,
 a.Calltoaction-wit .sizespec::after,
@@ -2282,13 +2280,13 @@ a.Calltoaction-wit:hover .sizespec::after,
 a.calltoaction-white:visited .sizespec::after,
 a.calltoaction-white:active .sizespec::after,
 a.calltoaction-white:hover .sizespec::after {
-  background-image: url("/images/svg/icon-document-blue.svg"); }
+  background-image: url("../images/svg/icon-document-blue.svg"); }
 
 .importLink:hover .sizespec::after, .importLink:focus .sizespec::after, .importLink:active .sizespec::after,
 .download a:hover .sizespec::after,
 .download a:focus .sizespec::after,
 .download a:active .sizespec::after {
-  background-image: url("/images/svg/icon-document-red.svg"); }
+  background-image: url("../images/svg/icon-document-red.svg"); }
 
 .Calltoaction-rood a .sizespec::after,
 a.Calltoaction-rood .sizespec::after,
@@ -2405,57 +2403,57 @@ a.calltoaction-blue:hover .sizespec::after, .row.bg-black .importLink .sizespec:
 *[class*="col"].bg-superdarkgrey *[class*="col"] .download a:active .sizespec::after,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .download a:hover .sizespec::after,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .download a:visited .sizespec::after {
-  background-image: url("/images/svg/icon-document-white.svg"); }
+  background-image: url("../images/svg/icon-document-white.svg"); }
 
 .ingeklapt > h2.uitgeklapt a,
 .ingeklapt > h3.uitgeklapt a,
 .ingeklapt > h4.uitgeklapt a {
-  background-image: url("/images/svg/dropdown-open.svg"); }
+  background-image: url("../images/svg/dropdown-open.svg"); }
 
 .ingeklapt > h2.uitgeklapt a:hover,
 .ingeklapt > h3.uitgeklapt a:hover,
 .ingeklapt > h4.uitgeklapt a:hover {
-  background-image: url("/images/svg/dropdown-open-hover.svg"); }
+  background-image: url("../images/svg/dropdown-open-hover.svg"); }
 
 .ingeklapt > h2.ingeklapt a,
 .ingeklapt > h3.ingeklapt a,
 .ingeklapt > h4.ingeklapt a {
-  background-image: url("/images/svg/dropdown-closed.svg"); }
+  background-image: url("../images/svg/dropdown-closed.svg"); }
 
 .ingeklapt > h2.ingeklapt a:hover,
 .ingeklapt > h3.ingeklapt a:hover,
 .ingeklapt > h4.ingeklapt a:hover {
-  background-image: url("/images/svg/dropdown-closed-hover.svg"); }
+  background-image: url("../images/svg/dropdown-closed-hover.svg"); }
 
 .toggle-search .caret {
-  background-image: url("/images/svg/search-icon-black.svg"); }
+  background-image: url("../images/svg/search-icon-black.svg"); }
 
 .sluitkruis {
-  background-image: url("/images/svg/close-thick-darkgrey.svg"); }
+  background-image: url("../images/svg/close-thick-darkgrey.svg"); }
 
 .alert-wrapper.bg-black .container .sluitkruis, .alert-wrapper.bg-darkblue .container .sluitkruis, .alert-wrapper.bg-darkgreen .container .sluitkruis, .alert-wrapper.bg-darkgrey .container .sluitkruis, .alert-wrapper.bg-text-darkgrey .container .sluitkruis, .alert-wrapper.bg-lightblue .container .sluitkruis, .alert-wrapper.bg-magenta .container .sluitkruis, .alert-wrapper.bg-deeppurple .container .sluitkruis, .alert-wrapper.bg-purple .container .sluitkruis, .alert-wrapper.bg-red .container .sluitkruis, .alert-wrapper.bg-mediumdarkgrey .container .sluitkruis, .alert-wrapper.bg-superdarkgrey .container .sluitkruis {
-  background-image: url("/images/svg/close-thick-white.svg"); }
+  background-image: url("../images/svg/close-thick-white.svg"); }
 
 .filter-button .filter-icon {
-  background-image: url("/images/svg/filter-icon.svg"); }
+  background-image: url("../images/svg/filter-icon.svg"); }
 
 .antwoorden ul li::before {
-  background-image: url("/images/svg/checkbox-blue.svg"); }
+  background-image: url("../images/svg/checkbox-blue.svg"); }
 
 .grid-superlink.selected *[class*="col"], .grid-superlink.selected *[class*="col"]:hover,
 .grid-grote-knop.selected *[class*="col"],
 .grid-grote-knop.selected *[class*="col"]:hover {
-  background-image: url("/images/svg/superlink-caret-down-black.svg"); }
+  background-image: url("../images/svg/superlink-caret-down-black.svg"); }
 
 .grid-grote-knop *[class*="col"] {
-  background-image: url("/images/svg/superlink-caret-black.svg"); }
+  background-image: url("../images/svg/superlink-caret-black.svg"); }
 
 .grid-superlink *[class*="col"] {
-  background-image: url("/images/svg/superlink-caret-grey.svg"); }
+  background-image: url("../images/svg/superlink-caret-grey.svg"); }
 
 .grid-superlink *[class*="col"]:hover,
 .grid-grote-knop *[class*="col"]:hover {
-  background-image: url("/images/svg/superlink-caret-red.svg"); }
+  background-image: url("../images/svg/superlink-caret-red.svg"); }
 
 h1,
 h2,
@@ -2785,7 +2783,7 @@ a {
       color: #000;
       text-decoration: none; }
     .bigdown a::before {
-      background: url("/images/svg/caret-down-black.svg") no-repeat 2px 5px;
+      background: url("../images/svg/caret-down-black.svg") no-repeat 2px 5px;
       background-size: 1em;
       content: "";
       display: inline-block;
@@ -2883,8 +2881,8 @@ a {
   padding: 0 0 0 38px;
   position: relative; }
 
-.rij + .rij,
-.rij + .knoppen {
+.row + .row,
+.row + .knoppen {
   margin-top: 20px; }
 
 fieldset {
@@ -2957,23 +2955,23 @@ input[type="checkbox"]:disabled + label {
   font-size: 0.875rem;
   color: #666; }
 
-.rij_ongeldig .input-help {
+.row_ongeldig .input-help {
   color: #ec0000; }
 
-.bg-lightgrey .rij_ongeldig .input-help {
+.bg-lightgrey .row_ongeldig .input-help {
   color: #666; }
 
-.rij .label,
-.rij label {
+.row .label,
+.row label {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   margin-bottom: 5px !important; }
-  .rij .label .verplicht,
-  .rij label .verplicht {
+  .row .label .verplicht,
+  .row label .verplicht {
     color: #767676;
     font-size: .85em; }
 
-.bg-lightgrey .rij .label .verplicht,
-.bg-lightgrey .rij label .verplicht {
+.bg-lightgrey .row .label .verplicht,
+.bg-lightgrey .row label .verplicht {
   color: #666; }
 
 .mode_readonly .label,
@@ -3306,10 +3304,10 @@ h1 {
   padding-left: 15px;
   text-decoration: none; }
   .more-link, .more-link:visited {
-    background: url("/images/svg/caret-right-black.svg") no-repeat 0 5px;
+    background: url("../images/svg/caret-right-black.svg") no-repeat 0 5px;
     color: #000; }
   .more-link:active, .more-link:hover {
-    background: url("/images/svg/caret-right-red.svg") no-repeat 0 5px;
+    background: url("../images/svg/caret-right-red.svg") no-repeat 0 5px;
     color: #ec0000;
     text-decoration: underline; }
 
@@ -3957,7 +3955,7 @@ div.ingeklapt + * {
 
 blockquote,
 p.Quote {
-  background: url("/images/svg/quote.svg") no-repeat;
+  background: url("../images/svg/quote.svg") no-repeat;
   background-position: 0 0;
   margin-top: 20px;
   padding-bottom: 20px;
@@ -3965,7 +3963,7 @@ p.Quote {
 
 @media screen and (max-width: 539px) {
   blockquote {
-    background: url("/images/svg/quote-small.svg") no-repeat;
+    background: url("../images/svg/quote-small.svg") no-repeat;
     padding-left: 35px; } }
 
 dl {
@@ -4004,16 +4002,16 @@ dl {
       margin: 10px 0;
       padding: 10px; } }
 
-.rij.rij-inline > * {
+.row.row-inline > * {
   display: inline-block; }
 
-.rij.rij-inline .element-set {
+.row.row-inline .element-set {
   margin-left: 10px; }
-  .rij.rij-inline .element-set:first-child {
+  .row.row-inline .element-set:first-child {
     margin-left: 0; }
 
 @media screen and (max-width: 539px) {
-  .rij.rij-inline .rij.rij-inline > * {
+  .row.row-inline .row.row-inline > * {
     display: block; } }
 
 .searchtag {
@@ -4059,61 +4057,61 @@ dl {
       width: 100%; } }
 
 .link-functional.delete {
-  background-image: url("/images/svg/functional/functional-delete.svg"); }
+  background-image: url("../images/svg/functional/functional-delete.svg"); }
 
 .link-functional.copy {
-  background-image: url("/images/svg/functional/functional-copy.svg"); }
+  background-image: url("../images/svg/functional/functional-copy.svg"); }
 
 .link-functional.portfolio {
-  background-image: url("/images/svg/functional/functional-portfolio.svg"); }
+  background-image: url("../images/svg/functional/functional-portfolio.svg"); }
 
 .link-functional.edit {
-  background-image: url("/images/svg/functional/functional-edit.svg"); }
+  background-image: url("../images/svg/functional/functional-edit.svg"); }
 
 .link_share.facebook {
-  background-image: url("/images/svg/delen/share-facebook.svg"); }
+  background-image: url("../images/svg/delen/share-facebook.svg"); }
   .link_share.facebook:hover {
     background-color: #3c5a99; }
 
 .link_share.twitter {
-  background-image: url("/images/svg/delen/share-twitter.svg"); }
+  background-image: url("../images/svg/delen/share-twitter.svg"); }
   .link_share.twitter:hover {
     background-color: #1da1f2; }
 
 .link_share.linkedin {
-  background-image: url("/images/svg/delen/share-linkedin.svg"); }
+  background-image: url("../images/svg/delen/share-linkedin.svg"); }
   .link_share.linkedin:hover {
     background-color: #007bb6; }
 
 .link_share.google_plus {
-  background-image: url("/images/svg/delen/share-googleplus.svg"); }
+  background-image: url("../images/svg/delen/share-googleplus.svg"); }
   .link_share.google_plus:hover {
     background-color: #dd4b39; }
 
 .link_share.mail {
-  background-image: url("/images/svg/delen/share-mail.svg"); }
+  background-image: url("../images/svg/delen/share-mail.svg"); }
 
 .link_share.print {
-  background-image: url("/images/svg/delen/share-print.svg"); }
+  background-image: url("../images/svg/delen/share-print.svg"); }
 
 .link_share.tamtam {
-  background-image: url("/images/svg/delen/share-tamtam.svg"); }
+  background-image: url("../images/svg/delen/share-tamtam.svg"); }
 
 .link_share.mijn_applicaties_btn {
-  background-image: url("/images/svg/delen/share-mijn-applicaties.svg"); }
+  background-image: url("../images/svg/delen/share-mijn-applicaties.svg"); }
 
 .link_share.isFav {
-  background-image: url("/images/svg/delen/share-mijn-fav.svg"); }
+  background-image: url("../images/svg/delen/share-mijn-fav.svg"); }
 
 .link_share.fluency {
-  background-image: url("/images/svg/delen/share-spreek.svg"); }
+  background-image: url("../images/svg/delen/share-spreek.svg"); }
 
 .toggle-filter .caret {
   height: 16px;
   width: 16px; }
 
 .toggle-mainmenu .caret {
-  background-image: url("/images/sprites/sprite-assets.png");
+  background-image: url("../images/sprites/sprite-assets.png");
   background-position: -100px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -4137,13 +4135,13 @@ dl {
   @media screen and (min-width: 1024px) {
     .toggle-search:hover .caret, .toggle-search:active .caret {
       background-color: #ec0000;
-      background-image: url("/images/svg/search-icon-white.svg"); } }
+      background-image: url("../images/svg/search-icon-white.svg"); } }
   .toggle-search.expanded .caret {
     background-position: 14px; }
   @media screen and (min-width: 1024px) {
     .toggle-search.expanded:hover .caret, .toggle-search.expanded:active .caret {
       background-color: #ec0000;
-      background-image: url("/images/svg/close-icon-white.svg"); } }
+      background-image: url("../images/svg/close-icon-white.svg"); } }
 
 .grid-search .toggle-search {
   float: right; }
@@ -4162,7 +4160,7 @@ dl {
   width: 21px; }
 
 .read-more {
-  background: url("/images/sprites/sprite_bullets_small.png") no-repeat 100% -29492px;
+  background: url("../images/sprites/sprite_bullets_small.png") no-repeat 100% -29492px;
   display: inline-block;
   padding-right: 20px;
   text-decoration: none; }
@@ -4181,14 +4179,14 @@ dl {
     height: 20px;
     width: 50%; }
   .calendar .navigatie .vorige a {
-    background: url("/images/svg/caret-left-white.svg") no-repeat 0 5px;
+    background: url("../images/svg/caret-left-white.svg") no-repeat 0 5px;
     color: #fff;
     margin-left: 10px;
     padding-left: 15px; }
   .calendar .navigatie .volgende {
     text-align: right; }
     .calendar .navigatie .volgende a {
-      background: url("/images/svg/caret-right-white.svg") no-repeat 100% 5px;
+      background: url("../images/svg/caret-right-white.svg") no-repeat 100% 5px;
       color: #fff;
       margin-right: 10px;
       padding-right: 15px; }
@@ -4303,11 +4301,11 @@ dl {
   .filter-button .filter-pill {
     padding-left: 9px; }
 
-.rij.date .invoer {
+.row.date .invoer {
   position: relative;
   width: 310px; }
 
-.rij.date .ui-datepicker-trigger {
+.row.date .ui-datepicker-trigger {
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -4375,7 +4373,7 @@ dl {
 .file .invoer button {
   margin-left: 4px; }
   .file .invoer button::after {
-    background: url("/images/svg/close-icon-black.svg") no-repeat;
+    background: url("../images/svg/close-icon-black.svg") no-repeat;
     border: 0;
     content: "";
     display: inline-block;
@@ -4639,7 +4637,7 @@ fieldset.search-large input[type="text"] {
 fieldset.search-large button,
 fieldset.search-large input[type="submit"],
 fieldset.search-large input[type="image"] {
-  background-image: url("/images/sprites/sprite-assets.png");
+  background-image: url("../images/sprites/sprite-assets.png");
   background-position: -40px -40px;
   background-repeat: no-repeat;
   -webkit-appearance: none;
@@ -4822,7 +4820,7 @@ fieldset.search-large.gsc-search-box td {
 
 .hasbgcolor .grid-superlink.selected *[class*="col"],
 .hasbgcolor .grid-grote-knop.selected *[class*="col"] {
-  background: url("/images/svg/superlink-caret-grey.svg") 95% 93% no-repeat;
+  background: url("../images/svg/superlink-caret-grey.svg") 95% 93% no-repeat;
   background-color: #fff; }
   .hasbgcolor .grid-superlink.selected *[class*="col"] a,
   .hasbgcolor .grid-grote-knop.selected *[class*="col"] a {
@@ -4835,7 +4833,7 @@ fieldset.search-large.gsc-search-box td {
   .hasbgcolor .grid-grote-knop.selected *[class*="col"]:hover,
   .hasbgcolor .grid-grote-knop.selected *[class*="col"]:active,
   .hasbgcolor .grid-grote-knop.selected *[class*="col"]:focus {
-    background: url("/images/svg/superlink-caret-red.svg") 95% 93% no-repeat;
+    background: url("../images/svg/superlink-caret-red.svg") 95% 93% no-repeat;
     background-color: #fff; }
     .hasbgcolor .grid-superlink.selected *[class*="col"]:hover a, .hasbgcolor .grid-superlink.selected *[class*="col"]:active a, .hasbgcolor .grid-superlink.selected *[class*="col"]:focus a,
     .hasbgcolor .grid-grote-knop.selected *[class*="col"]:hover a,
@@ -5011,20 +5009,20 @@ fieldset.search-large.gsc-search-box td {
       .resultaat h2 a, .resultaat h2 a:visited,
       .resultaat h3 a,
       .resultaat h3 a:visited {
-        background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat;
+        background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat;
         color: #000; }
       .resultaat h2 a:active, .resultaat h2 a:hover,
       .resultaat h3 a:active,
       .resultaat h3 a:hover {
-        background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat;
+        background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat;
         color: #ec0000;
         text-decoration: underline; }
       .resultaat h2 a.outsite,
       .resultaat h3 a.outsite {
-        background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+        background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
         .resultaat h2 a.outsite:hover,
         .resultaat h3 a.outsite:hover {
-          background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+          background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
     .resultaat h2.person a,
     .resultaat h3.person a {
       background: none;
@@ -5040,22 +5038,22 @@ fieldset.search-large.gsc-search-box td {
         width: 20px; }
     .resultaat h2.person.person-male a::before,
     .resultaat h3.person.person-male a::before {
-      background-image: url("/images/svg/man.svg"); }
+      background-image: url("../images/svg/man.svg"); }
     .resultaat h2.person.person-male.person-not-at-work a::before,
     .resultaat h3.person.person-male.person-not-at-work a::before {
-      background-image: url("/images/svg/man_afwezig.svg"); }
+      background-image: url("../images/svg/man_afwezig.svg"); }
     .resultaat h2.person.person-male.person-at-work a::before,
     .resultaat h3.person.person-male.person-at-work a::before {
-      background-image: url("/images/svg/man_aanwezig.svg"); }
+      background-image: url("../images/svg/man_aanwezig.svg"); }
     .resultaat h2.person.person-female a::before,
     .resultaat h3.person.person-female a::before {
-      background-image: url("/images/svg/vrouw.svg"); }
+      background-image: url("../images/svg/vrouw.svg"); }
     .resultaat h2.person.person-female.person-not-at-work a::before,
     .resultaat h3.person.person-female.person-not-at-work a::before {
-      background-image: url("/images/svg/vrouw_afwezig.svg"); }
+      background-image: url("../images/svg/vrouw_afwezig.svg"); }
     .resultaat h2.person.person-female.person-at-work a::before,
     .resultaat h3.person.person-female.person-at-work a::before {
-      background-image: url("/images/svg/vrouw_aanwezig.svg"); }
+      background-image: url("../images/svg/vrouw_aanwezig.svg"); }
     .resultaat h2.person ~ .holder,
     .resultaat h3.person ~ .holder {
       padding-left: 0; }
@@ -5106,736 +5104,736 @@ fieldset.search-large.gsc-search-box td {
 .row.bg-black .resultaat h3 a:active,
 .row.bg-black .resultaat h3 a:hover,
 .row.bg-black .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-black .resultaat h2 a.outsite, .row.bg-black .resultaat h2 a.outside:active, .row.bg-black .resultaat h2 a.outsite:hover, .row.bg-black .resultaat h2 a.outside:visited,
 .row.bg-black .resultaat h3 a.outsite,
 .row.bg-black .resultaat h3 a.outside:active,
 .row.bg-black .resultaat h3 a.outsite:hover,
 .row.bg-black .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-black *[class*="col"] .resultaat h2 a, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-black *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-black *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-black *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkblue .resultaat h2 a, .row.bg-darkblue .resultaat h2 a:active, .row.bg-darkblue .resultaat h2 a:hover, .row.bg-darkblue .resultaat h2 a:visited,
 .row.bg-darkblue .resultaat h3 a,
 .row.bg-darkblue .resultaat h3 a:active,
 .row.bg-darkblue .resultaat h3 a:hover,
 .row.bg-darkblue .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkblue .resultaat h2 a.outsite, .row.bg-darkblue .resultaat h2 a.outside:active, .row.bg-darkblue .resultaat h2 a.outsite:hover, .row.bg-darkblue .resultaat h2 a.outside:visited,
 .row.bg-darkblue .resultaat h3 a.outsite,
 .row.bg-darkblue .resultaat h3 a.outside:active,
 .row.bg-darkblue .resultaat h3 a.outsite:hover,
 .row.bg-darkblue .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-darkblue *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-darkblue *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkgreen .resultaat h2 a, .row.bg-darkgreen .resultaat h2 a:active, .row.bg-darkgreen .resultaat h2 a:hover, .row.bg-darkgreen .resultaat h2 a:visited,
 .row.bg-darkgreen .resultaat h3 a,
 .row.bg-darkgreen .resultaat h3 a:active,
 .row.bg-darkgreen .resultaat h3 a:hover,
 .row.bg-darkgreen .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkgreen .resultaat h2 a.outsite, .row.bg-darkgreen .resultaat h2 a.outside:active, .row.bg-darkgreen .resultaat h2 a.outsite:hover, .row.bg-darkgreen .resultaat h2 a.outside:visited,
 .row.bg-darkgreen .resultaat h3 a.outsite,
 .row.bg-darkgreen .resultaat h3 a.outside:active,
 .row.bg-darkgreen .resultaat h3 a.outsite:hover,
 .row.bg-darkgreen .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-darkgreen *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkgrey .resultaat h2 a, .row.bg-darkgrey .resultaat h2 a:active, .row.bg-darkgrey .resultaat h2 a:hover, .row.bg-darkgrey .resultaat h2 a:visited,
 .row.bg-darkgrey .resultaat h3 a,
 .row.bg-darkgrey .resultaat h3 a:active,
 .row.bg-darkgrey .resultaat h3 a:hover,
 .row.bg-darkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-darkgrey .resultaat h2 a.outsite, .row.bg-darkgrey .resultaat h2 a.outside:active, .row.bg-darkgrey .resultaat h2 a.outsite:hover, .row.bg-darkgrey .resultaat h2 a.outside:visited,
 .row.bg-darkgrey .resultaat h3 a.outsite,
 .row.bg-darkgrey .resultaat h3 a.outside:active,
 .row.bg-darkgrey .resultaat h3 a.outsite:hover,
 .row.bg-darkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-darkgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-text-darkgrey .resultaat h2 a, .row.bg-text-darkgrey .resultaat h2 a:active, .row.bg-text-darkgrey .resultaat h2 a:hover, .row.bg-text-darkgrey .resultaat h2 a:visited,
 .row.bg-text-darkgrey .resultaat h3 a,
 .row.bg-text-darkgrey .resultaat h3 a:active,
 .row.bg-text-darkgrey .resultaat h3 a:hover,
 .row.bg-text-darkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-text-darkgrey .resultaat h2 a.outsite, .row.bg-text-darkgrey .resultaat h2 a.outside:active, .row.bg-text-darkgrey .resultaat h2 a.outsite:hover, .row.bg-text-darkgrey .resultaat h2 a.outside:visited,
 .row.bg-text-darkgrey .resultaat h3 a.outsite,
 .row.bg-text-darkgrey .resultaat h3 a.outside:active,
 .row.bg-text-darkgrey .resultaat h3 a.outsite:hover,
 .row.bg-text-darkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-text-darkgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-text-mediumgrey .resultaat h2 a:hover, .row.bg-text-mediumgrey .resultaat h2 a:active,
 .row.bg-text-mediumgrey .resultaat h3 a:hover,
 .row.bg-text-mediumgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-text-mediumgrey .resultaat h2 a, .row.bg-text-mediumgrey .resultaat h2 a:visited,
 .row.bg-text-mediumgrey .resultaat h3 a,
 .row.bg-text-mediumgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-text-mediumgrey .resultaat h2 a.outside:hover, .row.bg-text-mediumgrey .resultaat h2 a.outside:active,
 .row.bg-text-mediumgrey .resultaat h3 a.outside:hover,
 .row.bg-text-mediumgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-text-mediumgrey .resultaat h2 a.outsite, .row.bg-text-mediumgrey .resultaat h2 a.outside:visited,
 .row.bg-text-mediumgrey .resultaat h3 a.outsite,
 .row.bg-text-mediumgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-text-mediumgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-green .resultaat h2 a:hover, .row.bg-green .resultaat h2 a:active,
 .row.bg-green .resultaat h3 a:hover,
 .row.bg-green .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-green .resultaat h2 a, .row.bg-green .resultaat h2 a:visited,
 .row.bg-green .resultaat h3 a,
 .row.bg-green .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-green .resultaat h2 a.outside:hover, .row.bg-green .resultaat h2 a.outside:active,
 .row.bg-green .resultaat h3 a.outside:hover,
 .row.bg-green .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-green .resultaat h2 a.outsite, .row.bg-green .resultaat h2 a.outside:visited,
 .row.bg-green .resultaat h3 a.outsite,
 .row.bg-green .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-green *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-green *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-green *[class*="col"] .resultaat h2 a, *[class*="col"].bg-green *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-green *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-green *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-green *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-green *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-green *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-mediumgrey .resultaat h2 a:hover, .row.bg-mediumgrey .resultaat h2 a:active,
 .row.bg-mediumgrey .resultaat h3 a:hover,
 .row.bg-mediumgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-mediumgrey .resultaat h2 a, .row.bg-mediumgrey .resultaat h2 a:visited,
 .row.bg-mediumgrey .resultaat h3 a,
 .row.bg-mediumgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-mediumgrey .resultaat h2 a.outside:hover, .row.bg-mediumgrey .resultaat h2 a.outside:active,
 .row.bg-mediumgrey .resultaat h3 a.outside:hover,
 .row.bg-mediumgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-mediumgrey .resultaat h2 a.outsite, .row.bg-mediumgrey .resultaat h2 a.outside:visited,
 .row.bg-mediumgrey .resultaat h3 a.outsite,
 .row.bg-mediumgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-mediumgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-grey .resultaat h2 a:hover, .row.bg-grey .resultaat h2 a:active,
 .row.bg-grey .resultaat h3 a:hover,
 .row.bg-grey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-grey .resultaat h2 a, .row.bg-grey .resultaat h2 a:visited,
 .row.bg-grey .resultaat h3 a,
 .row.bg-grey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-grey .resultaat h2 a.outside:hover, .row.bg-grey .resultaat h2 a.outside:active,
 .row.bg-grey .resultaat h3 a.outside:hover,
 .row.bg-grey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-grey .resultaat h2 a.outsite, .row.bg-grey .resultaat h2 a.outside:visited,
 .row.bg-grey .resultaat h3 a.outsite,
 .row.bg-grey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-grey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-grey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-lightblue .resultaat h2 a, .row.bg-lightblue .resultaat h2 a:active, .row.bg-lightblue .resultaat h2 a:hover, .row.bg-lightblue .resultaat h2 a:visited,
 .row.bg-lightblue .resultaat h3 a,
 .row.bg-lightblue .resultaat h3 a:active,
 .row.bg-lightblue .resultaat h3 a:hover,
 .row.bg-lightblue .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-lightblue .resultaat h2 a.outsite, .row.bg-lightblue .resultaat h2 a.outside:active, .row.bg-lightblue .resultaat h2 a.outsite:hover, .row.bg-lightblue .resultaat h2 a.outside:visited,
 .row.bg-lightblue .resultaat h3 a.outsite,
 .row.bg-lightblue .resultaat h3 a.outside:active,
 .row.bg-lightblue .resultaat h3 a.outsite:hover,
 .row.bg-lightblue .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-lightblue *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-lightblue *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-lightgrey .resultaat h2 a:hover, .row.bg-lightgrey .resultaat h2 a:active,
 .row.bg-lightgrey .resultaat h3 a:hover,
 .row.bg-lightgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-lightgrey .resultaat h2 a, .row.bg-lightgrey .resultaat h2 a:visited,
 .row.bg-lightgrey .resultaat h3 a,
 .row.bg-lightgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-lightgrey .resultaat h2 a.outside:hover, .row.bg-lightgrey .resultaat h2 a.outside:active,
 .row.bg-lightgrey .resultaat h3 a.outside:hover,
 .row.bg-lightgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-lightgrey .resultaat h2 a.outsite, .row.bg-lightgrey .resultaat h2 a.outside:visited,
 .row.bg-lightgrey .resultaat h3 a.outsite,
 .row.bg-lightgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-lightgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-magenta .resultaat h2 a, .row.bg-magenta .resultaat h2 a:active, .row.bg-magenta .resultaat h2 a:hover, .row.bg-magenta .resultaat h2 a:visited,
 .row.bg-magenta .resultaat h3 a,
 .row.bg-magenta .resultaat h3 a:active,
 .row.bg-magenta .resultaat h3 a:hover,
 .row.bg-magenta .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-magenta .resultaat h2 a.outsite, .row.bg-magenta .resultaat h2 a.outside:active, .row.bg-magenta .resultaat h2 a.outsite:hover, .row.bg-magenta .resultaat h2 a.outside:visited,
 .row.bg-magenta .resultaat h3 a.outsite,
 .row.bg-magenta .resultaat h3 a.outside:active,
 .row.bg-magenta .resultaat h3 a.outsite:hover,
 .row.bg-magenta .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-magenta *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-magenta *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-orange .resultaat h2 a:hover, .row.bg-orange .resultaat h2 a:active,
 .row.bg-orange .resultaat h3 a:hover,
 .row.bg-orange .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-orange .resultaat h2 a, .row.bg-orange .resultaat h2 a:visited,
 .row.bg-orange .resultaat h3 a,
 .row.bg-orange .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-orange .resultaat h2 a.outside:hover, .row.bg-orange .resultaat h2 a.outside:active,
 .row.bg-orange .resultaat h3 a.outside:hover,
 .row.bg-orange .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-orange .resultaat h2 a.outsite, .row.bg-orange .resultaat h2 a.outside:visited,
 .row.bg-orange .resultaat h3 a.outsite,
 .row.bg-orange .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a, *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-orange *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-orange *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-deeppurple .resultaat h2 a, .row.bg-deeppurple .resultaat h2 a:active, .row.bg-deeppurple .resultaat h2 a:hover, .row.bg-deeppurple .resultaat h2 a:visited,
 .row.bg-deeppurple .resultaat h3 a,
 .row.bg-deeppurple .resultaat h3 a:active,
 .row.bg-deeppurple .resultaat h3 a:hover,
 .row.bg-deeppurple .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-deeppurple .resultaat h2 a.outsite, .row.bg-deeppurple .resultaat h2 a.outside:active, .row.bg-deeppurple .resultaat h2 a.outsite:hover, .row.bg-deeppurple .resultaat h2 a.outside:visited,
 .row.bg-deeppurple .resultaat h3 a.outsite,
 .row.bg-deeppurple .resultaat h3 a.outside:active,
 .row.bg-deeppurple .resultaat h3 a.outsite:hover,
 .row.bg-deeppurple .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-deeppurple *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-purple .resultaat h2 a, .row.bg-purple .resultaat h2 a:active, .row.bg-purple .resultaat h2 a:hover, .row.bg-purple .resultaat h2 a:visited,
 .row.bg-purple .resultaat h3 a,
 .row.bg-purple .resultaat h3 a:active,
 .row.bg-purple .resultaat h3 a:hover,
 .row.bg-purple .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-purple .resultaat h2 a.outsite, .row.bg-purple .resultaat h2 a.outside:active, .row.bg-purple .resultaat h2 a.outsite:hover, .row.bg-purple .resultaat h2 a.outside:visited,
 .row.bg-purple .resultaat h3 a.outsite,
 .row.bg-purple .resultaat h3 a.outside:active,
 .row.bg-purple .resultaat h3 a.outsite:hover,
 .row.bg-purple .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-purple *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-purple *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-red .resultaat h2 a, .row.bg-red .resultaat h2 a:active, .row.bg-red .resultaat h2 a:hover, .row.bg-red .resultaat h2 a:visited,
 .row.bg-red .resultaat h3 a,
 .row.bg-red .resultaat h3 a:active,
 .row.bg-red .resultaat h3 a:hover,
 .row.bg-red .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-red .resultaat h2 a.outsite, .row.bg-red .resultaat h2 a.outside:active, .row.bg-red .resultaat h2 a.outsite:hover, .row.bg-red .resultaat h2 a.outside:visited,
 .row.bg-red .resultaat h3 a.outsite,
 .row.bg-red .resultaat h3 a.outside:active,
 .row.bg-red .resultaat h3 a.outsite:hover,
 .row.bg-red .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-red *[class*="col"] .resultaat h2 a, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-red *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-red *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-red *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-mediumdarkgrey .resultaat h2 a, .row.bg-mediumdarkgrey .resultaat h2 a:active, .row.bg-mediumdarkgrey .resultaat h2 a:hover, .row.bg-mediumdarkgrey .resultaat h2 a:visited,
 .row.bg-mediumdarkgrey .resultaat h3 a,
 .row.bg-mediumdarkgrey .resultaat h3 a:active,
 .row.bg-mediumdarkgrey .resultaat h3 a:hover,
 .row.bg-mediumdarkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-mediumdarkgrey .resultaat h2 a.outsite, .row.bg-mediumdarkgrey .resultaat h2 a.outside:active, .row.bg-mediumdarkgrey .resultaat h2 a.outsite:hover, .row.bg-mediumdarkgrey .resultaat h2 a.outside:visited,
 .row.bg-mediumdarkgrey .resultaat h3 a.outsite,
 .row.bg-mediumdarkgrey .resultaat h3 a.outside:active,
 .row.bg-mediumdarkgrey .resultaat h3 a.outsite:hover,
 .row.bg-mediumdarkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-mediumdarkgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-superdarkgrey .resultaat h2 a, .row.bg-superdarkgrey .resultaat h2 a:active, .row.bg-superdarkgrey .resultaat h2 a:hover, .row.bg-superdarkgrey .resultaat h2 a:visited,
 .row.bg-superdarkgrey .resultaat h3 a,
 .row.bg-superdarkgrey .resultaat h3 a:active,
 .row.bg-superdarkgrey .resultaat h3 a:hover,
 .row.bg-superdarkgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 .row.bg-superdarkgrey .resultaat h2 a.outsite, .row.bg-superdarkgrey .resultaat h2 a.outside:active, .row.bg-superdarkgrey .resultaat h2 a.outsite:hover, .row.bg-superdarkgrey .resultaat h2 a.outside:visited,
 .row.bg-superdarkgrey .resultaat h3 a.outsite,
 .row.bg-superdarkgrey .resultaat h3 a.outside:active,
 .row.bg-superdarkgrey .resultaat h3 a.outsite:hover,
 .row.bg-superdarkgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a:active, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a:active,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-white.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a.outside:active, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a.outsite:hover, *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a.outside:active,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a.outsite:hover,
 *[class*="col"].bg-superdarkgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-white.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-white.svg") 0 6px no-repeat; }
 
 .row.bg-superlightgrey .resultaat h2 a:hover, .row.bg-superlightgrey .resultaat h2 a:active,
 .row.bg-superlightgrey .resultaat h3 a:hover,
 .row.bg-superlightgrey .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-superlightgrey .resultaat h2 a, .row.bg-superlightgrey .resultaat h2 a:visited,
 .row.bg-superlightgrey .resultaat h3 a,
 .row.bg-superlightgrey .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-superlightgrey .resultaat h2 a.outside:hover, .row.bg-superlightgrey .resultaat h2 a.outside:active,
 .row.bg-superlightgrey .resultaat h3 a.outside:hover,
 .row.bg-superlightgrey .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-superlightgrey .resultaat h2 a.outsite, .row.bg-superlightgrey .resultaat h2 a.outside:visited,
 .row.bg-superlightgrey .resultaat h3 a.outsite,
 .row.bg-superlightgrey .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a, *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-superlightgrey *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-white .resultaat h2 a:hover, .row.bg-white .resultaat h2 a:active,
 .row.bg-white .resultaat h3 a:hover,
 .row.bg-white .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-white .resultaat h2 a, .row.bg-white .resultaat h2 a:visited,
 .row.bg-white .resultaat h3 a,
 .row.bg-white .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-white .resultaat h2 a.outside:hover, .row.bg-white .resultaat h2 a.outside:active,
 .row.bg-white .resultaat h3 a.outside:hover,
 .row.bg-white .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-white .resultaat h2 a.outsite, .row.bg-white .resultaat h2 a.outside:visited,
 .row.bg-white .resultaat h3 a.outsite,
 .row.bg-white .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-white *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-white *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-white *[class*="col"] .resultaat h2 a, *[class*="col"].bg-white *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-white *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-white *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-white *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-white *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-white *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-lightyellow .resultaat h2 a:hover, .row.bg-lightyellow .resultaat h2 a:active,
 .row.bg-lightyellow .resultaat h3 a:hover,
 .row.bg-lightyellow .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-lightyellow .resultaat h2 a, .row.bg-lightyellow .resultaat h2 a:visited,
 .row.bg-lightyellow .resultaat h3 a,
 .row.bg-lightyellow .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-lightyellow .resultaat h2 a.outside:hover, .row.bg-lightyellow .resultaat h2 a.outside:active,
 .row.bg-lightyellow .resultaat h3 a.outside:hover,
 .row.bg-lightyellow .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-lightyellow .resultaat h2 a.outsite, .row.bg-lightyellow .resultaat h2 a.outside:visited,
 .row.bg-lightyellow .resultaat h3 a.outsite,
 .row.bg-lightyellow .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a, *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-lightyellow *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .row.bg-yellow .resultaat h2 a:hover, .row.bg-yellow .resultaat h2 a:active,
 .row.bg-yellow .resultaat h3 a:hover,
 .row.bg-yellow .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 .row.bg-yellow .resultaat h2 a, .row.bg-yellow .resultaat h2 a:visited,
 .row.bg-yellow .resultaat h3 a,
 .row.bg-yellow .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 .row.bg-yellow .resultaat h2 a.outside:hover, .row.bg-yellow .resultaat h2 a.outside:active,
 .row.bg-yellow .resultaat h3 a.outside:hover,
 .row.bg-yellow .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 .row.bg-yellow .resultaat h2 a.outsite, .row.bg-yellow .resultaat h2 a.outside:visited,
 .row.bg-yellow .resultaat h3 a.outsite,
 .row.bg-yellow .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a:hover, *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a:active,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a:hover,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a:active {
-  background: url("/images/svg/caret-right-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a, *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a:visited,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a:visited {
-  background: url("/images/svg/caret-right-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/caret-right-black.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a.outside:hover, *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a.outside:active,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a.outside:hover,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a.outside:active {
-  background: url("/images/svg/external-link-red.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-red.svg") 0 6px no-repeat; }
 
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a.outsite, *[class*="col"].bg-yellow *[class*="col"] .resultaat h2 a.outside:visited,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a.outsite,
 *[class*="col"].bg-yellow *[class*="col"] .resultaat h3 a.outside:visited {
-  background: url("/images/svg/external-link-black.svg") 0 6px no-repeat; }
+  background: url("../images/svg/external-link-black.svg") 0 6px no-repeat; }
 
 .resultaat + .resultaat {
   margin-top: 30px; }
@@ -5964,7 +5962,7 @@ fieldset.search-large.gsc-search-box td {
 .grid-rol-uitgelicht .blok-titel {
   font-size: 1rem;
   line-height: 1.125rem;
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px;
   margin-bottom: 4px; }
   .grid-rol-uitgelicht .blok-titel a:hover {
     text-decoration: none; }
@@ -5974,70 +5972,70 @@ fieldset.search-large.gsc-search-box td {
   line-height: 1.25rem; }
 
 .hasbgcolor.bg-black .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-darkblue .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-darkgreen .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-darkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-text-darkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-text-mediumgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-green .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-mediumgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-grey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-lightblue .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-lightgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-magenta .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-orange .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-deeppurple .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-purple .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-red .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-mediumdarkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-superdarkgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-white.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-superlightgrey .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-white .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-lightyellow .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .hasbgcolor.bg-yellow .grid-rol-uitgelicht .blok-titel {
-  background: url("/images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
+  background: url("../images/svg/featured-caret-right-black.svg") no-repeat 5px 2px; }
 
 .formulier-section .filter-header {
   min-height: 34px;
@@ -6070,14 +6068,14 @@ fieldset.search-large.gsc-search-box td {
     .formulier-horizontaal.has-invalid-input {
       border-left: 2px solid #ec0000;
       padding-left: 13px; }
-    .formulier-horizontaal .rij {
+    .formulier-horizontaal .row {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: baseline; }
-      .formulier-horizontaal .rij.rij_ongeldig, .formulier-horizontaal .rij.rij_geldig {
+      .formulier-horizontaal .row.row_ongeldig, .formulier-horizontaal .row.row_geldig {
         border: 0;
         padding-left: 0; }
-      .formulier-horizontaal .rij + .rij {
+      .formulier-horizontaal .row + .row {
         padding-left: 6px; }
     .formulier-horizontaal .invoer input {
       width: auto; }
@@ -6348,7 +6346,7 @@ fieldset.search-large.gsc-search-box td {
       padding-bottom: 0.75rem; }
       .type-nav-megamenu ul.links li a {
         font-family: "AvenirNextLTW01-Medium", verdana, sans-serif;
-        background: url("/images/svg/caret-right-black.svg") no-repeat 0 4px;
+        background: url("../images/svg/caret-right-black.svg") no-repeat 0 4px;
         color: #000;
         display: inline-block;
         padding: 0 0 0 13px; }
@@ -6407,7 +6405,7 @@ fieldset.search-large.gsc-search-box td {
     margin: 11px 0; }
     .type-sitepad .horizontal li {
       font-size: 0.875rem;
-      background-image: url("/images/sprites/sprite-assets.png");
+      background-image: url("../images/sprites/sprite-assets.png");
       background-position: 0px -92px;
       background-repeat: no-repeat;
       line-height: 1.375rem;
@@ -6537,59 +6535,6 @@ fieldset.search-large.gsc-search-box td {
       line-height: 1.25rem; }
     .grid-tegel.datatile .tegel_text p {
       margin-bottom: 1em; }
-
-@media screen and (max-width: 1023px) {
-  .type-treeview .links > li {
-    margin-bottom: 0; }
-    .type-treeview .links > li > a, .type-treeview .links > li.expanded > a {
-      color: #767676; }
-      .type-treeview .links > li > a:hover, .type-treeview .links > li > a:focus, .type-treeview .links > li > a:active, .type-treeview .links > li.expanded > a:hover, .type-treeview .links > li.expanded > a:focus, .type-treeview .links > li.expanded > a:active {
-        color: #ec0000; }
-    .type-treeview .links > li.expanded > a,
-    .type-treeview .links > li.expanded li.expanded > a {
-      border-left: 8px solid #ec0000; }
-    .type-treeview .links > li li {
-      border-left: 8px solid #e8e8e8;
-      margin-bottom: 0; }
-      .type-treeview .links > li li a {
-        background: none;
-        color: #767676;
-        padding-left: 10px; }
-        .type-treeview .links > li li a:hover, .type-treeview .links > li li a:focus, .type-treeview .links > li li a:active {
-          color: #ec0000; } }
-
-@media screen and (min-width: 1024px) {
-  .type-treeview .links li {
-    line-height: 1.5em; }
-    .type-treeview .links li.selected a {
-      font-weight: 700; }
-    .type-treeview .links li a {
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
-      padding-left: 1.2em; }
-      .type-treeview .links li a:hover, .type-treeview .links li a:active {
-        background: none; }
-    .type-treeview .links li ul {
-      display: block;
-      margin: .5em 0 .5em 1em; }
-  .type-treeview .links > li a > span {
-    display: inline-block; }
-    .type-treeview .links > li a > span::before {
-      background-image: url("/images/svg/treeview-plus-black.svg");
-      background-repeat: no-repeat;
-      content: "";
-      display: inline-block;
-      height: 12px;
-      margin-left: -20px;
-      margin-right: 3px;
-      width: 12px; }
-  .type-treeview .links > li a:hover > span::before {
-    background-image: url("/images/svg/treeview-plus-red.svg"); }
-  .type-treeview .links > li.expanded a > span::before {
-    background-image: url("/images/svg/treeview-minus-black.svg"); }
-  .type-treeview .links > li.expanded a:hover > span::before {
-    background-image: url("/images/svg/treeview-minus-red.svg"); }
-  .type-treeview .links > li > a {
-    padding-left: .5em; } }
 
 .has_hero_image {
   position: relative; }
@@ -6969,11 +6914,11 @@ hr.zone-separator {
       .footer-wrapper .grid-below-footer .links a {
         font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
         font-size: 0.875rem;
-        background: url("/images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
+        background: url("../images/svg/footer-caret-right-black.svg") 0 5px no-repeat;
         color: #000;
         padding-left: 12px; }
         .footer-wrapper .grid-below-footer .links a:hover, .footer-wrapper .grid-below-footer .links a:focus, .footer-wrapper .grid-below-footer .links a:visited {
-          background: url("/images/svg/footer-caret-right-black.svg") 0 5px no-repeat; }
+          background: url("../images/svg/footer-caret-right-black.svg") 0 5px no-repeat; }
         .footer-wrapper .grid-below-footer .links a:hover, .footer-wrapper .grid-below-footer .links a:focus {
           color: #ec0000; }
         .footer-wrapper .grid-below-footer .links a:visited {
@@ -7029,63 +6974,63 @@ fieldset.search-large input[type="text"]:focus {
   box-shadow: inset 0 0 0 2px #000;
   outline: 0; }
 
-.rij_ongeldig .invoer input, .rij_ongeldig input[type="checkbox"] + label::before, .rij_ongeldig input[type="radio"] + label::before, .rij_ongeldig .invoer select, .rij_ongeldig .invoer textarea {
+.row_ongeldig .invoer input, .row_ongeldig input[type="checkbox"] + label::before, .row_ongeldig input[type="radio"] + label::before, .row_ongeldig .invoer select, .row_ongeldig .invoer textarea {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 1px #ec0000; }
 
-.rij_ongeldig .invoer input:focus, .rij_ongeldig input[type="checkbox"]:hover + label::before, .rij_ongeldig input[type="checkbox"]:focus + label::before, .rij_ongeldig input[type="radio"]:hover + label::before, .rij_ongeldig input[type="radio"]:focus + label::before, .rij_ongeldig .invoer select:focus, .rij_ongeldig .invoer textarea:focus {
+.row_ongeldig .invoer input:focus, .row_ongeldig input[type="checkbox"]:hover + label::before, .row_ongeldig input[type="checkbox"]:focus + label::before, .row_ongeldig input[type="radio"]:hover + label::before, .row_ongeldig input[type="radio"]:focus + label::before, .row_ongeldig .invoer select:focus, .row_ongeldig .invoer textarea:focus {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 2px #ec0000; }
 
-.rij.rij_ongeldig {
+.row.row_ongeldig {
   border-left: 2px solid #ec0000;
   padding-left: 13px; }
 
-.rij_geldig .invoer input, .rij_geldig input[type="checkbox"] + label::before, .rij_geldig input[type="radio"] + label::before, .rij_geldig .invoer select, .rij_geldig .invoer textarea {
+.row_geldig .invoer input, .row_geldig input[type="checkbox"] + label::before, .row_geldig input[type="radio"] + label::before, .row_geldig .invoer select, .row_geldig .invoer textarea {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 1px #00a03c; }
 
-.rij_geldig .invoer input:focus, .rij_geldig input[type="checkbox"]:hover + label::before, .rij_geldig input[type="checkbox"]:focus + label::before, .rij_geldig input[type="radio"]:hover + label::before, .rij_geldig input[type="radio"]:focus + label::before, .rij_geldig .invoer select:focus, .rij_geldig .invoer textarea:focus {
+.row_geldig .invoer input:focus, .row_geldig input[type="checkbox"]:hover + label::before, .row_geldig input[type="checkbox"]:focus + label::before, .row_geldig input[type="radio"]:hover + label::before, .row_geldig input[type="radio"]:focus + label::before, .row_geldig .invoer select:focus, .row_geldig .invoer textarea:focus {
   -webkit-appearance: none;
   box-shadow: inset 0 0 0 2px #00a03c; }
 
-.rij.rij_geldig {
+.row.row_geldig {
   border-left: 2px solid #00a03c;
   padding-left: 13px; }
 
-.rij.mode_display .label,
-.rij.mode_display .invoer {
+.row.mode_display .label,
+.row.mode_display .invoer {
   display: inline-block; }
 
-.rij.mode_display .label {
+.row.mode_display .label {
   vertical-align: top;
   width: 50%; }
-  .rij.mode_display .label label,
-  .rij.mode_display .label .setlabel,
-  .rij.mode_display .label .label-text {
+  .row.mode_display .label label,
+  .row.mode_display .label .setlabel,
+  .row.mode_display .label .label-text {
     font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
     color: #767676; }
 
 
-.rij.mode_display .invoer {
+.row.mode_display .invoer {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   width: 49%; }
 
-.display_largecontent.rij.mode_display .label {
+.display_largecontent.row.mode_display .label {
   width: 33%; }
 
-.display_largecontent.rij.mode_display .invoer {
+.display_largecontent.row.mode_display .invoer {
   width: 66%; }
 
-.display_largelabels.rij.mode_display .label {
+.display_largelabels.row.mode_display .label {
   width: 66%; }
 
-.display_largelabels.rij.mode_display .invoer {
+.display_largelabels.row.mode_display .invoer {
   width: 33%; }
 
-@media screen and (max-width: 320px) {
-  .rij.mode_display .label,
-  .rij.mode_display .invoer, .display_largecontent.rij.mode_display .label, .display_largecontent.rij.mode_display .invoer, .display_largelabels.rij.mode_display .label, .display_largelabels.rij.mode_display .invoer {
+@media screen and (max-width: 576px) {
+  .row.mode_display .label,
+  .row.mode_display .invoer, .display_largecontent.row.mode_display .label, .display_largecontent.row.mode_display .invoer, .display_largelabels.row.mode_display .label, .display_largelabels.row.mode_display .invoer {
     width: 100%; } }
 
 fieldset.selectie_type_checkbox .antwoorden, fieldset.selectie_type_radio .antwoorden {
@@ -7713,36 +7658,21 @@ h2.condensed, h3.condensed {
     z-index: 99999;
     text-align: center; }
 
-.grid-blok.card {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
+.card {
   border: 1px solid #e8e8e8; }
-  .grid-blok.card .grid-title {
-    display: block;
-    width: 100%; }
-    .grid-blok.card .grid-title h2 {
-      display: block;
-      background-color: #f3f3f3;
-      margin: 0;
-      padding: .8rem .5rem; }
-  .grid-blok.card .grid-blok {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+  .card .grid-title {
+    background-color: #f3f3f3; }
+  .card *[class*="col"]:not(.grid-title) {
     padding-top: .75rem; }
-    .grid-blok.card .grid-blok:hover {
+    .card *[class*="col"]:not(.grid-title):hover {
       background-color: #f3f3f3; }
-  .grid-blok.card table {
-    margin: .5rem; }
-  .grid-blok.card.break-out-card {
+  .card.break-out-card {
     border-left: none;
     border-right: none;
     border-bottom: none; }
-    .grid-blok.card.break-out-card > *:not(.grid-title) {
+    .card.break-out-card > *:not(.grid-title) {
       margin-left: -1rem; }
-      .grid-blok.card.break-out-card > *:not(.grid-title):hover {
+      .card.break-out-card > *:not(.grid-title):hover {
         background-color: #f3f3f3; }
 
 .breakout-zone {
@@ -7759,6 +7689,10 @@ h2.condensed, h3.condensed {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.margin-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 .grid-title + .fullwidth {
   margin-top: -20px; }
 
@@ -7768,6 +7702,9 @@ h2.condensed, h3.condensed {
 .grid-zone.bgcolor_darkgrey .grid-element .links li a.outsite {
   background: url("../images/svg/external-link-white.svg") no-repeat 0 7px;
   color: #fff; }
+
+.row p {
+  margin: .5em 0; }
 
 .embed-search {
   font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;

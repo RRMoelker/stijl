@@ -60,7 +60,7 @@ input[type="radio"] {
   }
 }
 
-.rij_ongeldig { // sass-lint:disable-line class-name-format
+.row_ongeldig { // sass-lint:disable-line class-name-format
   input[type="radio"] {
     & + label::before {
       @extend %invalid-input-normal;
@@ -75,7 +75,7 @@ input[type="radio"] {
   }
 }
 
-.rij_geldig { // sass-lint:disable-line class-name-format
+.row_geldig { // sass-lint:disable-line class-name-format
   input[type="radio"] {
     & + label::before {
       @extend %valid-input-normal;

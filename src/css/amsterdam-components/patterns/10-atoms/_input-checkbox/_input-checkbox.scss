@@ -66,7 +66,7 @@ input[type="checkbox"] {
   }
 }
 
-.rij_ongeldig { // sass-lint:disable-line class-name-format
+.row_ongeldig { // sass-lint:disable-line class-name-format
   input[type="checkbox"] {
     & + label::before {
       @extend %invalid-input-normal;
@@ -81,7 +81,7 @@ input[type="checkbox"] {
   }
 }
 
-.rij_geldig { // sass-lint:disable-line class-name-format
+.row_geldig { // sass-lint:disable-line class-name-format
   input[type="checkbox"] {
     & + label::before {
       @extend %valid-input-normal;

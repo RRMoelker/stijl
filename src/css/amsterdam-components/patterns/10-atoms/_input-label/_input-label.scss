@@ -1,4 +1,4 @@
-.rij {
+.row {
   .label,
   label {
     @include avenirnextdemi;
@@ -12,7 +12,7 @@
 }
 
 .bg-lightgrey {
-  .rij {
+  .row {
     .label,
     label {
       .verplicht {

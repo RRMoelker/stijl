@@ -1,38 +1,18 @@
 // card styling
 // a card is an area with a border and the title set with a background
-.grid-blok.card {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
+.card {
   border: 1px solid $ams-lichtgrijs;
 
-
   .grid-title {
-    display: block;
-    width: 100%;
-
-    h2 {
-      display: block;
-      background-color: $ams-top-menu;
-      margin: 0;
-      padding: .8rem .5rem;
-    }
+    background-color: $ams-top-menu;
   }
 
-  .grid-blok {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+  *[class*="col"]:not(.grid-title) {
     padding-top: .75rem;
 
     &:hover {
       background-color: $ams-top-menu;
     }
-  }
-
-  table {
-    margin: .5rem;
   }
 
   &.break-out-card {

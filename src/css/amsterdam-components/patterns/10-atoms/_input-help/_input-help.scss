@@ -3,14 +3,14 @@
   color: $color-darkgrey;
 }
 
-.rij_ongeldig { // sass-lint:disable-line class-name-format
+.row_ongeldig { // sass-lint:disable-line class-name-format
   .input-help {
     color: $color-red;
   }
 }
 
 .bg-lightgrey { // sass-lint:disable-line class-name-format
-  .rij_ongeldig { // sass-lint:disable-line class-name-format
+  .row_ongeldig { // sass-lint:disable-line class-name-format
     .input-help {
       color: $color-darkgrey;
     }
