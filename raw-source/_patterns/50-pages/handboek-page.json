@@ -1,0 +1,242 @@
+{
+  "gridWrappers": [
+    {
+      "wrapperAlias": "header",
+      "gridContainers": [
+        {
+          "containerAlias": "header-logo",
+          "containerModifiers": "breakout-container",
+          "gridZones": [
+            {
+              "zoneAlias": "logo",
+              "gridBlocks": [
+                {
+                  "defaultGridBlock": {
+                    "columns": 12,
+                    "blockType": "type-logo",
+                    "blockModifiers": "sponsored",
+                    "inside": {
+                      "logoMolecule": {
+                        "siteLink": "https://www.amsterdam.nl",
+                        "alt": "",
+                        "subSiteTitle": "Schrijfwijzer",
+                        "subSiteLink": "#"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wrapperAlias": "contents",
+      "containerModifiers": "breakout-container",
+      "gridContainers": [
+        {
+          "containerAlias": "main",
+          "gridZones": [
+            {
+              "zoneAlias": "search",
+              "columns": 12,
+              "gridBlocks": [
+                {
+                  "defaultGridBlock": {
+                    "blockType": "type-nav-primair",
+                    "blockTitle": {
+                      "toggleSearchAtom": {
+                        "toggleVariant": "search",
+                        "toggleSearchAriaExpanded": false,
+                        "toggleSearchTitle": "zoeken"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "zoneAlias": "nav",
+              "columns": 3,
+              "gridBlocks": [
+                {
+                  "treeviewGridBlock": {
+                    "blockType": "type-treeview",
+                    "listItems": [
+                      {
+                        "listItemLabel": "Heldere taal schrijven, hoe doe je dat?"
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede brief",
+                        "linkListItemModifier": "expanded",
+                        "subList": {
+                          "subListItems": [
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Schrijf een goede brief"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "De afzender"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Adres, referenties, onderwerp en bijlage(n)"
+                            },
+                            {
+                              "linkSubListItemModifier": "selected",
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Inleiding"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "De kern"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Het slot"
+                            },
+                            {
+                              "subListItemLink": "#",
+                              "subListItemLabel": "Ondertekening",
+                              "linkSubListItemModifier": "expanded",
+                              "subSubList": {
+                                "subSubListItems": [
+                                  {
+                                    "subSubListItemLink": "#",
+                                    "subSubListItemLabel": "Ondertekening"
+                                  },
+                                  {
+                                    "subSubListItemLink": "#",
+                                    "subSubListItemLabel": "Ondertekening voor bestuurscommissies"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede e-mail"
+                      },
+                      {
+                        "listItemLabel": "Schrijf een goede beleidstekst"
+                      },
+                      {
+                        "listItemLabel": "Hoofdletter of kleine letter?"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "zoneAlias": "content",
+              "columns": 9,
+              "gridBlocks": [
+                {
+                  "defaultGridBlock": {
+                    "blockType": "type-sitepad",
+                    "inside": {
+                      "horizontalListMolecule": {
+                        "listItems": [
+                          {
+                            "listItemLabel": "Home"
+                          },
+                          {
+                            "listItemLabel": "Parent 1"
+                          },
+                          {
+                            "listItemLabel": "Parent 2 met een lange titel"
+                          },
+                          {
+                            "listItemLabel": "Parent 3"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "paginaTitleGridBlock": {
+                    "blockType": "grid-paginatitel",
+                    "headerText": "4.2 Schrijf een goede brief"
+                  }
+                },
+                {
+                  "defaultGridBlock": {
+                    "blockType": "grid-pagina",
+                    "inside": {
+                      "richContentWithParagraph": true,
+                      "richContentWithFormatting": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wrapperAlias": "footer",
+      "gridContainers": [
+        {
+          "containerAlias": "footer",
+          "containerModifiers": "grid-container container_12 grid-footer breakout-container",
+          "gridZones": [
+            {
+              "zoneAlias": "footerleft",
+              "columns": 3,
+              "zoneModifiers": "hasbgcolor bgcolor_darkgrey",
+              "gridBlocks": [
+                {
+                  "footerGridBlock": {
+                    "columns": 3,
+                    "blockType": "type-footer",
+                    "title" : "Schrijfwijzer",
+                    "content": "Deze Schrijfwijzer helpt je om de gemeentelijke dienstverlening flink te verbeteren. In deze wijzer lees je hoe je de kernwaarden ‘actief, open en integer’ inzet in beleidsteksten, brieven en e-mails.",
+                    "showFooterDefault": true
+                  }
+                }
+              ]
+            },
+            {
+              "zoneAlias": "footerright",
+              "columns": 9,
+              "zoneModifiers": "hasbgcolor bgcolor_darkgrey",
+              "gridBlocks": [
+                {
+                  "footerGridBlock": {
+                    "columns": 3,
+                    "blockType": "type-footer",
+                    "title" : "Contact",
+                    "content": "Mail ons via huisstijl@amsterdam.nl jouw eventuele aanvullingen of opmerkingen. We bespreken die en passen het zonodig aan.",
+                    "showFooterDefault": true
+                  }
+                },
+                {
+                  "footerGridBlock": {
+                    "columns": 3,
+                    "blockType": "type-footer",
+                    "title" : "Uit in Amsterdam",
+                    "content": "Heldere taal is onderdeel van de Amsterdamse huisstijl. Uitgebreide informatie over de Amsterdamse huisstijl vind je op Amsterdam.nl/stijlweb.",
+                    "showFooterDefault": true
+                  }
+                },
+                {
+                  "footerGridBlock": {
+                    "columns": 3,
+                    "blockType": "lijst",
+                    "showFooterRight": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

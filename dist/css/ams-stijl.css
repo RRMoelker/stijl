@@ -1,3 +1,8 @@
+/**
+ * stijl - Generieke styling voor data.amsterdam.nl
+ * @version v2.9.1
+ */
+@charset "UTF-8";
 @font-face {
   font-family: "Avenir LT W01 65 Medium";
   src: url("../fonts/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
@@ -7174,6 +7179,26 @@ h2.condensed, h3.condensed {
     height: 32px; }
     .embed-search input[type="text"]::-ms-clear {
       display: none; }
+    .embed-search input[type="text"]::-webkit-input-placeholder {
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]:-ms-input-placeholder {
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]::-ms-input-placeholder {
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]::placeholder {
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]::-moz-placeholder {
+      /* Firefox 19+ */
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]:-ms-input-placeholder {
+      /* IE 10+ */
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+    .embed-search input[type="text"]:-moz-placeholder {
+      /* Firefox 18- */
+      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
   .embed-search__clear {
     background: none;
     border: none;
@@ -7241,29 +7266,22 @@ h2.condensed, h3.condensed {
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
   font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
-  background-color: #fff;
-  border: 1px solid #cccccc;
+  background-color: #fff !important;
+  border: 1px solid #cccccc !important;
   border-radius: 0 !important;
-  box-shadow: 2px 2px 0 0 #999;
-  clear: both;
-  color: #666;
-  display: block;
-  font-size: 1.4rem;
+  box-shadow: 2px 2px 0 0 #999 !important;
+  clear: both !important;
+  color: #666 !important;
+  display: block !important;
   height: 32px !important;
   line-height: 32px !important;
-  margin: 1px;
-  outline: none;
-  padding: 0;
-  text-align: center;
-  width: 32px !important; }
-  .embed-zoom > button.embed-zoom__out,
-  .embed-zoom > a.embed-zoom__out,
-  .leaflet-control-zoom-in.embed-zoom__out,
-  .leaflet-control-zoom-out.embed-zoom__out {
-    display: inline-block;
-    -webkit-transform: scale(2, 1);
-            transform: scale(2, 1);
-    vertical-align: text-top; }
+  margin: 1px !important;
+  outline: none !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  text-align: center !important;
+  width: 32px !important;
+  font-weight: normal !important; }
   .embed-zoom > button:hover, .embed-zoom > button:focus,
   .embed-zoom > a:hover,
   .embed-zoom > a:focus,
@@ -7271,12 +7289,38 @@ h2.condensed, h3.condensed {
   .leaflet-control-zoom-in:focus,
   .leaflet-control-zoom-out:hover,
   .leaflet-control-zoom-out:focus {
-    background-color: #cccccc;
-    border: 1px solid #000;
-    color: #000; }
+    background-color: #cccccc !important;
+    border: 1px solid #000 !important;
+    color: #000 !important; }
+    .embed-zoom > button:hover:before, .embed-zoom > button:focus:before,
+    .embed-zoom > a:hover:before,
+    .embed-zoom > a:focus:before,
+    .leaflet-control-zoom-in:hover:before,
+    .leaflet-control-zoom-in:focus:before,
+    .leaflet-control-zoom-out:hover:before,
+    .leaflet-control-zoom-out:focus:before {
+      color: #000 !important; }
+  .embed-zoom > button:before,
+  .embed-zoom > a:before,
+  .leaflet-control-zoom-in:before,
+  .leaflet-control-zoom-out:before {
+    display: block;
+    color: #666 !important;
+    width: 32px;
+    height: 32px; }
+
+.leaflet-control-zoom-in {
+  font-size: 1.4rem !important; }
+  .leaflet-control-zoom-in:before {
+    content: '+'; }
 
 .leaflet-control-zoom-out {
   font-size: 1.1rem !important; }
+  .leaflet-control-zoom-out:before {
+    content: '−'; }
+
+.leaflet-bar {
+  border: none !important; }
 
 .embed-marker:before {
   content: url("../images/svg/marker.svg"); }

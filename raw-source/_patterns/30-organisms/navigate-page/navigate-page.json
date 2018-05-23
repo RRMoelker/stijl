@@ -1,0 +1,10 @@
+{
+  "button-previous": {
+    "label": "Vorig artikel",
+    "url": "#"
+  },
+  "button-next": {
+    "label": "Volgend artikel",
+    "url": "#"
+  }
+}
