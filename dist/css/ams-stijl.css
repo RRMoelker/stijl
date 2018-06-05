@@ -7170,7 +7170,12 @@ h2.condensed, h3.condensed {
 
 .embed-search {
   font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
-  position: relative; }
+  left: 10px;
+  max-width: 329px;
+  position: absolute;
+  top: 10px;
+  width: calc(100% - 20px);
+  z-index: 401; }
   .embed-search .invoer {
     display: flex;
     box-shadow: 2px 2px 0 0 #999; }
@@ -7222,7 +7227,7 @@ h2.condensed, h3.condensed {
       display: block;
       fill: #fff;
       height: 24px;
-      left: 45%;
+      left: 50%;
       position: absolute;
       top: 55%;
       -webkit-transform: translate(-50%, -50%);

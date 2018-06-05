@@ -3,7 +3,12 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
 
 .embed-search {
   @include avenirnext;
-  position: relative;
+  left: 10px;
+  max-width: 329px;
+  position: absolute;
+  top: 10px;
+  width: calc(100% - 20px);
+  z-index: 401;
 
   .invoer {
     display: flex;
@@ -66,7 +71,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
       display: block;
       fill: $ams-wit;
       height: 24px;
-      left: 45%;
+      left: 50%;
       position: absolute;
       top: 55%;
       transform: translate(-50%, -50%);
