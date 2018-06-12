@@ -56,3 +56,8 @@ $container-max-widths: (
   background-color: $ams-wit;
   max-width: 1400px;
 }
+.row {
+  .row + .row {
+    margin-top: 0;
+  }
+}
