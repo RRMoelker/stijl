@@ -18,6 +18,10 @@ html, body {
 // variables used in other sass files below
 @import '../scss/ams-colorpalette';
 
+body.with-sidebars {
+  background-color: $ams-background-sidebars;
+}
+
 // sass
 @import 'modal';
 @import 'table';
