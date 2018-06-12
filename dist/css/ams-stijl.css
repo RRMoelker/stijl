@@ -7135,7 +7135,8 @@ h2.condensed, h3.condensed {
   .card .grid-title {
     background-color: #f3f3f3; }
   .card *[class*="col"]:not(.grid-title) {
-    padding-top: .75rem; }
+    padding-top: .75rem;
+    padding-bottom: .75rem; }
     .card *[class*="col"]:not(.grid-title):hover {
       background-color: #f3f3f3; }
   .card.break-out-card {
