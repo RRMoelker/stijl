@@ -54,8 +54,9 @@ $container-max-widths: (
 
 .app-container {
   background-color: $ams-wit;
-  max-width: 1400px;
+  max-width: $content-area-on-top-of-sidebars-width;
 }
+
 .row {
   .row + .row {
     margin-top: 0;

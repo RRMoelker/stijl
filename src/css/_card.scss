@@ -9,6 +9,7 @@
 
   *[class*="col"]:not(.grid-title) {
     padding-top: .75rem;
+    padding-bottom: .75rem;
 
     &:hover {
       background-color: $ams-top-menu;
