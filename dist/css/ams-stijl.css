@@ -7338,8 +7338,9 @@ h2.condensed, h3.condensed {
 .leaflet-bar {
   border: none !important; }
 
+.leaflet-control-attribution {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+
 .embed-marker:before {
   content: url("../images/svg/marker.svg"); }
 
-.leaflet-control-attribution {
-  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
