@@ -7340,3 +7340,6 @@ h2.condensed, h3.condensed {
 
 .embed-marker:before {
   content: url("../images/svg/marker.svg"); }
+
+.leaflet-control-attribution {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
