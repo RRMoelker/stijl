@@ -39,6 +39,8 @@ gulp.task('copy-fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 });
 
+// test task, deploys the style to the amaps for test.
+// expects the amaps project in the same folder as stijl
 gulp.task('copy-test', function() {
     return gulp
     .src('dist/**/*.*')
@@ -49,4 +51,4 @@ gulp.task('clean', function(){
     return del('dist');
 });
 
-gulp.task('default', gulp.series('clean', 'copy-fonts', 'build-css', 'copy-sass', 'copy-images','copy-test'));
+gulp.task('default', gulp.series('clean', 'copy-fonts', 'build-css', 'copy-sass', 'copy-images'));
