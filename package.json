@@ -4,7 +4,9 @@
   "description": "Generic styling for data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "precopy-test": "gulp",
+    "copy-test": "gulp copy-test"
   },
   "pre-commit": "build",
   "devDependencies": {

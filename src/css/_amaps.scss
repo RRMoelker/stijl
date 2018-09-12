@@ -11,8 +11,8 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   z-index: 401;
 
   &__form {
-    display: flex;
     box-shadow: $ams-box-shadow;
+    display: flex;
 
     &>input {
       @include avenirheavy;
@@ -71,11 +71,11 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     }
   }
 
-  &__button {
+  &__button.primary.action {
     background-color: $ams-rood;    
-    border: 0;
+    border: 0px;
     height: $square-sizing;
-    margin: 0;
+    margin: 0px;
     padding: 11px 15px;
     position: relative;
     width: $square-sizing;

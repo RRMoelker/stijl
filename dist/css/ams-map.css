@@ -718,8 +718,8 @@ a {
   width: calc(100% - 20px);
   z-index: 401; }
   .embed-search__form {
-    display: flex;
-    box-shadow: 2px 2px 0 0 #999; }
+    box-shadow: 2px 2px 0 0 #999;
+    display: flex; }
     .embed-search__form > input {
       font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
       border: 0px;
@@ -765,15 +765,15 @@ a {
     width: 25px; }
     .embed-search__clear:hover svg {
       fill: #ec0000; }
-  .embed-search__button {
+  .embed-search__button.primary.action {
     background-color: #ec0000;
-    border: 0;
+    border: 0px;
     height: 32px;
-    margin: 0;
+    margin: 0px;
     padding: 11px 15px;
     position: relative;
     width: 32px; }
-    .embed-search__button:before {
+    .embed-search__button.primary.action:before {
       content: url("../images/svg/search-icon-white.svg");
       display: block;
       fill: #fff;
@@ -784,7 +784,7 @@ a {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       width: 24px; }
-    .embed-search__button:hover, .embed-search__button:focus {
+    .embed-search__button.primary.action:hover, .embed-search__button.primary.action:focus {
       background-color: #BC0000; }
   .embed-search__auto-suggest {
     background-color: #fff;
