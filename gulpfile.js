@@ -14,7 +14,7 @@ var banner = ['/**',
 
 gulp.task('build-css', function() {
     return gulp
-    .src('src/css/ams-stijl.scss')
+    .src(['src/css/ams-stijl.scss','src/css/ams-map.scss'])
     .pipe(sass())
     .pipe(postcss([autoprefixer()]))
     .pipe(header(banner, { pkg : pkg } ))
@@ -39,8 +39,14 @@ gulp.task('copy-fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 });
 
+gulp.task('copy-test', function() {
+    return gulp
+    .src('dist/**/*.*')
+    .pipe(gulp.dest('../amaps/test/dist'))
+});
+
 gulp.task('clean', function(){
     return del('dist');
 });
 
-gulp.task('default', gulp.series('clean', 'copy-fonts', 'build-css', 'copy-sass', 'copy-images'));
+gulp.task('default', gulp.series('clean', 'copy-fonts', 'build-css', 'copy-sass', 'copy-images','copy-test'));
