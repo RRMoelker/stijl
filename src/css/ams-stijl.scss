@@ -1,6 +1,6 @@
 //
 //  AMSTERDAM style
-//  Generic
+//  Contains all the styles (including the embeded map styles) bundeled in one css
 //
 
 // import font sass on top
@@ -29,4 +29,6 @@ body.with-sidebars {
 @import 'loader';
 @import 'card';
 @import 'grid-extensions';
-@import 'map-input';
+
+// embeded map component
+@import 'amaps';

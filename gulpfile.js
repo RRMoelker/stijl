@@ -14,7 +14,7 @@ var banner = ['/**',
 
 gulp.task('build-css', function() {
     return gulp
-    .src('src/css/ams-stijl.scss')
+    .src(['src/css/ams-stijl.scss','src/css/ams-map.scss'])
     .pipe(sass())
     .pipe(postcss([autoprefixer()]))
     .pipe(header(banner, { pkg : pkg } ))
@@ -37,6 +37,14 @@ gulp.task('copy-fonts', function() {
     return gulp
     .src('src/fonts/**/*.*')
     .pipe(gulp.dest('dist/fonts'))
+});
+
+// test task, deploys the style to the amaps for test.
+// expects the amaps project in the same folder as stijl
+gulp.task('copy-test', function() {
+    return gulp
+    .src('dist/**/*.*')
+    .pipe(gulp.dest('../amaps/test/dist'))
 });
 
 gulp.task('clean', function(){
