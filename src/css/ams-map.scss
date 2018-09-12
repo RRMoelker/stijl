@@ -1,5 +1,6 @@
 //
-//  AMSTERDAM specific map overrides
+//  AMSTERDAM amaps (leaflet) style overrides
+//  Contains only the styles needed for the embeded map (amaps)
 //
 
 html, body {
@@ -15,4 +16,5 @@ html, body {
 // variables used in other sass files below
 @import '../scss/ams-colorpalette';
 
+// embeded map component
 @import 'amaps';

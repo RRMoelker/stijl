@@ -1,7 +1,8 @@
 /**
- * stijl - Generic styling voor data.amsterdam.nl
+ * stijl - Generic styling for data.amsterdam.nl
  * @version v3.0.0
  */
+@charset "UTF-8";
 @font-face {
   font-family: "Avenir LT W01 65 Medium";
   src: url("../fonts/AvenirMedium/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
@@ -1602,7 +1603,10 @@ input[type="checkbox"], input[type="radio"] {
   input:disabled[type="checkbox"], input:disabled[type="radio"] {
     cursor: default; }
 
-button.action, a.action, input[type="submit"], .file .invoer button, button.action.tertiair, .file .invoer label {
+button.action, a.action, .embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out, input[type="submit"], .file .invoer button, button.action.tertiair, .file .invoer label {
   font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
   cursor: pointer;
   display: inline-block;
@@ -1613,124 +1617,295 @@ button.action, a.action, input[type="submit"], .file .invoer button, button.acti
   position: relative;
   text-decoration: none; }
 
-button.action, a.action, input[type="submit"], .file .invoer button {
+button.action, a.action, .embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out, input[type="submit"], .file .invoer button {
   border: 0; }
-  button.primary.action .working::before, a.primary.action .working::before, input.primary[type="submit"] .working::before, .file .invoer button.primary .working::before {
+  button.primary.action .working::before, a.primary.action .working::before, .embed-zoom > button.primary .working::before, .embed-zoom > a.primary .working::before, .primary.leaflet-control-zoom-in .working::before, .primary.leaflet-control-zoom-out .working::before, input.primary[type="submit"] .working::before, .file .invoer button.primary .working::before {
     border-top: 15px solid #ec0000; }
-  button.primary.arrow-left.action::after, a.primary.arrow-left.action::after, input.primary.arrow-left[type="submit"]::after, .file .invoer button.primary.arrow-left::after, button.primary.arrow-right.action::after, a.primary.arrow-right.action::after, input.primary.arrow-right[type="submit"]::after, .file .invoer button.primary.arrow-right::after {
+  button.primary.arrow-left.action::after, a.primary.arrow-left.action::after, .embed-zoom > button.primary.arrow-left::after,
+  .embed-zoom > a.primary.arrow-left::after,
+  .primary.arrow-left.leaflet-control-zoom-in::after,
+  .primary.arrow-left.leaflet-control-zoom-out::after, input.primary.arrow-left[type="submit"]::after, .file .invoer button.primary.arrow-left::after, button.primary.arrow-right.action::after, a.primary.arrow-right.action::after, .embed-zoom > button.primary.arrow-right::after,
+  .embed-zoom > a.primary.arrow-right::after,
+  .primary.arrow-right.leaflet-control-zoom-in::after,
+  .primary.arrow-right.leaflet-control-zoom-out::after, input.primary.arrow-right[type="submit"]::after, .file .invoer button.primary.arrow-right::after {
     border-bottom: calc(0.5em + 11px) solid transparent;
     border-top: calc(0.5em + 11px) solid transparent;
     box-sizing: border-box;
     content: "";
     position: absolute;
     top: 0; }
-  button.primary.arrow-left.action, a.primary.arrow-left.action, input.primary.arrow-left[type="submit"], .file .invoer button.primary.arrow-left {
+  button.primary.arrow-left.action, a.primary.arrow-left.action, .embed-zoom > button.primary.arrow-left,
+  .embed-zoom > a.primary.arrow-left,
+  .primary.arrow-left.leaflet-control-zoom-in,
+  .primary.arrow-left.leaflet-control-zoom-out, input.primary.arrow-left[type="submit"], .file .invoer button.primary.arrow-left {
     margin-left: 15px; }
-    button.primary.arrow-left.action::after, a.primary.arrow-left.action::after, input.primary.arrow-left[type="submit"]::after, .file .invoer button.primary.arrow-left::after {
+    button.primary.arrow-left.action::after, a.primary.arrow-left.action::after, .embed-zoom > button.primary.arrow-left::after,
+    .embed-zoom > a.primary.arrow-left::after,
+    .primary.arrow-left.leaflet-control-zoom-in::after,
+    .primary.arrow-left.leaflet-control-zoom-out::after, input.primary.arrow-left[type="submit"]::after, .file .invoer button.primary.arrow-left::after {
       border-right: 15px solid #ec0000;
       right: 100%; }
-  button.primary.arrow-right.action, a.primary.arrow-right.action, input.primary.arrow-right[type="submit"], .file .invoer button.primary.arrow-right {
+  button.primary.arrow-right.action, a.primary.arrow-right.action, .embed-zoom > button.primary.arrow-right,
+  .embed-zoom > a.primary.arrow-right,
+  .primary.arrow-right.leaflet-control-zoom-in,
+  .primary.arrow-right.leaflet-control-zoom-out, input.primary.arrow-right[type="submit"], .file .invoer button.primary.arrow-right {
     margin-right: 15px; }
-    button.primary.arrow-right.action::after, a.primary.arrow-right.action::after, input.primary.arrow-right[type="submit"]::after, .file .invoer button.primary.arrow-right::after {
+    button.primary.arrow-right.action::after, a.primary.arrow-right.action::after, .embed-zoom > button.primary.arrow-right::after,
+    .embed-zoom > a.primary.arrow-right::after,
+    .primary.arrow-right.leaflet-control-zoom-in::after,
+    .primary.arrow-right.leaflet-control-zoom-out::after, input.primary.arrow-right[type="submit"]::after, .file .invoer button.primary.arrow-right::after {
       border-left: 15px solid #ec0000;
       left: 100%; }
-  button.primary.action, a.primary.action, input.primary[type="submit"], .file .invoer button.primary, button.primary.action:visited, a.primary.action:visited, input.primary:visited[type="submit"], .file .invoer button.primary:visited {
+  button.primary.action, a.primary.action, .embed-zoom > button.primary,
+  .embed-zoom > a.primary,
+  .primary.leaflet-control-zoom-in,
+  .primary.leaflet-control-zoom-out, input.primary[type="submit"], .file .invoer button.primary, button.primary.action:visited, a.primary.action:visited, .embed-zoom > button.primary:visited,
+  .embed-zoom > a.primary:visited,
+  .primary.leaflet-control-zoom-in:visited,
+  .primary.leaflet-control-zoom-out:visited, input.primary:visited[type="submit"], .file .invoer button.primary:visited {
     background-color: #ec0000; }
-    button.primary.action, a.primary.action, input.primary[type="submit"], .file .invoer button.primary,
+    button.primary.action, a.primary.action, .embed-zoom > button.primary,
+    .embed-zoom > a.primary,
+    .primary.leaflet-control-zoom-in,
+    .primary.leaflet-control-zoom-out, input.primary[type="submit"], .file .invoer button.primary,
     button.primary.action .value,
     a.primary.action .value,
+    .embed-zoom > button.primary .value,
+    .embed-zoom > a.primary .value,
+    .primary.leaflet-control-zoom-in .value,
+    .primary.leaflet-control-zoom-out .value,
     input.primary[type="submit"] .value,
-    .file .invoer button.primary .value, button.primary.action:visited, a.primary.action:visited, input.primary:visited[type="submit"], .file .invoer button.primary:visited,
+    .file .invoer button.primary .value, button.primary.action:visited, a.primary.action:visited, .embed-zoom > button.primary:visited,
+    .embed-zoom > a.primary:visited,
+    .primary.leaflet-control-zoom-in:visited,
+    .primary.leaflet-control-zoom-out:visited, input.primary:visited[type="submit"], .file .invoer button.primary:visited,
     button.primary.action:visited .value,
     a.primary.action:visited .value,
+    .embed-zoom > button.primary:visited .value,
+    .embed-zoom > a.primary:visited .value,
+    .primary.leaflet-control-zoom-in:visited .value,
+    .primary.leaflet-control-zoom-out:visited .value,
     input.primary:visited[type="submit"] .value,
     .file .invoer button.primary:visited .value {
       color: #fff; }
-  button.primary.action:enabled:active, a.primary.action:enabled:active, input.primary:enabled:active[type="submit"], .file .invoer button.primary:enabled:active, button.primary.action:enabled:hover, a.primary.action:enabled:hover, input.primary:enabled:hover[type="submit"], .file .invoer button.primary:enabled:hover {
+  button.primary.action:enabled:active, a.primary.action:enabled:active, .embed-zoom > button.primary:enabled:active,
+  .embed-zoom > a.primary:enabled:active,
+  .primary.leaflet-control-zoom-in:enabled:active,
+  .primary.leaflet-control-zoom-out:enabled:active, input.primary:enabled:active[type="submit"], .file .invoer button.primary:enabled:active, button.primary.action:enabled:hover, a.primary.action:enabled:hover, .embed-zoom > button.primary:enabled:hover,
+  .embed-zoom > a.primary:enabled:hover,
+  .primary.leaflet-control-zoom-in:enabled:hover,
+  .primary.leaflet-control-zoom-out:enabled:hover, input.primary:enabled:hover[type="submit"], .file .invoer button.primary:enabled:hover {
     background-color: #b90000; }
-    button.primary.action:enabled:active.arrow-left::after, a.primary.action:enabled:active.arrow-left::after, input.primary[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.primary:enabled:active.arrow-left::after, button.primary.action:enabled:hover.arrow-left::after, a.primary.action:enabled:hover.arrow-left::after, input.primary[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.primary:enabled:hover.arrow-left::after {
+    button.primary.action:enabled:active.arrow-left::after, a.primary.action:enabled:active.arrow-left::after, .embed-zoom > button.primary:enabled:active.arrow-left::after,
+    .embed-zoom > a.primary:enabled:active.arrow-left::after,
+    .primary.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+    .primary.leaflet-control-zoom-out:enabled:active.arrow-left::after, input.primary[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.primary:enabled:active.arrow-left::after, button.primary.action:enabled:hover.arrow-left::after, a.primary.action:enabled:hover.arrow-left::after, .embed-zoom > button.primary:enabled:hover.arrow-left::after,
+    .embed-zoom > a.primary:enabled:hover.arrow-left::after,
+    .primary.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+    .primary.leaflet-control-zoom-out:enabled:hover.arrow-left::after, input.primary[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.primary:enabled:hover.arrow-left::after {
       border-right-color: #b90000; }
-    button.primary.action:enabled:active.arrow-right::after, a.primary.action:enabled:active.arrow-right::after, input.primary[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.primary:enabled:active.arrow-right::after, button.primary.action:enabled:hover.arrow-right::after, a.primary.action:enabled:hover.arrow-right::after, input.primary[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.primary:enabled:hover.arrow-right::after {
+    button.primary.action:enabled:active.arrow-right::after, a.primary.action:enabled:active.arrow-right::after, .embed-zoom > button.primary:enabled:active.arrow-right::after,
+    .embed-zoom > a.primary:enabled:active.arrow-right::after,
+    .primary.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+    .primary.leaflet-control-zoom-out:enabled:active.arrow-right::after, input.primary[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.primary:enabled:active.arrow-right::after, button.primary.action:enabled:hover.arrow-right::after, a.primary.action:enabled:hover.arrow-right::after, .embed-zoom > button.primary:enabled:hover.arrow-right::after,
+    .embed-zoom > a.primary:enabled:hover.arrow-right::after,
+    .primary.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+    .primary.leaflet-control-zoom-out:enabled:hover.arrow-right::after, input.primary[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.primary:enabled:hover.arrow-right::after {
       border-left-color: #b90000; }
-    button.primary.action:enabled:active .working::before, a.primary.action:enabled:active .working::before, input.primary:enabled:active[type="submit"] .working::before, .file .invoer button.primary:enabled:active .working::before, button.primary.action:enabled:hover .working::before, a.primary.action:enabled:hover .working::before, input.primary:enabled:hover[type="submit"] .working::before, .file .invoer button.primary:enabled:hover .working::before {
+    button.primary.action:enabled:active .working::before, a.primary.action:enabled:active .working::before, .embed-zoom > button.primary:enabled:active .working::before, .embed-zoom > a.primary:enabled:active .working::before, .primary.leaflet-control-zoom-in:enabled:active .working::before, .primary.leaflet-control-zoom-out:enabled:active .working::before, input.primary:enabled:active[type="submit"] .working::before, .file .invoer button.primary:enabled:active .working::before, button.primary.action:enabled:hover .working::before, a.primary.action:enabled:hover .working::before, .embed-zoom > button.primary:enabled:hover .working::before, .embed-zoom > a.primary:enabled:hover .working::before, .primary.leaflet-control-zoom-in:enabled:hover .working::before, .primary.leaflet-control-zoom-out:enabled:hover .working::before, input.primary:enabled:hover[type="submit"] .working::before, .file .invoer button.primary:enabled:hover .working::before {
       border-top-color: #b90000; }
-  button.secundary-blue.action .working::before, a.secundary-blue.action .working::before, input.secundary-blue[type="submit"] .working::before, .file .invoer button.secundary-blue .working::before {
+  button.secundary-blue.action .working::before, a.secundary-blue.action .working::before, .embed-zoom > button.secundary-blue .working::before, .embed-zoom > a.secundary-blue .working::before, .secundary-blue.leaflet-control-zoom-in .working::before, .secundary-blue.leaflet-control-zoom-out .working::before, input.secundary-blue[type="submit"] .working::before, .file .invoer button.secundary-blue .working::before {
     border-top: 15px solid #004699; }
-  button.secundary-blue.arrow-left.action::after, a.secundary-blue.arrow-left.action::after, input.secundary-blue.arrow-left[type="submit"]::after, .file .invoer button.secundary-blue.arrow-left::after, button.secundary-blue.arrow-right.action::after, a.secundary-blue.arrow-right.action::after, input.secundary-blue.arrow-right[type="submit"]::after, .file .invoer button.secundary-blue.arrow-right::after {
+  button.secundary-blue.arrow-left.action::after, a.secundary-blue.arrow-left.action::after, .embed-zoom > button.secundary-blue.arrow-left::after,
+  .embed-zoom > a.secundary-blue.arrow-left::after,
+  .secundary-blue.arrow-left.leaflet-control-zoom-in::after,
+  .secundary-blue.arrow-left.leaflet-control-zoom-out::after, input.secundary-blue.arrow-left[type="submit"]::after, .file .invoer button.secundary-blue.arrow-left::after, button.secundary-blue.arrow-right.action::after, a.secundary-blue.arrow-right.action::after, .embed-zoom > button.secundary-blue.arrow-right::after,
+  .embed-zoom > a.secundary-blue.arrow-right::after,
+  .secundary-blue.arrow-right.leaflet-control-zoom-in::after,
+  .secundary-blue.arrow-right.leaflet-control-zoom-out::after, input.secundary-blue.arrow-right[type="submit"]::after, .file .invoer button.secundary-blue.arrow-right::after {
     border-bottom: calc(0.5em + 11px) solid transparent;
     border-top: calc(0.5em + 11px) solid transparent;
     box-sizing: border-box;
     content: "";
     position: absolute;
     top: 0; }
-  button.secundary-blue.arrow-left.action, a.secundary-blue.arrow-left.action, input.secundary-blue.arrow-left[type="submit"], .file .invoer button.secundary-blue.arrow-left {
+  button.secundary-blue.arrow-left.action, a.secundary-blue.arrow-left.action, .embed-zoom > button.secundary-blue.arrow-left,
+  .embed-zoom > a.secundary-blue.arrow-left,
+  .secundary-blue.arrow-left.leaflet-control-zoom-in,
+  .secundary-blue.arrow-left.leaflet-control-zoom-out, input.secundary-blue.arrow-left[type="submit"], .file .invoer button.secundary-blue.arrow-left {
     margin-left: 15px; }
-    button.secundary-blue.arrow-left.action::after, a.secundary-blue.arrow-left.action::after, input.secundary-blue.arrow-left[type="submit"]::after, .file .invoer button.secundary-blue.arrow-left::after {
+    button.secundary-blue.arrow-left.action::after, a.secundary-blue.arrow-left.action::after, .embed-zoom > button.secundary-blue.arrow-left::after,
+    .embed-zoom > a.secundary-blue.arrow-left::after,
+    .secundary-blue.arrow-left.leaflet-control-zoom-in::after,
+    .secundary-blue.arrow-left.leaflet-control-zoom-out::after, input.secundary-blue.arrow-left[type="submit"]::after, .file .invoer button.secundary-blue.arrow-left::after {
       border-right: 15px solid #004699;
       right: 100%; }
-  button.secundary-blue.arrow-right.action, a.secundary-blue.arrow-right.action, input.secundary-blue.arrow-right[type="submit"], .file .invoer button.secundary-blue.arrow-right {
+  button.secundary-blue.arrow-right.action, a.secundary-blue.arrow-right.action, .embed-zoom > button.secundary-blue.arrow-right,
+  .embed-zoom > a.secundary-blue.arrow-right,
+  .secundary-blue.arrow-right.leaflet-control-zoom-in,
+  .secundary-blue.arrow-right.leaflet-control-zoom-out, input.secundary-blue.arrow-right[type="submit"], .file .invoer button.secundary-blue.arrow-right {
     margin-right: 15px; }
-    button.secundary-blue.arrow-right.action::after, a.secundary-blue.arrow-right.action::after, input.secundary-blue.arrow-right[type="submit"]::after, .file .invoer button.secundary-blue.arrow-right::after {
+    button.secundary-blue.arrow-right.action::after, a.secundary-blue.arrow-right.action::after, .embed-zoom > button.secundary-blue.arrow-right::after,
+    .embed-zoom > a.secundary-blue.arrow-right::after,
+    .secundary-blue.arrow-right.leaflet-control-zoom-in::after,
+    .secundary-blue.arrow-right.leaflet-control-zoom-out::after, input.secundary-blue.arrow-right[type="submit"]::after, .file .invoer button.secundary-blue.arrow-right::after {
       border-left: 15px solid #004699;
       left: 100%; }
-  button.secundary-blue.action, a.secundary-blue.action, input.secundary-blue[type="submit"], .file .invoer button.secundary-blue, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue:visited[type="submit"], .file .invoer button.secundary-blue:visited {
+  button.secundary-blue.action, a.secundary-blue.action, .embed-zoom > button.secundary-blue,
+  .embed-zoom > a.secundary-blue,
+  .secundary-blue.leaflet-control-zoom-in,
+  .secundary-blue.leaflet-control-zoom-out, input.secundary-blue[type="submit"], .file .invoer button.secundary-blue, button.secundary-blue.action:visited, a.secundary-blue.action:visited, .embed-zoom > button.secundary-blue:visited,
+  .embed-zoom > a.secundary-blue:visited,
+  .secundary-blue.leaflet-control-zoom-in:visited,
+  .secundary-blue.leaflet-control-zoom-out:visited, input.secundary-blue:visited[type="submit"], .file .invoer button.secundary-blue:visited {
     background-color: #004699; }
-    button.secundary-blue.action, a.secundary-blue.action, input.secundary-blue[type="submit"], .file .invoer button.secundary-blue,
+    button.secundary-blue.action, a.secundary-blue.action, .embed-zoom > button.secundary-blue,
+    .embed-zoom > a.secundary-blue,
+    .secundary-blue.leaflet-control-zoom-in,
+    .secundary-blue.leaflet-control-zoom-out, input.secundary-blue[type="submit"], .file .invoer button.secundary-blue,
     button.secundary-blue.action .value,
     a.secundary-blue.action .value,
+    .embed-zoom > button.secundary-blue .value,
+    .embed-zoom > a.secundary-blue .value,
+    .secundary-blue.leaflet-control-zoom-in .value,
+    .secundary-blue.leaflet-control-zoom-out .value,
     input.secundary-blue[type="submit"] .value,
-    .file .invoer button.secundary-blue .value, button.secundary-blue.action:visited, a.secundary-blue.action:visited, input.secundary-blue:visited[type="submit"], .file .invoer button.secundary-blue:visited,
+    .file .invoer button.secundary-blue .value, button.secundary-blue.action:visited, a.secundary-blue.action:visited, .embed-zoom > button.secundary-blue:visited,
+    .embed-zoom > a.secundary-blue:visited,
+    .secundary-blue.leaflet-control-zoom-in:visited,
+    .secundary-blue.leaflet-control-zoom-out:visited, input.secundary-blue:visited[type="submit"], .file .invoer button.secundary-blue:visited,
     button.secundary-blue.action:visited .value,
     a.secundary-blue.action:visited .value,
+    .embed-zoom > button.secundary-blue:visited .value,
+    .embed-zoom > a.secundary-blue:visited .value,
+    .secundary-blue.leaflet-control-zoom-in:visited .value,
+    .secundary-blue.leaflet-control-zoom-out:visited .value,
     input.secundary-blue:visited[type="submit"] .value,
     .file .invoer button.secundary-blue:visited .value {
       color: #fff; }
-  button.secundary-blue.action:enabled:active, a.secundary-blue.action:enabled:active, input.secundary-blue:enabled:active[type="submit"], .file .invoer button.secundary-blue:enabled:active, button.secundary-blue.action:enabled:hover, a.secundary-blue.action:enabled:hover, input.secundary-blue:enabled:hover[type="submit"], .file .invoer button.secundary-blue:enabled:hover {
+  button.secundary-blue.action:enabled:active, a.secundary-blue.action:enabled:active, .embed-zoom > button.secundary-blue:enabled:active,
+  .embed-zoom > a.secundary-blue:enabled:active,
+  .secundary-blue.leaflet-control-zoom-in:enabled:active,
+  .secundary-blue.leaflet-control-zoom-out:enabled:active, input.secundary-blue:enabled:active[type="submit"], .file .invoer button.secundary-blue:enabled:active, button.secundary-blue.action:enabled:hover, a.secundary-blue.action:enabled:hover, .embed-zoom > button.secundary-blue:enabled:hover,
+  .embed-zoom > a.secundary-blue:enabled:hover,
+  .secundary-blue.leaflet-control-zoom-in:enabled:hover,
+  .secundary-blue.leaflet-control-zoom-out:enabled:hover, input.secundary-blue:enabled:hover[type="submit"], .file .invoer button.secundary-blue:enabled:hover {
     background-color: #002f66; }
-    button.secundary-blue.action:enabled:active.arrow-left::after, a.secundary-blue.action:enabled:active.arrow-left::after, input.secundary-blue[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.secundary-blue:enabled:active.arrow-left::after, button.secundary-blue.action:enabled:hover.arrow-left::after, a.secundary-blue.action:enabled:hover.arrow-left::after, input.secundary-blue[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.secundary-blue:enabled:hover.arrow-left::after {
+    button.secundary-blue.action:enabled:active.arrow-left::after, a.secundary-blue.action:enabled:active.arrow-left::after, .embed-zoom > button.secundary-blue:enabled:active.arrow-left::after,
+    .embed-zoom > a.secundary-blue:enabled:active.arrow-left::after,
+    .secundary-blue.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+    .secundary-blue.leaflet-control-zoom-out:enabled:active.arrow-left::after, input.secundary-blue[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.secundary-blue:enabled:active.arrow-left::after, button.secundary-blue.action:enabled:hover.arrow-left::after, a.secundary-blue.action:enabled:hover.arrow-left::after, .embed-zoom > button.secundary-blue:enabled:hover.arrow-left::after,
+    .embed-zoom > a.secundary-blue:enabled:hover.arrow-left::after,
+    .secundary-blue.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+    .secundary-blue.leaflet-control-zoom-out:enabled:hover.arrow-left::after, input.secundary-blue[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.secundary-blue:enabled:hover.arrow-left::after {
       border-right-color: #002f66; }
-    button.secundary-blue.action:enabled:active.arrow-right::after, a.secundary-blue.action:enabled:active.arrow-right::after, input.secundary-blue[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.secundary-blue:enabled:active.arrow-right::after, button.secundary-blue.action:enabled:hover.arrow-right::after, a.secundary-blue.action:enabled:hover.arrow-right::after, input.secundary-blue[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.secundary-blue:enabled:hover.arrow-right::after {
+    button.secundary-blue.action:enabled:active.arrow-right::after, a.secundary-blue.action:enabled:active.arrow-right::after, .embed-zoom > button.secundary-blue:enabled:active.arrow-right::after,
+    .embed-zoom > a.secundary-blue:enabled:active.arrow-right::after,
+    .secundary-blue.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+    .secundary-blue.leaflet-control-zoom-out:enabled:active.arrow-right::after, input.secundary-blue[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.secundary-blue:enabled:active.arrow-right::after, button.secundary-blue.action:enabled:hover.arrow-right::after, a.secundary-blue.action:enabled:hover.arrow-right::after, .embed-zoom > button.secundary-blue:enabled:hover.arrow-right::after,
+    .embed-zoom > a.secundary-blue:enabled:hover.arrow-right::after,
+    .secundary-blue.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+    .secundary-blue.leaflet-control-zoom-out:enabled:hover.arrow-right::after, input.secundary-blue[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.secundary-blue:enabled:hover.arrow-right::after {
       border-left-color: #002f66; }
-    button.secundary-blue.action:enabled:active .working::before, a.secundary-blue.action:enabled:active .working::before, input.secundary-blue:enabled:active[type="submit"] .working::before, .file .invoer button.secundary-blue:enabled:active .working::before, button.secundary-blue.action:enabled:hover .working::before, a.secundary-blue.action:enabled:hover .working::before, input.secundary-blue:enabled:hover[type="submit"] .working::before, .file .invoer button.secundary-blue:enabled:hover .working::before {
+    button.secundary-blue.action:enabled:active .working::before, a.secundary-blue.action:enabled:active .working::before, .embed-zoom > button.secundary-blue:enabled:active .working::before, .embed-zoom > a.secundary-blue:enabled:active .working::before, .secundary-blue.leaflet-control-zoom-in:enabled:active .working::before, .secundary-blue.leaflet-control-zoom-out:enabled:active .working::before, input.secundary-blue:enabled:active[type="submit"] .working::before, .file .invoer button.secundary-blue:enabled:active .working::before, button.secundary-blue.action:enabled:hover .working::before, a.secundary-blue.action:enabled:hover .working::before, .embed-zoom > button.secundary-blue:enabled:hover .working::before, .embed-zoom > a.secundary-blue:enabled:hover .working::before, .secundary-blue.leaflet-control-zoom-in:enabled:hover .working::before, .secundary-blue.leaflet-control-zoom-out:enabled:hover .working::before, input.secundary-blue:enabled:hover[type="submit"] .working::before, .file .invoer button.secundary-blue:enabled:hover .working::before {
       border-top-color: #002f66; }
-  button.secundary-grey.action .working::before, a.secundary-grey.action .working::before, input.secundary-grey[type="submit"] .working::before, .file .invoer button.secundary-grey .working::before {
+  button.secundary-grey.action .working::before, a.secundary-grey.action .working::before, .embed-zoom > button.secundary-grey .working::before, .embed-zoom > a.secundary-grey .working::before, .secundary-grey.leaflet-control-zoom-in .working::before, .secundary-grey.leaflet-control-zoom-out .working::before, input.secundary-grey[type="submit"] .working::before, .file .invoer button.secundary-grey .working::before {
     border-top: 15px solid #e8e8e8; }
-  button.secundary-grey.arrow-left.action::after, a.secundary-grey.arrow-left.action::after, input.secundary-grey.arrow-left[type="submit"]::after, .file .invoer button.secundary-grey.arrow-left::after, button.secundary-grey.arrow-right.action::after, a.secundary-grey.arrow-right.action::after, input.secundary-grey.arrow-right[type="submit"]::after, .file .invoer button.secundary-grey.arrow-right::after {
+  button.secundary-grey.arrow-left.action::after, a.secundary-grey.arrow-left.action::after, .embed-zoom > button.secundary-grey.arrow-left::after,
+  .embed-zoom > a.secundary-grey.arrow-left::after,
+  .secundary-grey.arrow-left.leaflet-control-zoom-in::after,
+  .secundary-grey.arrow-left.leaflet-control-zoom-out::after, input.secundary-grey.arrow-left[type="submit"]::after, .file .invoer button.secundary-grey.arrow-left::after, button.secundary-grey.arrow-right.action::after, a.secundary-grey.arrow-right.action::after, .embed-zoom > button.secundary-grey.arrow-right::after,
+  .embed-zoom > a.secundary-grey.arrow-right::after,
+  .secundary-grey.arrow-right.leaflet-control-zoom-in::after,
+  .secundary-grey.arrow-right.leaflet-control-zoom-out::after, input.secundary-grey.arrow-right[type="submit"]::after, .file .invoer button.secundary-grey.arrow-right::after {
     border-bottom: calc(0.5em + 11px) solid transparent;
     border-top: calc(0.5em + 11px) solid transparent;
     box-sizing: border-box;
     content: "";
     position: absolute;
     top: 0; }
-  button.secundary-grey.arrow-left.action, a.secundary-grey.arrow-left.action, input.secundary-grey.arrow-left[type="submit"], .file .invoer button.secundary-grey.arrow-left {
+  button.secundary-grey.arrow-left.action, a.secundary-grey.arrow-left.action, .embed-zoom > button.secundary-grey.arrow-left,
+  .embed-zoom > a.secundary-grey.arrow-left,
+  .secundary-grey.arrow-left.leaflet-control-zoom-in,
+  .secundary-grey.arrow-left.leaflet-control-zoom-out, input.secundary-grey.arrow-left[type="submit"], .file .invoer button.secundary-grey.arrow-left {
     margin-left: 15px; }
-    button.secundary-grey.arrow-left.action::after, a.secundary-grey.arrow-left.action::after, input.secundary-grey.arrow-left[type="submit"]::after, .file .invoer button.secundary-grey.arrow-left::after {
+    button.secundary-grey.arrow-left.action::after, a.secundary-grey.arrow-left.action::after, .embed-zoom > button.secundary-grey.arrow-left::after,
+    .embed-zoom > a.secundary-grey.arrow-left::after,
+    .secundary-grey.arrow-left.leaflet-control-zoom-in::after,
+    .secundary-grey.arrow-left.leaflet-control-zoom-out::after, input.secundary-grey.arrow-left[type="submit"]::after, .file .invoer button.secundary-grey.arrow-left::after {
       border-right: 15px solid #e8e8e8;
       right: 100%; }
-  button.secundary-grey.arrow-right.action, a.secundary-grey.arrow-right.action, input.secundary-grey.arrow-right[type="submit"], .file .invoer button.secundary-grey.arrow-right {
+  button.secundary-grey.arrow-right.action, a.secundary-grey.arrow-right.action, .embed-zoom > button.secundary-grey.arrow-right,
+  .embed-zoom > a.secundary-grey.arrow-right,
+  .secundary-grey.arrow-right.leaflet-control-zoom-in,
+  .secundary-grey.arrow-right.leaflet-control-zoom-out, input.secundary-grey.arrow-right[type="submit"], .file .invoer button.secundary-grey.arrow-right {
     margin-right: 15px; }
-    button.secundary-grey.arrow-right.action::after, a.secundary-grey.arrow-right.action::after, input.secundary-grey.arrow-right[type="submit"]::after, .file .invoer button.secundary-grey.arrow-right::after {
+    button.secundary-grey.arrow-right.action::after, a.secundary-grey.arrow-right.action::after, .embed-zoom > button.secundary-grey.arrow-right::after,
+    .embed-zoom > a.secundary-grey.arrow-right::after,
+    .secundary-grey.arrow-right.leaflet-control-zoom-in::after,
+    .secundary-grey.arrow-right.leaflet-control-zoom-out::after, input.secundary-grey.arrow-right[type="submit"]::after, .file .invoer button.secundary-grey.arrow-right::after {
       border-left: 15px solid #e8e8e8;
       left: 100%; }
-  button.secundary-grey.action, a.secundary-grey.action, input.secundary-grey[type="submit"], .file .invoer button.secundary-grey, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey:visited[type="submit"], .file .invoer button.secundary-grey:visited {
+  button.secundary-grey.action, a.secundary-grey.action, .embed-zoom > button.secundary-grey,
+  .embed-zoom > a.secundary-grey,
+  .secundary-grey.leaflet-control-zoom-in,
+  .secundary-grey.leaflet-control-zoom-out, input.secundary-grey[type="submit"], .file .invoer button.secundary-grey, button.secundary-grey.action:visited, a.secundary-grey.action:visited, .embed-zoom > button.secundary-grey:visited,
+  .embed-zoom > a.secundary-grey:visited,
+  .secundary-grey.leaflet-control-zoom-in:visited,
+  .secundary-grey.leaflet-control-zoom-out:visited, input.secundary-grey:visited[type="submit"], .file .invoer button.secundary-grey:visited {
     background-color: #e8e8e8; }
-    button.secundary-grey.action, a.secundary-grey.action, input.secundary-grey[type="submit"], .file .invoer button.secundary-grey,
+    button.secundary-grey.action, a.secundary-grey.action, .embed-zoom > button.secundary-grey,
+    .embed-zoom > a.secundary-grey,
+    .secundary-grey.leaflet-control-zoom-in,
+    .secundary-grey.leaflet-control-zoom-out, input.secundary-grey[type="submit"], .file .invoer button.secundary-grey,
     button.secundary-grey.action .value,
     a.secundary-grey.action .value,
+    .embed-zoom > button.secundary-grey .value,
+    .embed-zoom > a.secundary-grey .value,
+    .secundary-grey.leaflet-control-zoom-in .value,
+    .secundary-grey.leaflet-control-zoom-out .value,
     input.secundary-grey[type="submit"] .value,
-    .file .invoer button.secundary-grey .value, button.secundary-grey.action:visited, a.secundary-grey.action:visited, input.secundary-grey:visited[type="submit"], .file .invoer button.secundary-grey:visited,
+    .file .invoer button.secundary-grey .value, button.secundary-grey.action:visited, a.secundary-grey.action:visited, .embed-zoom > button.secundary-grey:visited,
+    .embed-zoom > a.secundary-grey:visited,
+    .secundary-grey.leaflet-control-zoom-in:visited,
+    .secundary-grey.leaflet-control-zoom-out:visited, input.secundary-grey:visited[type="submit"], .file .invoer button.secundary-grey:visited,
     button.secundary-grey.action:visited .value,
     a.secundary-grey.action:visited .value,
+    .embed-zoom > button.secundary-grey:visited .value,
+    .embed-zoom > a.secundary-grey:visited .value,
+    .secundary-grey.leaflet-control-zoom-in:visited .value,
+    .secundary-grey.leaflet-control-zoom-out:visited .value,
     input.secundary-grey:visited[type="submit"] .value,
     .file .invoer button.secundary-grey:visited .value {
       color: #000; }
-  button.secundary-grey.action:enabled:active, a.secundary-grey.action:enabled:active, input.secundary-grey:enabled:active[type="submit"], .file .invoer button.secundary-grey:enabled:active, button.secundary-grey.action:enabled:hover, a.secundary-grey.action:enabled:hover, input.secundary-grey:enabled:hover[type="submit"], .file .invoer button.secundary-grey:enabled:hover {
+  button.secundary-grey.action:enabled:active, a.secundary-grey.action:enabled:active, .embed-zoom > button.secundary-grey:enabled:active,
+  .embed-zoom > a.secundary-grey:enabled:active,
+  .secundary-grey.leaflet-control-zoom-in:enabled:active,
+  .secundary-grey.leaflet-control-zoom-out:enabled:active, input.secundary-grey:enabled:active[type="submit"], .file .invoer button.secundary-grey:enabled:active, button.secundary-grey.action:enabled:hover, a.secundary-grey.action:enabled:hover, .embed-zoom > button.secundary-grey:enabled:hover,
+  .embed-zoom > a.secundary-grey:enabled:hover,
+  .secundary-grey.leaflet-control-zoom-in:enabled:hover,
+  .secundary-grey.leaflet-control-zoom-out:enabled:hover, input.secundary-grey:enabled:hover[type="submit"], .file .invoer button.secundary-grey:enabled:hover {
     background-color: #cfcfcf; }
-    button.secundary-grey.action:enabled:active.arrow-left::after, a.secundary-grey.action:enabled:active.arrow-left::after, input.secundary-grey[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.secundary-grey:enabled:active.arrow-left::after, button.secundary-grey.action:enabled:hover.arrow-left::after, a.secundary-grey.action:enabled:hover.arrow-left::after, input.secundary-grey[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.secundary-grey:enabled:hover.arrow-left::after {
+    button.secundary-grey.action:enabled:active.arrow-left::after, a.secundary-grey.action:enabled:active.arrow-left::after, .embed-zoom > button.secundary-grey:enabled:active.arrow-left::after,
+    .embed-zoom > a.secundary-grey:enabled:active.arrow-left::after,
+    .secundary-grey.leaflet-control-zoom-in:enabled:active.arrow-left::after,
+    .secundary-grey.leaflet-control-zoom-out:enabled:active.arrow-left::after, input.secundary-grey[type="submit"]:enabled:active.arrow-left::after, .file .invoer button.secundary-grey:enabled:active.arrow-left::after, button.secundary-grey.action:enabled:hover.arrow-left::after, a.secundary-grey.action:enabled:hover.arrow-left::after, .embed-zoom > button.secundary-grey:enabled:hover.arrow-left::after,
+    .embed-zoom > a.secundary-grey:enabled:hover.arrow-left::after,
+    .secundary-grey.leaflet-control-zoom-in:enabled:hover.arrow-left::after,
+    .secundary-grey.leaflet-control-zoom-out:enabled:hover.arrow-left::after, input.secundary-grey[type="submit"]:enabled:hover.arrow-left::after, .file .invoer button.secundary-grey:enabled:hover.arrow-left::after {
       border-right-color: #cfcfcf; }
-    button.secundary-grey.action:enabled:active.arrow-right::after, a.secundary-grey.action:enabled:active.arrow-right::after, input.secundary-grey[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.secundary-grey:enabled:active.arrow-right::after, button.secundary-grey.action:enabled:hover.arrow-right::after, a.secundary-grey.action:enabled:hover.arrow-right::after, input.secundary-grey[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.secundary-grey:enabled:hover.arrow-right::after {
+    button.secundary-grey.action:enabled:active.arrow-right::after, a.secundary-grey.action:enabled:active.arrow-right::after, .embed-zoom > button.secundary-grey:enabled:active.arrow-right::after,
+    .embed-zoom > a.secundary-grey:enabled:active.arrow-right::after,
+    .secundary-grey.leaflet-control-zoom-in:enabled:active.arrow-right::after,
+    .secundary-grey.leaflet-control-zoom-out:enabled:active.arrow-right::after, input.secundary-grey[type="submit"]:enabled:active.arrow-right::after, .file .invoer button.secundary-grey:enabled:active.arrow-right::after, button.secundary-grey.action:enabled:hover.arrow-right::after, a.secundary-grey.action:enabled:hover.arrow-right::after, .embed-zoom > button.secundary-grey:enabled:hover.arrow-right::after,
+    .embed-zoom > a.secundary-grey:enabled:hover.arrow-right::after,
+    .secundary-grey.leaflet-control-zoom-in:enabled:hover.arrow-right::after,
+    .secundary-grey.leaflet-control-zoom-out:enabled:hover.arrow-right::after, input.secundary-grey[type="submit"]:enabled:hover.arrow-right::after, .file .invoer button.secundary-grey:enabled:hover.arrow-right::after {
       border-left-color: #cfcfcf; }
-    button.secundary-grey.action:enabled:active .working::before, a.secundary-grey.action:enabled:active .working::before, input.secundary-grey:enabled:active[type="submit"] .working::before, .file .invoer button.secundary-grey:enabled:active .working::before, button.secundary-grey.action:enabled:hover .working::before, a.secundary-grey.action:enabled:hover .working::before, input.secundary-grey:enabled:hover[type="submit"] .working::before, .file .invoer button.secundary-grey:enabled:hover .working::before {
+    button.secundary-grey.action:enabled:active .working::before, a.secundary-grey.action:enabled:active .working::before, .embed-zoom > button.secundary-grey:enabled:active .working::before, .embed-zoom > a.secundary-grey:enabled:active .working::before, .secundary-grey.leaflet-control-zoom-in:enabled:active .working::before, .secundary-grey.leaflet-control-zoom-out:enabled:active .working::before, input.secundary-grey:enabled:active[type="submit"] .working::before, .file .invoer button.secundary-grey:enabled:active .working::before, button.secundary-grey.action:enabled:hover .working::before, a.secundary-grey.action:enabled:hover .working::before, .embed-zoom > button.secundary-grey:enabled:hover .working::before, .embed-zoom > a.secundary-grey:enabled:hover .working::before, .secundary-grey.leaflet-control-zoom-in:enabled:hover .working::before, .secundary-grey.leaflet-control-zoom-out:enabled:hover .working::before, input.secundary-grey:enabled:hover[type="submit"] .working::before, .file .invoer button.secundary-grey:enabled:hover .working::before {
       border-top-color: #cfcfcf; }
 
 button.action.tertiair, .file .invoer label {
@@ -1748,42 +1923,66 @@ button.action.tertiair, .file .invoer label {
     padding: 9px 13px 10px;
     text-decoration: none !important; }
 
-button.action[type="reset"], a.action[type="reset"], input[type="reset"],
+button.action[type="reset"], a.action[type="reset"], .embed-zoom > button[type="reset"],
+.embed-zoom > a[type="reset"],
+.leaflet-control-zoom-in[type="reset"],
+.leaflet-control-zoom-out[type="reset"], input[type="reset"],
 button.reset {
   background-color: transparent;
   color: #004699;
   padding-left: 0;
   padding-right: 0;
   text-decoration: underline; }
-  button.action:hover[type="reset"], a.action:hover[type="reset"], input:hover[type="reset"],
-  button.reset:hover, button.action:active[type="reset"], a.action:active[type="reset"], input:active[type="reset"],
-  button.reset:active, button.action:focus[type="reset"], a.action:focus[type="reset"], input:focus[type="reset"],
+  button.action:hover[type="reset"], a.action:hover[type="reset"], .embed-zoom > button:hover[type="reset"],
+  .embed-zoom > a:hover[type="reset"],
+  .leaflet-control-zoom-in:hover[type="reset"],
+  .leaflet-control-zoom-out:hover[type="reset"], input:hover[type="reset"],
+  button.reset:hover, button.action:active[type="reset"], a.action:active[type="reset"], .embed-zoom > button:active[type="reset"],
+  .embed-zoom > a:active[type="reset"],
+  .leaflet-control-zoom-in:active[type="reset"],
+  .leaflet-control-zoom-out:active[type="reset"], input:active[type="reset"],
+  button.reset:active, button.action:focus[type="reset"], a.action:focus[type="reset"], .embed-zoom > button:focus[type="reset"],
+  .embed-zoom > a:focus[type="reset"],
+  .leaflet-control-zoom-in:focus[type="reset"],
+  .leaflet-control-zoom-out:focus[type="reset"], input:focus[type="reset"],
   button.reset:focus {
     color: #ec0000; }
 
-button.action .working .progress-indicator, a.action .working .progress-indicator {
+button.action .working .progress-indicator, a.action .working .progress-indicator, .embed-zoom > button .working .progress-indicator, .embed-zoom > a .working .progress-indicator, .leaflet-control-zoom-in .working .progress-indicator, .leaflet-control-zoom-out .working .progress-indicator {
   font-size: 3px;
   margin-left: 6px; }
-  button.action .working .progress-indicator::before, a.action .working .progress-indicator::before {
+  button.action .working .progress-indicator::before, a.action .working .progress-indicator::before, .embed-zoom > button .working .progress-indicator::before, .embed-zoom > a .working .progress-indicator::before, .leaflet-control-zoom-in .working .progress-indicator::before, .leaflet-control-zoom-out .working .progress-indicator::before {
     -webkit-animation: load2 2s infinite ease 1.5s;
             animation: load2 2s infinite ease 1.5s; }
-  button.action .working .progress-indicator::after, a.action .working .progress-indicator::after {
+  button.action .working .progress-indicator::after, a.action .working .progress-indicator::after, .embed-zoom > button .working .progress-indicator::after, .embed-zoom > a .working .progress-indicator::after, .leaflet-control-zoom-in .working .progress-indicator::after, .leaflet-control-zoom-out .working .progress-indicator::after {
     -webkit-animation: load2 2s infinite ease;
             animation: load2 2s infinite ease; }
 
-button.action[disabled], a.action[disabled] {
+button.action[disabled], a.action[disabled], .embed-zoom > button[disabled],
+.embed-zoom > a[disabled],
+.leaflet-control-zoom-in[disabled],
+.leaflet-control-zoom-out[disabled] {
   cursor: not-allowed; }
-  button.action[disabled] .value, a.action[disabled] .value {
+  button.action[disabled] .value, a.action[disabled] .value, .embed-zoom > button[disabled] .value, .embed-zoom > a[disabled] .value, .leaflet-control-zoom-in[disabled] .value, .leaflet-control-zoom-out[disabled] .value {
     opacity: .5; }
 
-button.disabled.action, a.disabled.action {
+button.disabled.action, a.disabled.action, .embed-zoom > button.disabled,
+.embed-zoom > a.disabled,
+.disabled.leaflet-control-zoom-in,
+.disabled.leaflet-control-zoom-out {
   background-color: #e5e5e5 !important;
   cursor: not-allowed; }
-  button.disabled.action .value, a.disabled.action .value {
+  button.disabled.action .value, a.disabled.action .value, .embed-zoom > button.disabled .value, .embed-zoom > a.disabled .value, .disabled.leaflet-control-zoom-in .value, .disabled.leaflet-control-zoom-out .value {
     color: #bebebe; }
-  button.disabled.arrow-left.action::after, a.disabled.arrow-left.action::after {
+  button.disabled.arrow-left.action::after, a.disabled.arrow-left.action::after, .embed-zoom > button.disabled.arrow-left::after,
+  .embed-zoom > a.disabled.arrow-left::after,
+  .disabled.arrow-left.leaflet-control-zoom-in::after,
+  .disabled.arrow-left.leaflet-control-zoom-out::after {
     border-right-color: #e5e5e5 !important; }
-  button.disabled.arrow-right.action::after, a.disabled.arrow-right.action::after {
+  button.disabled.arrow-right.action::after, a.disabled.arrow-right.action::after, .embed-zoom > button.disabled.arrow-right::after,
+  .embed-zoom > a.disabled.arrow-right::after,
+  .disabled.arrow-right.leaflet-control-zoom-in::after,
+  .disabled.arrow-right.leaflet-control-zoom-out::after {
     border-left-color: #e5e5e5 !important; }
 
 .toggle-filter .caret, .toggle-mainmenu.expanded .caret, .toggle-search.expanded .caret {
@@ -6979,3 +7178,179 @@ h2.condensed, h3.condensed {
 
 .row p {
   margin: .5em 0; }
+
+.embed-search {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
+  left: 10px;
+  max-width: 329px;
+  position: absolute;
+  top: 10px;
+  width: calc(100% - 20px);
+  z-index: 401; }
+  .embed-search__form {
+    display: flex;
+    box-shadow: 2px 2px 0 0 #999; }
+    .embed-search__form > input {
+      font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
+      border: 0px;
+      box-shadow: #767676 0px 0px 0px 1px inset;
+      box-sizing: border-box;
+      font-size: 16px;
+      height: 32px;
+      margin: 0px;
+      padding: 1px 10px;
+      width: 100%; }
+      .embed-search__form > input::-ms-clear {
+        display: none; }
+      .embed-search__form > input::-webkit-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-ms-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-ms-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+  .embed-search__clear {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    outline: none;
+    position: absolute;
+    right: 35px;
+    top: 4px;
+    padding: 0;
+    width: 25px; }
+    .embed-search__clear:hover svg {
+      fill: #ec0000; }
+  .embed-search__button {
+    background-color: #ec0000;
+    border: 0;
+    height: 32px;
+    margin: 0;
+    padding: 11px 15px;
+    position: relative;
+    width: 32px; }
+    .embed-search__button:before {
+      content: url("../images/svg/search-icon-white.svg");
+      display: block;
+      fill: #fff;
+      height: 24px;
+      left: 50%;
+      position: absolute;
+      top: 55%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      width: 24px; }
+    .embed-search__button:hover, .embed-search__button:focus {
+      background-color: #BC0000; }
+  .embed-search__auto-suggest {
+    background-color: #fff;
+    border: 2px solid #000;
+    width: calc(100% - 32px);
+    box-shadow: 2px 2px 0 0 #999;
+    margin-top: -2px; }
+    .embed-search__auto-suggest ul {
+      margin: 0;
+      padding: 0; }
+      .embed-search__auto-suggest ul li {
+        list-style: none;
+        font-size: 0; }
+    .embed-search__auto-suggest__item {
+      color: #000;
+      display: inline-block;
+      font-size: 1rem;
+      text-decoration: none;
+      text-overflow: ellipsis;
+      padding: 0 6px 0 7px;
+      width: 100%;
+      height: 32px;
+      line-height: 32px;
+      overflow: hidden;
+      white-space: nowrap; }
+      .embed-search__auto-suggest__item:hover, .embed-search__auto-suggest__item--active {
+        background-color: #e8e8e8;
+        color: inherit;
+        font-weight: inherit; }
+      .embed-search__auto-suggest__item--highlight {
+        font-family: "Avenir LT W01 85 Heavy", arial, sans-serif; }
+
+.embed-zoom > button,
+.embed-zoom > a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif;
+  background-color: #fff !important;
+  border: 1px solid #cccccc !important;
+  border-radius: 0 !important;
+  box-shadow: 2px 2px 0 0 #999 !important;
+  box-sizing: border-box;
+  clear: both !important;
+  color: #666 !important;
+  display: block !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  margin: 1px !important;
+  outline: none !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  text-align: center !important;
+  width: 32px !important;
+  font-weight: normal !important; }
+  .embed-zoom > button:hover, .embed-zoom > button:focus,
+  .embed-zoom > a:hover,
+  .embed-zoom > a:focus,
+  .leaflet-control-zoom-in:hover,
+  .leaflet-control-zoom-in:focus,
+  .leaflet-control-zoom-out:hover,
+  .leaflet-control-zoom-out:focus {
+    background-color: #cccccc !important;
+    border: 1px solid #000 !important;
+    color: #000 !important; }
+    .embed-zoom > button:hover:before, .embed-zoom > button:focus:before,
+    .embed-zoom > a:hover:before,
+    .embed-zoom > a:focus:before,
+    .leaflet-control-zoom-in:hover:before,
+    .leaflet-control-zoom-in:focus:before,
+    .leaflet-control-zoom-out:hover:before,
+    .leaflet-control-zoom-out:focus:before {
+      color: #000 !important; }
+  .embed-zoom > button:before,
+  .embed-zoom > a:before,
+  .leaflet-control-zoom-in:before,
+  .leaflet-control-zoom-out:before {
+    display: block;
+    color: #666 !important;
+    width: 32px;
+    height: 32px; }
+
+.leaflet-control-zoom-in {
+  font-size: 1.4rem !important; }
+  .leaflet-control-zoom-in:before {
+    content: '+'; }
+
+.leaflet-control-zoom-out {
+  font-size: 1.1rem !important; }
+  .leaflet-control-zoom-out:before {
+    content: '−'; }
+
+.leaflet-bar {
+  border: none !important; }
+
+.embed-marker:before {
+  content: url("../images/svg/marker.svg"); }
+
+.leaflet-control-attribution {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }

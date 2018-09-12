@@ -1,7 +1,7 @@
 {
   "name": "stijl",
   "version": "3.0.0",
-  "description": "Generic styling voor data.amsterdam.nl",
+  "description": "Generic styling for data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "scripts": {
     "build": "gulp"
