@@ -1,6 +1,6 @@
 /**
- * stijl - Generieke styling voor data.amsterdam.nl
- * @version v2.9.2
+ * stijl - Generic styling for data.amsterdam.nl
+ * @version v3.0.1
  */
 @charset "UTF-8";
 @font-face {
@@ -7187,34 +7187,41 @@ h2.condensed, h3.condensed {
   top: 10px;
   width: calc(100% - 20px);
   z-index: 401; }
-  .embed-search .invoer {
-    display: flex;
-    box-shadow: 2px 2px 0 0 #999; }
-  .embed-search input[type="text"] {
-    font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
-    height: 32px; }
-    .embed-search input[type="text"]::-ms-clear {
-      display: none; }
-    .embed-search input[type="text"]::-webkit-input-placeholder {
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]:-ms-input-placeholder {
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]::-ms-input-placeholder {
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]::placeholder {
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]::-moz-placeholder {
-      /* Firefox 19+ */
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]:-ms-input-placeholder {
-      /* IE 10+ */
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-    .embed-search input[type="text"]:-moz-placeholder {
-      /* Firefox 18- */
-      font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+  .embed-search__form {
+    box-shadow: 2px 2px 0 0 #999;
+    display: flex; }
+    .embed-search__form > input {
+      font-family: "Avenir LT W01 85 Heavy", arial, sans-serif;
+      border: 0px;
+      box-shadow: #767676 0px 0px 0px 1px inset;
+      box-sizing: border-box;
+      font-size: 16px;
+      height: 32px;
+      margin: 0px;
+      padding: 1px 10px;
+      width: 100%; }
+      .embed-search__form > input::-ms-clear {
+        display: none; }
+      .embed-search__form > input::-webkit-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-ms-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-ms-input-placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::placeholder {
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
+      .embed-search__form > input:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
   .embed-search__clear {
     background: none;
     border: none;
@@ -7228,12 +7235,15 @@ h2.condensed, h3.condensed {
     width: 25px; }
     .embed-search__clear:hover svg {
       fill: #ec0000; }
-  .embed-search__button {
+  .embed-search__button.primary.action {
+    background-color: #ec0000;
+    border: 0px;
     height: 32px;
-    margin: 0 !important;
+    margin: 0px;
+    padding: 11px 15px;
     position: relative;
     width: 32px; }
-    .embed-search__button:before {
+    .embed-search__button.primary.action:before {
       content: url("../images/svg/search-icon-white.svg");
       display: block;
       fill: #fff;
@@ -7244,8 +7254,8 @@ h2.condensed, h3.condensed {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       width: 24px; }
-    .embed-search__button:hover, .embed-search__button:focus {
-      background-color: #BC0000 !important; }
+    .embed-search__button.primary.action:hover, .embed-search__button.primary.action:focus {
+      background-color: #BC0000; }
   .embed-search__auto-suggest {
     background-color: #fff;
     border: 2px solid #000;
@@ -7286,6 +7296,7 @@ h2.condensed, h3.condensed {
   border: 1px solid #cccccc !important;
   border-radius: 0 !important;
   box-shadow: 2px 2px 0 0 #999 !important;
+  box-sizing: border-box;
   clear: both !important;
   color: #666 !important;
   display: block !important;
@@ -7338,8 +7349,8 @@ h2.condensed, h3.condensed {
 .leaflet-bar {
   border: none !important; }
 
-.leaflet-control-attribution {
-  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }
-
 .embed-marker:before {
   content: url("../images/svg/marker.svg"); }
+
+.leaflet-control-attribution {
+  font-family: "AvenirNextLTW01-Regular", verdana, sans-serif; }

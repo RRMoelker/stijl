@@ -10,35 +10,46 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   width: calc(100% - 20px);
   z-index: 401;
 
-  .invoer {
-    display: flex;
+  &__form {
     box-shadow: $ams-box-shadow;
-  }
+    display: flex;
 
-  input[type="text"] {
-    @include avenirheavy;
-    height: $square-sizing;
+    &>input {
+      @include avenirheavy;
+      border: 0px;
+      box-shadow: rgb(118, 118, 118) 0px 0px 0px 1px inset;
+      box-sizing: border-box;
+      font-size: 16px;
+      height: $square-sizing;
+      margin: 0px;
+      padding: 1px 10px;
+      width: 100%;
 
-    &::-ms-clear {
-      display: none;
-    }
+      &::-ms-clear {
+        display: none;
+      }
 
-    &::placeholder {
-      @include avenirnext;
-    }
-    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-      @include avenirnext;
-    }
-    &::-moz-placeholder { /* Firefox 19+ */
-      @include avenirnext;
-    }
-    &:-ms-input-placeholder { /* IE 10+ */
-      @include avenirnext;
-    }
-    &:-moz-placeholder { /* Firefox 18- */
-      @include avenirnext;
-    }
+      &::placeholder {
+        @include avenirnext;
+      }
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        @include avenirnext;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        @include avenirnext;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        @include avenirnext;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        @include avenirnext;
+      }
 
+    }
   }
 
   &__clear {
@@ -60,9 +71,12 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     }
   }
 
-  &__button {
+  &__button.primary.action {
+    background-color: $ams-rood;    
+    border: 0px;
     height: $square-sizing;
-    margin: 0 !important; // override amsterdam.css
+    margin: 0px;
+    padding: 11px 15px;
     position: relative;
     width: $square-sizing;
 
@@ -80,7 +94,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
 
     &:hover,
     &:focus {
-      background-color: $ams-rood-hover !important; // override amsterdam.css
+      background-color: $ams-rood-hover; // override amsterdam.css
     }
   }
 
@@ -129,8 +143,8 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
 }
 
 // a lot of !imporants, to ensure the leaflet style is overridden
-.embed-zoom > button,
-.embed-zoom > a,
+.embed-zoom>button,
+.embed-zoom>a,
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
   @include avenirnext;
@@ -139,6 +153,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   border: 1px solid $ams-pinkish-grey !important;
   border-radius: 0 !important;
   box-shadow: 2px 2px 0 0 $ams-middendonkergrijs !important;
+  box-sizing: border-box;
   clear: both !important;
   color: $ams-donkerantraciet !important;
   display: block !important;
@@ -196,4 +211,8 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
   &:before {
     content: url("../images/svg/marker.svg");
   }
+}
+
+.leaflet-control-attribution {
+  @include avenirnext;
 }
