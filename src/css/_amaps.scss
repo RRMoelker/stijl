@@ -103,6 +103,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     border: 2px solid $ams-zwart;
     width: calc(100% - #{$square-sizing}); // full width, (minus submit button)
     box-shadow: $ams-box-shadow;
+    box-sizing: border-box;
     margin-top: -2px;
 
     ul {
@@ -116,6 +117,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
     }
 
     &__item {
+      box-sizing: border-box;
       color: $ams-zwart;
       display: inline-block;
       font-size: 1rem;
@@ -131,6 +133,7 @@ $ams-box-shadow: 2px 2px 0 0 $ams-middendonkergrijs;
       &:hover,
       &--active {
         background-color: $ams-lichtgrijs;
+        box-sizing: border-box;
         color: inherit;
         font-weight: inherit;
       }

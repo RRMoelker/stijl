@@ -1,6 +1,6 @@
 /**
  * stijl - Generic styling for data.amsterdam.nl
- * @version v3.0.1
+ * @version v3.0.2
  */
 @charset "UTF-8";
 html, body {
@@ -791,6 +791,7 @@ a {
     border: 2px solid #000;
     width: calc(100% - 32px);
     box-shadow: 2px 2px 0 0 #999;
+    box-sizing: border-box;
     margin-top: -2px; }
     .embed-search__auto-suggest ul {
       margin: 0;
@@ -799,6 +800,7 @@ a {
         list-style: none;
         font-size: 0; }
     .embed-search__auto-suggest__item {
+      box-sizing: border-box;
       color: #000;
       display: inline-block;
       font-size: 1rem;
@@ -812,6 +814,7 @@ a {
       white-space: nowrap; }
       .embed-search__auto-suggest__item:hover, .embed-search__auto-suggest__item--active {
         background-color: #e8e8e8;
+        box-sizing: border-box;
         color: inherit;
         font-weight: inherit; }
       .embed-search__auto-suggest__item--highlight {
