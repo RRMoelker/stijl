@@ -3,6 +3,15 @@
   "version": "3.0.2",
   "description": "Generic styling for data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amsterdam/stijl.git"
+  },
+  "engines": {
+    "npm": ">=5",
+    "node": ">=8"
+  },
+  "license": "MPL-2.0",
   "scripts": {
     "build": "gulp",
     "precopy-test": "gulp",
@@ -18,10 +27,6 @@
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.1",
     "pre-commit": "^1.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Amsterdam/stijl.git"
   },
   "browserslist": {
     "browsers": [
