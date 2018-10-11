@@ -1,4 +1,5 @@
-In deze repo wordt de huisstijl van data.amsterdam.nl bewaard en bewaakt.
+In this repo is the corperate design of data.amsterdam.nl.
+This is based on https://patternlab-amsterdam.infoprojects.nl/?p=all design
 
 # How to use in a project
 npm install amsterdam-stijl
@@ -26,4 +27,4 @@ In the css is the path to the fonts relative `../fonts/`. Take this into acount 
 * run `npm install`
 * run `npm build`
 
-**De `/raw-source` folder is deprecated, refereer hier niet meer naar in nieuwe projecten en update de bestaande projecten zsm zodat deze verwijzen naar de `/dist` folder**
+**The `/raw-source` folder is deprecated, do not use. Wil be deleted in the next major release **
