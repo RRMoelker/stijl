@@ -1,30 +1,29 @@
 In deze repo wordt de huisstijl van data.amsterdam.nl bewaard en bewaakt.
 
-# Usage
-Voeg de volgende regel toe in je package.json:
+# How to use in a project
+npm install amsterdam-stijl
 
-`"stijl": "git+https://git@github.com/Amsterdam/stijl.git"`
+## Ams-stijl.css ans ams-ma.css
+Include 
+`amsterdam-stijl/dist/css/ams-stijl.css` or
+`amsterdam-stijl/dist/css/ams-map.css`
+in the project 
 
-## Ams-stijl.css
-Je kan nu in jouw project `node_modules/stijl/dist/css/ams-stijl.css` toevoegen om gebruik
-te maken van de amsterdam huisstijl.
+### Amsterdam-components and layout
+See on https://patternlab-amsterdam.infoprojects.nl/?p=all the available classes and patterns for the components.
 
-### Amsterdam-componenten
-Zie https://patternlab-amsterdam.infoprojects.nl/?p=all de beschikbare classes en patronen voor componenten (form elements, alerts, etc, etc).
+### Grid layout 
+The layout is done with bootstrap 4. See https://getbootstrap.com/docs/4.1/layout/grid/ for reference.
 
-### Grid
-Voor het grid maken we gebruik van bootstrap 4. Zie https://getbootstrap.com/docs/4.1/layout/grid/ voor referentie.
-
-### Gebruik maken van variables
-Importeer een of meerdere files van de `node_modules/stijl/dist/scss/` folder in jouw .scss files.
+### How to use sass variables in the project 
+Import one of more files form `node_modules/stijl/dist/scss/` 
 
 ## Fonts
-De fonts staan in `node_modules/stijl/dist/fonts`. In de css wordt er verwezen naar `../fonts/`. Hou hier rekening mee bij het gebruiken van de stijl repo in jouw project.
+The fonts are defined in `node_modules/stijl/dist/fonts`. 
+In the css is the path to the fonts relative `../fonts/`. Take this into acount when using this package.
 
 # Contribute
 * run `npm install`
 * run `npm build`
-
-Bij het committen wordt de `npm build` commando automatisch uitgevoerd om er zeker van de zijn dat alle wijzigingen beschikbaar zijn in de `/dist` folder.
 
 **De `/raw-source` folder is deprecated, refereer hier niet meer naar in nieuwe projecten en update de bestaande projecten zsm zodat deze verwijzen naar de `/dist` folder**
