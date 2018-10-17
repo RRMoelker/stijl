@@ -4,7 +4,7 @@ This is based on https://patternlab-amsterdam.infoprojects.nl/?p=all design
 # How to use in a project
 npm install amsterdam-stijl
 
-## Ams-stijl.css ans ams-ma.css
+## Ams-stijl.css and ams-map.css
 Include 
 `amsterdam-stijl/dist/css/ams-stijl.css` or
 `amsterdam-stijl/dist/css/ams-map.css`
