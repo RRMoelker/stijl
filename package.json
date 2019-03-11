@@ -1,6 +1,6 @@
 {
   "name": "amsterdam-stijl",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Generic styling for data.amsterdam.nl",
   "author": "Datapunt Amsterdam",
   "repository": {
@@ -26,6 +26,7 @@
     "gulp-header": "^2.0.5",
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.1",
+    "node-sass": "^4.11.0",
     "pre-commit": "^1.2.2"
   },
   "browserslist": {
