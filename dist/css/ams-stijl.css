@@ -6625,7 +6625,7 @@ fieldset.search-large.gsc-search-box td {
 
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
   .outer-wrapper.toc-view .contents-wrapper {
-    background: linear-gradient(left, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%); }
+    background: linear-gradient(to right, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%); }
     .outer-wrapper.toc-view .contents-wrapper .container {
       max-width: 100%; }
     .outer-wrapper.toc-view .contents-wrapper .z-nav,
@@ -6686,7 +6686,7 @@ fieldset.search-large.gsc-search-box td {
 
 @media screen and (min-width: 1400px) {
   .outer-wrapper.toc-view .contents-wrapper {
-    background: linear-gradient(left, #f3f3f3 26.42857%, #f3f3f3 26.42857%, #fff 26.42857%); }
+    background: linear-gradient(to right, #f3f3f3 26.42857%, #f3f3f3 26.42857%, #fff 26.42857%); }
     .outer-wrapper.toc-view .contents-wrapper .container-fluid {
       max-width: 1400px; }
     .outer-wrapper.toc-view .contents-wrapper .z-nav {
