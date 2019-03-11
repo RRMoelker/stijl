@@ -761,7 +761,7 @@ ul.list-unstyled, .links, .tabs {
         .type-nav-primair .links > li li span.sublisttitle, .type-treeview .links > li li span.sublisttitle {
           font-family: "Avenir Next LT W01 Demi", arial, sans-serif;
           padding: 26px 0 12px 7px; }
-        
+
         .type-nav-primair .links > li li a,
         .type-treeview .links > li li a {
           background-image: url("/images/sprites/sprite_bullets_small.png");
@@ -5379,7 +5379,7 @@ fieldset.search-large.gsc-search-box td {
   .outer-wrapper.toc-view .contents-wrapper {
     background: -webkit-gradient(linear, left top, right top, color-stop(27.08333%, #f3f3f3), color-stop(27.08333%, #f3f3f3), color-stop(27.08333%, #fff));
     background: -o-linear-gradient(left, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%);
-    background: linear-gradient(left, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%); }
+    background: linear-gradient(to right, #f3f3f3 27.08333%, #f3f3f3 27.08333%, #fff 27.08333%); }
     .outer-wrapper.toc-view .contents-wrapper .container_12 {
       max-width: 100%; }
     .outer-wrapper.toc-view .contents-wrapper .z-nav,

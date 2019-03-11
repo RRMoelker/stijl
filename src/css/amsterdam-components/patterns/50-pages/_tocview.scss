@@ -14,7 +14,8 @@ $tocview-gutter: 10px;
   }
 }
 
-@media screen and (min-width: #{$grid-mq-small + 1}) and (max-width: #{$grid-mq-medium}) { // 540 <> 1023
+@media screen and (min-width: #{$grid-mq-small + 1}) and (max-width: #{$grid-mq-medium}) {
+  // 540 <> 1023
   .outer-wrapper.toc-view {
     .contents-wrapper {
       .container-fluid {
@@ -59,7 +60,8 @@ $tocview-gutter: 10px;
   }
 }
 
-@media screen and (max-width: #{$grid-mq-medium}) { // <= 1023
+@media screen and (max-width: #{$grid-mq-medium}) {
+  // <= 1023
   .outer-wrapper.toc-view {
     .footer-wrapper {
       .z-footerright {
@@ -72,10 +74,16 @@ $tocview-gutter: 10px;
   }
 }
 
-@media screen and (min-width: #{$grid-mq-medium + 1}) and (max-width: #{$grid-mq-large}) { // 1024 <> 1399
+@media screen and (min-width: #{$grid-mq-medium + 1}) and (max-width: #{$grid-mq-large}) {
+  // 1024 <> 1399
   .outer-wrapper.toc-view {
     .contents-wrapper {
-      background: linear-gradient(left, $color-superlightgrey $tocview-large-edge, $color-superlightgrey $tocview-large-edge, $color-white $tocview-large-edge);
+      background: linear-gradient(
+        to right,
+        $color-superlightgrey $tocview-large-edge,
+        $color-superlightgrey $tocview-large-edge,
+        $color-white $tocview-large-edge
+      );
 
       .container {
         max-width: 100%;
@@ -133,7 +141,8 @@ $tocview-gutter: 10px;
   }
 }
 
-@media screen and (min-width: #{$grid-mq-medium + 1}) { // > 1023
+@media screen and (min-width: #{$grid-mq-medium + 1}) {
+  // > 1023
   .outer-wrapper.toc-view {
     .grid-header-logo .sitelogo {
       margin-left: $tocview-gutter;
@@ -200,10 +209,16 @@ $tocview-gutter: 10px;
   }
 }
 
-@media screen and (min-width: #{$grid-mq-large + 1}) { // > 1400
+@media screen and (min-width: #{$grid-mq-large + 1}) {
+  // > 1400
   .outer-wrapper.toc-view {
     .contents-wrapper {
-      background: linear-gradient(left, $color-superlightgrey $tocview-xlarge-edge, $color-superlightgrey $tocview-xlarge-edge, $color-white $tocview-xlarge-edge);
+      background: linear-gradient(
+        to right,
+        $color-superlightgrey $tocview-xlarge-edge,
+        $color-superlightgrey $tocview-xlarge-edge,
+        $color-white $tocview-xlarge-edge
+      );
 
       .container-fluid {
         max-width: #{$grid-mq-large + 1};
@@ -249,5 +264,3 @@ $tocview-gutter: 10px;
     }
   }
 }
-
-
